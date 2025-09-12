@@ -41,7 +41,7 @@ const Banner: React.FC<BannerProps> = ({ imageUrl, overlayText }) => {
       {overlayText && (
         <div className="bottom-0 w-full flex justify-center pb-6">
           <h1
-            className={`${textColor} italic font-black text-[25px] lg:text-[60px] md:text-[40px] sm:text-[25px] text-center px-4`}
+            className={`${textColor} italic font-black text-[20px] lg:text-[60px] md:text-[40px] sm:text-[25px] text-center px-4`}
             style={{ fontFamily: "Archivo, sans-serif", letterSpacing: "2%" }}
           >
             {overlayText}
