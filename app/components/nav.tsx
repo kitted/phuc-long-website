@@ -59,9 +59,9 @@ export const Navigation: React.FC = () => {
     <header ref={ref}>
       <div
         className={`fixed inset-x-0 top-0 z-50  backdrop-blur ${getNavBg()}`}
-        style={{ height: "120px" }}
+        style={{ height: "90px" }}
       >
-        <div className="container flex items-center justify-between pl-4 pr-4 pt-4 mx-auto">
+        <div className="container flex items-center justify-between pl-4 pr-4 mx-auto">
           {/* Logo */}
           <Link
             href="/"
@@ -70,7 +70,7 @@ export const Navigation: React.FC = () => {
             <img
               src="/favicon.png"
               alt="Logo"
-              className="w-[84px] h-[97px] object-contain"
+              className="w-[84px] h-[90px] object-contain"
             />
           </Link>
 
@@ -120,7 +120,7 @@ export const Navigation: React.FC = () => {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div
-            className={`md:hidden w-full border-t border-b backdrop-blur-md ${getNavBg()} flex flex-col items-center py-4 space-y-3`}
+            className={`md:hidden w-full border-t border-b backdrop-blur-md ${getNavBg()} flex flex-col items-center py-3 space-y-3`}
           >
             {navigation.map((item, i) => {
               const isActive = pathName === item.href;

@@ -17,7 +17,7 @@ export default function Example() {
   return (
     <>
       <SubLayout>
-        <div className="pt-[100px] sm:pt-[4px]">
+        <div className="pt-[65px] md:pt-[1px]">
           <Banner
             imageUrls={["/banner/banner1.png", "/banner/banner2.png"]}
             // overlayText={"UY TÍN TẠO NÊN THƯƠNG HIỆU"}

@@ -5,14 +5,10 @@ import React, { useEffect, useState, useRef } from "react";
 interface BannerProps {
   imageUrls: string[];
   overlayText?: string;
-  interval?: number; // thời gian đổi slide (ms)
+  interval?: number;
 }
 
-const Banner: React.FC<BannerProps> = ({
-  imageUrls,
-  overlayText,
-  interval = 5000,
-}) => {
+const Banner: React.FC<BannerProps> = ({ imageUrls, interval = 5000 }) => {
   const [darkMode, setDarkMode] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
@@ -102,7 +98,7 @@ const Banner: React.FC<BannerProps> = ({
 
   return (
     <div
-      className={`${containerBg}  md:pt-[30px] w-full relative aspect-[16/7] md:aspect-[21/7.5] overflow-hidden`}
+      className={`${containerBg} w-full relative aspect-[16/6.5] md:aspect-[21/7] overflow-hidden`}
     >
       <div
         ref={slideRef}
