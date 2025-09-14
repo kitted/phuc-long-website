@@ -47,7 +47,7 @@ export default function Marquee() {
     <>
       <div>
         <div
-          className={`relative overflow-hidden ${containerBg} py-1 md:py-4 `}
+          className={`relative overflow-hidden ${containerBg} pt-1 md:pt-4 `}
         >
           <div className="flex w-max animate-marquee">
             {[...Array(2)].map((_, i) => (
@@ -66,9 +66,7 @@ export default function Marquee() {
             ))}
           </div>
         </div>
-        <div
-          className={`relative overflow-hidden ${containerBg} pb-[5rem] py-1 md:py-4 `}
-        >
+        <div className={`relative overflow-hidden ${containerBg}`}>
           <div className="flex w-max animate-marquee">
             {[...Array(2)].map((_, i) => (
               <div key={i} className="flex gap-10 mr-10">

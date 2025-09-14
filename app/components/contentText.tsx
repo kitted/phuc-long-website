@@ -26,9 +26,9 @@ const ContentText: React.FC<Props> = ({ overlayText }) => {
   const textColor = darkMode ? "text-white" : "text-black";
 
   return (
-    <div className={`${containerBg} w-full  `}>
+    <div className={`${containerBg} w-full`}>
       {overlayText && (
-        <div className="bottom-0 w-full flex justify-center pb-6">
+        <div className="bottom-0 w-full flex justify-center py-10 sm:py-1 md:py-10 lg:py-10">
           <h1
             className={`${textColor} italic font-black text-[20px] lg:text-[60px] md:text-[40px] sm:text-[25px] text-center px-4`}
             style={{ fontFamily: "Archivo, sans-serif", letterSpacing: "2%" }}

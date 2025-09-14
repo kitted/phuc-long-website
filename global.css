@@ -27,6 +27,20 @@
   }
 }
 
+/* Ẩn thanh scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE và Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.font-logo {
+  font-family: "Russo One", sans-serif;
+}
+
 .animate-marquee {
   animation: marquee 20s linear infinite;
 }

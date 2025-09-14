@@ -1,6 +1,6 @@
 import "../global.css";
-import { Inter } from "@next/font/google";
-import LocalFont from "@next/font/local";
+import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import { Metadata } from "next";
 import { Providers } from "./provider";
 
@@ -45,12 +45,13 @@ export const metadata: Metadata = {
     shortcut: "/favicon.png",
   },
 };
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
 });
 
-const calSans = LocalFont({
+const calSans = localFont({
   src: "../public/fonts/CalSans-SemiBold.ttf",
   variable: "--font-calsans",
 });
@@ -65,7 +66,7 @@ export default function RootLayout({
       <head>{/* <Analytics /> */}</head>
       <body
         className={`bg-black ${
-          process.env.NODE_ENV === "development" ? "debug-screens" : undefined
+          process.env.NODE_ENV === "development" ? "debug-screens" : ""
         }`}
       >
         <Providers>{children}</Providers>

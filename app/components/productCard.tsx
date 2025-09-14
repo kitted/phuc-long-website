@@ -70,7 +70,7 @@ export default function ProductCardGrid() {
 
   return (
     <div
-      className={`${containerBg} grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-10 px-[10%]`}
+      className={`${containerBg} grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-[10%]`}
     >
       {products.map((product, idx) => (
         <div

@@ -9,30 +9,36 @@ import ProductCardGrid from "../components/productCard";
 import ContentText from "../components/contentText";
 import AboutSection from "../components/about";
 import PartnerSection from "../components/partner";
+import HorizontalSlider from "../components/horizontalSlider";
+import StoreSlider from "../components/storeSlider";
+import ContactForm from "../components/contact";
 
 export default function Example() {
   return (
     <>
       <SubLayout>
-        <div className="pt-[70px] sm:pt-[4px]">
+        <div className="pt-[100px] sm:pt-[4px]">
           <Banner
-            imageUrl={"/banner/banner1.png"}
-            overlayText={"UY TÍN TẠO NÊN THƯƠNG HIỆU"}
+            imageUrls={["/banner/banner1.png", "/banner/banner2.png"]}
+            // overlayText={"UY TÍN TẠO NÊN THƯƠNG HIỆU"}
           />
           <Marquee />
-          <ContentText
-            overlayText={
-              "CHÚNG TÔI CHUYÊN KINH DOANH CÁC  DÒNG SẢN PHẨM NHẬP KHẨU"
-            }
-          />
+
+          <ContentText overlayText={"UY TÍN TẠO NÊN THƯƠNG HIỆU"} />
           <ProductCardGrid />
           <ContentText
             overlayText={
-              "Với hơn 5+ năm kinh nghiệm phân phối các linh kiện về xe chúng tôi cam kết đưa ra thị trường các sản phẩm chất lượng với giá cả cạnh tranh nhất"
+              "CHÚNG TÔI CHUYÊN KINH DOANH CÁC DÒNG SẢN PHẨM NHẬP KHẨU"
             }
           />
           <AboutSection />
           <PartnerSection />
+          <HorizontalSlider />
+          <ContentText
+            overlayText={"Các Cửa Hàng Đối Tác Nổi Bật Của Công Ty Phúc Long"}
+          />
+          <StoreSlider />
+          <ContactForm />
         </div>
       </SubLayout>
       <Footer />
