@@ -8,7 +8,7 @@ import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import Footer from "../components/footer";
 import Image from "next/image";
-import TourMapContact from "../components/tourDetail/tourMapContact";
+// import TourMapContact from "../components/tourDetail/tourMapContact";
 
 const socials = [
   {
@@ -264,7 +264,7 @@ export default function Example() {
                 </Card>
               </div>
             </div>
-            <TourMapContact
+            {/* <TourMapContact
               locations={[
                 {
                   name: "610A, ĐT743A, KP.Đông Tân, P.Dĩ An, TP.HCM",
@@ -272,7 +272,7 @@ export default function Example() {
                   lon: 106.76473357115822,
                 },
               ]}
-            />
+            /> */}
             {/* <div className="container flex items-center justify-center h-full px-4 mx-auto mt-14">
             <div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
               {socials.map((s) => (

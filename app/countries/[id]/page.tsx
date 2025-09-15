@@ -1,31 +1,31 @@
 "use client";
-import TourImage from "@/app/components/tourDetail/tourImage";
-import TourInfo from "@/app/components/tourDetail/info";
+// import TourImage from "@/app/components/tourDetail/tourImage";
+// import TourInfo from "@/app/components/tourDetail/info";
 import { navigation } from "@/app/constant/navigation";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
-import TourSchedule from "@/app/components/tourDetail/tourSchedule";
-import TourNote from "@/app/components/tourDetail/tourNote";
+// import TourSchedule from "@/app/components/tourDetail/tourSchedule";
+// import TourNote from "@/app/components/tourDetail/tourNote";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
-import BookTourModal from "@/app/components/modal/bookTour";
-import AboutTour from "@/app/components/tourDetail/aboutTour";
-import TravelHighlights from "@/app/components/tourDetail/travelHightlight";
-import FAQAccordion from "@/app/components/tourDetail/faqAccordion";
+// import BookTourModal from "@/app/components/modal/bookTour";
+// import AboutTour from "@/app/components/tourDetail/aboutTour";
+// import TravelHighlights from "@/app/components/tourDetail/travelHightlight";
+// import FAQAccordion from "@/app/components/tourDetail/faqAccordion";
 import Image from "next/image";
 import TravelIntro from "../intro";
-import TourCard from "@/app/components/tourCard";
+// import TourCard from "@/app/components/tourCard";
 import ReviewSection from "../review";
 import { Navbar } from "../nav";
 
-const TourMap = dynamic(() => import("@/app/components/tourDetail/tourMap"), {
-  ssr: false,
-});
+// const TourMap = dynamic(() => import("@/app/components/tourDetail/tourMap"), {
+//   ssr: false,
+// });
 
 const tourLocations = [
   { name: "Hà Nội", lat: 21.0285, lon: 105.8542 },

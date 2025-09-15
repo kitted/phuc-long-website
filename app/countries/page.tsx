@@ -7,11 +7,11 @@ import Particles from "../components/particles";
 import React, { useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
-import Search from "../components/search";
-import Destination from "../components/destination";
-import Select from "../components/select";
-import Blog from "../components/blog";
-import PopularSearches from "../components/popularSearch";
+// import Search from "../components/search";
+// import Destination from "../components/destination";
+// import Select from "../components/select";
+// import Blog from "../components/blog";
+// import PopularSearches from "../components/popularSearch";
 
 export default function Example() {
   const key: string = process.env.NEXT_PUBLIC_EMAILJS_API_KEY || "";
