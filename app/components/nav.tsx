@@ -31,8 +31,6 @@ export const Navigation: React.FC = () => {
     const newTheme = darkMode ? "light" : "dark";
     setDarkMode(newTheme === "dark");
     localStorage.setItem("theme", newTheme);
-
-    // phát event để các component khác biết theme thay đổi
     window.dispatchEvent(new Event("themeChange"));
   };
 
@@ -43,13 +41,13 @@ export const Navigation: React.FC = () => {
     if (darkMode) {
       return `transition-colors duration-200 border border-white px-4 py-2 rounded-[5px] ${
         isActive
-          ? "bg-black text-white hover:bg-white hover:text-black"
+          ? "bg-white text-black"
           : "bg-transparent text-white hover:bg-white hover:text-black"
       }`;
     } else {
       return `transition-colors duration-200 border border-black px-4 py-2 rounded-[5px] ${
         isActive
-          ? "bg-white text-black hover:bg-black hover:text-white"
+          ? "bg-black text-white"
           : "bg-transparent text-black hover:bg-black hover:text-white"
       }`;
     }
@@ -58,7 +56,7 @@ export const Navigation: React.FC = () => {
   return (
     <header ref={ref}>
       <div
-        className={`fixed inset-x-0 top-0 z-50  backdrop-blur ${getNavBg()}`}
+        className={`fixed inset-x-0 top-0 z-50 backdrop-blur ${getNavBg()}`}
         style={{ height: "90px" }}
       >
         <div className="container flex items-center justify-between pl-4 pr-4 mx-auto">
@@ -77,7 +75,8 @@ export const Navigation: React.FC = () => {
           {/* Desktop */}
           <div className="hidden md:flex items-center" style={{ gap: "11px" }}>
             {navigation.map((item, i) => {
-              const isActive = pathName === item.href;
+              const isActive =
+                pathName === item.href || pathName.startsWith(item.href + "/");
               return (
                 <Link
                   key={i}
@@ -123,7 +122,8 @@ export const Navigation: React.FC = () => {
             className={`md:hidden w-full border-t border-b backdrop-blur-md ${getNavBg()} flex flex-col items-center py-3 space-y-3`}
           >
             {navigation.map((item, i) => {
-              const isActive = pathName === item.href;
+              const isActive =
+                pathName === item.href || pathName.startsWith(item.href + "/");
               return (
                 <Link
                   key={i}
@@ -132,10 +132,10 @@ export const Navigation: React.FC = () => {
                   className={`w-full text-center transition-colors duration-200 ${
                     darkMode
                       ? isActive
-                        ? "text-white bg-black hover:bg-white hover:text-black"
+                        ? "text-black bg-white"
                         : "text-white hover:bg-white hover:text-black"
                       : isActive
-                      ? "text-black bg-white hover:bg-black hover:text-white"
+                      ? "text-white bg-black"
                       : "text-black hover:bg-black hover:text-white"
                   }`}
                   style={{ border: "none", borderRadius: 0 }}

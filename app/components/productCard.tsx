@@ -3,52 +3,7 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
-const products = [
-  {
-    title: "X-trem sports",
-    description:
-      "Go to the extreme with our X-trem range that is specifically formulated to grant race your car the power and speed you need to win the race.",
-    image: "/lubrex/lubrex1.png",
-    label: "LUBREX AUTOMOTIVE",
-  },
-  {
-    title: "X-trem sports",
-    description:
-      "Go to the extreme with our X-trem range that is specifically formulated to grant race your car the power and speed you need to win the race.",
-    image: "/lubrex/lubrex2.png",
-    label: "LUBREX X-TREM",
-  },
-  {
-    title: "X-trem sports",
-    description:
-      "Go to the extreme with our X-trem range that is specifically formulated to grant race your car the power and speed you need to win the race.",
-    image: "/lubrex/lubrex3.png",
-    label: "LUBREX GREASES",
-  },
-  {
-    title: "X-trem sports",
-    description:
-      "Go to the extreme with our X-trem range that is specifically formulated to grant race your car the power and speed you need to win the race.",
-    image: "/lubrex/lubrex4.png",
-    label: "LUBREX MARINE",
-  },
-  {
-    title: "X-trem sports",
-    description:
-      "Go to the extreme with our X-trem range that is specifically formulated to grant race your car the power and speed you need to win the race.",
-    image: "/lubrex/lubrex5.png",
-    label: "LUBREX INDUSTRIAL",
-  },
-  {
-    title: "X-trem sports",
-    description:
-      "Go to the extreme with our X-trem range that is specifically formulated to grant race your car the power and speed you need to win the race.",
-    image: "/lubrex/lubrex6.png",
-    label: "LUBREX SPECIALITIES",
-  },
-];
-
-export default function ProductCardGrid() {
+export default function ProductCardGrid({ products }: any) {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
@@ -70,9 +25,9 @@ export default function ProductCardGrid() {
 
   return (
     <div
-      className={`${containerBg} grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-[10%]`}
+      className={`${containerBg} grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-[10%] py-5`}
     >
-      {products.map((product, idx) => (
+      {products?.map((product: any, idx: any) => (
         <div
           key={idx}
           className={`${cardBg} ${textColor} rounded-2xl overflow-hidden shadow-lg flex flex-col w-auto h-[376px] sm:w-auto sm:h-auto`}

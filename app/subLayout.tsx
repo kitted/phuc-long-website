@@ -1,5 +1,6 @@
 "use client";
 
+import FloatingButton from "./components/floatingButton";
 import { Navigation } from "./components/nav";
 
 function SubLayout({ children }: { children: React.ReactNode }) {
@@ -8,6 +9,7 @@ function SubLayout({ children }: { children: React.ReactNode }) {
       <div className={`relative z-30 transition-all duration-700 ease-in-out`}>
         <Navigation />
         <div>{children}</div>
+        <FloatingButton />
       </div>
     </div>
   );
