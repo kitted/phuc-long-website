@@ -55,7 +55,7 @@ export default function SidebarFilter({
           onSearch(e.target.value);
         }}
         className="
-          w-[365.47px] h-[40px]
+        w-full max-w-[365px] h-[40px]
           rounded-[16.36px]
           px-4 text-white
           border border-white/30
