@@ -27,6 +27,34 @@
   }
 }
 
+.sidebar-filter {
+  width: 100%;
+  max-width: 400px;
+  min-width: 280px;
+}
+
+.search-box {
+  width: 344px; /* W */
+  height: 40px; /* H */
+  border-radius: 16px; /* Corner radius ~ 16.36px */
+
+  /* Fill: Linear gradient */
+  background: linear-gradient(90deg, #0b4676 0%, #150dff 100%);
+
+  /* Stroke: white 28% */
+  border: 1px solid rgba(255, 255, 255, 0.28);
+
+  /* Background blur */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  /* Text styling (tùy bạn cần input hay div) */
+  color: #fff;
+  font-size: 14px;
+  padding: 0 12px;
+  outline: none;
+}
+
 /* Ẩn thanh scrollbar */
 .no-scrollbar::-webkit-scrollbar {
   display: none; /* Chrome, Safari */

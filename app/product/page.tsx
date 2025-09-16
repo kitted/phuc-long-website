@@ -12,6 +12,7 @@ import PartnerSection from "../components/partner";
 import HorizontalSlider from "../components/horizontalSlider";
 import StoreSlider from "../components/storeSlider";
 import ContactForm from "../components/contact";
+import Paginate from "../components/paginate";
 
 export default function Example() {
   const products = [
@@ -95,6 +96,11 @@ export default function Example() {
           <Banner imageUrls={["/banner/banner1.png", "/banner/banner2.png"]} />
           <ContentText overlayText={"Danh Sách Sản Phẩm"} />
           <ProductCardGrid products={products} />
+          <Paginate
+            currentPage={1}
+            totalPages={5}
+            onPageChange={(page) => console.log("Go to page:", page)}
+          />
         </div>
       </SubLayout>
       <Footer />

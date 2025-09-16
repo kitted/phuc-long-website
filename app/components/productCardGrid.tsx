@@ -25,19 +25,19 @@ export default function ProductCardGrid({ products }: any) {
 
   return (
     <div
-      className={`${containerBg} grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-[10%] py-5`}
+      className={`${containerBg} grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-[2%]`}
     >
       {products?.map((product: any, idx: any) => (
         <div
           key={idx}
-          className={`${cardBg} ${textColor} rounded-2xl overflow-hidden shadow-lg flex flex-col w-auto h-[376px] sm:w-auto sm:h-auto`}
+          className={`${cardBg} ${textColor} rounded-2xl overflow-hidden shadow-lg flex flex-col w-auto h-[465px] md:h-[465px] sm:w-auto sm:h-auto`}
         >
           {/* Image */}
-          <div className="relative w-full h-[265px] overflow-hidden rounded-t-2xl">
+          <div className="relative w-full h-auto sm:h-[265px] md:h-[465px] rounded-t-2xl">
             <img
               src={product.image}
               alt={product.title}
-              className="w-full h-full object-cover"
+              className="w-full h-auto sm:h-full object-contain sm:object-cover"
             />
           </div>
 
@@ -48,7 +48,7 @@ export default function ProductCardGrid({ products }: any) {
               {product.description}
             </p>
             <Link
-              href="/product/abc"
+              href="#"
               className={`mt-3 inline-block text-sm font-medium ${textColor} hover:underline`}
             >
               View Product &gt;
