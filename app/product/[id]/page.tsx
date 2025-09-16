@@ -3,6 +3,7 @@
 import Banner from "@/app/components/banner";
 import ContentText from "@/app/components/contentText";
 import Footer from "@/app/components/footer";
+import Marquee from "@/app/components/marquee";
 import Paginate from "@/app/components/paginate";
 import ProductCardGrid from "@/app/components/productCardGrid";
 import SidebarFilter from "@/app/components/sidebarFilter";
@@ -74,6 +75,7 @@ export default function Example() {
       <SubLayout>
         <div className="pt-[65px] md:pt-[1px]">
           <Banner imageUrls={["/banner/banner1.png", "/banner/banner2.png"]} />
+          <Marquee />
           <ContentText overlayText={"Nhớt Lubrex"} />
           <div
             className={`flex flex-col md:flex-row gap-4 px-[2%] py-[2%] ${containerBg}`}

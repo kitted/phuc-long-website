@@ -7,11 +7,6 @@ import Banner from "../components/banner";
 import Marquee from "../components/marquee";
 import ProductCardGrid from "../components/productCard";
 import ContentText from "../components/contentText";
-import AboutSection from "../components/about";
-import PartnerSection from "../components/partner";
-import HorizontalSlider from "../components/horizontalSlider";
-import StoreSlider from "../components/storeSlider";
-import ContactForm from "../components/contact";
 import Paginate from "../components/paginate";
 
 export default function Example() {
@@ -93,7 +88,8 @@ export default function Example() {
     <>
       <SubLayout>
         <div className="pt-[65px] md:pt-[1px]">
-          <Banner imageUrls={["/banner/banner1.png", "/banner/banner2.png"]} />
+          <Banner imageUrls={["/banner/banner1.png", "/banner/banner2.png"]} />{" "}
+          <Marquee />
           <ContentText overlayText={"Danh Sách Sản Phẩm"} />
           <ProductCardGrid products={products} />
           <Paginate
