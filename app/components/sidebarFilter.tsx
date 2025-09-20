@@ -46,25 +46,29 @@ export default function SidebarFilter({
       className={`w-full ${textColor} p-4 space-y-4 ${containerBg} rounded-lg`}
     >
       {/* Search */}
-      <input
-        type="text"
-        placeholder="Tìm kiếm"
-        value={search}
-        onChange={(e) => {
-          setSearch(e.target.value);
-          onSearch(e.target.value);
-        }}
-        className="
-        w-full max-w-[365px] h-[40px]
-          rounded-[16.36px]
-          px-4 text-white
-          border border-white/30
-          placeholder-white/60
-          focus:outline-none
-          backdrop-blur-md
-          [background:linear-gradient(90deg,rgba(11,70,118,0.25)_0%,rgba(21,13,255,0.25)_100%)]
-        "
-      />
+      <div className="w-full">
+        <input
+          type="text"
+          placeholder="Tìm kiếm..."
+          value={search}
+          onChange={(e) => {
+            setSearch(e.target.value);
+            onSearch(e.target.value);
+          }}
+          className={`
+      w-full h-[40px]
+      rounded-[12px]
+      px-4
+      text-sm
+      ${textColor}
+      border border-white/30
+      placeholder-white/60
+      focus:outline-none
+      backdrop-blur-md
+      [background:linear-gradient(90deg,rgba(11,70,118,0.25)_0%,rgba(21,13,255,0.25)_100%)]
+    `}
+        />
+      </div>
 
       {/* Categories */}
       <div className="space-y-2">

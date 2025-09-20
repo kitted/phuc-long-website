@@ -81,7 +81,9 @@ export default function Example() {
             className={`flex flex-col md:flex-row gap-4 px-[2%] py-[2%] ${containerBg}`}
           >
             {/* Sidebar */}
-            <div className={`sidebar-filter w-full ${containerBg2} rounded-lg`}>
+            <div
+              className={`flex-1 w-full md:max-w-[400px] ${containerBg2} rounded-lg`}
+            >
               <SidebarFilter
                 categories={mockCategories}
                 onSearch={handleSearch}

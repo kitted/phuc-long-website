@@ -20,35 +20,37 @@ export default function ProductCardGrid({ products }: any) {
   }, []);
 
   const containerBg = darkMode ? "bg-black" : "bg-white";
-  const cardBg = darkMode ? "bg-white/10" : "bg-white/13";
+  const cardBg = darkMode ? "bg-white/10" : "bg-white/20";
   const textColor = darkMode ? "text-white" : "text-black";
 
   return (
     <div
-      className={`${containerBg} grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-[2%]`}
+      className={`${containerBg} grid [grid-template-columns:repeat(auto-fill,minmax(250px,1fr))] gap-5 px-4 sm:px-[2%]`}
     >
-      {products?.map((product: any, idx: any) => (
+      {products?.map((product: any, idx: number) => (
         <div
           key={idx}
-          className={`${cardBg} ${textColor} rounded-2xl overflow-hidden shadow-lg flex flex-col w-auto h-[465px] md:h-[465px] sm:w-auto sm:h-auto`}
+          className={`${cardBg} ${textColor} rounded-2xl overflow-hidden shadow-lg flex flex-col w-full`}
         >
-          {/* Image */}
-          <div className="relative w-full h-auto sm:h-[265px] md:h-[465px] rounded-t-2xl">
+          {/* Image giữ tỉ lệ */}
+          <div className="relative w-full aspect-[3.5/3] overflow-hidden rounded-t-2xl">
             <img
               src={product.image}
               alt={product.title}
-              className="w-full h-auto sm:h-full object-contain sm:object-cover"
+              className="w-full h-auto sm:h-full object-contain sm:object-fill"
             />
           </div>
 
           {/* Content */}
           <div className={`p-4 flex flex-col flex-1 ${cardBg}`}>
-            <h3 className="font-semibold text-lg">{product.title}</h3>
-            <p className={`text-sm ${textColor} mt-2 flex-1`}>
+            <h3 className="font-semibold text-lg line-clamp-1">
+              {product.title}
+            </h3>
+            <p className={`text-sm ${textColor} mt-2 flex-1 line-clamp-3`}>
               {product.description}
             </p>
             <Link
-              href="#"
+              href="/product/abc/xyz"
               className={`mt-3 inline-block text-sm font-medium ${textColor} hover:underline`}
             >
               View Product &gt;
