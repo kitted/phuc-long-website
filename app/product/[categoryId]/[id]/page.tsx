@@ -88,21 +88,24 @@ export default function Example() {
                   letterSpacing: "2%",
                 }}
               >
-                {`Home/ Lubrex/ ${pathname}`}
+                {`Home/ Lubrex ${pathname}`}
               </h1>
             </div>
           </div>
-          <div className="bottom-0 w-full flex justify-center py-1 sm:py-1 md:py-1 lg:py-1">
-            <h1
-              className={`${textColor} italic font-black text-[20px] lg:text-[60px] md:text-[40px] sm:text-[25px] text-center px-4`}
-              style={{
-                fontFamily: "Archivo, sans-serif",
-                letterSpacing: "2%",
-              }}
-            >
-              {`Lubrex Product Name A`}
-            </h1>
+          <div className={`${containerBg} w-full`}>
+            <div className="bottom-0 w-full flex justify-center py-1 sm:py-1 md:py-1 lg:py-1">
+              <h1
+                className={`${textColor} italic font-black text-[20px] lg:text-[60px] md:text-[40px] sm:text-[25px] text-center px-4`}
+                style={{
+                  fontFamily: "Archivo, sans-serif",
+                  letterSpacing: "2%",
+                }}
+              >
+                Lubrex Product Name A
+              </h1>
+            </div>
           </div>
+
           {/* <ContentText overlayText={`Lubrex Product Name A`} /> */}
           <div
             className={`flex flex-col md:flex-row gap-4 px-[2%] py-[2%] ${containerBg}`}
