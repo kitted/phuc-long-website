@@ -67,11 +67,27 @@ const HorizontalSlider = () => {
     const walk = (x - startX) * 1.2; // tốc độ kéo
     sliderRef.current.scrollLeft = scrollLeft - walk;
   };
+  const [darkMode, setDarkMode] = useState(false);
 
+  useEffect(() => {
+    const storedTheme = localStorage.getItem("theme");
+    setDarkMode(storedTheme === "dark");
+
+    const handleThemeChange = () => {
+      const newTheme = localStorage.getItem("theme");
+      setDarkMode(newTheme === "dark");
+    };
+
+    window.addEventListener("themeChange", handleThemeChange);
+    return () => window.removeEventListener("themeChange", handleThemeChange);
+  }, []);
+
+  const containerBg = darkMode ? "bg-black" : "bg-black";
+  const textColor = darkMode ? "text-white" : "text-black";
   return (
     <div
       ref={sliderRef}
-      className="flex gap-4 overflow-x-auto no-scrollbar cursor-grab active:cursor-grabbing px-4 pb-10"
+      className={`${containerBg} bg-black flex gap-4 overflow-x-auto no-scrollbar cursor-grab active:cursor-grabbing px-4 pb-10`}
       onMouseDown={handleMouseDown}
       onMouseLeave={handleMouseLeave}
       onMouseUp={handleMouseUp}

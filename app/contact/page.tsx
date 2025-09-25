@@ -102,7 +102,7 @@ export default function Example() {
       <SubLayout>
         <div className="pt-[65px] md:pt-[1px]">
           <div
-            className={`${containerBg} ${textColor} px-6 pt-10 mx-auto space-y-8 max-w-7xl sm:pt-32 pb-10`}
+            className={`${containerBg} ${textColor}   pt-10 mx-auto space-y-8 max-w-7xl sm:pt-32 pb-10`}
           >
             <div
               className="w-full h-full mx-auto lg:mx-0 flex items-center flex-col  animate-fade-in md:mt-0"
@@ -110,7 +110,7 @@ export default function Example() {
             >
               <div className="w-full h-full flex items-top max-md:flex-col ">
                 <div className="w-full basis-1/2 flex flex-col max-md:basis-full max-md:items-center">
-                  <div className="flex flex-col gap-3">
+                  <div className="flex flex-col gap-3 py-2">
                     <div className=" relative w-full h-full aspect-[3/2] z-10 animate-fade-in rounded-lg">
                       <Image
                         src="/lubrex/lubrex1.png"
@@ -158,7 +158,7 @@ export default function Example() {
                 </div>
 
                 <div
-                  className={`basis-1/2 max-md:basis-full max-md:w-full ${containerBg} ${textColor}`}
+                  className={`basis-1/2 max-md:basis-full max-md:w-full py-2 ${containerBg} ${textColor}`}
                 >
                   <div
                     className={`w-full flex flex-col items-center gap-10 ${containerBg} ${textColor} `}

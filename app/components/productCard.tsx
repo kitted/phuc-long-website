@@ -48,10 +48,10 @@ export default function ProductCardGrid({ products }: any) {
               {product.description}
             </p>
             <Link
-              href="/product/abc"
+              href={product.url || "/product/abc"}
               className={`mt-3 inline-block text-sm font-medium ${textColor} hover:underline`}
             >
-              View Product &gt;
+              {`View ${product.type || "Product"} `} &gt;
             </Link>
           </div>
         </div>
