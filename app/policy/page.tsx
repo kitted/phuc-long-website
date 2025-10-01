@@ -101,7 +101,7 @@ function Policy() {
             ref={contentRef}
           >
             <h1
-              className={`${containerBg} text-2xl md:text-3xl font-extrabold ${textColor} text-center mb-6`}
+              className={`${containerBg} text-2xl md:text-3xl font-extrabold italic ${textColor} text-center mb-6`}
             >
               Chính Sách Công Ty
             </h1>

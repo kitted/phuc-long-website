@@ -45,6 +45,7 @@ function About() {
 
   const containerBg = darkMode ? "bg-black" : "bg-white";
   const textColor = darkMode ? "text-white" : "text-black";
+  const BgSlide = darkMode ? "bg-neutral-900" : "bg-gray-100";
 
   // ---- Slider logic ----
   const sliderRef = useRef<HTMLDivElement>(null);
@@ -98,14 +99,19 @@ function About() {
       <SubLayout>
         <div className={`${containerBg} px-6 pt-10 mx-auto space-y-8 py-10`}>
           <div
-            className="w-full mx-auto lg:mx-0 flex flex-col items-center pt-[8vh] md:pt-[10vh] -mt-4"
+            className="w-full mx-auto lg:mx-0 flex flex-col items-center pt-[8vh] md:pt-[10vh] xl:pt-[10vh] lg:pt-[10vh] 2xl:pt-[10vh] md:mt-2 mt-1"
             ref={contentRef}
           >
             <h1
-              className={`${containerBg} text-2xl md:text-3xl font-extrabold ${textColor} text-center mb-6`}
+              className={`${containerBg} text-2xl md:text-3xl font-extrabold italic ${textColor} text-center mb-6`}
             >
               Về Chúng Tôi
             </h1>
+            {/* <h1
+              className={`${containerBg} text-2xl md:text-3xl font-extrabold ${textColor} text-center mb-6`}
+            >
+              Về Chúng Tôi
+            </h1> */}
             {/* Logo */}
             <div className="relative w-[600px] md:w-[800px] h-auto aspect-[3/1] z-10">
               <Image
@@ -167,10 +173,12 @@ function About() {
               {sliderItems.map((item, idx) => (
                 <div
                   key={idx}
-                  className="min-w-[300px] max-w-[350px] flex-shrink-0 bg-neutral-900 rounded-2xl p-4 flex flex-col items-center justify-center hover:scale-105 transition-transform"
+                  className={`min-w-[300px] max-w-[350px] flex-shrink-0 ${BgSlide} rounded-2xl p-4 flex flex-col items-center justify-center hover:scale-105 transition-transform`}
                   onClick={() => setPreviewImg(item.image)}
                 >
-                  <p className="mt-3 text-white text-center">{item.title}</p>
+                  <p className={`mt-3 ${textColor} text-center`}>
+                    {item.title}
+                  </p>
                   <div className="relative w-[250px] h-[250px]">
                     <Image
                       src={item.image}

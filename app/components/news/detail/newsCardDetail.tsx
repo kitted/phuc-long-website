@@ -55,7 +55,7 @@ export default function NewsCardDetail({
           {title}
         </h3>
         {desc && (
-          <p className="text-xs text-gray-300 mt-1 line-clamp-2">{desc}</p>
+          <p className="text-xs text-gray-400 mt-1 line-clamp-2">{desc}</p>
         )}
         <span className="block mt-2 text-xs text-gray-400">{date}</span>
       </div>

@@ -9,6 +9,7 @@ import { navigation } from "@/app/constant/navigation";
 export const Navigation: React.FC = () => {
   const ref = useRef<HTMLElement>(null);
   const pathName = usePathname();
+  const menuRef = useRef<HTMLDivElement>(null); // ref cho mobile menu
   const [isIntersecting, setIntersecting] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
@@ -17,6 +18,24 @@ export const Navigation: React.FC = () => {
     const storedTheme = localStorage.getItem("theme");
     setDarkMode(storedTheme === "dark");
   }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent | TouchEvent) => {
+      if (
+        isMenuOpen &&
+        menuRef.current &&
+        !menuRef.current.contains(event.target as Node)
+      ) {
+        setIsMenuOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("touchstart", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("touchstart", handleClickOutside);
+    };
+  }, [isMenuOpen]);
 
   useEffect(() => {
     if (!ref.current) return;
@@ -119,47 +138,55 @@ export const Navigation: React.FC = () => {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div
-            className={`md:hidden w-full border-t border-b backdrop-blur-md ${getNavBg()} flex flex-col items-center py-3 space-y-3`}
+            className="fixed inset-0 z-40 md:hidden" // overlay tối
+            onClick={() => setIsMenuOpen(false)} // click ngoài menu thì đóng
           >
-            {navigation.map((item, i) => {
-              const isActive =
-                pathName === item.href || pathName.startsWith(item.href + "/");
-              return (
-                <Link
-                  key={i}
-                  href={item.href}
-                  onClick={() => setIsMenuOpen(false)}
-                  className={`w-full text-center transition-colors duration-200 ${
-                    darkMode
-                      ? isActive
-                        ? "text-black bg-white"
-                        : "text-white hover:bg-white hover:text-black"
-                      : isActive
-                      ? "text-white bg-black"
-                      : "text-black hover:bg-black hover:text-white"
-                  }`}
-                  style={{ border: "none", borderRadius: 0 }}
-                >
-                  {item.name}
-                </Link>
-              );
-            })}
-
-            {/* Mobile Dark/Light Toggle */}
-            <button
-              onClick={handleToggleTheme}
-              className={`flex items-center justify-center w-10 h-10 border rounded-full transition-colors duration-200 ${
-                darkMode
-                  ? "border-white text-white hover:bg-white hover:text-black"
-                  : "border-black text-black hover:bg-black hover:text-white"
-              }`}
+            <div
+              ref={menuRef}
+              className={`absolute top-[90px] left-0 w-full border-t border-b backdrop-blur-md ${getNavBg()} flex flex-col items-center py-3 space-y-3`}
+              onClick={(e) => e.stopPropagation()} // chặn click bên trong menu
             >
-              {darkMode ? (
-                <Sun className="w-5 h-5" />
-              ) : (
-                <Moon className="w-5 h-5" />
-              )}
-            </button>
+              {navigation.map((item, i) => {
+                const isActive =
+                  pathName === item.href ||
+                  pathName.startsWith(item.href + "/");
+                return (
+                  <Link
+                    key={i}
+                    href={item.href}
+                    onClick={() => setIsMenuOpen(false)}
+                    className={`w-full text-center transition-colors duration-200 ${
+                      darkMode
+                        ? isActive
+                          ? "text-black bg-white"
+                          : "text-white hover:bg-white hover:text-black"
+                        : isActive
+                        ? "text-white bg-black"
+                        : "text-black hover:bg-black hover:text-white"
+                    }`}
+                    style={{ border: "none", borderRadius: 0 }}
+                  >
+                    {item.name}
+                  </Link>
+                );
+              })}
+
+              {/* Mobile Dark/Light Toggle */}
+              <button
+                onClick={handleToggleTheme}
+                className={`flex items-center justify-center w-10 h-10 border rounded-full transition-colors duration-200 ${
+                  darkMode
+                    ? "border-white text-white hover:bg-white hover:text-black"
+                    : "border-black text-black hover:bg-black hover:text-white"
+                }`}
+              >
+                {darkMode ? (
+                  <Sun className="w-5 h-5" />
+                ) : (
+                  <Moon className="w-5 h-5" />
+                )}
+              </button>
+            </div>
           </div>
         )}
       </div>

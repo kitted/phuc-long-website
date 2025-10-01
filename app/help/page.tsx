@@ -14,7 +14,7 @@ export default function Example() {
     <>
       <SubLayout>
         <div className="pt-[140px] px-4 md:px-8 max-w-3xl mx-auto">
-          <GuideHeader title="Hướng dẫn Đặt Hàng Từ Công Ty Phúc Long" />
+          <GuideHeader title="Hướng Dẫn Đặt Hàng Từ Công Ty Phúc Long" />
           <GuideContent />
           <GuideNote />
           <ContactChannel
