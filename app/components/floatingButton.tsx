@@ -123,12 +123,13 @@ export default function FloatingAssistant() {
       key: "zalo",
       href: "https://zalo.me",
       label: "Zalo",
-      bg: "bg-[#2DB5FF]",
+      bg: "bg-white",
       icon: (
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-          <circle cx="12" cy="12" r="10" fill="white" opacity="0.2" />
-          <path d="M5 3h14v10.5L15.5 11H5V3z" fill="white" />
-        </svg>
+        <img
+          src="/zalo.png" // thay bằng icon bạn có
+          alt="Zalo"
+          className="w-8 h-5"
+        />
       ),
     },
     {

@@ -1,14 +1,14 @@
 "use client";
 
-import SubLayout from "../subLayout";
+import Footer from "@/app/components/footer";
+import NewsCategories from "@/app/components/news/newsCategories";
+import NewsHeader from "@/app/components/news/newsHeader";
+import NewsHighlight from "@/app/components/news/newsHighlight";
+import NewsList from "@/app/components/news/newsList";
+import NewsSearch from "@/app/components/news/newsSearch";
+import Paginate from "@/app/components/paginate";
+import SubLayout from "@/app/subLayout";
 import React from "react";
-import Footer from "../components/footer";
-import Paginate from "../components/paginate";
-import NewsSearch from "../components/news/newsSearch";
-import NewsCategories from "../components/news/newsCategories";
-import NewsHeader from "../components/news/newsHeader";
-import NewsHighlight from "../components/news/newsHighlight";
-import NewsList from "../components/news/newsList";
 
 export default function Example() {
   return (

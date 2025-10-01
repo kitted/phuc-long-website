@@ -24,7 +24,7 @@ const sliderItems = [
   { image: "/slide/slide5.png", title: "Và Nhiều Sản Phẩm Khác..." },
 ];
 
-function About() {
+function Policy() {
   const contentRef = useRef<HTMLDivElement>(null);
   const [darkMode, setDarkMode] = useState(false);
   const [previewImg, setPreviewImg] = useState<string | null>(null);
@@ -88,12 +88,11 @@ function About() {
 
   return (
     <>
-      <Head>
-        {/* Preload tất cả ảnh để click là hiển thị ngay */}
-        {sliderItems.map((item, i) => (
+      {/* <Head>
+         {sliderItems.map((item, i) => (
           <link key={i} rel="preload" as="image" href={item.image} />
         ))}
-      </Head>
+      </Head> */}
 
       <SubLayout>
         <div className={`${containerBg} px-6 pt-10 mx-auto space-y-8 py-10`}>
@@ -104,7 +103,7 @@ function About() {
             <h1
               className={`${containerBg} text-2xl md:text-3xl font-extrabold ${textColor} text-center mb-6`}
             >
-              Về Chúng Tôi
+              Chính Sách Công Ty
             </h1>
             {/* Logo */}
             <div className="relative w-[600px] md:w-[800px] h-auto aspect-[3/1] z-10">
@@ -156,7 +155,7 @@ function About() {
             </p>
 
             {/* Slider */}
-            <div
+            {/* <div
               ref={sliderRef}
               className="flex gap-6 overflow-x-auto no-scrollbar cursor-grab active:cursor-grabbing px-4 py-10 w-full"
               onMouseDown={handleMouseDown}
@@ -184,14 +183,14 @@ function About() {
                   </div>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       </SubLayout>
       <Footer />
 
       {/* Popup Preview */}
-      {previewImg && (
+      {/* {previewImg && (
         <div
           className="fixed inset-0 bg-black bg-opacity-80 z-[9999] flex items-center justify-center"
           onClick={() => setPreviewImg(null)}
@@ -213,9 +212,9 @@ function About() {
             ✕
           </button>
         </div>
-      )}
+      )} */}
     </>
   );
 }
 
-export default About;
+export default Policy;

@@ -9,29 +9,6 @@ import { toast } from "react-toastify";
 import Footer from "../components/footer";
 import Image from "next/image";
 import TourMapContact from "../components/tourMapContact";
-import Banner from "../components/banner";
-// import TourMapContact from "../components/tourDetail/tourMapContact";
-
-const socials = [
-  {
-    icon: <Linkedin size={20} />,
-    href: "https://www.linkedin.com/in/ntnhanbk/",
-    label: "Linkedin",
-    handle: "@ntnhanbk",
-  },
-  {
-    icon: <PhoneCall size={20} />,
-    href: "tel:+84929990899",
-    label: "Mobile",
-    handle: "+84 929990899",
-  },
-  {
-    icon: <Mail size={20} />,
-    href: "mailto:francis@lexcodex.net",
-    label: "Email",
-    handle: "francis@lexcodex.net",
-  },
-];
 
 export default function Example() {
   const key: string = process.env.NEXT_PUBLIC_EMAILJS_API_KEY || "";
@@ -92,6 +69,8 @@ export default function Example() {
   }, []);
 
   const containerBg = darkMode ? "bg-black" : "bg-white";
+  const containerBg2 = darkMode ? "bg-white" : "bg-black";
+  const containerBg3 = darkMode ? "border-white" : "border-black";
   const textColor = darkMode ? "text-white" : "text-black";
   const buttonBg = darkMode
     ? "bg-gradient-to-r from-gray-800/40 to-gray-900/40 border border-white/20"
@@ -108,128 +87,110 @@ export default function Example() {
               className="w-full h-full mx-auto lg:mx-0 flex items-center flex-col  animate-fade-in md:mt-0"
               ref={contentRef}
             >
-              <div className="w-full h-full flex items-top max-md:flex-col ">
-                <div className="w-full basis-1/2 flex flex-col max-md:basis-full max-md:items-center">
-                  <div className="flex flex-col gap-3 py-2">
-                    <div className=" relative w-full h-full aspect-[3/2] z-10 animate-fade-in rounded-lg">
-                      <Image
-                        src="/lubrex/lubrex1.png"
-                        alt="Phúc Long"
-                        fill
-                        priority
-                        className="object-fill drop-shadow-[0_0_10px_rgba(255,255,255,0.5)] rounded-lg"
+              <div className="w-full flex flex-col items-center py-4 gap-8">
+                {/* Contact form */}
+                <div className="w-[90%] md:w-[600px] bg-gradient-to-br from-[#0B0B2D] via-[#0F1A45] to-[#1A2B6D] p-8 shadow-2xl rounded-lg">
+                  <h2 className="text-center text-lg font-bold mb-6 text-white">
+                    LIÊN HỆ VỚI CHÚNG TÔI
+                  </h2>
+
+                  <form className="flex flex-col gap-4">
+                    {/* Email */}
+                    <div>
+                      <label className="block text-sm mb-1 text-white">
+                        EMAIL:
+                      </label>
+                      <input
+                        type="email"
+                        className="w-full rounded-md px-3 py-2 bg-white/10 border border-white/20 text-white placeholder-gray-300 backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-[#0054A6]"
+                        placeholder="Nhập email"
                       />
                     </div>
-                    <div className="flex gap-2 items-center">
-                      <PhoneCall size={20} />
-                      <a
-                        className=" text-base underline"
-                        href="tel:+04xxxxxxxxx"
-                      >
-                        09xxxxxxxxx
-                      </a>
+
+                    {/* SĐT */}
+                    <div>
+                      <label className="block text-sm mb-1 text-white">
+                        SĐT:
+                      </label>
+                      <input
+                        type="text"
+                        className="w-full rounded-md px-3 py-2 bg-white/10 border border-white/20 text-white placeholder-gray-300 backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-[#0054A6]"
+                        placeholder="Nhập số điện thoại"
+                      />
                     </div>
-                    <div className="flex gap-2 items-center">
-                      <Mail size={20} />
-                      <a
-                        href="mailto:phuclong@gmail.com"
-                        className="  text-base underline"
-                      >
-                        phuclong@gmail.com
-                      </a>
+
+                    {/* Địa chỉ */}
+                    <div>
+                      <label className="block text-sm mb-1 text-white">
+                        Đ/C:
+                      </label>
+                      <input
+                        type="text"
+                        className="w-full rounded-md px-3 py-2 bg-white/10 border border-white/20 text-white placeholder-gray-300 backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-[#0054A6]"
+                        placeholder="Nhập địa chỉ"
+                      />
                     </div>
-                    <div className="flex gap-2 items-center">
-                      <Facebook size={20} />
-                      <a
-                        className=" text-base underline"
-                        target="_blank"
-                        href="https://www.facebook.com/phuclong/"
-                      >
-                        @phuclong
-                      </a>
+
+                    {/* Nội dung */}
+                    <div>
+                      <label className="block text-sm mb-1 text-white">
+                        NỘI DUNG:
+                      </label>
+                      <textarea
+                        rows={4}
+                        className="w-full rounded-md px-3 py-2 bg-white/10 border border-white/20 text-white placeholder-gray-300 backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-[#0054A6]"
+                        placeholder="Nhập nội dung"
+                      />
                     </div>
-                    <div className="flex gap-2 items-center">
-                      <MapPin className="w-6 h-6 flex-shrink-0  self-start mt-1" />
-                      <span className=" text-base underline">
-                        h1/19, Lê Hồng Phong, Bình Thuỷ, TPCT
-                      </span>
-                    </div>
-                  </div>
+
+                    {/* Submit */}
+                    <button
+                      type="submit"
+                      className="mt-4 bg-white/10 border border-white/20 text-white py-2 rounded-md font-semibold backdrop-blur-sm hover:bg-white/20 transition"
+                    >
+                      GỬI
+                    </button>
+                  </form>
                 </div>
 
+                {/* Social info */}
                 <div
-                  className={`basis-1/2 max-md:basis-full max-md:w-full py-2 ${containerBg} ${textColor}`}
+                  className={`flex flex-col gap-4 w-[90%] md:w-[600px] ${containerBg2}/5 border ${containerBg3}/10 rounded-lg p-6 backdrop-blur-sm`}
                 >
-                  <div
-                    className={`w-full flex flex-col items-center gap-10 ${containerBg} ${textColor} `}
-                  >
-                    {/* Contact form */}
-                    <div className="w-[90%] md:w-[600px] bg-gradient-to-br from-[#0B0B2D] via-[#0F1A45] to-[#1A2B6D] p-8  shadow-2xl">
-                      <h2 className="text-center text-lg font-bold mb-6 text-white">
-                        LIÊN HỆ VỚI CHÚNG TÔI
-                      </h2>
-
-                      <form className="flex flex-col gap-4">
-                        {/* Email */}
-                        <div>
-                          <label className="block text-sm mb-1 text-white">
-                            EMAIL:
-                          </label>
-                          <input
-                            type="email"
-                            className="w-full rounded-md px-3 py-2 bg-white/10 border border-white/20 text-white placeholder-gray-300 backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-[#0054A6]"
-                            placeholder="Nhập email"
-                          />
-                        </div>
-
-                        {/* SĐT */}
-                        <div>
-                          <label className="block text-sm mb-1 text-white">
-                            SĐT:
-                          </label>
-                          <input
-                            type="text"
-                            className="w-full rounded-md px-3 py-2 bg-white/10 border border-white/20 text-white placeholder-gray-300 backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-[#0054A6]"
-                            placeholder="Nhập số điện thoại"
-                          />
-                        </div>
-
-                        {/* Địa chỉ */}
-                        <div>
-                          <label className="block text-sm mb-1 text-white">
-                            Đ/C:
-                          </label>
-                          <input
-                            type="text"
-                            className="w-full rounded-md px-3 py-2 bg-white/10 border border-white/20 text-white placeholder-gray-300 backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-[#0054A6]"
-                            placeholder="Nhập địa chỉ"
-                          />
-                        </div>
-
-                        {/* Nội dung */}
-                        <div>
-                          <label className="block text-sm mb-1 text-white">
-                            NỘI DUNG:
-                          </label>
-                          <textarea
-                            rows={4}
-                            className="w-full rounded-md px-3 py-2 bg-white/10 border border-white/20 text-white placeholder-gray-300 backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-[#0054A6]"
-                            placeholder="Nhập nội dung"
-                          />
-                        </div>
-
-                        {/* Submit */}
-                        <button
-                          type="submit"
-                          className="mt-4 bg-white/10 border border-white/20 text-white py-2 rounded-md font-semibold backdrop-blur-sm hover:bg-white/20 transition"
-                        >
-                          GỬI
-                        </button>
-                      </form>
-                    </div>
+                  <div className={`flex gap-2 items-center ${textColor}`}>
+                    <PhoneCall size={20} />
+                    <a className="text-base underline" href="tel:+04xxxxxxxxx">
+                      09xxxxxxxxx
+                    </a>
+                  </div>
+                  <div className={`flex gap-2 items-center ${textColor}`}>
+                    <Mail size={20} />
+                    <a
+                      href="mailto:phuclong@gmail.com"
+                      className="text-base underline"
+                    >
+                      phuclong@gmail.com
+                    </a>
+                  </div>
+                  <div className={`flex gap-2 items-center ${textColor}`}>
+                    <Facebook size={20} />
+                    <a
+                      className="text-base underline"
+                      target="_blank"
+                      href="https://www.facebook.com/phuclong/"
+                    >
+                      @phuclong
+                    </a>
+                  </div>
+                  <div className={`flex gap-2 items-start ${textColor}`}>
+                    <MapPin className="w-6 h-6 flex-shrink-0 mt-1" />
+                    <span className="text-base underline">
+                      h1/19, Lê Hồng Phong, Bình Thuỷ, TPCT
+                    </span>
                   </div>
                 </div>
               </div>
+
               <TourMapContact
                 locations={[
                   {
