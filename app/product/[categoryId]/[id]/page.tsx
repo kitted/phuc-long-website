@@ -11,6 +11,8 @@ import SubLayout from "@/app/subLayout";
 import React, { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import ProductDetail from "@/app/components/productDetail";
+import Link from "next/link";
+import Breadcrumbs from "@/app/components/breadcrumbs";
 
 const mockCategories = [
   {
@@ -31,6 +33,8 @@ const mockProducts = Array.from({ length: 12 }).map((_, i) => ({
 export default function Example() {
   const [filteredProducts, setFilteredProducts] = useState(mockProducts);
   const pathname = usePathname();
+  const segments = pathname.split("/").filter(Boolean);
+
   const handleSearch = (keyword: string) => {
     const lowerKeyword = keyword.toLowerCase();
     setFilteredProducts(
@@ -80,8 +84,8 @@ export default function Example() {
           <Marquee />
           {/* <ContentText overlayText={`Home/ Lubrex/ ${pathname}`} /> */}
           <div className={`${containerBg} w-full`}>
-            <div className="bottom-0 w-full flex justify-left py-1 sm:py-1 md:py-1 lg:py-1">
-              <h1
+            <div className="bottom-0 w-full flex justify-center py-1 sm:py-1 md:py-1 lg:py-1">
+              {/* <h1
                 className={`${textColor} italic font-black text-[20px] lg:text-[60px] md:text-[40px] sm:text-[25px] text-center px-4`}
                 style={{
                   fontFamily: "Archivo, sans-serif",
@@ -89,7 +93,8 @@ export default function Example() {
                 }}
               >
                 {`Home/ Lubrex ${pathname}`}
-              </h1>
+              </h1> */}
+              <Breadcrumbs />
             </div>
           </div>
           <div className={`${containerBg} w-full`}>

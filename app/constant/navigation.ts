@@ -1,7 +1,7 @@
 export const navigation = [
   { name: "Giới Thiệu", href: "/about" },
-  { name: "Sản phẩm", href: "/product" },
-  { name: "Tin tức", href: "/news" },
-  { name: "Hướng dẫn đặt hàng", href: "/help" },
-  { name: "Liên hệ", href: "/contact" },
+  { name: "Sản Phẩm", href: "/product" },
+  { name: "Tin Tức", href: "/news" },
+  { name: "Hướng Dẫn Đặt Hàng", href: "/help" },
+  { name: "Liên Hệ", href: "/contact" },
 ];

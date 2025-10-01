@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import ContactForm from "./contactForm";
 
 export default function ContactSection() {
   const [darkMode, setDarkMode] = useState(false);
@@ -69,61 +70,7 @@ export default function ContactSection() {
       </div>
 
       {/* Contact form */}
-      <div className="w-[90%] md:w-[600px] bg-gradient-to-br from-[#0B0B2D] via-[#0F1A45] to-[#1A2B6D] p-8 rounded-xl shadow-2xl">
-        <h2 className="text-center text-lg font-bold mb-6 text-white">
-          LIÊN HỆ VỚI CHÚNG TÔI
-        </h2>
-
-        <form className="flex flex-col gap-4">
-          {/* Email */}
-          <div>
-            <label className="block text-sm mb-1 text-white">EMAIL:</label>
-            <input
-              type="email"
-              className="w-full rounded-md px-3 py-2 bg-white/10 border border-white/20 text-white placeholder-gray-300 backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-[#0054A6]"
-              placeholder="Nhập email"
-            />
-          </div>
-
-          {/* SĐT */}
-          <div>
-            <label className="block text-sm mb-1 text-white">SĐT:</label>
-            <input
-              type="text"
-              className="w-full rounded-md px-3 py-2 bg-white/10 border border-white/20 text-white placeholder-gray-300 backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-[#0054A6]"
-              placeholder="Nhập số điện thoại"
-            />
-          </div>
-
-          {/* Địa chỉ */}
-          <div>
-            <label className="block text-sm mb-1 text-white">Đ/C:</label>
-            <input
-              type="text"
-              className="w-full rounded-md px-3 py-2 bg-white/10 border border-white/20 text-white placeholder-gray-300 backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-[#0054A6]"
-              placeholder="Nhập địa chỉ"
-            />
-          </div>
-
-          {/* Nội dung */}
-          <div>
-            <label className="block text-sm mb-1 text-white">NỘI DUNG:</label>
-            <textarea
-              rows={4}
-              className="w-full rounded-md px-3 py-2 bg-white/10 border border-white/20 text-white placeholder-gray-300 backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-[#0054A6]"
-              placeholder="Nhập nội dung"
-            />
-          </div>
-
-          {/* Submit */}
-          <button
-            type="submit"
-            className="mt-4 bg-white/10 border border-white/20 text-white py-2 rounded-md font-semibold backdrop-blur-sm hover:bg-white/20 transition"
-          >
-            GỬI
-          </button>
-        </form>
-      </div>
+      <ContactForm />
     </div>
   );
 }

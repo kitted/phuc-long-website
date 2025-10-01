@@ -3,34 +3,40 @@
 import SubLayout from "../subLayout";
 import React from "react";
 import Footer from "../components/footer";
-import Paginate from "../components/paginate";
-import NewsSearch from "../components/news/newsSearch";
-import NewsCategories from "../components/news/newsCategories";
-import NewsHeader from "../components/news/newsHeader";
-import NewsHighlight from "../components/news/newsHighlight";
-import NewsList from "../components/news/newsList";
+import GuideHeader from "../components/help/guideHeader";
+import GuideContent from "../components/help/guideContent";
+import GuideNote from "../components/help/guideNote";
+import ContactChannel from "../components/help/contactChannel";
+import NextStepButton from "../components/nextStepButton";
 
 export default function Example() {
   return (
     <>
       <SubLayout>
-        <div className="pt-[165px] md:pt-[165px] px-4 md:px-8 max-w-7xl mx-auto">
-          <NewsSearch />
-          <NewsHeader />
-          <NewsCategories />
-          <div className="pt-[10px] md:pt-[40px] px-4 md:px-8 max-w-7xl mx-auto">
-            <NewsHighlight />
-            <NewsList />
-          </div>
+        <div className="pt-[140px] px-4 md:px-8 max-w-3xl mx-auto">
+          <GuideHeader title="Hướng dẫn Đặt Hàng Từ Công Ty Phúc Long" />
+          <GuideContent />
+          <GuideNote />
+          <ContactChannel
+            title="Zalo"
+            image="/contact/zalo.png"
+            alt="Zalo minh họa"
+          />
+          <ContactChannel
+            title="Facebook"
+            image="/contact/fb.png"
+            alt="Facebook minh họa"
+          />
+          <ContactChannel
+            title="Gọi Qua Số Điện Thoại"
+            image="/contact/phoneContact.png"
+            alt="Gọi điện minh họa"
+          />
 
-          {/* Pagination */}
-          <div className="mt-8 flex justify-center">
-            <Paginate
-              currentPage={1}
-              totalPages={5}
-              onPageChange={(page) => console.log("Go to page:", page)}
-            />
-          </div>
+          <NextStepButton
+            label="Tiếp Theo: Hướng Dẫn Thanh Toán"
+            href="/payment"
+          />
         </div>
       </SubLayout>
       <Footer />

@@ -39,17 +39,17 @@ export default function Footer() {
                 </h3>
                 <ul className="space-y-2 text-gray-600">
                   <li>
-                    <Link href="#" className="hover:underline">
+                    <Link href="/help" className="hover:underline">
                       Hướng dẫn mua hàng
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="hover:underline">
+                    <Link href="/payment" className="hover:underline">
                       Hướng dẫn thanh toán
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="hover:underline">
+                    <Link href="/policy" className="hover:underline">
                       Chính sách công ty
                     </Link>
                   </li>
@@ -61,17 +61,17 @@ export default function Footer() {
                 </h3>
                 <ul className="space-y-2 text-gray-600">
                   <li>
-                    <Link href="#" className="hover:underline">
+                    <Link href="/about" className="hover:underline">
                       Về công ty
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="hover:underline">
+                    <Link href="/contact" className="hover:underline">
                       Góp ý - phản hồi
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="hover:underline">
+                    <Link href="/contact" className="hover:underline">
                       Thông tin liên lạc
                     </Link>
                   </li>
@@ -83,19 +83,19 @@ export default function Footer() {
           {/* Social icons */}
           <div className="flex justify-center gap-3 mt-6 border-t border-gray-200 pt-5">
             <a
-              href="#"
+              href="https://facebook.com"
               className="w-8 h-8 flex items-center justify-center rounded-full bg-black text-white"
             >
               <Facebook className="w-4 h-4" />
             </a>
             <a
-              href="#"
+              href="https://instagram.com"
               className="w-8 h-8 flex items-center justify-center rounded-full bg-black text-white"
             >
               <Instagram className="w-4 h-4" />
             </a>
             <a
-              href="#"
+              href="https://youtube.com"
               className="w-8 h-8 flex items-center justify-center rounded-full bg-black text-white"
             >
               <Youtube className="w-4 h-4" />

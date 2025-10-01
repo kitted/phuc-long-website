@@ -8,6 +8,7 @@ import Marquee from "../components/marquee";
 import ProductCardGrid from "../components/productCard";
 import ContentText from "../components/contentText";
 import Paginate from "../components/paginate";
+import Breadcrumbs from "../components/breadcrumbs";
 
 export default function Example() {
   const products = [
@@ -90,6 +91,7 @@ export default function Example() {
         <div className="pt-[65px] md:pt-[1px]">
           <Banner imageUrls={["/banner/banner1.png", "/banner/banner2.png"]} />{" "}
           <Marquee />
+          <Breadcrumbs />
           <ContentText overlayText={"Danh Sách Sản Phẩm"} />
           <ProductCardGrid products={products} />
           <Paginate

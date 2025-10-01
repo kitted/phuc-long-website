@@ -124,13 +124,7 @@ export default function FloatingAssistant() {
       href: "https://zalo.me",
       label: "Zalo",
       bg: "bg-white",
-      icon: (
-        <img
-          src="/zalo.png" // thay bằng icon bạn có
-          alt="Zalo"
-          className="w-8 h-5"
-        />
-      ),
+      icon: <img src="/zalo.png" alt="Zalo" className="w-8 h-5" />,
     },
     {
       key: "phone",
@@ -143,10 +137,10 @@ export default function FloatingAssistant() {
 
   const getOffsets = (index: number) => {
     const distance = 72;
-    if (index === 0) return { x: 0, y: -distance }; // trên
+    if (index === 0) return { x: 0, y: -distance };
     if (index === 1)
       return onLeftSide ? { x: distance, y: 0 } : { x: -distance, y: 0 };
-    if (index === 2) return { x: 0, y: distance }; // dưới
+    if (index === 2) return { x: 0, y: distance };
     return { x: 0, y: 0 };
   };
 
@@ -211,6 +205,7 @@ export default function FloatingAssistant() {
             )}
           </motion.button>
         </div>
+        <></>
       </motion.div>
     </div>
   );
