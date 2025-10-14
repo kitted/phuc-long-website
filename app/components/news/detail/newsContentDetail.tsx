@@ -34,7 +34,7 @@ export default function NewsContentDetail({
   const textColor2 = darkMode ? "text-gray-400" : "text-black/70";
   return (
     <article className="prose prose-invert max-w-none">
-      {sections.map((sec, idx) => (
+      {sections?.map((sec, idx) => (
         <div key={idx} className="mb-8">
           {sec.heading && (
             <h2
@@ -43,7 +43,7 @@ export default function NewsContentDetail({
               {sec.heading}
             </h2>
           )}
-          {sec.text.map((para, i) => (
+          {sec.text?.map((para, i) => (
             <p
               key={i}
               className={`text-sm md:text-base leading-relaxed ${textColor2}`}

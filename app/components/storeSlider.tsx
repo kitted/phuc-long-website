@@ -105,7 +105,7 @@ const StoreSlider = () => {
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
       >
-        {items.map((item, i) => {
+        {items?.map((item, i) => {
           let position = (i - index + items.length) % items.length;
           if (position > items.length / 2) position -= items.length;
 

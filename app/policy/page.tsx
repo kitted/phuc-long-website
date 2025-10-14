@@ -89,7 +89,7 @@ function Policy() {
   return (
     <>
       {/* <Head>
-         {sliderItems.map((item, i) => (
+         {sliderItems?.map((item, i) => (
           <link key={i} rel="preload" as="image" href={item.image} />
         ))}
       </Head> */}
@@ -163,7 +163,7 @@ function Policy() {
               onMouseUp={handleMouseUp}
               onMouseMove={handleMouseMove}
             >
-              {sliderItems.map((item, idx) => (
+              {sliderItems?.map((item, idx) => (
                 <div
                   key={idx}
                   className="min-w-[300px] max-w-[350px] flex-shrink-0 bg-neutral-900 rounded-2xl p-4 flex flex-col items-center justify-center hover:scale-105 transition-transform"

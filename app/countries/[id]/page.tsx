@@ -77,7 +77,7 @@ function TourDetail() {
                 <ArrowLeft className="inline-block w-5 h-5 ml-2" />
               </Link>
               <div className="flex justify-between gap-8">
-                {navigation.map((item, i) => (
+                {navigation?.map((item, i) => (
                   <Link
                     key={i}
                     href={item.href}
@@ -206,7 +206,7 @@ function TourDetail() {
                 { src: "/foods/macaron.jpg", alt: "Macaron" },
                 { src: "/foods/baguette.jpg", alt: "Baguette" },
                 { src: "/foods/crepe.jpg", alt: "Crêpe" },
-              ].map((food, idx) => (
+              ]?.map((food, idx) => (
                 <div
                   key={idx}
                   className="flex-shrink-0 w-[300px] flex flex-col items-center"
@@ -245,7 +245,7 @@ function TourDetail() {
                   src: "/places/versailles.jpg",
                   label: "Cung điện Versailles",
                 },
-              ].map((place, i) => (
+              ]?.map((place, i) => (
                 <div
                   key={i}
                   className="flex-shrink-0 w-[300px] flex flex-col items-center"
@@ -296,7 +296,7 @@ function TourDetail() {
                 icon: "🔌",
                 bg: "bg-indigo-50",
               },
-            ].map((item, i) => (
+            ]?.map((item, i) => (
               <div
                 key={i}
                 className={`${item.bg} rounded-xl p-6 flex flex-col items-center text-center shadow-sm hover:shadow-md transition w-full max-w-[260px]`}
@@ -332,7 +332,7 @@ function TourDetail() {
                 icon: "🚇",
                 text: "Giữ gìn trật tự nơi công cộng, đặc biệt trên tàu điện ngầm",
               },
-            ].map((item, index) => (
+            ]?.map((item, index) => (
               <div
                 key={index}
                 className="flex items-start gap-4 p-4 rounded-xl shadow-md bg-white hover:bg-gray-50 transition"

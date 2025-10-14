@@ -46,15 +46,14 @@ export default function AboutSection() {
 
           {/* Description */}
           <p className="text-base leading-relaxed">
-            Lubrex FZC is a leading lubricant manufacturing company, established
-            in 2005 as the flag bearer in the UAE of a group of lubricant
-            manufacturing oil exporting companies with decades of experience,
-            supplying high-end lubricants and greases to meet the ever-growing
-            needs of our clients. Our quality standards are unparalleled as we
-            have been awarded 20 OEM approvals from the world’s leading
-            automotive manufacturers, including BMW, Mercedes, Volvo, to name a
-            few. <br />
-            <Link href="#" className="underline font-medium">
+            Với hơn 10 năm kinh nghiệm trong lĩnh vực phân phối dầu nhớt và phụ
+            tùng , NHÀ PHÂN PHỐI PHỤ TÙNG DẦU NHỚT PHÚC LONG tự hào là đơn vị
+            cung cấp đáng tin cậy cho hàng trăm đại lý và tiệm sửa xe tại Cần
+            Thơ, Hậu Giang, Vĩnh Long và Đồng Tháp. Chúng tôi không chỉ mang đến
+            sản phẩm chất lượng – giá cả hợp lý – giao hàng nhanh chóng, mà còn
+            luôn đồng hành cùng khách hàng trong suốt quá trình kinh doanh...{" "}
+            <br />
+            <Link href="/about" className="underline font-medium">
               Learn more &gt;
             </Link>
           </p>

@@ -42,7 +42,7 @@ const newsData = [
 export default function NewsList() {
   return (
     <div className="flex flex-col gap-6">
-      {newsData.map((item) => (
+      {newsData?.map((item) => (
         <NewsItem
           key={item.id}
           title={item.title}

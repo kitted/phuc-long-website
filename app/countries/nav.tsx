@@ -45,7 +45,7 @@ export const Navbar: React.FC = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex gap-8">
-            {navigation.map((item, i) => (
+            {navigation?.map((item, i) => (
               <Link
                 key={i}
                 href={item.href}
@@ -74,7 +74,7 @@ export const Navbar: React.FC = () => {
         {/* Mobile Popup Menu */}
         {isMenuOpen && (
           <div className="md:hidden bg-white/10 backdrop-blur-md border-t border-white/10 px-6 py-4 space-y-4">
-            {navigation.map((item, i) => (
+            {navigation?.map((item, i) => (
               <Link
                 key={i}
                 href={item.href}

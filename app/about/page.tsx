@@ -91,7 +91,7 @@ function About() {
     <>
       <Head>
         {/* Preload tất cả ảnh để click là hiển thị ngay */}
-        {sliderItems.map((item, i) => (
+        {sliderItems?.map((item, i) => (
           <link key={i} rel="preload" as="image" href={item.image} />
         ))}
       </Head>
@@ -125,42 +125,124 @@ function About() {
             </div>
 
             {/* Nội dung */}
-            <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
-              Lubrex FZC is a leading lubricant manufacturing company,
-              registered in Hamriyah Free Zone, Sharjah, UAE. It was established
-              in 2005 as the flag bearer in the UAE of a group of lubricant
-              manufacturing oil exporting companies with decades of experience.
-              With a primary focus on the GCC, Middle East, Far East and Africa,
-              Lubrex is uniquely positioned to lead in manufacturing,
-              development and marketing in the regional and international
-              markets, providing unmatched level of support and services for its
-              customers. Having realised that a critical factor of success in
-              any venture is the access to specific industry knowledge, the
-              company is founded and articulated by a team of leading industry
-              professionals, strategic partners, and business associates, which
-              in turn have encouraged and emboldened the company to participate
-              in one of the most challenging markets in the world. Lubrex uses
-              state of the art automated blending systems with latest
-              machineries to keep products precisely blended avoiding any avoid
-              human errors, ensuring consistency in the delivery of products in
-              scheduled time without compromising in quality. Lubrex lubricants
-              are made from first grade mineral oils, virgin base oils, and high
-              quality additives to meet industry standards.
-            </p>
-            <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
-              At Lubrex, we focus on three main core values: Satisfaction:
-              Customer satisfaction is our foremost commitment. We are customer
-              centric in everything we do. We are focused on providing the best
-              possible experience for our distributors, dealers and end
-              customers. Quality: Our business is all about protection;
-              protection of equipment, protection of employees while operating
-              equipment, and protection of environment. This can only be
-              achieved by striving and achieving quality in our products and
-              processes. Passion: We are passionate about doing our business and
-              creating a win-win situation for ourselves, our customers, our
-              products, and our services.
-            </p>
-
+            <div className="text-left">
+              <p
+                className={`mt-0 text-center leading-8 ${textColor} max-w-[900px]`}
+              >
+                GIỚI THIỆU VỀ NHÀ PHÂN PHỐI PHỤ TÙNG DẦU NHỚT PHÚC LONG{" "}
+              </p>
+              <p
+                className={`mt-0 text-center leading-8 ${textColor} max-w-[900px]`}
+              >
+                Đối tác tin cậy của các tiệm sửa xe và đại lý phụ tùng tại miền
+                Tây{" "}
+              </p>
+              <br />
+              <p
+                className={`mt-0 text-left leading-8 ${textColor} max-w-[900px]`}
+              >
+                Với hơn 10 năm kinh nghiệm trong lĩnh vực phân phối dầu nhớt và
+                phụ tùng , NHÀ PHÂN PHỐI PHỤ TÙNG DẦU NHỚT PHÚC LONG tự hào là
+                đơn vị cung cấp đáng tin cậy cho hàng trăm đại lý và tiệm sửa xe
+                tại Cần Thơ, Hậu Giang, Vĩnh Long và Đồng Tháp. Chúng tôi không
+                chỉ mang đến sản phẩm chất lượng – giá cả hợp lý – giao hàng
+                nhanh chóng, mà còn luôn đồng hành cùng khách hàng trong suốt
+                quá trình kinh doanh.
+              </p>
+              <br />
+              <p
+                className={`mt-0 text-center leading-8 ${textColor} max-w-[900px]`}
+              >
+                TẦM NHÌN
+              </p>
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                Trở thành nhà phân phối dầu nhớt và phụ tùng xe máy hàng đầu khu
+                vực miền Tây, xây dựng thương hiệu PHÚC LONG gắn liền với uy
+                tín, chất lượng và sự tận tâm phục vụ.{" "}
+              </p>
+              <br />
+              <p
+                className={`mt-0 text-center leading-8 ${textColor} max-w-[900px]`}
+              >
+                SỨ MỆNH{" "}
+              </p>
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                Phân phối sản phẩm chính hãng, chất lượng cao, nguồn gốc rõ
+                ràng. Cung cấp giải pháp kinh doanh hiệu quả cho tiệm sửa xe và
+                đại lý phụ tùng. Góp phần nâng cao chất lượng dịch vụ và niềm
+                tin của người tiêu dùng Việt Nam.
+              </p>
+              <br />
+              <p
+                className={`mt-0 text-center leading-8 ${textColor} max-w-[900px]`}
+              >
+                GIÁ TRỊ CỐT LÕI{" "}
+              </p>
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                Uy tín – Là nền tảng của mọi hợp tác lâu dài.{" "}
+              </p>
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                Tận tâm – Luôn đặt lợi ích của khách hàng lên hàng đầu.{" "}
+              </p>
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                Chuyên nghiệp – Làm việc có quy trình, chuẩn mực và cam kết.
+              </p>
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                Hợp tác cùng phát triển – Cùng khách hàng xây dựng thị trường
+                bền vững.{" "}
+              </p>
+              <br />
+              <p
+                className={`mt-0 text-center leading-8 ${textColor} max-w-[900px]`}
+              >
+                SẢN PHẨM & DỊCH VỤ CHÍNH
+              </p>
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                Dầu nhớt Plus EX – Công nghệ tiên tiến, bảo vệ động cơ tối đa.
+                Phụ tùng xe máy chất lượng cao: Nhông sên dĩa, lốp xe, vòng bi,
+                bố thắng, dây ga – dây thắng, linh kiện điện,…{" "}
+              </p>
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                Hỗ trợ công nợ linh hoạt 30–60 ngày, giúp khách hàng chủ động
+                dòng tiền. Dịch vụ giao hàng tận nơi – tư vấn kỹ thuật – hỗ trợ
+                bán hàng.
+              </p>
+              <br />
+              <p
+                className={`mt-0 text-center leading-8 ${textColor} max-w-[900px]`}
+              >
+                CAM KẾT PHÚC LONG
+              </p>
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                “Phúc Long cam kết mang đến cho khách hàng sản phẩm thật – giá
+                trị thật – niềm tin thật.”{" "}
+              </p>
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                Chúng tôi hiểu rằng, thành công của khách hàng chính là thước đo
+                lớn nhất cho sự phát triển của doanh nghiệp. Vì vậy, mỗi đơn
+                hàng, mỗi cuộc gọi và mỗi lần giao tiếp đều được chúng tôi thực
+                hiện với trách nhiệm, sự tận tâm và tinh thần phục vụ chuyên
+                nghiệp.
+              </p>
+              <br />
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                KHU VỰC PHỤC VỤ Hiện tại, PHÚC LONG đang phát triển mạnh tại:
+                Cần Thơ – Hậu Giang – Vĩnh Long – Đồng Tháp, và định hướng mở
+                rộng hệ thống phân phối đến toàn bộ khu vực Đồng bằng sông Cửu
+                Long trong thời gian tới.{" "}
+              </p>
+              <br />
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                THÔNG TIN LIÊN HỆ Công ty: NHÀ PHÂN PHỐI PHỤ TÙNG DẦU NHỚT PHÚC
+                LONG{" "}
+              </p>
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                Hotline/Zalo: [Số điện thoại]
+              </p>
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                Địa chỉ kho hàng: [Địa chỉ cụ thể]
+              </p>
+            </div>
             {/* Slider */}
             <div
               ref={sliderRef}
@@ -170,7 +252,7 @@ function About() {
               onMouseUp={handleMouseUp}
               onMouseMove={handleMouseMove}
             >
-              {sliderItems.map((item, idx) => (
+              {sliderItems?.map((item, idx) => (
                 <div
                   key={idx}
                   className={`min-w-[300px] max-w-[350px] flex-shrink-0 ${BgSlide} rounded-2xl p-4 flex flex-col items-center justify-center hover:scale-105 transition-transform`}

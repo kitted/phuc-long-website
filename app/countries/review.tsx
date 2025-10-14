@@ -58,7 +58,7 @@ export default function ReviewSection() {
         ref={scrollRef}
         className="flex gap-6 overflow-x-auto pb-2 scroll-smooth hide-scrollbar"
       >
-        {reviews.map((item, index) => (
+        {reviews?.map((item, index) => (
           <div
             key={index}
             className="min-w-[300px] max-w-[320px] bg-gradient-to-br from-white to-blue-50 p-6 rounded-xl shadow hover:shadow-lg transition duration-300 flex-shrink-0"

@@ -71,7 +71,7 @@ export default function InterestedPostsDetail() {
         Quan tâm
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {posts.map((post) => (
+        {posts?.map((post) => (
           <NewsCardDetail key={post.id} {...post} />
         ))}
       </div>

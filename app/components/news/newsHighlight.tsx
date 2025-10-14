@@ -100,7 +100,7 @@ export default function NewsHighlight() {
 
       {/* Small news */}
       <div className="flex flex-col gap-4">
-        {smallNews.map((item) => (
+        {smallNews?.map((item) => (
           <Link
             href={currentSlug ? `${currentSlug}/1` : `news/car/1`}
             key={item.id}

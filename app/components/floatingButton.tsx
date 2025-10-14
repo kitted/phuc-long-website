@@ -166,7 +166,7 @@ export default function FloatingAssistant() {
           {/* Sub buttons */}
           <AnimatePresence>
             {open &&
-              subButtons.map((b, i) => {
+              subButtons?.map((b, i) => {
                 const offset = getOffsets(i);
                 return (
                   <motion.a

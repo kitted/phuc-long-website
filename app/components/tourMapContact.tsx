@@ -50,7 +50,7 @@ export default function TourMapContact({ locations }: TourMapProps) {
     if (!mapRef.current || locations.length === 0) return;
 
     // Tạo marker từ danh sách locations
-    const features = locations.map((loc) => {
+    const features = locations?.map((loc) => {
       const feature = new Feature({
         geometry: new Point(fromLonLat([loc.lon, loc.lat])),
         name: loc.name,
@@ -69,7 +69,7 @@ export default function TourMapContact({ locations }: TourMapProps) {
     // Tạo tuyến đường nối các điểm
     const routeFeature = new Feature({
       geometry: new LineString(
-        locations.map((loc) => fromLonLat([loc.lon, loc.lat]))
+        locations?.map((loc) => fromLonLat([loc.lon, loc.lat]))
       ),
     });
     routeFeature.setStyle(
@@ -90,7 +90,7 @@ export default function TourMapContact({ locations }: TourMapProps) {
     });
 
     // Tính extent và buffer ra 10km (10,000 mét)
-    const coords = locations.map((loc) => fromLonLat([loc.lon, loc.lat]));
+    const coords = locations?.map((loc) => fromLonLat([loc.lon, loc.lat]));
     const extent = bufferExtent(boundingExtent(coords), 500);
 
     if (!mapInstance.current) {

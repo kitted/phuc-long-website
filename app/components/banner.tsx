@@ -116,7 +116,7 @@ const Banner: React.FC<BannerProps> = ({ imageUrls, interval = 5000 }) => {
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
       >
-        {imageUrls.map((url, idx) => (
+        {imageUrls?.map((url, idx) => (
           <div key={idx} className="w-full flex-shrink-0">
             <img
               src={url}
@@ -129,7 +129,7 @@ const Banner: React.FC<BannerProps> = ({ imageUrls, interval = 5000 }) => {
 
       {/* Navigation dots (bên trong ảnh) */}
       <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2 z-20 pointer-events-auto">
-        {imageUrls.map((_, idx) => (
+        {imageUrls?.map((_, idx) => (
           <button
             key={idx}
             className={`w-3 h-3 rounded-full transition border ${

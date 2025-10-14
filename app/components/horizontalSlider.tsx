@@ -93,7 +93,7 @@ const HorizontalSlider = () => {
       onMouseUp={handleMouseUp}
       onMouseMove={handleMouseMove}
     >
-      {items.map((item, idx) => (
+      {items?.map((item, idx) => (
         <div
           key={idx}
           className="min-w-[200px] max-w-[220px] flex-shrink-0 bg-neutral-900 rounded-2xl p-4 flex flex-col items-center justify-center"

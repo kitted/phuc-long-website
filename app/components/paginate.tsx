@@ -56,7 +56,7 @@ export default function Paginate({
       </button>
 
       {/* Page numbers */}
-      {pages.map((page) => (
+      {pages?.map((page) => (
         <button
           key={page}
           onClick={() => onPageChange(page)}

@@ -1,7 +1,7 @@
 "use client";
 
 import SubLayout from "../subLayout";
-import React from "react";
+import React, { useRef } from "react";
 import Footer from "../components/footer";
 import Banner from "../components/banner";
 import Marquee from "../components/marquee";
@@ -9,95 +9,32 @@ import ProductCardGrid from "../components/productCard";
 import ContentText from "../components/contentText";
 import Paginate from "../components/paginate";
 import Breadcrumbs from "../components/breadcrumbs";
+import { productsList } from "../data/listProducts";
+import { usePagination } from "../hook/usePagination";
 
 export default function Example() {
-  const products = [
-    {
-      title: "Nhớt xe máy A",
-      description: "Nhớt xe máy A",
-      image: "/lubrex/lubrex7.png",
-      label: "Nhớt xe máy A",
-    },
-    {
-      title: "Dầu Máy B",
-      description: "Dầu Máy B",
-      image: "/lubrex/lubrex8.png",
-      label: "Dầu Máy B",
-    },
-    {
-      title: "Dầu Máy B",
-      description: "Dầu Máy B",
-      image: "/lubrex/lubrex9.png",
-      label: "Dầu Máy B",
-    },
-    {
-      title: "Dầu Máy B",
-      description: "Dầu Máy B",
-      image: "/lubrex/lubrex10.png",
-      label: "Dầu Máy B",
-    },
-    {
-      title: "Dầu Máy B",
-      description: "Dầu Máy B",
-      image: "/lubrex/lubrex11.png",
-      label: "Dầu Máy B",
-    },
-    {
-      title: "Dầu Máy B",
-      description: "Dầu Máy B",
-      image: "/lubrex/lubrex12.png",
-      label: "Dầu Máy B",
-    },
-    {
-      title: "Dầu Máy B",
-      description: "Dầu Máy B",
-      image: "/lubrex/lubrex13.png",
-      label: "Dầu Máy B",
-    },
-    {
-      title: "Dầu Máy B",
-      description: "Dầu Máy B",
-      image: "/lubrex/lubrex14.png",
-      label: "Dầu Máy B",
-    },
-    {
-      title: "Dầu Máy B",
-      description: "Dầu Máy B",
-      image: "/lubrex/lubrex1.png",
-      label: "Dầu Máy B",
-    },
-    {
-      title: "Dầu Máy B",
-      description: "Dầu Máy B",
-      image: "/lubrex/lubrex2.png",
-      label: "Dầu Máy B",
-    },
-    {
-      title: "Dầu Máy B",
-      description: "Dầu Máy B",
-      image: "/lubrex/lubrex3.png",
-      label: "Dầu Máy B",
-    },
-    {
-      title: "Dầu Máy B",
-      description: "Dầu Máy B",
-      image: "/lubrex/lubrex4.png",
-      label: "Dầu Máy B",
-    },
-  ];
+  const gridRef = useRef<HTMLDivElement>(null);
+
+  const { currentPage, setCurrentPage, totalPages, currentData } =
+    usePagination(productsList, 9, gridRef);
+
   return (
     <>
       <SubLayout>
         <div className="pt-[65px] md:pt-[1px]">
-          <Banner imageUrls={["/banner/banner1.png", "/banner/banner2.png"]} />{" "}
+          <Banner imageUrls={["/banner/banner1.png", "/banner/banner2.png"]} />
           <Marquee />
           <Breadcrumbs />
           <ContentText overlayText={"Danh Sách Sản Phẩm"} />
-          <ProductCardGrid products={products} />
+
+          <div ref={gridRef}>
+            <ProductCardGrid products={currentData} />
+          </div>
+
           <Paginate
-            currentPage={1}
-            totalPages={5}
-            onPageChange={(page) => console.log("Go to page:", page)}
+            currentPage={currentPage}
+            totalPages={totalPages}
+            onPageChange={setCurrentPage}
           />
         </div>
       </SubLayout>

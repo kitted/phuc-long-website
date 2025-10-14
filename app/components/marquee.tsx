@@ -50,9 +50,9 @@ export default function Marquee() {
           className={`relative overflow-hidden ${containerBg} pt-1 md:pt-4 `}
         >
           <div className="flex w-max animate-marquee">
-            {[...Array(2)].map((_, i) => (
+            {[...Array(2)]?.map((_, i) => (
               <div key={i} className="flex gap-10 mr-10">
-                {items.map((text, idx) => (
+                {items?.map((text, idx) => (
                   <span
                     key={`${i}-${idx}`}
                     className={`${textColor} italic tracking-wider text-lg ${
@@ -68,12 +68,12 @@ export default function Marquee() {
         </div>
         <div className={`relative overflow-hidden ${containerBg}`}>
           <div className="flex w-max animate-marquee">
-            {[...Array(2)].map((_, i) => (
+            {[...Array(2)]?.map((_, i) => (
               <div key={i} className="flex gap-10 mr-10">
                 {items
                   .slice()
                   .reverse()
-                  .map((text, idx) => (
+                  ?.map((text, idx) => (
                     <span
                       key={`${i}-${idx}`}
                       className={`${textColor} italic tracking-wider text-lg ${

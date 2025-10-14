@@ -12,52 +12,9 @@ import PartnerSection from "../components/partner";
 import HorizontalSlider from "../components/horizontalSlider";
 import StoreSlider from "../components/storeSlider";
 import ContactForm from "../components/contact";
+import { productsList } from "../data/products";
 
 export default function Example() {
-  const products = [
-    {
-      title: "X-trem sports",
-      description:
-        "Go to the extreme with our X-trem range that is specifically formulated to grant race your car the power and speed you need to win the race.",
-      image: "/lubrex/lubrex1.png",
-      label: "LUBREX AUTOMOTIVE",
-    },
-    {
-      title: "X-trem sports",
-      description:
-        "Go to the extreme with our X-trem range that is specifically formulated to grant race your car the power and speed you need to win the race.",
-      image: "/lubrex/lubrex2.png",
-      label: "LUBREX X-TREM",
-    },
-    {
-      title: "X-trem sports",
-      description:
-        "Go to the extreme with our X-trem range that is specifically formulated to grant race your car the power and speed you need to win the race.",
-      image: "/lubrex/lubrex3.png",
-      label: "LUBREX GREASES",
-    },
-    {
-      title: "X-trem sports",
-      description:
-        "Go to the extreme with our X-trem range that is specifically formulated to grant race your car the power and speed you need to win the race.",
-      image: "/lubrex/lubrex4.png",
-      label: "LUBREX MARINE",
-    },
-    {
-      title: "X-trem sports",
-      description:
-        "Go to the extreme with our X-trem range that is specifically formulated to grant race your car the power and speed you need to win the race.",
-      image: "/lubrex/lubrex5.png",
-      label: "LUBREX INDUSTRIAL",
-    },
-    {
-      title: "X-trem sports",
-      description:
-        "Go to the extreme with our X-trem range that is specifically formulated to grant race your car the power and speed you need to win the race.",
-      image: "/lubrex/lubrex6.png",
-      label: "LUBREX SPECIALITIES",
-    },
-  ];
   return (
     <>
       <SubLayout>
@@ -69,7 +26,7 @@ export default function Example() {
           <Marquee />
 
           <ContentText overlayText={"UY TÍN TẠO NÊN THƯƠNG HIỆU"} />
-          <ProductCardGrid products={products} />
+          <ProductCardGrid products={productsList.slice(0, 6)} />
           <ContentText
             overlayText={
               "CHÚNG TÔI CHUYÊN KINH DOANH CÁC DÒNG SẢN PHẨM NHẬP KHẨU"

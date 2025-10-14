@@ -37,7 +37,7 @@ export default function NewsCategories() {
 
   return (
     <div className="flex flex-wrap justify-center gap-3">
-      {categories.map((cat) => {
+      {categories?.map((cat) => {
         const isActive = currentSlug === cat.slug;
 
         const activeClass = darkMode

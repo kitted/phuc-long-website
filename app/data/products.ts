@@ -1,0 +1,42 @@
+export const productsList = [
+  {
+    title: "Lubrex",
+    name: "lubrex",
+    description: "Nhớt xe máy",
+    image: "/lubrex/lubrex7.png",
+    label: "Nhớt xe máy",
+    id: 1,
+  },
+  {
+    title: "YMR",
+    name: "ymr",
+    description: "Nhông sên dĩa xe máy",
+    image: "/lubrex/lubrex7.png",
+    label: "Nhông sên dĩa xe máy",
+    id: 2,
+  },
+  {
+    title: "Max Plus",
+    description: "Nhớt xe máy Max Plus",
+    name: "max-plus",
+    image: "/lubrex/lubrex7.png",
+    label: "Nhớt xe máy Max Plus",
+    id: 3,
+  },
+  {
+    title: "Plus EX",
+    description: "Nhớt xe máy Plus EX",
+    name: "plus-ex",
+    image: "/lubrex/lubrex7.png",
+    label: "Nhớt xe máy Plus EX",
+    id: 4,
+  },
+  {
+    title: "Max Veloz",
+    description: "Nhớt xe máy Max Veloz",
+    name: "max-veloz",
+    image: "/lubrex/lubrex7.png",
+    label: "Nhớt xe máy Max Veloz",
+    id: 5,
+  },
+];

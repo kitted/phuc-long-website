@@ -93,7 +93,7 @@ export const Navigation: React.FC = () => {
 
           {/* Desktop */}
           <div className="hidden md:flex items-center" style={{ gap: "11px" }}>
-            {navigation.map((item, i) => {
+            {navigation?.map((item, i) => {
               const isActive =
                 pathName === item.href || pathName.startsWith(item.href + "/");
               return (
@@ -146,7 +146,7 @@ export const Navigation: React.FC = () => {
               className={`absolute top-[90px] left-0 w-full border-t border-b backdrop-blur-md ${getNavBg()} flex flex-col items-center py-3 space-y-3`}
               onClick={(e) => e.stopPropagation()} // chặn click bên trong menu
             >
-              {navigation.map((item, i) => {
+              {navigation?.map((item, i) => {
                 const isActive =
                   pathName === item.href ||
                   pathName.startsWith(item.href + "/");
