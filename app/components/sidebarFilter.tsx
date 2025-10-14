@@ -27,7 +27,6 @@ export default function SidebarFilter({
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
-  // 🌙 Theme sync
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
     setDarkMode(storedTheme === "dark");
@@ -39,7 +38,6 @@ export default function SidebarFilter({
     return () => window.removeEventListener("themeChange", handleThemeChange);
   }, []);
 
-  // 🔁 Đồng bộ highlight theo URL
   useEffect(() => {
     const pathParts = pathname.split("/").filter(Boolean);
     const categorySlug = pathParts[1];
@@ -50,22 +48,28 @@ export default function SidebarFilter({
     }
   }, [pathname, searchParams]);
 
-  // 📂 Toggle category
   const handleToggle = (category: string) => {
     setOpenCategory(openCategory === category ? null : category);
   };
 
-  // 🖱 Click sub item
   const handleSelect = (cat: any, sub: any) => {
+    if (selected?.category === cat.url && selected?.sub === sub.url) {
+      setSelected({ category: cat.url, sub: "" });
+
+      const newUrl = `/product/${cat.url}`;
+      router.push(newUrl, { scroll: false });
+
+      onFilter?.(cat.name, "");
+      return;
+    }
+
     setSelected({ category: cat.url, sub: sub.url });
     const newUrl = `/product/${cat.url}?sub=${encodeURIComponent(sub.url)}`;
     const pathParts = pathname.split("/").filter(Boolean);
 
-    // Nếu đang ở trang detail (3 segment: ["product", "nhot-dong-co", "xxx"])
     if (pathParts.length > 2) {
-      router.push(newUrl); // sang category page
+      router.push(newUrl);
     } else {
-      // Nếu đang ở category page → chỉ đổi query và gọi filter
       router.push(newUrl, { scroll: false });
       onFilter?.(cat.name, sub.name);
     }
@@ -79,7 +83,6 @@ export default function SidebarFilter({
     <aside
       className={`w-full ${textColor} p-4 space-y-4 ${containerBg} rounded-lg`}
     >
-      {/* 🔍 Search */}
       <div className="w-full">
         <input
           type="text"
@@ -96,7 +99,6 @@ export default function SidebarFilter({
         />
       </div>
 
-      {/* 🗂 Categories */}
       <div className="space-y-2">
         {categories.map((cat: any) => {
           const isCategorySelected = selected?.category === cat.url;

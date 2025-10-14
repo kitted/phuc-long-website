@@ -18,12 +18,12 @@ const ITEMS_PER_PAGE = 15;
 export default function Category() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const subSlug = searchParams.get("sub");
   const currentSlug = pathname.split("/").pop();
 
   const [filteredProducts, setFilteredProducts] = useState<any[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [darkMode, setDarkMode] = useState(false);
+  const [categories, setCategories] = useState<any[]>(productsList);
 
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
@@ -34,7 +34,6 @@ export default function Category() {
     return () => window.removeEventListener("themeChange", handleThemeChange);
   }, []);
 
-  // 🔁 Tự động filter theo URL
   useEffect(() => {
     const pathParts = pathname.split("/").filter(Boolean);
     const categorySlug = pathParts[1];
@@ -59,7 +58,6 @@ export default function Category() {
     setCurrentPage(1);
   }, [pathname, searchParams]);
 
-  // 🔍 Search handler
   const handleSearch = (keyword: string) => {
     const lowerKeyword = keyword.toLowerCase();
     const allProducts = productsList.flatMap((c) => c.products);
@@ -73,7 +71,6 @@ export default function Category() {
     setCurrentPage(1);
   };
 
-  // 🧩 Filter handler (click sub)
   const handleFilter = (category: string, sub: string) => {
     const cat = productsList.find((c) => c.title === category);
     if (cat) {
@@ -103,14 +100,28 @@ export default function Category() {
   const containerBg = darkMode ? "bg-black" : "bg-white";
   const containerBg2 = darkMode ? "bg-[#161616]" : "bg-[#F2F2F2]";
 
+  const currentCategory = useMemo(() => {
+    return categories.find((c) => c.url === currentSlug);
+  }, [categories, currentSlug]);
+
+  const [pageTitle, setPageTitle] = useState("Sản phẩm Lubrex");
+  useEffect(() => {
+    if (currentCategory) {
+      setPageTitle(currentCategory.title);
+    } else {
+      setPageTitle("Sản phẩm Lubrex");
+    }
+  }, [currentCategory]);
+
   return (
     <>
       <SubLayout>
-        <div className="pt-[65px] md:pt-[1px]">
-          <Banner imageUrls={["/banner/banner1.png", "/banner/banner2.png"]} />
+        <div className="pt-[85px] md:pt-[1px]">
+          {/* <Banner imageUrls={["/banner/banner1.png", "/banner/banner2.png"]} /> */}
+
           <Marquee />
           <Breadcrumbs />
-          <ContentText overlayText="Sản phẩm Lubrex" />
+          <ContentText overlayText={pageTitle} />
 
           <div
             className={`flex flex-col md:flex-row gap-4 px-[2%] py-[2%] ${containerBg}`}

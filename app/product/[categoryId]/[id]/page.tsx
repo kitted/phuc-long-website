@@ -55,8 +55,8 @@ export default function ProductDetailPage() {
   return (
     <>
       <SubLayout>
-        <div className="pt-[65px] md:pt-[1px]">
-          <Banner imageUrls={["/banner/banner1.png", "/banner/banner2.png"]} />
+        <div className="pt-[85px] md:pt-[1px]">
+          {/* <Banner imageUrls={["/banner/banner1.png", "/banner/banner2.png"]} /> */}
           <Marquee />
           <div className={`${containerBg} w-full flex justify-center py-1`}>
             <Breadcrumbs />
