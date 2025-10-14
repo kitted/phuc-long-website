@@ -30,8 +30,8 @@ const ContentText: React.FC<Props> = ({ overlayText }) => {
       {overlayText && (
         <div className="bottom-0 w-full flex justify-center py-10 sm:py-1 md:py-10 lg:py-10">
           <h1
-            className={`${textColor} italic font-black text-[20px] lg:text-[60px] md:text-[40px] sm:text-[25px] text-center px-4`}
-            style={{ fontFamily: "Archivo, sans-serif", letterSpacing: "2%" }}
+            className={`${textColor}   font-black text-[20px] lg:text-[60px] md:text-[40px] sm:text-[25px] text-center px-4`}
+            style={{ fontFamily: " sans-serif", letterSpacing: "2%" }}
           >
             {overlayText}
           </h1>

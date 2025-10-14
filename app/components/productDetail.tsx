@@ -72,7 +72,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
           {product.title && (
             <h1
               className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold text-yellow-400 uppercase"
-              style={{ fontFamily: "Archivo, sans-serif" }}
+              style={{ fontFamily: " sans-serif" }}
             >
               {product.title}
               <p className="text-sm font-extrabold text-red-800 uppercase mb-6">

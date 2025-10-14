@@ -84,19 +84,38 @@ export default function SidebarFilter({
       className={`w-full ${textColor} p-4 space-y-4 ${containerBg} rounded-lg`}
     >
       <div className="w-full">
-        <input
-          type="text"
-          placeholder="Tìm kiếm..."
-          value={search}
-          onChange={(e) => {
-            setSearch(e.target.value);
-            onSearch(e.target.value);
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            const keyword = search.trim();
+            if (!keyword) return;
+
+            const pathParts = pathname.split("/").filter(Boolean);
+            const categorySlug = pathParts[1] || "all";
+
+            // ✅ Điều hướng sang category tương ứng
+            router.push(
+              `/product/${categorySlug}?search=${encodeURIComponent(keyword)}`
+            );
+
+            // ✅ Gọi onSearch để update UI ngay lập tức (optional)
+            onSearch(keyword);
           }}
-          className={`w-full h-[40px] rounded-[12px] px-4 text-sm ${textColor}
-            border border-white/30 placeholder-white/60 focus:outline-none
-            backdrop-blur-md [background:linear-gradient(90deg,rgba(11,70,118,0.25)_0%,rgba(21,13,255,0.25)_100%)]
-          `}
-        />
+        >
+          <input
+            type="text"
+            placeholder="Tìm kiếm..."
+            value={search}
+            onChange={(e) => {
+              setSearch(e.target.value);
+              onSearch(e.target.value); // lọc realtime
+            }}
+            className={`w-full h-[40px] rounded-[12px] px-4 text-sm ${textColor}
+      border border-white/30 placeholder-white/60 focus:outline-none
+      backdrop-blur-md [background:linear-gradient(90deg,rgba(11,70,118,0.25)_0%,rgba(21,13,255,0.25)_100%)]
+    `}
+          />
+        </form>
       </div>
 
       <div className="space-y-2">
