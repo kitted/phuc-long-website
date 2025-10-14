@@ -11,7 +11,7 @@ import SidebarFilter from "@/app/components/sidebarFilter";
 import SubLayout from "@/app/subLayout";
 import React, { useEffect, useMemo, useState } from "react";
 import { productsList } from "../../data/listProducts";
-import { usePathname } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 
 interface Product {
   id: number;
@@ -47,6 +47,9 @@ export default function Example() {
   const [darkMode, setDarkMode] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
 
+  const searchParams = useSearchParams();
+  const subSlug = searchParams.get("sub");
+
   // 🟢 Load dữ liệu ban đầu
   useEffect(() => {
     if (productsList && productsList.length > 0) {
@@ -57,23 +60,29 @@ export default function Example() {
     }
   }, []);
 
-  // 🟣 Lọc theo URL category (tự động khi đổi slug)
   useEffect(() => {
     if (!currentSlug || categories.length === 0) return;
 
     const currentCategory = categories.find((c) => c.url === currentSlug);
+    const subSlug = searchParams.get("sub");
 
-    if (currentCategory) {
-      // ✅ Nếu URL trùng category.url → chỉ hiển thị sản phẩm của category đó
+    if (subSlug && currentCategory) {
+      // lọc theo sub item
+      const filtered = currentCategory.products.filter(
+        (p) =>
+          p.url.endsWith(subSlug) ||
+          p.name.toLowerCase().includes(subSlug.toLowerCase())
+      );
+      setFilteredProducts(filtered);
+    } else if (currentCategory) {
       setFilteredProducts(currentCategory.products);
     } else {
-      // ❌ Nếu không trùng category nào → hiển thị toàn bộ sản phẩm
-      const allProducts = categories.flatMap((cat) => cat.products);
+      const allProducts = categories.flatMap((c) => c.products);
       setFilteredProducts(allProducts);
     }
 
     setCurrentPage(1);
-  }, [currentSlug, categories]);
+  }, [currentSlug, searchParams, categories]);
 
   // 🔍 Search handler
   const handleSearch = (keyword: string) => {
@@ -119,10 +128,42 @@ export default function Example() {
   const containerBg = darkMode ? "bg-black" : "bg-white";
   const containerBg2 = darkMode ? "bg-[#161616]" : "bg-[#F2F2F2]";
 
+  useEffect(() => {
+    const pathParts = pathname.split("/").filter(Boolean);
+    const categorySlug = pathParts[1];
+    const subSlug = pathParts[2];
+
+    // 🔹 Nếu có cả category và product
+    if (categorySlug && subSlug) {
+      const category = productsList.find((c) => c.url === categorySlug);
+      const subProduct = category?.products.find(
+        (p) => p.url === `${categorySlug}/${subSlug}`
+      );
+      if (subProduct) setFilteredProducts([subProduct]);
+    }
+    // 🔹 Nếu chỉ có category
+    else if (categorySlug) {
+      const category = productsList.find((c) => c.url === categorySlug);
+      if (category) setFilteredProducts(category.products);
+    } else {
+      // Nếu không có slug → hiển thị tất cả
+      const all = productsList.flatMap((c) => c.products);
+      setFilteredProducts(all);
+    }
+  }, [pathname]);
+
   // 📂 Chuẩn hoá categories để SidebarFilter hiểu
-  const sidebarCategories = categories?.map((c) => ({
-    name: c.title,
-    subcategories: c.products?.map((p) => p.name),
+  // const sidebarCategories = categories?.map((c) => ({
+  //   name: c.title,
+  //   subcategories: c.products?.map((p) => p.name),
+  // }));
+  const sidebarCategories = productsList.map((category) => ({
+    name: category.title,
+    url: category.url,
+    subcategories: category.products.map((p) => ({
+      name: p.name,
+      url: p.url, // ví dụ: "dau-nhon/mco-max-veloz-10w40-sn-1-lit"
+    })),
   }));
 
   // 📄 Pagination logic
@@ -134,12 +175,21 @@ export default function Example() {
   );
 
   // 🏷️ Lấy category hiện tại
-  const currentCategory = useMemo(
-    () => categories.find((c) => c.url === currentSlug),
-    [categories, currentSlug]
-  );
-  const pageTitle = currentCategory?.title || "Sản phẩm Lubrex";
+  const currentCategory = useMemo(() => {
+    return categories.find((c) => c.url === currentSlug);
+  }, [categories, currentSlug]);
 
+  // 🏷️ Tiêu đề trang
+  const [pageTitle, setPageTitle] = useState("Sản phẩm Lubrex");
+
+  // 🟢 Cập nhật title mỗi khi URL đổi
+  useEffect(() => {
+    if (currentCategory) {
+      setPageTitle(currentCategory.title);
+    } else {
+      setPageTitle("Sản phẩm Lubrex");
+    }
+  }, [currentCategory]);
   return (
     <>
       <SubLayout>
