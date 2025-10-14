@@ -27,7 +27,7 @@ export default function SidebarFilter({
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
-  // 🌙 Theme
+  // 🌙 Theme sync
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
     setDarkMode(storedTheme === "dark");
@@ -39,12 +39,11 @@ export default function SidebarFilter({
     return () => window.removeEventListener("themeChange", handleThemeChange);
   }, []);
 
-  // 🟢 Đồng bộ highlight theo URL
+  // 🔁 Đồng bộ highlight theo URL
   useEffect(() => {
-    const pathParts = pathname.split("/").filter(Boolean); // ["product", "dau-nhon"]
+    const pathParts = pathname.split("/").filter(Boolean);
     const categorySlug = pathParts[1];
     const subSlug = searchParams.get("sub") || "";
-
     if (categorySlug) {
       setSelected({ category: categorySlug, sub: subSlug });
       setOpenCategory(categorySlug);
@@ -56,17 +55,22 @@ export default function SidebarFilter({
     setOpenCategory(openCategory === category ? null : category);
   };
 
-  // 🖱 Click sub item → chỉ đổi query, không reload
+  // 🖱 Click sub item
   const handleSelect = (cat: any, sub: any) => {
     setSelected({ category: cat.url, sub: sub.url });
-    onFilter?.(cat.name, sub.name);
-
-    // ✅ Giữ nguyên category trên URL, chỉ đổi query "sub"
     const newUrl = `/product/${cat.url}?sub=${encodeURIComponent(sub.url)}`;
-    router.push(newUrl, { scroll: false });
+    const pathParts = pathname.split("/").filter(Boolean);
+
+    // Nếu đang ở trang detail (3 segment: ["product", "nhot-dong-co", "xxx"])
+    if (pathParts.length > 2) {
+      router.push(newUrl); // sang category page
+    } else {
+      // Nếu đang ở category page → chỉ đổi query và gọi filter
+      router.push(newUrl, { scroll: false });
+      onFilter?.(cat.name, sub.name);
+    }
   };
 
-  // 🎨 UI
   const containerBg = darkMode ? "bg-[#161616]" : "bg-[#F2F2F2]";
   const containerBg2 = darkMode ? "bg-[#393838]" : "bg-[#DFDEDE]";
   const textColor = darkMode ? "text-white" : "text-black";
@@ -120,7 +124,6 @@ export default function SidebarFilter({
                 )}
               </button>
 
-              {/* Subcategories */}
               {openCategory === cat.url && (
                 <div>
                   {cat.subcategories.map((sub: any, i: number) => {
