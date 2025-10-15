@@ -12,19 +12,15 @@ import PartnerSection from "../components/partner";
 import HorizontalSlider from "../components/horizontalSlider";
 import StoreSlider from "../components/storeSlider";
 import ContactForm from "../components/contact";
-import { productsList } from "../data/products";
+import { productsList } from "../data/listProducts";
 
 export default function Example() {
   return (
     <>
       <SubLayout>
         <div className="pt-[65px] md:pt-[1px]">
-          <Banner
-            imageUrls={["/banner/banner1.png", "/banner/banner2.png"]}
-            // overlayText={"UY TÍN TẠO NÊN THƯƠNG HIỆU"}
-          />
+          <Banner imageUrls={["/banner/banner1.png", "/banner/banner2.png"]} />
           <Marquee />
-
           <ContentText overlayText={"UY TÍN TẠO NÊN THƯƠNG HIỆU"} />
           <ProductCardGrid products={productsList.slice(0, 6)} />
           <ContentText

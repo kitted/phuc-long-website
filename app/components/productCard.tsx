@@ -32,28 +32,35 @@ export default function ProductCardGrid({ products }: any) {
           key={idx}
           className={`${cardBg} ${textColor} rounded-2xl overflow-hidden shadow-lg flex flex-col w-auto h-[376px] sm:w-auto sm:h-auto`}
         >
-          {/* Image */}
-          <div className="relative w-full h-[265px] overflow-hidden rounded-t-2xl">
-            <img
-              src={product.image}
-              alt={product.title}
-              className="w-full h-full object-cover"
-            />
-          </div>
+          <Link
+            href={`/product/${product.url}` || product.url || "/product/abc"}
+            className={`mt-3 inline-block text-sm font-medium ${textColor} hover:underline`}
+          >
+            {/* Image */}
+            <div className="relative w-full h-[265px] overflow-hidden rounded-t-2xl">
+              <img
+                src={product.image}
+                alt={product.title}
+                className="w-full h-full object-cover"
+              />
+            </div>
 
-          {/* Content */}
-          <div className={`p-4 flex flex-col flex-1 ${cardBg}`}>
-            <h3 className="font-semibold text-lg">{product.title}</h3>
-            <p className={`text-sm ${textColor} mt-2 flex-1`}>
-              {product.description}
-            </p>
-            <Link
-              href={`/product/${product.url}` || product.url || "/product/abc"}
-              className={`mt-3 inline-block text-sm font-medium ${textColor} hover:underline`}
-            >
-              {`View ${product.name || "Product"} `} &gt;
-            </Link>
-          </div>
+            {/* Content */}
+            <div className={`p-4 flex flex-col flex-1 ${cardBg}`}>
+              <h3 className="font-semibold text-lg">{product.title}</h3>
+              <p className={`text-sm ${textColor} mt-2 flex-1`}>
+                {product.description}
+              </p>
+              <Link
+                href={
+                  `/product/${product.url}` || product.url || "/product/abc"
+                }
+                className={`mt-3 inline-block text-sm font-medium ${textColor} hover:underline`}
+              >
+                {`View ${product.name || "Product"} `} &gt;
+              </Link>
+            </div>
+          </Link>
         </div>
       ))}
     </div>
