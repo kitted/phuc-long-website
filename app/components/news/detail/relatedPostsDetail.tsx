@@ -1,35 +1,22 @@
 "use client";
+
 import React, { useEffect, useState } from "react";
-import NewsCardDetail from "./newsCardDetail";
+import Link from "next/link";
+import Image from "next/image";
+import { news } from "@/app/data/news";
+import { slugify } from "@/app/lib/slugify";
 
-const posts = [
-  {
-    id: 1,
-    title: "Bán ôtô tiền tỷ trên TikTok Shop – nền tảng nói không cho phép",
-    desc: "Các đại lý gắn sản phẩm ôtô trên TikTok Shop gây tranh cãi quy định của nền tảng.",
-    date: "28/09/2025",
-    img: "/news/news1.png",
-    href: "/news/car/1",
-  },
-  {
-    id: 2,
-    title: "Xe điện VinFast bùng nổ doanh số, vượt cả ô tô truyền thống",
-    desc: "Người Việt ngày càng chọn xe điện nhiều hơn trong quý 3.",
-    date: "28/09/2025",
-    img: "/news/news2.png",
-    href: "/news/electric/2",
-  },
-  {
-    id: 3,
-    title: "Toyota ra mắt công nghệ pin mới, sạc đầy trong 10 phút",
-    desc: "Hứa hẹn tạo cú hích lớn trên thị trường xe điện toàn cầu.",
-    date: "28/09/2025",
-    img: "/news/news3.png",
-    href: "/news/electric/3",
-  },
-];
+type RelatedPostsDetailProps = {
+  relatedNews?: any[];
+  currentSlug?: string;
+  currentType?: string[];
+};
 
-export default function RelatedPostsDetail() {
+export default function RelatedPostsDetail({
+  relatedNews,
+  currentSlug,
+  currentType,
+}: RelatedPostsDetailProps) {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
@@ -46,14 +33,51 @@ export default function RelatedPostsDetail() {
   }, []);
 
   const textColor = darkMode ? "text-white" : "text-black";
+  const subTextColor = darkMode ? "text-gray-400" : "text-gray-700";
+
+  // ✅ Nếu không truyền `relatedNews`, tự lọc từ `news`
+  const posts =
+    relatedNews?.length && relatedNews.length > 0
+      ? relatedNews
+      : news
+          .filter(
+            (item) =>
+              item.type.some((t) => currentType?.includes(t)) &&
+              slugify(item.title) !== currentSlug
+          )
+          .slice(0, 3);
+
+  if (!posts.length) return null;
+
   return (
     <section className="my-8">
       <h2 className={`text-lg md:text-xl font-semibold mb-4 ${textColor}`}>
         Bài viết liên quan
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {posts?.map((post) => (
-          <NewsCardDetail key={post.id} {...post} />
+        {posts.map((post) => (
+          <Link
+            key={post.id}
+            href={`/news/${slugify(post.title)}`}
+            className="group block border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden hover:shadow-lg transition"
+          >
+            <div className="relative w-full h-44">
+              <Image
+                src={post.banner.image}
+                alt={post.title}
+                fill
+                className="object-cover group-hover:scale-105 transition-transform"
+              />
+            </div>
+            <div className="p-3">
+              <h3
+                className={`text-sm md:text-base font-semibold line-clamp-2 group-hover:underline ${textColor}`}
+              >
+                {post.title}
+              </h3>
+              <p className={`text-xs mt-2 ${subTextColor}`}>{post.time}</p>
+            </div>
+          </Link>
         ))}
       </div>
     </section>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { shortenSlug } from "@/app/lib/slugify";
 
 interface NewsHeaderDetailProps {
   title: string;
@@ -51,7 +52,9 @@ export default function NewsHeaderDetail({
               <li key={idx} className="flex items-center gap-1">
                 <span>&gt;</span>
                 {isLast ? (
-                  <span className="text-gray-500 capitalize">{seg}</span>
+                  <span className="text-gray-500 capitalize">
+                    {shortenSlug(seg)}
+                  </span>
                 ) : (
                   <Link href={href} className="hover:underline capitalize">
                     {seg}

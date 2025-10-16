@@ -1,53 +1,18 @@
 "use client";
+
 import React, { useEffect, useState } from "react";
-import NewsCardDetail from "./newsCardDetail";
+import Link from "next/link";
+import Image from "next/image";
+import { news } from "@/app/data/news";
+import { slugify } from "@/app/lib/slugify";
 
-const posts = [
-  {
-    id: 1,
-    title: "Bán ôtô tiền tỷ trên TikTok Shop – nền tảng nói không cho phép",
-    date: "28/09/2025",
-    img: "/news/news1.png",
-    href: "/news/car/1",
-  },
-  {
-    id: 2,
-    title: "Honda công bố kế hoạch ra mắt xe máy điện tại Việt Nam",
-    date: "28/09/2025",
-    img: "/news/news2.png",
-    href: "/news/motorbike/2",
-  },
-  {
-    id: 3,
-    title: "Người trẻ Việt chuộng độ xe cá tính hơn bao giờ hết",
-    date: "28/09/2025",
-    img: "/news/news3.png",
-    href: "/news/modified/3",
-  },
-  {
-    id: 4,
-    title: "Mercedes EQS 2025 ra mắt, chuẩn bị cạnh tranh Tesla",
-    date: "28/09/2025",
-    img: "/news/news4.png",
-    href: "/news/electric/4",
-  },
-  {
-    id: 5,
-    title: "Thị trường ô tô cũ sôi động trở lại cuối năm",
-    date: "28/09/2025",
-    img: "/news/news1.png",
-    href: "/news/car/5",
-  },
-  {
-    id: 6,
-    title: "Review VinFast VF9 sau 10.000km sử dụng",
-    date: "28/09/2025",
-    img: "/news/news2.png",
-    href: "/news/review/6",
-  },
-];
+type InterestedPostsDetailProps = {
+  currentSlug?: string;
+};
 
-export default function InterestedPostsDetail() {
+export default function InterestedPostsDetail({
+  currentSlug,
+}: InterestedPostsDetailProps) {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
@@ -63,16 +28,45 @@ export default function InterestedPostsDetail() {
     return () => window.removeEventListener("themeChange", handleThemeChange);
   }, []);
 
-  const containerBg = darkMode ? "bg-black" : "bg-white";
   const textColor = darkMode ? "text-white" : "text-black";
+  const subTextColor = darkMode ? "text-gray-400" : "text-gray-700";
+
+  // ✅ Lọc bỏ bài hiện tại
+  const posts = news
+    .filter((n) => slugify(n.title) !== currentSlug)
+    .slice(0, 6);
+
+  if (!posts.length) return null;
+
   return (
     <section className="my-8">
       <h2 className={`text-lg md:text-xl font-semibold mb-4 ${textColor}`}>
-        Quan tâm
+        Có thể bạn quan tâm
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {posts?.map((post) => (
-          <NewsCardDetail key={post.id} {...post} />
+        {posts.map((post) => (
+          <Link
+            key={post.id}
+            href={`/news/${slugify(post.title)}`}
+            className="group block border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden hover:shadow-lg transition"
+          >
+            <div className="relative w-full h-44">
+              <Image
+                src={post.banner.image}
+                alt={post.title}
+                fill
+                className="object-cover group-hover:scale-105 transition-transform"
+              />
+            </div>
+            <div className="p-3">
+              <h3
+                className={`text-sm md:text-base font-semibold line-clamp-2 group-hover:underline ${textColor}`}
+              >
+                {post.title}
+              </h3>
+              <p className={`text-xs mt-2 ${subTextColor}`}>{post.time}</p>
+            </div>
+          </Link>
         ))}
       </div>
     </section>
