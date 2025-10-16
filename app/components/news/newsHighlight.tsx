@@ -7,7 +7,7 @@ import { NewsType } from "@/app/news/type";
 import { slugify } from "@/app/lib/slugify";
 
 type Props = {
-  data: NewsType[];
+  data: NewsType[] | any;
   darkMode: boolean;
 };
 
@@ -51,7 +51,7 @@ export default function NewsHighlight({ data, darkMode }: Props) {
 
       {/* 🔹 5 bài còn lại */}
       <div className="flex flex-col gap-4">
-        {rest.slice(0, 5).map((item) => (
+        {rest?.slice(0, 5)?.map((item: any) => (
           <Link
             href={`/news/${slugify(item.title)}`}
             key={item.id}

@@ -4,7 +4,7 @@ import NewsItem from "./newsItem";
 import { NewsType } from "@/app/news/type";
 
 type Props = {
-  data: NewsType[];
+  data: NewsType[] | any;
 };
 
 export default function NewsList({ data }: Props) {
@@ -16,7 +16,7 @@ export default function NewsList({ data }: Props) {
 
   return (
     <div className="flex flex-col gap-6">
-      {data.map((item) => (
+      {data.map((item: any) => (
         <NewsItem
           key={item.id}
           title={item.title}
