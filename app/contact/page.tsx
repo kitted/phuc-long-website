@@ -98,8 +98,12 @@ export default function Example() {
                 >
                   <div className={`flex gap-2 items-center ${textColor}`}>
                     <PhoneCall size={20} />
-                    <a className="text-base underline" href="tel:+04xxxxxxxxx">
-                      09xxxxxxxxx
+                    <a className="text-base underline" href="0939449861">
+                      0939449861
+                    </a>
+                    &
+                    <a className="text-base underline" href="0939449861">
+                      0939449861
                     </a>
                   </div>
                   <div className={`flex gap-2 items-center ${textColor}`}>
@@ -116,15 +120,16 @@ export default function Example() {
                     <a
                       className="text-base underline"
                       target="_blank"
-                      href="https://www.facebook.com/phuclong/"
+                      href="https://www.facebook.com/daunhotphutungPHUCLONG"
                     >
-                      @phuclong
+                      fb/@phuclong
                     </a>
                   </div>
                   <div className={`flex gap-2 items-start ${textColor}`}>
                     <MapPin className="w-6 h-6 flex-shrink-0 mt-1" />
                     <span className="text-base underline">
-                      h1/19, Lê Hồng Phong, Bình Thuỷ, TPCT
+                      Số B1 hẻm 19, đường Lê Hồng Phong, Khu vực 2, Phường Bình
+                      Thủy, quận Bình Thủy, TP Cần Thơ
                     </span>
                   </div>
                 </div>

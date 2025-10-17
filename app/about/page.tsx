@@ -5,6 +5,7 @@ import SubLayout from "../subLayout";
 import Image from "next/image";
 import Footer from "../components/footer";
 import Head from "next/head";
+import { Link } from "lucide-react";
 
 const sliderItems = [
   { image: "/slide/slide1.png", title: "Max Plus" },
@@ -125,7 +126,7 @@ function About() {
             </div>
 
             {/* Nội dung */}
-            <div className="text-left">
+            {/* <div className="text-left">
               <p
                 className={`mt-0 text-center leading-8 ${textColor} max-w-[900px]`}
               >
@@ -241,6 +242,130 @@ function About() {
               </p>
               <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
                 Địa chỉ kho hàng: [Địa chỉ cụ thể]
+              </p>
+            </div> */}
+            <div className="text-left">
+              {/* <p
+                className={`mt-0 text-center leading-8 ${textColor} max-w-[900px]`}
+              >
+                GIỚI THIỆU VỀ NHÀ PHÂN PHỐI PHỤ TÙNG DẦU NHỚT PHÚC LONG{" "}
+              </p> */}
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                Đối tác tin cậy của các tiệm sửa xe và đại lý phụ tùng tại miền
+                Tây - Với hơn 10 năm kinh nghiệm trong lĩnh vực phân phối dầu
+                nhớt và phụ tùng , NHÀ PHÂN PHỐI PHỤ TÙNG DẦU NHỚT PHÚC LONG tự
+                hào là đơn vị cung cấp đáng tin cậy cho hàng trăm đại lý và tiệm
+                sửa xe tại Cần Thơ, Hậu Giang, Vĩnh Long và Đồng Tháp. Chúng tôi
+                không chỉ mang đến sản phẩm chất lượng – giá cả hợp lý – giao
+                hàng nhanh chóng, mà còn luôn đồng hành cùng khách hàng trong
+                suốt quá trình kinh doanh.
+              </p>
+              <br />
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                TẦM NHÌN - Trở thành nhà phân phối dầu nhớt và phụ tùng xe máy
+                hàng đầu khu vực miền Tây, xây dựng thương hiệu PHÚC LONG gắn
+                liền với uy tín, chất lượng và sự tận tâm phục vụ.{" "}
+              </p>
+              <br />
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                SỨ MỆNH - Phân phối sản phẩm chính hãng, chất lượng cao, nguồn
+                gốc rõ ràng. Cung cấp giải pháp kinh doanh hiệu quả cho tiệm sửa
+                xe và đại lý phụ tùng. Góp phần nâng cao chất lượng dịch vụ và
+                niềm tin của người tiêu dùng Việt Nam.
+              </p>
+              <br />
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                GIÁ TRỊ CỐT LÕI: Uy tín là nền tảng của mọi hợp tác lâu dài. Tận
+                tâm luôn đặt lợi ích của khách hàng lên hàng đầu. Chuyên nghiệp
+                làm việc có quy trình, chuẩn mực và cam kết. Hợp tác cùng phát
+                triển cùng khách hàng xây dựng thị trường bền vững.{" "}
+              </p>
+              <br />
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                SẢN PHẨM & DỊCH VỤ CHÍNH: Dầu nhớt Plus EX – Công nghệ tiên
+                tiến, bảo vệ động cơ tối đa. Phụ tùng xe máy chất lượng cao:
+                Nhông sên dĩa, lốp xe, vòng bi, bố thắng, dây ga – dây thắng,
+                linh kiện điện,…{" "}
+              </p>
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                Hỗ trợ công nợ linh hoạt 30–60 ngày, giúp khách hàng chủ động
+                dòng tiền. Dịch vụ giao hàng tận nơi – tư vấn kỹ thuật – hỗ trợ
+                bán hàng.
+              </p>
+              <br />
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                CAM KẾT PHÚC LONG: “Phúc Long cam kết mang đến cho khách hàng
+                sản phẩm thật – giá trị thật – niềm tin thật.”{" "}
+              </p>
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                Chúng tôi hiểu rằng, thành công của khách hàng chính là thước đo
+                lớn nhất cho sự phát triển của doanh nghiệp. Vì vậy, mỗi đơn
+                hàng, mỗi cuộc gọi và mỗi lần giao tiếp đều được chúng tôi thực
+                hiện với trách nhiệm, sự tận tâm và tinh thần phục vụ chuyên
+                nghiệp.
+              </p>
+              <br />
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                KHU VỰC PHỤC VỤ Hiện tại: PHÚC LONG đang phát triển mạnh tại:
+                Cần Thơ – Hậu Giang – Vĩnh Long – Đồng Tháp, và định hướng mở
+                rộng hệ thống phân phối đến toàn bộ khu vực Đồng bằng sông Cửu
+                Long trong thời gian tới.{" "}
+              </p>
+              <br />
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                THÔNG TIN LIÊN HỆ Công ty: NHÀ PHÂN PHỐI PHỤ TÙNG DẦU NHỚT PHÚC
+                LONG{" "}
+              </p>
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                Zalo:{" "}
+                <a
+                  href="https://zalo.me/3648225468408384638"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:underline"
+                >
+                  https://zalo.me/officalPHUCLONG
+                </a>
+              </p>
+              <div className={`flex gap-2 items-center ${textColor}`}>
+                <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                  Facebook:
+                </p>
+                <a
+                  className="text-blue-500 hover:underline"
+                  target="_blank"
+                  href="https://www.facebook.com/daunhotphutungPHUCLONG"
+                >
+                  fb/@phuclong
+                </a>
+              </div>
+              <div className={`flex gap-2 items-center ${textColor}`}>
+                <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                  Hotline:
+                </p>
+                <a className="text-blue-500 hover:underline" href="0939449861">
+                  0939449861
+                </a>
+                &
+                <a className="text-blue-500 hover:underline" href="0939449861">
+                  0939449861
+                </a>
+              </div>
+              <div className={`flex gap-2 items-center ${textColor}`}>
+                <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                  Gmail:
+                </p>
+                <a
+                  href="mailto:phuclong@gmail.com"
+                  className="text-blue-500 hover:underline"
+                >
+                  phuclong@gmail.com
+                </a>
+              </div>
+
+              <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
+                Địa chỉ kho hàng: Số B1 hẻm 19, đường Lê Hồng Phong, Khu vực 2,
+                Phường Bình Thủy, quận Bình Thủy, TP Cần Thơ
               </p>
             </div>
             {/* Slider */}
