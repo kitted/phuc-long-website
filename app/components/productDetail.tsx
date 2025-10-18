@@ -7,6 +7,7 @@ type ProductDetailProps = {
     title?: string;
     image?: string;
     gallery?: string[];
+    type?: string[];
     viscosity?: string;
     acea?: string;
     packaging?: string;
@@ -17,7 +18,7 @@ type ProductDetailProps = {
   };
 };
 
-export default function ProductDetail({ product }: ProductDetailProps) {
+export default function ProductDetail({ product }: ProductDetailProps | any) {
   const [mainImage, setMainImage] = useState(product.image || "");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [darkMode, setDarkMode] = useState(false);
@@ -49,7 +50,9 @@ export default function ProductDetail({ product }: ProductDetailProps) {
 
   const containerBg = darkMode ? "bg-black" : "bg-white";
   const textColor = darkMode ? "text-white" : "text-black";
-
+  const containerBg2 = darkMode ? "bg-white" : "bg-black";
+  const textColor2 = darkMode ? "text-black" : "text-white";
+  const textColor3 = darkMode ? "text-yellow-300" : "text-blue-800";
   return (
     <div className={`w-full ${textColor} ${containerBg}`}>
       {/* TOP: layout 2 cột */}
@@ -58,11 +61,13 @@ export default function ProductDetail({ product }: ProductDetailProps) {
         {product.image && (
           <div className="flex flex-col h-full">
             <div className="w-full rounded-lg overflow-hidden p-4 flex-1">
-              <img
-                src={mainImage}
-                alt={product.title || "Product image"}
-                className="w-full h-full max-h-[500px] object-contain"
-              />
+              <div className="relative w-full h-[400px] sm:h-[450px] md:h-[500px] flex items-center justify-center rounded-lg">
+                <img
+                  src={mainImage}
+                  alt={product.title || "Product image"}
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
             </div>
           </div>
         )}
@@ -70,18 +75,20 @@ export default function ProductDetail({ product }: ProductDetailProps) {
         {/* RIGHT: thông tin chi tiết */}
         <div className="flex flex-col justify-between h-full space-y-6">
           {product.title && (
-            <h1
-              className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold text-yellow-400 uppercase"
-              style={{ fontFamily: " sans-serif" }}
-            >
-              {product.title}
-              <p className="text-sm font-extrabold text-red-800 uppercase mb-6">
-                Fully Synthetic
-              </p>
-            </h1>
+            <div className="block sm:hidden">
+              <h1
+                className="text-xl font-extrabold text-yellow-400 uppercase"
+                style={{ fontFamily: "sans-serif" }}
+              >
+                {product.title}
+                {/* <p className="text-sm font-extrabold text-red-800 uppercase mb-6">
+                      Fully Synthetic
+                    </p> */}
+              </h1>
+            </div>
           )}
 
-          <div className="space-y-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-8">
             {/* Viscosity */}
             {product.viscosity && (
               <div>
@@ -108,10 +115,181 @@ export default function ProductDetail({ product }: ProductDetailProps) {
               </div>
             )}
 
-            {/* Packaging */}
+            {/* Type */}
+            {product.type && (
+              <div>
+                <span className="text-base font-semibold">Loại:</span>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {Array.isArray(product.type) ? (
+                    product.type.map((item: string, index: number) => (
+                      <span
+                        key={index}
+                        className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm"
+                      >
+                        {item}
+                      </span>
+                    ))
+                  ) : (
+                    <span className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm">
+                      {product.type}
+                    </span>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* Kích thước */}
+            {product.size && (
+              <div>
+                <span className="text-base font-semibold">Kích thước:</span>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {Array.isArray(product.size) ? (
+                    product.size.map((item: string, index: number) => (
+                      <span
+                        key={index}
+                        className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm"
+                      >
+                        {item}
+                      </span>
+                    ))
+                  ) : (
+                    <span className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm">
+                      {product.size}
+                    </span>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* CCA */}
+            {product.cca && (
+              <div>
+                <span className="text-base font-semibold">Chỉ số CCA:</span>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {Array.isArray(product.cca) ? (
+                    product.cca.map((item: string, index: number) => (
+                      <span
+                        key={index}
+                        className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm"
+                      >
+                        {item}
+                      </span>
+                    ))
+                  ) : (
+                    <span className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm">
+                      {product.cca}
+                    </span>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* Khối lượng */}
+            {product.weight && (
+              <div>
+                <span className="text-base font-semibold">Khối lượng:</span>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {Array.isArray(product.weight) ? (
+                    product.weight.map((item: string, index: number) => (
+                      <span
+                        key={index}
+                        className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm"
+                      >
+                        {item}
+                      </span>
+                    ))
+                  ) : (
+                    <span className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm">
+                      {product.weight}
+                    </span>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* Dung lượng danh định */}
+            {product.dod && (
+              <div>
+                <span className="text-base font-semibold">
+                  Dung lượng danh định:
+                </span>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {Array.isArray(product.dod) ? (
+                    product.dod.map((item: string, index: number) => (
+                      <span
+                        key={index}
+                        className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm"
+                      >
+                        {item}
+                      </span>
+                    ))
+                  ) : (
+                    <span className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm">
+                      {product.dod}
+                    </span>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* Chế độ nạp tiêu chuẩn */}
+            {product.standardCharge && (
+              <div>
+                <span className="text-base font-semibold">
+                  Chế độ nạp tiêu chuẩn:
+                </span>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {Array.isArray(product.standardCharge) ? (
+                    product.standardCharge.map(
+                      (item: string, index: number) => (
+                        <span
+                          key={index}
+                          className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm"
+                        >
+                          {item}
+                        </span>
+                      )
+                    )
+                  ) : (
+                    <span className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm">
+                      {product.standardCharge}
+                    </span>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* Chế độ nạp nhanh */}
+            {product.withdrawCharge && (
+              <div>
+                <span className="text-base font-semibold">
+                  Chế độ nạp nhanh:
+                </span>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {Array.isArray(product.withdrawCharge) ? (
+                    product.withdrawCharge.map(
+                      (item: string, index: number) => (
+                        <span
+                          key={index}
+                          className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm"
+                        >
+                          {item}
+                        </span>
+                      )
+                    )
+                  ) : (
+                    <span className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm">
+                      {product.withdrawCharge}
+                    </span>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* Đơn vị */}
             {product.packaging && (
               <div>
-                <span className="text-base font-semibold">Packaging:</span>
+                <span className="text-base font-semibold">Đơn vị:</span>
                 <div className="flex flex-wrap gap-2 mt-2">
                   <span className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm">
                     {product.packaging}
@@ -127,7 +305,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
                   Available Grades:
                 </span>
                 <div className="flex flex-wrap gap-2 mt-2">
-                  {product.availableGrades.map((g) => (
+                  {product.availableGrades.map((g: any) => (
                     <span
                       key={g}
                       className="inline-block bg-yellow-400 text-black px-3 py-1 rounded-lg text-sm"
@@ -141,8 +319,10 @@ export default function ProductDetail({ product }: ProductDetailProps) {
           </div>
 
           {/* CTA */}
-          <button className="bg-green-400 hover:bg-green-500 text-black font-extrabold text-lg px-8 py-4 rounded-lg shadow-lg transition w-full">
-            Contact to buy now
+          <button
+            className={`hover:bg-yellow-400 ${textColor2} ${containerBg2} font-extrabold text-lg px-8 py-4 rounded-lg shadow-lg transition w-full`}
+          >
+            Liên hệ ngay
           </button>
         </div>
       </div>
@@ -171,7 +351,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
             window.addEventListener("mouseup", handleMouseUp);
           }}
         >
-          {product.gallery.map((img, idx) => (
+          {product.gallery.map((img: any, idx: any) => (
             <button
               key={idx}
               onClick={() => {
@@ -197,27 +377,33 @@ export default function ProductDetail({ product }: ProductDetailProps) {
       {/* BOTTOM sections */}
       <div className="mt-10 space-y-6">
         {/* Description */}
-        {product.description && product.description.trim() !== "" && (
+        {product.description && (
           <section className={`${containerBg} p-6 rounded-lg`}>
-            <h2 className="text-lg font-semibold mb-2 text-yellow-300">
-              Description:
+            <h2 className={`text-lg font-semibold mb-2 ${textColor3}`}>
+              Mô tả chi tiết sản phẩm:
             </h2>
-            <p className={`text-sm leading-relaxed ${textColor}`}>
-              {product.description}
-            </p>
+            <div className={`text-sm leading-relaxed ${textColor} space-y-2`}>
+              {Array.isArray(product.description) ? (
+                product.description.map((item: string, index: number) => (
+                  <p key={index}>{item}</p>
+                ))
+              ) : (
+                <p>{product.description}</p>
+              )}
+            </div>
           </section>
         )}
 
         {/* Benefits */}
         {product.benefits && product.benefits.length > 0 && (
           <section className={`${containerBg} p-6 rounded-lg`}>
-            <h2 className="text-lg font-semibold mb-2 text-yellow-300">
-              Benefits:
+            <h2 className={`text-lg font-semibold mb-2 ${textColor3}`}>
+              Chính sách ưu đãi khi mua hàng:
             </h2>
             <ul
-              className={`list-disc list-inside text-sm space-y-1 ${textColor} marker:text-yellow-400`}
+              className={`list-disc list-inside text-sm space-y-1 ${textColor} marker:${textColor3}`}
             >
-              {product.benefits.map((b, i) => (
+              {product.benefits.map((b: any, i: any) => (
                 <li key={i}>{b}</li>
               ))}
             </ul>
@@ -225,14 +411,20 @@ export default function ProductDetail({ product }: ProductDetailProps) {
         )}
 
         {/* Application */}
-        {product.application && product.application.trim() !== "" && (
+        {product.application && (
           <section className={`${containerBg} p-6 rounded-lg`}>
-            <h2 className="text-lg font-semibold mb-2 text-yellow-300">
-              Application:
+            <h2 className={`text-lg font-semibold mb-2 ${textColor3}`}>
+              Ứng dụng sản phẩm:
             </h2>
-            <p className={`text-sm leading-relaxed ${textColor}`}>
-              {product.application}
-            </p>
+            <div className={`text-sm leading-relaxed ${textColor} space-y-2`}>
+              {Array.isArray(product.application) ? (
+                product.application.map((item: string, index: number) => (
+                  <p key={index}>{item}</p>
+                ))
+              ) : (
+                <p>{product.application}</p>
+              )}
+            </div>
           </section>
         )}
       </div>

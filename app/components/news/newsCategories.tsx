@@ -8,7 +8,7 @@ const categories = [
   { name: "Ô tô", slug: "car" },
   { name: "Xe máy", slug: "motorbike" },
   { name: "Xe điện", slug: "electric" },
-  { name: "Độ xe", slug: "modified" },
+  { name: "Kỹ thuật", slug: "technique" },
   { name: "Đánh giá", slug: "review" },
   { name: "Kinh tế", slug: "economy" },
   { name: "Review", slug: "feedback" },

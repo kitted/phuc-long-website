@@ -256,9 +256,9 @@ function About() {
                 nhớt và phụ tùng , NHÀ PHÂN PHỐI PHỤ TÙNG DẦU NHỚT PHÚC LONG tự
                 hào là đơn vị cung cấp đáng tin cậy cho hàng trăm đại lý và tiệm
                 sửa xe tại Cần Thơ, Hậu Giang, Vĩnh Long và Đồng Tháp. Chúng tôi
-                không chỉ mang đến sản phẩm chất lượng – giá cả hợp lý – giao
-                hàng nhanh chóng, mà còn luôn đồng hành cùng khách hàng trong
-                suốt quá trình kinh doanh.
+                không chỉ mang đến sản phẩm chất lượng, giá cả hợp lý, giao hàng
+                nhanh chóng, mà còn luôn đồng hành cùng khách hàng trong suốt
+                quá trình kinh doanh.
               </p>
               <br />
               <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
@@ -275,27 +275,27 @@ function About() {
               </p>
               <br />
               <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
-                GIÁ TRỊ CỐT LÕI: Uy tín là nền tảng của mọi hợp tác lâu dài. Tận
-                tâm luôn đặt lợi ích của khách hàng lên hàng đầu. Chuyên nghiệp
-                làm việc có quy trình, chuẩn mực và cam kết. Hợp tác cùng phát
-                triển cùng khách hàng xây dựng thị trường bền vững.{" "}
+                GIÁ TRỊ CỐT LÕI - Uy tín là nền tảng của mọi hợp tác lâu dài.
+                Tận tâm luôn đặt lợi ích của khách hàng lên hàng đầu. Chuyên
+                nghiệp làm việc có quy trình, chuẩn mực và cam kết. Hợp tác cùng
+                phát triển cùng khách hàng xây dựng thị trường bền vững.{" "}
               </p>
               <br />
               <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
-                SẢN PHẨM & DỊCH VỤ CHÍNH: Dầu nhớt Plus EX – Công nghệ tiên
-                tiến, bảo vệ động cơ tối đa. Phụ tùng xe máy chất lượng cao:
-                Nhông sên dĩa, lốp xe, vòng bi, bố thắng, dây ga – dây thắng,
-                linh kiện điện,…{" "}
+                SẢN PHẨM & DỊCH VỤ - Dầu nhớt Plus EX công nghệ tiên tiến, bảo
+                vệ động cơ tối đa. Phụ tùng xe máy chất lượng cao như nhông sên
+                dĩa, lốp xe, vòng bi, bố thắng, dây ga, dây thắng, linh kiện
+                điện,…{" "}
               </p>
               <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
-                Hỗ trợ công nợ linh hoạt 30–60 ngày, giúp khách hàng chủ động
-                dòng tiền. Dịch vụ giao hàng tận nơi – tư vấn kỹ thuật – hỗ trợ
-                bán hàng.
+                Hỗ trợ công nợ linh hoạt 30 đến 60 ngày, giúp khách hàng chủ
+                động dòng tiền. Dịch vụ giao hàng tận nơi, tư vấn kỹ thuật, hỗ
+                trợ bán hàng.
               </p>
               <br />
               <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
-                CAM KẾT PHÚC LONG: “Phúc Long cam kết mang đến cho khách hàng
-                sản phẩm thật – giá trị thật – niềm tin thật.”{" "}
+                CAM KẾT - “Phúc Long cam kết mang đến cho khách hàng sản phẩm
+                thật giá trị thật niềm tin thật.”{" "}
               </p>
               <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
                 Chúng tôi hiểu rằng, thành công của khách hàng chính là thước đo
@@ -306,15 +306,14 @@ function About() {
               </p>
               <br />
               <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
-                KHU VỰC PHỤC VỤ Hiện tại: PHÚC LONG đang phát triển mạnh tại:
-                Cần Thơ – Hậu Giang – Vĩnh Long – Đồng Tháp, và định hướng mở
-                rộng hệ thống phân phối đến toàn bộ khu vực Đồng bằng sông Cửu
-                Long trong thời gian tới.{" "}
+                KHU VỰC PHỤC VỤ - PHÚC LONG đang phát triển mạnh tại: Cần Thơ,
+                Hậu Giang, Vĩnh Long, Đồng Tháp, và định hướng mở rộng hệ thống
+                phân phối đến toàn bộ khu vực Đồng bằng sông Cửu Long trong thời
+                gian tới.{" "}
               </p>
               <br />
               <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
-                THÔNG TIN LIÊN HỆ Công ty: NHÀ PHÂN PHỐI PHỤ TÙNG DẦU NHỚT PHÚC
-                LONG{" "}
+                THÔNG TIN LIÊN HỆ - Nhà phân phối phụ tùng dầu nhớt PHÚC LONG:{" "}
               </p>
               <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
                 Zalo:{" "}

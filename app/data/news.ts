@@ -171,7 +171,7 @@ export const news = [
     writer: "Phúc Hậu",
     views: 1500,
     tag: ["Xe", "Công nghệ", "Mạng xã hội"],
-    type: ["motorbike", "review", "feedback"],
+    type: ["motorbike", "review", "feedback", "electric"],
     origin: "zingnews.vn",
     banner: {
       image: "/news/post/3/trai_nghiem_Honda_CUV_e_znews_13.png",
@@ -327,6 +327,190 @@ export const news = [
       },
       {
         text: "Honda CUV e: hiện có thể được thuê theo gói 3 tháng hoặc 6 tháng, chi phí 1,472 triệu đồng/tháng. Đây là một trong 2 xe máy điện đầu tiên của Honda tại Việt Nam, bên cạnh ICON e: nhắm đến nhóm khách hàng học sinh.",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title:
+      "Tăng giá, thêm trang bị, Yamaha NVX 155 còn đáng mua trước Air Blade?",
+    time: "Thứ sáu, 27/6/2025 07:12 (GMT+7)",
+    writer: "Phúc Hậu",
+    views: 100,
+    tag: ["Xe", "Công nghệ", "Mạng xã hội"],
+    type: ["motorbike", "review", "feedback"],
+    origin: "zingnews.vn",
+    banner: {
+      image: "/news/post/4/Yamaha_NVX_155_2025_event_znews_6_1.png",
+      title:
+        "Yamaha NVX 155 thế hệ thứ ba cập bến thị trường Việt Nam, thay đổi ngoại hình và bổ sung các tính năng, công nghệ hỗ trợ vận hành. Tuy nhiên, giá bán NVX 155 đã tăng so với bản cũ.",
+      description: [
+        'Sau khoảng thời gian được "nhá hàng" thông qua các buổi trưng bày ngắn tổ chức tại TP.HCM và TP Hà Nội, Yamaha NVX 155 thế hệ mới đã chính thức ra mắt thị trường Việt.',
+        "Mẫu xe tay ga thể thao có tổng cộng 3 phiên bản, giá khởi điểm 56,5 triệu đồng ở bản Tiêu chuẩn, hai phiên bản cao cấp hơn là SP và GP có giá bán lần lượt 68 triệu và 69 triệu đồng.",
+      ],
+    },
+    content: [
+      {
+        title: 'Ngoại hình nâng cấp, vẫn còn "điểm trừ"',
+      },
+      {
+        text: "So với thế hệ tiền nhiệm, Yamaha NVX 155 mới sở hữu ngoại hình có phần thể thao hơn, tạo thành từ yếm xe góc cạnh và cụm đèn pha LED Projector đôi, đi kèm dải LED định vị tạo hình đôi mắt chim săn mồi.",
+      },
+      {
+        image: {
+          img: "/news/post/4/Yamaha_NVX_155_2025_event_znews_19.png",
+          title:
+            "Yamaha NVX 155 có nhiều thay đổi khi nhìn từ chính diện. Ảnh: Phúc Hậu.",
+        },
+      },
+      {
+        text: "Những thay đổi mới nhất khiến cho Yamaha NVX 155 tiếp tục nhỉnh hơn Honda Air Blade 160 nếu xét đến tính thể thao trong thiết kế ngoại hình. Từ thế hệ tiền nhiệm, mẫu xe tay ga của Yamaha đã được đánh giá mang nhiều nét thể thao hơn so với chất trung tính bắt gặp trên Honda Air Blade 160.",
+      },
+      {
+        text: "Các kích thước dài x rộng x cao của Yamaha NVX 155 lần lượt 1.980 x 710 x 1.170 mm, chiều dài cơ sở 1.350 mm. So với thế hệ tiền nhiệm, mẫu tay ga thể thao thương hiệu Nhật Bản gọn gàng hơn ở chiều rộng và chiều cao.",
+      },
+      {
+        text: "Dù vậy, kích thước này vẫn giúp Yamaha NVX 155 có phần bề thế hơn đối thủ trực tiếp Honda Air Blade 160. Các thông số dài x rộng x cao của mẫu xe tay ga thương hiệu Honda lần lượt 1.890 x 686 x 1.116 mm, chiều dài cơ sở 1.286 mm.",
+      },
+      {
+        text: "Khối lượng bản thân của Yamaha NVX 155 đạt 131 kg ở các phiên bản SP và GP. Trong khi đó, Honda Air Blade 160 có khối lượng bản thân chỉ 114 kg, nhẹ hơn đáng kể.",
+      },
+      {
+        images: [
+          {
+            src: "/news/post/4/Yamaha_NVX_155_2025_event_znews_24.png",
+          },
+          {
+            src: "/news/post/4/AB160_2022_zing_11.png",
+          },
+        ],
+        caption:
+          "Yamaha NVX 155 (ảnh trái) có phần bề thế hơn so với Honda Air Blade 160 (ảnh phải). Ảnh: Phúc Hậu, Vĩnh Phúc.",
+      },
+      {
+        text: "Thiết kế yên xe phân tầng rõ rệt vẫn được duy trì trên NVX 155, tạo ra sự khác biệt khá lớn so với Honda Air Blade 160. Chiều cao yên xe giữ nguyên 790 mm, khoảng sáng gầm ở thế hệ mới vẫn là 145 mm.",
+      },
+      {
+        text: "Chi tiết tay dắt ẩn trong thân tại khu vực dưới yên sau vốn nhận về không ít phàn nàn từ khách Việt tiếp tục được giữ lại trên Yamaha NVX 155 thế hệ mới. Vị trí yên xe người ngồi sau khá cao so với mặt đất cũng là điểm chưa thể làm hài lòng một bộ phận khách hàng trong nước.",
+      },
+      {
+        text: 'Những chi tiết nhỏ này vô tình trở thành "điểm trừ" của Yamaha NVX 155 khi đặt cạnh đối thủ Honda Air Blade 160. Do sở hữu thiết kế trung tính có phần "phổ thông", tay dắt của mẫu xe này sở hữu thiết kế rời, còn yên xe chỉ phân tầng nhẹ với độ dốc không đáng kể.',
+      },
+      {
+        images: [
+          {
+            src: "/news/post/4/Yamaha_NVX_155_2025_event_znews_14.png",
+          },
+          {
+            src: "/news/post/4/Yamaha_NVX_155_2025_event_znews_20.png",
+          },
+        ],
+        caption:
+          "Vị trí người ngồi sau khá cao, còn tay dắt ẩn bên trong là những thiết kế đã duy trì từ thế hệ trước của Yamaha NVX 155. Ảnh: Phúc Hậu.",
+      },
+      {
+        text: '"Dàn chân" của Yamaha NVX 155 mới vẫn là loại 3 chấu kép đường kính 14 inch. Thông số lốp trước 110/80, còn lốp sau to bản có thông số 140/70.',
+      },
+      {
+        text: "Bên dưới yên xe, cốp đựng đồ nay tăng dung tích lên thành 24,5 lít, tuy nhiên chưa được tích hợp đèn. Yamaha NVX 155 mới cũng được trang bị một hộc đựng đồ nhỏ phía trước, có tích hợp cổng sạc USB cho thiết bị di động.",
+      },
+      {
+        text: "Bình xăng của mẫu xe tay ga thể thao thương hiệu Yamaha tiếp tục được đặt phía trước, tuy thuận tiện cho quá trình tiếp nhiên liệu nhưng vô tình làm khuyết đi phần nào không gian để chân. Thiết kế này tương đồng ở cả Yamaha NVX 155 và Honda Air Blade 160.",
+      },
+      {
+        text: "Một trong những nâng cấp đáng chú ý nhất trên Yamaha NVX 155 là cụm đồng hồ TFT màu kích thước 4,2 inch. Trang bị này có tích hợp cảm biến ánh sáng tự động, kết nối Google Maps và thông báo điện thoại qua ứng dụng Y-Connect.",
+      },
+      {
+        image: {
+          img: "/news/post/4/Yamaha_NVX_155_2025_event_znews_4.png",
+          title: "Cụm màn hình TFT màu trên Yamaha NVX 155 mới. Ảnh: Phúc Hậu.",
+        },
+      },
+      {
+        text: "Nhìn chung, ở thế hệ mới, Yamaha NVX 155 vẫn duy trì được lợi thế ngoại hình thể thao hơn so với Honda Air Blade 160.",
+      },
+      {
+        text: "Xe sở hữu một số nâng cấp nhỏ để phục vụ người lái, tuy nhiên vẫn còn tồn tại những chi tiết không thật sự làm hài lòng khách hàng, vốn là vấn đề đã kéo dài từ thế hệ V2 tiền nhiệm.",
+      },
+      {
+        title: "Động cơ nâng cấp nhẹ, công nghệ mới đáng chú ý",
+      },
+      {
+        text: "Nhìn chung, động cơ Yamaha NVX 155 ở lần ra mắt thế hệ mới gần như không có quá nhiều thay đổi. So với thông số ở thế hệ tiền nhiệm, khối động cơ 155 cc công nghệ VVA vẫn giữ nguyên mức công suất tối đa 15,3 mã lực tại 8.000 vòng/phút, tuy nhiên mô-men xoắn cực đại tăng nhẹ lên thành 14,2 Nm, đạt được tại 6.500 vòng/phút.",
+      },
+      {
+        text: 'Mức tiêu thụ nhiên liệu cũng có phần "thụt lùi" khi hãng công bố đạt 2,21 lít/100 km, cao hơn mức 2,19 lít/100 km ở thế hệ V2. Tuy nhiên, thông số này thường chỉ mang tính tham khảo và trên thực tế, số liệu mà hãng xe Nhật Bản công bố cũng không chênh lệch quá nhiều giữa 2 thế hệ NVX 155.',
+      },
+      {
+        images: [
+          {
+            src: "/news/post/4/Yamaha_NVX_155_2025_event_znews_5.png",
+          },
+          {
+            src: "/news/post/4/AB160_2022_zing_2.png",
+          },
+        ],
+        caption:
+          "Thông số động cơ trên Yamaha NVX 155 (ảnh trái) và Honda Air Blade 160 (ảnh phải) là không quá chênh lệch. Ảnh: Phúc Hậu, Vĩnh Phúc.",
+      },
+      {
+        text: "Trong khi đó dù sở hữu dung tích xy-lanh lớn hơn, động cơ eSP+ trên Honda Air Blade 160 lại cung cấp công suất tối đa và mô-men xoắn cực đại không quá chênh lệch so với NVX 155, lần lượt đạt 15,2 mã lực và 14,6 Nm.",
+      },
+      {
+        text: "Theo thông tin do hãng công bố, Honda Air Blade 160 sở hữu mức tiêu thụ 2,19 lít/100 km, tức cũng không chênh lệch nhiều so với đối thủ đồng hương.",
+      },
+      {
+        text: "Thay đổi đáng chú ý nhất trên Yamaha NVX 155 đồng thời có thể xem như ưu điểm của mẫu tay ga này trước Honda Air Blade 160 nằm ở công nghệ YECVT - Yamaha Electric Continuously Variable Transmission. Người lái có thể chuyển đổi nhanh NVX 155 giữa 2 chế độ vận hành, gồm T-Mode khi vận hành trong đô thị và S-Mode cho cảm giác lái thể thao hơn.",
+      },
+      {
+        text: 'Thông qua nút Shift trên cùm công tắc bên trái đi kèm 3 mức độ phản hồi (low, medium, high), người điều khiển NVX 155 cũng có thể chủ động "giảm số" khi muốn vượt xe nhanh, hay kích hoạt phanh động cơ để hỗ trợ xuống dốc và trong trường hợp cần phanh gấp.',
+      },
+      {
+        image: {
+          img: "/news/post/4/Yamaha_NVX_155_2025_event_znews_3.png",
+          title:
+            "Nút Shift hỗ trợ khá nhiều cho vận hành Yamaha NVX 155 trên các cung đường khó. Ảnh: Phúc Hậu.",
+        },
+      },
+      {
+        text: "Việc Yamaha NVX 155 được trang bị hệ thống kiểm soát lực kéo TCS cùng hệ thống phanh ABS cũng là một điểm đáng chú ý. Các tính năng này giúp cho việc vận hành NVX 155 trên các cung đường khó trở nên dễ dàng hơn, đồng thời vẫn đảm bảo tính thể thao.",
+      },
+      {
+        text: "Nhìn chung, thông số động cơ tương đương nhau dường như đưa Honda Air Blade 160 và Yamaha NVX 155 vào thế cân bằng. Tuy nhiên, mẫu xe của Yamaha vừa được bổ sung thêm các công nghệ mới, bao gồm công nghệ YECVT hay hệ thống kiểm soát lực kéo TCS, cho phép vận hành an toàn mà vẫn đảm bảo tính thể thao, do đó có phần thú vị hơn đối thủ đồng hương.",
+      },
+      {
+        title: "Chọn Yamaha NVX 155 hay Honda Air Blade 160?",
+      },
+      {
+        text: "Yamaha NVX 155 thế hệ V3 chào sân khách Việt với 3 phiên bản, giá bán lần lượt 56,5 triệu đồng cho bản Tiêu chuẩn, 68 triệu đồng cho phiên bản Thể thao (SP) và 69 triệu đồng ở phiên bản GP.",
+      },
+      {
+        text: "So với khoảng giá 53,5-54,5 triệu đồng ở thế hệ cũ, mẫu tay ga thể thao của Yamaha đã tăng giá đáng kể.",
+      },
+      {
+        images: [
+          {
+            src: "/news/post/4/Yamaha_NVX_155_2025_event_znews_21.png",
+          },
+          {
+            src: "/news/post/4/Yamaha_NVX_155_2025_event_znews_2.png",
+          },
+          {
+            src: "/news/post/4/Yamaha_NVX_155_2025_event_znews_18.png",
+          },
+          {
+            src: "/news/post/4/Yamaha_NVX_155_2025_event_znews_11.png",
+          },
+        ],
+      },
+      {
+        text: "Honda Air Blade 160 hiện có 4 phiên bản, giá bán từ 56,69 triệu đến 58,39 triệu đồng. Tuy nhiên, xe máy tay ga thương hiệu Honda thường bị bán cao hơn giá niêm yết và Air Blade 160 cũng không ngoại lệ. Một đại lý ở TP.HCM đang bán mẫu tay ga này với giá 61,19-62,19 triệu đồng.",
+      },
+      {
+        text: "Về tổng thể, Honda Air Blade 160 là mẫu xe phù hợp với nhu cầu sử dụng phổ thông, gia đình do thiết kế trung tính, yên xe thoải, kích thước cũng gọn gàng phù hợp cho cả người lái là nam lẫn nữ.",
+      },
+      {
+        text: "Yamaha NVX 155 thể thao và có phần nam tính hơn, khối lượng bản thân cũng lớn hơn so với Honda Air Blade 160 và sẽ được lòng nhóm khách hàng ưa chuộng sự cá tính. Mẫu xe tay ga của Yamaha với các nâng cấp phục vụ vận hành như công nghệ YECVT, nút Shift hay chức năng ESS tự động nháy đèn xi-nhan liên tục khi phanh gấp cũng phù hợp hơn cho các chuyến hành trình xa, ngoài phạm vi đô thị.",
       },
     ],
   },
