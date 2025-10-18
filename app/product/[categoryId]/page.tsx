@@ -51,7 +51,7 @@ export default function Category() {
     } else if (category) {
       setFilteredProducts(category.products);
     } else {
-      const all = productsList.flatMap((c) => c.products);
+      const all = productsList.flatMap((c: any) => c.products);
       setFilteredProducts(all);
     }
 
@@ -60,12 +60,12 @@ export default function Category() {
 
   const handleSearch = (keyword: string) => {
     const lowerKeyword = keyword.toLowerCase();
-    const allProducts = productsList.flatMap((c) => c.products);
+    const allProducts = productsList.flatMap((c: any) => c.products);
     const filtered = allProducts.filter(
       (p) =>
         p.name.toLowerCase().includes(lowerKeyword) ||
         p.title.toLowerCase().includes(lowerKeyword) ||
-        p.tag.some((t) => t.toLowerCase().includes(lowerKeyword))
+        p.tag.some((t: any) => t.toLowerCase().includes(lowerKeyword))
     );
     setFilteredProducts(filtered);
     setCurrentPage(1);
