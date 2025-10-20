@@ -335,7 +335,7 @@ function About() {
                   target="_blank"
                   href="https://www.facebook.com/daunhotphutungPHUCLONG"
                 >
-                  fb/@phuclong
+                  fb/@phuclongvn
                 </a>
               </div>
               <div className={`flex gap-2 items-center ${textColor}`}>
