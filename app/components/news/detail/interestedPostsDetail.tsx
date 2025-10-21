@@ -51,10 +51,9 @@ export default function InterestedPostsDetail({
             className="group block border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden hover:shadow-lg transition"
           >
             <div className="relative w-full h-44">
-              <Image
+              <img
                 src={post.banner.image}
                 alt={post.title}
-                fill
                 className="object-cover group-hover:scale-105 transition-transform"
               />
             </div>

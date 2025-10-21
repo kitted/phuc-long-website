@@ -40,7 +40,7 @@ export default function NewsItem({ title, desc, date, img }: Props) {
     >
       {/* Thumbnail */}
       <div className="relative w-36 flex-shrink-0 rounded-md overflow-hidden">
-        <Image src={img} alt={title} fill className="object-cover" />
+        <img src={img} alt={title} className="object-cover" />
       </div>
 
       {/* Content */}

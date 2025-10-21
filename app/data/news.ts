@@ -59,7 +59,8 @@ export const news = [
     type: ["car", "economy"],
     origin: "zingnews.vn",
     banner: {
-      image: "/news/post/banner2.png",
+      image:
+        "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_10_14/557600627_122228066876128634_8160859497045492334_n_1.jpg",
       title:
         "Sau khi ngâm bùn, ôtô cần phải trải qua giai đoạn khắc phục tương tự trường hợp ngập nước, với chi phí sửa chữa có thể lên đến vài trăm triệu đồng.",
       description: [
@@ -82,7 +83,7 @@ export const news = [
       },
       {
         image: {
-          img: "/news/post/img2.png",
+          img: "https://photo.znews.vn/w860/Uploaded/yqdlmdxwp/2025_10_14/560053758_122228066852128634_1074904248263353210_n.jpg",
           title:
             "Tình trạng một ôtô bị ngâm trong bùn ở Thái Nguyên. Ảnh: Hyundai Đông Đô.",
         },
@@ -107,7 +108,7 @@ export const news = [
       },
       {
         image: {
-          img: "/news/post/img3.png",
+          img: "https://photo.znews.vn/w860/Uploaded/yqdlmdxwp/2025_10_14/560296054_122228066954128634_3249677698679817175_n.jpg",
           title:
             "Ôtô sau ngâm bùn khó có thể phục hồi nguyên trạng. Ảnh minh họa: Hyundai Đông Đô.",
         },
@@ -141,7 +142,7 @@ export const news = [
       },
       {
         image: {
-          img: "/news/post/img4.png",
+          img: "https://photo.znews.vn/w860/Uploaded/gfmtn/2022_05_30/xe_ngap_nuoc_hanoi_vesinh_zing.jpg",
           title:
             "Ôtô sau ngập nước, ngâm bùn cần được tháo dỡ toàn bộ nội thất để vệ sinh, hong khô. Ảnh minh họa: Hưng Bùi.",
         },
@@ -342,7 +343,8 @@ export const news = [
     type: ["motorbike", "review", "feedback"],
     origin: "zingnews.vn",
     banner: {
-      image: "/news/post/4/Yamaha_NVX_155_2025_event_znews_6_1.png",
+      image:
+        "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_06_25/Yamaha_NVX_155_2025_event_znews_6_1.JPG",
       title:
         "Yamaha NVX 155 thế hệ thứ ba cập bến thị trường Việt Nam, thay đổi ngoại hình và bổ sung các tính năng, công nghệ hỗ trợ vận hành. Tuy nhiên, giá bán NVX 155 đã tăng so với bản cũ.",
       description: [
@@ -359,7 +361,7 @@ export const news = [
       },
       {
         image: {
-          img: "/news/post/4/Yamaha_NVX_155_2025_event_znews_19.png",
+          img: "https://photo.znews.vn/w860/Uploaded/yqdlmdxwp/2025_06_26/Yamaha_NVX_155_2025_event_znews_19.JPG",
           title:
             "Yamaha NVX 155 có nhiều thay đổi khi nhìn từ chính diện. Ảnh: Phúc Hậu.",
         },
@@ -379,10 +381,10 @@ export const news = [
       {
         images: [
           {
-            src: "/news/post/4/Yamaha_NVX_155_2025_event_znews_24.png",
+            src: "https://photo.znews.vn/w1200/Uploaded/yqdlmdxwp/2025_06_25/Yamaha_NVX_155_2025_event_znews_24.JPG",
           },
           {
-            src: "/news/post/4/AB160_2022_zing_11.png",
+            src: "https://photo.znews.vn/w1200/Uploaded/neg_estpyge/2022_06_02/AB160_2022_zing_11.jpg",
           },
         ],
         caption:
@@ -400,10 +402,10 @@ export const news = [
       {
         images: [
           {
-            src: "/news/post/4/Yamaha_NVX_155_2025_event_znews_14.png",
+            src: "https://photo.znews.vn/w1200/Uploaded/yqdlmdxwp/2025_06_26/Yamaha_NVX_155_2025_event_znews_14.JPG",
           },
           {
-            src: "/news/post/4/Yamaha_NVX_155_2025_event_znews_20.png",
+            src: "https://photo.znews.vn/w1200/Uploaded/yqdlmdxwp/2025_06_26/Yamaha_NVX_155_2025_event_znews_20.JPG",
           },
         ],
         caption:
@@ -423,7 +425,7 @@ export const news = [
       },
       {
         image: {
-          img: "/news/post/4/Yamaha_NVX_155_2025_event_znews_4.png",
+          img: "https://photo.znews.vn/w1200/Uploaded/yqdlmdxwp/2025_06_25/Yamaha_NVX_155_2025_event_znews_4.JPG",
           title: "Cụm màn hình TFT màu trên Yamaha NVX 155 mới. Ảnh: Phúc Hậu.",
         },
       },
@@ -445,10 +447,10 @@ export const news = [
       {
         images: [
           {
-            src: "/news/post/4/Yamaha_NVX_155_2025_event_znews_5.png",
+            src: "https://photo.znews.vn/w1200/Uploaded/yqdlmdxwp/2025_06_25/Yamaha_NVX_155_2025_event_znews_5.JPG",
           },
           {
-            src: "/news/post/4/AB160_2022_zing_2.png",
+            src: "https://photo.znews.vn/w1200/Uploaded/neg_estpyge/2022_06_02/AB160_2022_zing_2.jpg",
           },
         ],
         caption:
@@ -468,7 +470,7 @@ export const news = [
       },
       {
         image: {
-          img: "/news/post/4/Yamaha_NVX_155_2025_event_znews_3.png",
+          img: "https://photo.znews.vn/w860/Uploaded/yqdlmdxwp/2025_06_25/Yamaha_NVX_155_2025_event_znews_3.JPG",
           title:
             "Nút Shift hỗ trợ khá nhiều cho vận hành Yamaha NVX 155 trên các cung đường khó. Ảnh: Phúc Hậu.",
         },
@@ -491,16 +493,16 @@ export const news = [
       {
         images: [
           {
-            src: "/news/post/4/Yamaha_NVX_155_2025_event_znews_21.png",
+            src: "https://photo.znews.vn/w1200/Uploaded/yqdlmdxwp/2025_06_26/Yamaha_NVX_155_2025_event_znews_21.JPG",
           },
           {
-            src: "/news/post/4/Yamaha_NVX_155_2025_event_znews_2.png",
+            src: "https://photo.znews.vn/w1200/Uploaded/yqdlmdxwp/2025_06_25/Yamaha_NVX_155_2025_event_znews_2.JPG",
           },
           {
-            src: "/news/post/4/Yamaha_NVX_155_2025_event_znews_18.png",
+            src: "https://photo.znews.vn/w1200/Uploaded/yqdlmdxwp/2025_06_26/Yamaha_NVX_155_2025_event_znews_18.JPG",
           },
           {
-            src: "/news/post/4/Yamaha_NVX_155_2025_event_znews_11.png",
+            src: "https://photo.znews.vn/w1200/Uploaded/yqdlmdxwp/2025_06_26/Yamaha_NVX_155_2025_event_znews_11.JPG",
           },
         ],
       },

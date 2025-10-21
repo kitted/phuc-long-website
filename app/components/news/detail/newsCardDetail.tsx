@@ -46,7 +46,7 @@ export default function NewsCardDetail({
       className={`${containerBg} rounded-2xl overflow-hidden bg-black shadow-lg ${shadowColor} transition-all duration-200`}
     >
       <div className="relative w-full h-40 md:h-48">
-        <Image src={img} alt={title} fill className="object-cover" />
+        <img src={img} alt={title} className="object-cover" />
       </div>
       <div className="p-4">
         <h3
