@@ -80,7 +80,7 @@ export default function NewsContentDetail({
               <img
                 src={sec.image}
                 alt={sec.caption || ""}
-                className="rounded-lg shadow-md max-h-[400px] object-contain transition-transform duration-300 group-hover:scale-[1.02]"
+                className="rounded-lg shadow-md max-h-[600px] object-contain transition-transform duration-300 group-hover:scale-[1.02]"
               />
               {sec.caption && (
                 <p className="text-xs text-gray-500 italic mt-2 text-center">

@@ -16,7 +16,7 @@ export default function NewsImageDetail({
   return (
     <figure className="mb-6">
       <div className="relative w-full h-[220px] md:h-[400px] rounded-lg overflow-hidden">
-        <Image src={src} alt={alt} fill className="object-cover" />
+        <img src={src} alt={alt} className="object-cover" />
       </div>
       {caption && (
         <figcaption className="text-sm text-gray-400 mt-2 text-center">

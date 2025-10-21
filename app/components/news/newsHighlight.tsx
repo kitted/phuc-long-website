@@ -29,11 +29,11 @@ export default function NewsHighlight({ data, darkMode }: Props) {
         className="col-span-2 relative rounded-lg overflow-hidden group"
       >
         <div className="relative w-full min-h-[500px]">
-          <Image
+          <img
             src={first.banner.image}
             alt={first.title}
-            fill
-            priority
+            // fill
+            // priority
             className="object-cover"
           />
         </div>
@@ -57,11 +57,11 @@ export default function NewsHighlight({ data, darkMode }: Props) {
             key={item.id}
             className={`flex gap-3 items-start border-b ${bdColor} pb-3`}
           >
-            <div className="relative w-24 h-20 flex-shrink-0 rounded-md overflow-hidden">
-              <Image
+            <div className="relative w-24 h-25 flex-shrink-0 rounded-md overflow-hidden">
+              <img
                 src={item.banner.image}
                 alt={item.title}
-                fill
+                // fill
                 className="object-cover"
               />
             </div>
