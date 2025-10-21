@@ -174,7 +174,8 @@ export const news = [
     type: ["motorbike", "review", "feedback", "electric"],
     origin: "zingnews.vn",
     banner: {
-      image: "/news/post/3/trai_nghiem_Honda_CUV_e_znews_13.png",
+      image:
+        "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_02/trai_nghiem_Honda_CUV_e_znews_13.JPG",
       title:
         "Mẫu xe máy điện của Honda có thể gây bối rối ở lần sử dụng đầu tiên. Gói pin khá nặng đặt dưới yên xe có thể khiến khách hàng nữ không thoải mái khi sử dụng.",
       description: [
@@ -185,19 +186,19 @@ export const news = [
       {
         images: [
           {
-            src: "/news/post/3/Honda_CUV_e_znews_3.png",
+            src: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_04/Honda_CUV_e_znews_14.JPG",
             // caption: "VinFast VF9 trình diễn",
           },
           {
-            src: "/news/post/3/Honda_CUV_e_znews_4.png",
+            src: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_04/Honda_CUV_e_znews_5.JPG",
             // caption: "Honda City 2025",
           },
           {
-            src: "/news/post/3/Honda_CUV_e_znews_5.png",
+            src: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_04/Honda_CUV_e_znews_4.JPG",
             // caption: "Toyota Camry phiên bản mới",
           },
           {
-            src: "/news/post/3/Honda_CUV_e_znews_14.png",
+            src: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_04/Honda_CUV_e_znews_3.JPG",
             // caption: "Toyota Camry phiên bản mới",
           },
         ],
@@ -208,7 +209,7 @@ export const news = [
       },
       {
         image: {
-          img: "/news/post/3/trai_nghiem_Honda_CUV_e_znews_14.png",
+          img: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_02/trai_nghiem_Honda_CUV_e_znews_14.JPG",
         },
       },
       {
@@ -216,7 +217,7 @@ export const news = [
       },
       {
         image: {
-          img: "/news/post/3/trai_nghiem_Honda_CUV_e_znews_4.png",
+          img: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_02/trai_nghiem_Honda_CUV_e_znews_4.JPG",
         },
       },
       {
@@ -225,10 +226,10 @@ export const news = [
       {
         images: [
           {
-            src: "/news/post/3/trai_nghiem_Honda_CUV_e_znews_5.png",
+            src: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_02/trai_nghiem_Honda_CUV_e_znews_5.JPG",
           },
           {
-            src: "/news/post/3/Honda_CUV_e_znews_10.png",
+            src: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_04/Honda_CUV_e_znews_10.JPG",
           },
         ],
       },
@@ -237,7 +238,7 @@ export const news = [
       },
       {
         image: {
-          img: "/news/post/3/trai_nghiem_Honda_CUV_e_znews_7.png",
+          img: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_02/trai_nghiem_Honda_CUV_e_znews_7.JPG",
         },
       },
       {
@@ -245,7 +246,7 @@ export const news = [
       },
       {
         image: {
-          img: "/news/post/3/trai_nghiem_Honda_CUV_e_znews_16.png",
+          img: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_02/trai_nghiem_Honda_CUV_e_znews_16.JPG",
         },
       },
       {
@@ -253,7 +254,7 @@ export const news = [
       },
       {
         image: {
-          img: "/news/post/3/trai_nghiem_Honda_CUV_e_znews_6.png",
+          img: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_02/trai_nghiem_Honda_CUV_e_znews_6.JPG",
         },
       },
       {
@@ -261,7 +262,7 @@ export const news = [
       },
       {
         image: {
-          img: "/news/post/3/Honda_CUV_e_znews_11.png",
+          img: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_04/Honda_CUV_e_znews_11.JPG",
         },
       },
       {
@@ -270,10 +271,10 @@ export const news = [
       {
         images: [
           {
-            src: "/news/post/3/trai_nghiem_Honda_CUV_e_znews_12.png",
+            src: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_02/trai_nghiem_Honda_CUV_e_znews_12.JPG",
           },
           {
-            src: "/news/post/3/trai_nghiem_Honda_CUV_e_znews_19.png",
+            src: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_04/trai_nghiem_Honda_CUV_e_znews_19.JPG",
           },
         ],
       },
@@ -286,10 +287,10 @@ export const news = [
       {
         images: [
           {
-            src: "/news/post/3/Honda_CUV_e_znews_9.png",
+            src: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_04/Honda_CUV_e_znews_9.JPG",
           },
           {
-            src: "/news/post/3/trai_nghiem_Honda_CUV_e_znews_9.png",
+            src: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_02/trai_nghiem_Honda_CUV_e_znews_9.JPG",
           },
         ],
       },
@@ -298,7 +299,7 @@ export const news = [
       },
       {
         image: {
-          img: "/news/post/3/trai_nghiem_Honda_CUV_e_znews_11.png",
+          img: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_02/trai_nghiem_Honda_CUV_e_znews_11.JPG",
         },
       },
       {
@@ -306,7 +307,7 @@ export const news = [
       },
       {
         image: {
-          img: "/news/post/3/trai_nghiem_Honda_CUV_e_znews_15.png",
+          img: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_02/trai_nghiem_Honda_CUV_e_znews_15.JPG",
         },
       },
       {
@@ -314,7 +315,7 @@ export const news = [
       },
       {
         image: {
-          img: "/news/post/3/trai_nghiem_Honda_CUV_e_znews_10.png",
+          img: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_02/trai_nghiem_Honda_CUV_e_znews_10.JPG",
         },
       },
       {
@@ -322,7 +323,7 @@ export const news = [
       },
       {
         image: {
-          img: "/news/post/3/Honda_CUV_e_znews_1.png",
+          img: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_04/Honda_CUV_e_znews_1.JPG",
         },
       },
       {
