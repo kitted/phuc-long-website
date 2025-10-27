@@ -36,7 +36,7 @@ export default function ProductCardGrid({ products }: any) {
             href={`/product/${product.url}` || product.url || "/product/abc"}
           >
             {/* Image giữ tỉ lệ */}
-            <div className="relative w-full aspect-[3.5/3] overflow-hidden rounded-t-2xl group">
+            <div className="relative w-full aspect-[3.8/3] overflow-hidden rounded-t-2xl group">
               <img
                 src={product.image}
                 alt={product.title}

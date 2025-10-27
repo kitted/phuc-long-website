@@ -8,7 +8,9 @@ interface Section {
   text?: string[];
   image?: string;
   caption?: string;
-  images?: { src: string; caption?: string }[]; // ✅ Thêm hỗ trợ nhiều ảnh
+  images?: { src: string; caption?: string }[];
+  video?: string; // ✅ Hỗ trợ video (mp4 hoặc YouTube link)
+  videoCaption?: string;
 }
 
 interface NewsContentDetailProps {
@@ -27,6 +29,7 @@ export default function NewsContentDetail({
   const [darkMode, setDarkMode] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [activeImage, setActiveImage] = useState<string | null>(null);
+
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
     setDarkMode(storedTheme === "dark");
@@ -42,6 +45,17 @@ export default function NewsContentDetail({
 
   const textColor1 = darkMode ? "text-white" : "text-black";
   const textColor2 = darkMode ? "text-gray-400" : "text-black/70";
+
+  // ✅ Hàm convert link YouTube sang embed
+  const getYouTubeEmbedUrl = (url: string) => {
+    if (url.includes("youtube.com/watch?v=")) {
+      return url.replace("watch?v=", "embed/");
+    }
+    if (url.includes("youtu.be/")) {
+      return url.replace("youtu.be/", "www.youtube.com/embed/");
+    }
+    return url;
+  };
 
   return (
     <article className="prose prose-invert max-w-none">
@@ -73,8 +87,8 @@ export default function NewsContentDetail({
               onClick={() => {
                 if (sec.image) {
                   setActiveImage(sec.image);
+                  setShowModal(true);
                 }
-                setShowModal(true);
               }}
             >
               <img
@@ -93,7 +107,6 @@ export default function NewsContentDetail({
           {/* 🔹 Bộ ảnh (gallery) */}
           {sec.images && sec.images.length > 0 && (
             <div className="flex flex-col items-center my-4">
-              {/* Grid 2 ảnh / hàng - giảm khoảng cách dọc và ngang */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-3 gap-y-2 w-full">
                 {sec.images.map((img, i) => (
                   <div
@@ -107,21 +120,49 @@ export default function NewsContentDetail({
                     <img
                       src={img.src}
                       alt={img.caption || ""}
-                      className="rounded-lg shadow-md object-cover w-full h-52 sm:h-60 transition-transform duration-300 group-hover:scale-[1.02] my-[0px]"
+                      className="rounded-lg shadow-md object-cover w-full h-52 sm:h-60 transition-transform duration-300 group-hover:scale-[1.02]"
                     />
-                    {/* {img.caption && (
-                      <p className="text-[11px] text-gray-500 mt-1 text-center">
-                        {img.caption}
-                      </p>
-                    )} */}
                   </div>
                 ))}
               </div>
 
-              {/* Caption tổng - giữ sát */}
               {sec.caption && (
                 <p className="text-xs text-gray-500 italic mt-2 text-center">
                   {sec.caption}
+                </p>
+              )}
+            </div>
+          )}
+
+          {/* 🔹 Video */}
+          {sec.video && (
+            <div className="flex flex-col items-center my-6">
+              {sec.video.includes("youtube.com") ||
+              sec.video.includes("youtu.be") ? (
+                // 🎥 YouTube embed
+                <iframe
+                  className="rounded-lg shadow-md w-full max-w-3xl h-[400px]"
+                  src={getYouTubeEmbedUrl(sec.video)}
+                  title="YouTube video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                  allowFullScreen
+                />
+              ) : (
+                // 🎥 Video file mp4/webm
+                <video
+                  controls
+                  playsInline
+                  preload="metadata"
+                  className="rounded-lg shadow-md w-full max-w-3xl max-h-[600px]"
+                  src={sec.video}
+                >
+                  Trình duyệt của bạn không hỗ trợ video.
+                </video>
+              )}
+
+              {sec.videoCaption && (
+                <p className="text-xs text-gray-500 italic mt-2 text-center">
+                  {sec.videoCaption}
                 </p>
               )}
             </div>
@@ -164,6 +205,7 @@ export default function NewsContentDetail({
           </div>
         )}
       </div>
+
       {/* 🔍 Popup phóng to ảnh */}
       {showModal && activeImage && (
         <div
@@ -174,7 +216,7 @@ export default function NewsContentDetail({
             src={activeImage}
             alt="Zoomed"
             className="max-w-full max-h-[90vh] rounded-lg shadow-lg"
-            onClick={(e) => e.stopPropagation()} // tránh tắt khi click ảnh
+            onClick={(e) => e.stopPropagation()}
           />
           <button
             className="absolute top-5 right-5 text-white text-2xl font-bold"

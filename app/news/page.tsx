@@ -41,7 +41,8 @@ export default function NewsPage() {
 
       return matchType && matchSearch;
     })
-    .sort((a, b) => new Date(b.time).getTime() - new Date(a.time).getTime());
+    // .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
+    .sort((a, b) => b.id - a.id);
 
   // ====== LỌC BÀI VIẾT ======
   // const filteredNews = news

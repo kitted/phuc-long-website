@@ -61,7 +61,7 @@ export default function ProductDetail({ product }: ProductDetailProps | any) {
         {product.image && (
           <div className="flex flex-col h-full">
             <div className="w-full rounded-lg overflow-hidden p-4 flex-1">
-              <div className="relative w-full h-[400px] sm:h-[450px] md:h-[500px] flex items-center justify-center rounded-lg">
+              <div className="relative w-full h-[800px] sm:h-[550px] md:h-[500px] flex items-center justify-center rounded-lg">
                 <img
                   src={mainImage}
                   alt={product.title || "Product image"}

@@ -53,6 +53,12 @@ export default function NewsDetailPage() {
         caption: item?.caption || "", // tùy bạn có muốn caption cho nhóm ảnh không
       });
     }
+    if (item.video && item.videoCaption.length > 0) {
+      sections.push({
+        video: item.video,
+        videoCaption: item?.videoCaption || "", // tùy bạn có muốn caption cho nhóm ảnh không
+      });
+    }
   });
 
   return (

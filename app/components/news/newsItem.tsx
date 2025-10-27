@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
+import { slugify } from "@/app/lib/slugify";
 
 type Props = {
   title: string;
@@ -35,7 +36,7 @@ export default function NewsItem({ title, desc, date, img }: Props) {
 
   return (
     <Link
-      href={currentSlug ? `${currentSlug}/1` : `news/car/1`}
+      href={`/news/${slugify(title)}`}
       className="flex gap-4 border-b border-white/10 pb-4"
     >
       {/* Thumbnail */}

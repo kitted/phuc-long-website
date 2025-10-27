@@ -1,3 +1,12 @@
+export const categories = [
+  { name: "Mới nhất", slug: "" },
+  { name: "Ô tô", slug: "car" },
+  { name: "Xe máy", slug: "motorbike" },
+  { name: "Xe điện", slug: "electric" },
+  { name: "Kỹ thuật", slug: "technique" },
+  { name: "Đánh giá", slug: "review" },
+  { name: "Kinh tế", slug: "economy" },
+];
 export const news = [
   {
     id: 1,
@@ -517,4 +526,339 @@ export const news = [
       },
     ],
   },
+  {
+    id: 5,
+    title: "Pin xe điện hiện nay có những loại nào?",
+    time: "Thứ ba, 26/8/2025 10:14 (GMT+7)",
+    writer: "Việt Hà Theo Reuters",
+    views: 100,
+    tag: ["Xe điện", "Pin", "Công nghệ", "Mạng xã hội"],
+    type: ["motorbike", "review", "electric", "technique"],
+    origin: "zingnews.vn",
+    banner: {
+      image:
+        "https://photo.znews.vn/w860/Uploaded/aobhuua/2025_08_25/EV_Battery_1.png",
+      title:
+        "Pin giữ vai trò then chốt trên xe điện, quyết định hiệu năng, giá trị lẫn tuổi thọ, vì thế nhiều tập đoàn và startup đang chạy đua nghiên cứu vật liệu mới nhằm tối ưu cho hệ thống này.",
+      description: [
+        "Để giảm sự phụ thuộc vào nguồn cung từ Trung Quốc, nhiều doanh nghiệp toàn cầu đang nỗ lực phát triển các loại pin sử dụng các nguyên liệu thay thế khác nhau.",
+        "Trong bối cảnh ngành ôtô toàn cầu bước vào kỷ nguyên điện hóa, pin – bộ phận then chốt quyết định hiệu năng, giá trị và tuổi thọ xe điện – đã trở thành tâm điểm của cuộc cạnh tranh khốc liệt.",
+      ],
+    },
+    content: [
+      {
+        text: "Các tập đoàn lớn cùng những startup non trẻ đều lao vào nghiên cứu và phát triển công nghệ pin mới dựa trên các nguyên liệu như natri, lưu huỳnh hoặc những hợp chất hóa học khác, với mục tiêu giảm chi phí và giảm phụ thuộc vào những khoáng sản khan hiếm. Hiện tại, Trung Quốc đang nắm tới 85% sản lượng pin toàn cầu và kiểm soát 90% khâu xử lý nguyên liệu cho 2 dòng pin lithium-ion chính.",
+      },
+      {
+        text: "Công nghệ pin thay đổi nhanh chóng nhưng nguyên lý cơ bản vẫn giữ nguyên: mọi viên pin đều có 3 thành phần chính gồm cực dương (cathode), cực âm (anode) và chất điện phân. Tùy thuộc vào chất liệu cấu thành, mỗi loại pin mang đến ưu và nhược điểm riêng, từ những dòng truyền thống cho tới các thế hệ mới đang được thử nghiệm.",
+      },
+      {
+        image: {
+          img: "https://photo.znews.vn/w860/Uploaded/aobhuua/2025_08_25/EV_Battery_3.png",
+          title:
+            "Nguyên lý hoạt động của pin vẫn không đổi, dựa trên 3 thành phần chính: cực dương (cathode), cực âm (anode) và chất điện phân, nơi các phản ứng hóa học diễn ra để tạo ra và lưu trữ dòng điện.",
+        },
+      },
+      {
+        text: "Những công nghệ cũ như pin chì-acid, vốn quen thuộc trong các bình ắc-quy 6 V hoặc 12 V khởi động xe, vẫn được duy trì nhờ chi phí thấp và độ bền trong điều kiện khắc nghiệt, dù hạn chế về khối lượng nặng và mật độ năng lượng thấp. Pin nickel-cadmium (Ni-Cd) hay nickel-metal hydride (Ni-MH) từng mở đường cho xe hybrid đầu tiên như Toyota Prius năm 1997. Ngoài ra, công nghệ natri-nickel chloride cũng đã xuất hiện trong đội xe của Bưu điện Pháp, với ưu điểm nhỏ gọn và có thể lắp trên xe cũ mà không cần chuyển đổi cấu trúc.",
+      },
+      {
+        text: "Bước sang kỷ nguyên xe điện hiện đại, pin lithium-ion trở thành nền tảng chủ đạo. Được thương mại hóa từ năm 1991 bởi Sony, công nghệ này nhanh chóng phổ biến từ điện thoại, máy tính xách tay cho đến ôtô. Ưu thế của lithium-ion nằm ở khả năng sạc nhanh và chậm linh hoạt, mật độ năng lượng cao cùng hiệu suất vận hành ổn định.",
+      },
+      {
+        image: {
+          img: "https://photo.znews.vn/w860/Uploaded/aobhuua/2025_08_25/Concept_AMG_GT_XX_Record_9.jpg",
+          title:
+            "Nguyên lý hoạt động của pin vẫn không đổi, dựa trên 3 thành phần chính: cực dương (cathode), cực âm (anode) và chất điện phân, nơi các phản ứng hóa học diễn ra để tạo ra và lưu trữ dòng điện.",
+        },
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Nóng dần cuộc chiến xe máy điện ở Việt Nam",
+    writer: "Phúc Hậu",
+    time: "Thứ bảy, 23/8/2025 17:57 (GMT+7)",
+    views: 200,
+    tag: ["Xe điện", "Pin", "Công nghệ", "Mạng xã hội"],
+    type: ["motorbike", "review", "electric", "technique"],
+    origin: "zingnews.vn",
+    banner: {
+      image:
+        "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_08_04/Honda_CUV_e_znews_8.JPG",
+      title:
+        "Thị trường xe máy điện ở Việt Nam chứng kiến nhiều diễn biến mới, hứa hẹn một cuộc chiến khốc liệt giữa các hãng xe.",
+      description: [
+        "Khi thị trường đứng trước áp lực điện hóa, không ít hãng xe máy truyền thống như Honda, Yamaha cũng phải nhập cuộc. Loạt thương hiệu xe máy điện VinFast, Yadea cũng có những động thái riêng, khiến sức nóng cuộc chiến xe máy điện ở Việt Nam được đẩy lên liên tục.",
+      ],
+    },
+    content: [
+      { title: "Cuộc đua sản phẩm" },
+      {
+        text: "Bản thân những VinFast, Yadea đã là những thương hiệu xe máy điện, do đó sức ép điện hóa dường như không ảnh hưởng quá nhiều đến cả hai.",
+      },
+      {
+        text: "Yadea gần đây liên tục ra mắt nhiều mẫu xe máy điện mới, gồm Vekoo, Velax để bổ sung cho danh mục sản phẩm đã tương đối dày.",
+      },
+      {
+        text: "VinFast cũng có động thái tương tự, trình làng mẫu xe pin tháo rời Evo Grand với tầm hoạt động lên đến 285 km khi lắp đủ 2 pin. Trước đó, VinFast cũng đã ra mắt Motio - xe máy điện dành cho học sinh, bên cạnh loạt xe máy điện Lite được chỉnh sửa để phù hợp với nhu cầu sử dụng của những người chưa có bằng lái xe máy.",
+      },
+
+      {
+        images: [
+          {
+            src: "https://photo.znews.vn/w1200/Uploaded/bpivptvl/2025_07_26/thumb1_vinfast_evo_grand_znews.jpg",
+          },
+          {
+            src: "https://photo.znews.vn/w1200/Uploaded/bpivptvl/2025_05_31/cheotrai_yadea_velax_znews.JPG",
+          },
+        ],
+        caption: "Các hãng chạy đua ra mắt xe máy điện. Ảnh: Đan Thanh.",
+      },
+      {
+        text: "Yamaha Neo's là sản phẩm xe máy điện ra mắt đã khá lâu và cho đến nay vẫn đang là lựa chọn thuần điện duy nhất của thương hiệu.",
+      },
+      {
+        text: "Honda gần đây ra mắt 2 xe máy điện ICON e: và CUV e:. Trong đó, Honda ICON e: là xe máy điện dành cho học sinh, tương tự Yadea Vekoo, VinFast Motio hay loạt xe máy điện Lite của VinFast như đề cập phía trên.",
+      },
+      {
+        text: "Honda CUV e: lại là một mẫu xe máy điện có pin tháo rời. Khách hàng có thể tháo pin để sạc tại nhà, hoặc mang pin đến đổi ở các trạm được Honda đặt tại hệ thống đại lý HEAD.",
+      },
+      {
+        text: "Selex Motor tập trung vào dòng xe máy điện phục vụ nhóm khách hàng shipper, còn Dat Bike có các mẫu xe máy điện với tầm hoạt động tối đa hơn 200 km/lần sạc.",
+      },
+      {
+        image: {
+          img: "https://photo.znews.vn/w860/Uploaded/yqdlmdxwp/2025_08_04/Honda_CUV_e_znews_4.JPG",
+          title: "Honda CUV e: cung cấp giải pháp pin hoán đổi. Ảnh: Phúc Hậu.",
+        },
+      },
+      {
+        text: "Nhìn chung, thị trường xe máy điện ở Việt Nam đang ngày càng phong phú. Bên cạnh những hãng xe thuần điện, việc các thương hiệu lâu đời như Honda cho thấy sự nghiêm túc ở mảng điện hóa cũng giúp người Việt có thêm lựa chọn khi có nhu cầu chuyển đổi từ xăng sang điện.",
+      },
+      { title: "Chạy đua hạ tầng" },
+      {
+        text: "Trong quá khứ, các mẫu xe máy điện VinFast như Impes, Ludo, Klara S từng trang bị pin hoán đổi, khách hàng cũng có thể đổi pin tại trạm đặt ở hệ thống cửa hàng VinMart/VinMart+ (nay là hệ thống WinMart).",
+      },
+      {
+        text: "Tuy nhiên, chương trình này đã được VinFast cho dừng hoạt động vài năm trước vì kém hiệu quả. Cho đến trước khi Honda triển khai các trạm đổi pin, Selex Motor là đơn vị duy nhất còn bố trí các trạm hoán đổi pin cho xe máy điện.",
+      },
+      {
+        text: "Gần đây, VinFast thông báo kế hoạch thiết lập mạng lưới trạm đổi pin với 150.000 trạm trên toàn quốc. Trước mắt, VinFast sẽ lắp đặt 1.000 trạm ngay trong tháng 10, tiến đến đạt 50.000 trạm đổi pin cho xe máy điện vào cuối năm 2025 và kỳ vọng hoàn tất toàn bộ hệ thống trong 3 năm tới.",
+      },
+      {
+        image: {
+          img: "https://photo.znews.vn/w860/Uploaded/yqdlmdxwp/2025_08_22/VinFast_Evo_Max.jpg",
+          title:
+            "VinFast sẽ làm 150.000 trạm đổi pin xe máy điện. Ảnh: VinFast.",
+        },
+      },
+      {
+        text: "TMT Motors - đơn vị phân phối ôtô điện Wuling tại Việt Nam - cũng thông báo sẽ phát triển mô hình trạm đổi pin tự động tại Việt Nam. Đơn vị này tiết lộ sẽ sớm tham gia thị trường xe máy điện, tuy nhiên không nêu chi tiết về thời điểm cũng như mẫu xe đầu tiên.",
+      },
+      { title: "Chạy đua hạ tầng" },
+
+      {
+        text: '"Cuộc chiến" bảo hành pin',
+      },
+      {
+        text: "Tại Việt Nam, 2 năm là thời gian bảo hành phổ biến với pin xe máy điện.",
+      },
+      {
+        text: "Gần đây khi giới thiệu tùy chọn mua pin dành cho Honda ICON e:, hãng xe Nhật Bản công bố chính sách bảo hành 2 năm với gói pin, áp dụng với pin bán kèm theo xe. Trong trường hợp pin lẻ khi thay thế, sửa chữa hoặc mua thêm, thời hạn bảo hành là một năm.",
+      },
+      {
+        image: {
+          img: "https://photo.znews.vn/w860/Uploaded/yqdlmdxwp/2024_10_24/Honda_ICON_e_VMS_2024_znews_12.JPG",
+          tile: "Gói pin Honda ICON e: có thể tháo rời. Ảnh: Phúc Hậu.",
+        },
+      },
+      {
+        text: "Hãng xe máy điện Trung Quốc Yadea cũng áp dụng thời hạn bảo hành 24 tháng hoặc 20.000 km (tùy điều kiện nào đến trước) cho pin lithium. Riêng Yadea Voltguard U được bảo hành toàn xe trong 3 năm hoặc 30.000 km.",
+      },
+      {
+        text: "Yamaha thông báo thời hạn bảo hành 2 năm cho pin lithium-ion trên xe máy điện. Như đã đề cập, Neo's hiện là cái tên thuần điện duy nhất trong danh mục xe 2 bánh thương hiệu Yamaha tại Việt Nam.",
+      },
+      {
+        text: "Gần đây, VinFast thông báo áp dụng chính sách bảo hành 8 năm không giới hạn số km dành cho gói pin LFP của xe máy điện. Chính sách bảo hành mới cũng bao gồm 6 năm không giới hạn số km cho tất cả xe máy điện VinFast sử dụng pin LFP.",
+      },
+      {
+        image: {
+          img: "https://photo.znews.vn/w860/Uploaded/yqdlmdxwp/2022_09_29/IMG_1865_pin_vinfast_evo200_znews.jpg",
+          title:
+            "Pin xe điện ở Việt Nam có thể được bảo hành đến 8 năm. Ảnh: Bối Hạ.",
+        },
+      },
+      {
+        text: 'Pin là một trong những bộ phận quan trọng và đắt đỏ bậc nhất trên xe máy điện. Do đó, "cuộc chiến" mở rộng thời hạn bảo hành cho phụ tùng này nhiều khả năng ảnh hưởng không nhỏ đến quyết định mua xe của khách hàng, qua đó định hình bộ mặt thị trường xe máy điện Việt Nam trong tương lai.',
+      },
+    ],
+  },
+  {
+    id: 7,
+    title:
+      "Nhà phân phối Wuling sắp bán xe máy điện, tuyên bố làm trạm đổi pin",
+    writer: "Phúc Hậu",
+    time: "Thứ bảy, 2/8/2025 14:03 (GMT+7)",
+    views: 300,
+    tag: ["Xe điện", "Pin", "Công nghệ", "Mạng xã hội"],
+    type: ["motorbike", "review", "electric", "technique"],
+    origin: "zingnews.vn",
+    banner: {
+      image:
+        "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_03_28/Gogoro_swapping_station.jpg",
+      title: "Ảnh minh họa: Gogoro.",
+      description: [
+        "TMT Motors cho biết sẽ ra mắt xe máy điện trong quý cuối năm.",
+      ],
+    },
+    content: [
+      {
+        text: "Trên website chính thức, TMT Motors vừa thông báo sẽ ra mắt xe máy điện tại Việt Nam vào quý IV tới đây. Đơn vị phụ trách phân phối ôtô điện thương hiệu Wuling chưa tiết lộ tên gọi mẫu xe máy điện.",
+      },
+      {
+        text: "Song song với động thái ra mắt xe máy điện, TMT Motors cũng xác nhận sẽ phát triển mô hình trạm đổi pin tự động tại Việt Nam.",
+      },
+      {
+        text: "Đơn vị này cho biết mô hình đổi pin của TMT Motors sẽ được tự động hóa hoàn toàn, giúp người dùng chỉ mất 1-2 phút để đổi pin mà không cần thực hiện các thao tác thủ công.",
+      },
+      {
+        text: "Trạm đổi pin của TMT Motors sẽ sử dụng nguồn điện 220V, tương thích với mạng lưới điện sinh hoạt hiện hữu của Việt Nam.",
+      },
+      {
+        text: "Trong nội dung chia sẻ trên website chính thức, TMT Motors cho biết mô hình đổi pin của mình sẽ hướng đến tương thích đa nền tảng. Pin và trạm được chuẩn hóa để sử dụng cho nhiều dòng xe điện khác nhau, chỉ cần phù hợp tiêu chuẩn về pin và chức năng.",
+      },
+      {
+        text: "Hệ thống này có thể mở rộng linh hoạt từ 5 đến 72 viên pin mỗi trạm. TMT Motors cho rằng đặc điểm này giúp mô hình phù hợp với nhiều quy mô điểm đặt, nhận định các chung cư, hộ gia đình, nhà trọ hay cửa hàng xăng dầu hiện hữu là những địa điểm lý tưởng để triển khai.",
+      },
+      {
+        image: {
+          img: "https://photo.znews.vn/w660/Uploaded/yqdlmdxwp/2024_12_08/Selex_doi_pin.png",
+          title:
+            "Selex Motors đã triển khai nhiều trạm hoán đổi pin tại Việt Nam. Ảnh: Selex Motors.",
+        },
+      },
+      {
+        text: "Ở Việt Nam, mô hình hoán đổi pin xe máy điện đã có nhưng chưa thật sự phổ biến. Selex Motors là cái tên tiên phong, đã và đang triển khai mạng lưới đổi pin dùng chung cho xe máy điện với số lượng trạm tương đối lớn.",
+      },
+      {
+        text: "Honda CUV e: vừa ra mắt gần đây cũng sở hữu 2 gói pin dưới yên xe có thể tháo rời và hoán đổi. Theo thông tin do hãng xe Nhật Bản cung cấp, khách hàng thuê CUV e: có thể thực hiện đổi pin miễn phí tại một số đại lý chính hãng ở Việt Nam.",
+      },
+    ],
+  },
+  {
+    id: 8,
+    title:
+      "Ngành công nghiệp ôtô Mỹ đối mặt nguy cơ tê liệt do khủng hoảng chip",
+    writer: "Việt Hà Theo Autonews",
+    time: "Chủ nhật, 26/10/2025 19:13 (GMT+7)",
+    views: 340,
+    tag: ["Car", "Pin", "Công nghệ", "Mạng xã hội"],
+    type: ["car", "review", "economy", "technique"],
+    origin: "zingnews.vn",
+    banner: {
+      image:
+        "https://photo.znews.vn/w860/Uploaded/aobhuua/2025_10_26/Nexperia_Chip_1.jpg",
+      title:
+        "Tranh chấp bùng phát sau khi chính phủ Hà Lan ngày 30/9 tuyên bố tiếp quản Nexperia - công ty có trụ sở tại Hà Lan nhưng thuộc sở hữu 100% của Wingtech (Trung Quốc).",
+      description: [
+        "Các nhà máy ôtô Mỹ đang đứng trước nguy cơ tạm ngừng hoạt động trong vài tuần tới do khủng hoảng chip leo thang giữa Trung Quốc và phương Tây, xoay quanh nhà sản xuất Nexperia.",
+        "Các nhà máy lắp ráp ôtô tại Mỹ đang đứng trước nguy cơ phải tạm ngừng hoạt động trong vòng hai đến bốn tuần tới, do thiếu hụt nguồn cung chip nghiêm trọng liên quan đến xung đột giữa phương Tây và Trung Quốc về nhà sản xuất chip Nexperia. Cảnh báo này được đưa ra bởi MEMA, hiệp hội các nhà cung ứng thiết bị và linh kiện xe cơ giới lớn nhất tại Mỹ.",
+      ],
+    },
+    content: [
+      {
+        text: "Theo MEMA, Bắc Kinh đã chặn Nexperia, một nhà cung cấp chip quan trọng cho ngành công nghiệp ôtô và điện tử tiêu dùng, xuất khẩu sản phẩm từ các cơ sở sản xuất của họ tại Trung Quốc. Động thái này được coi là phản ứng trả đũa sau khi chính phủ Hà Lan tước quyền kiểm soát Nexperia, vốn thuộc sở hữu của Trung Quốc. Sự việc đã làm căng thẳng thêm mối quan hệ thương mại vốn đang xấu đi giữa Trung Quốc và phương Tây.",
+      },
+      {
+        text: "Tại châu Âu, các nhà sản xuất xe đang chạy đua 24/7 để ngăn xung đột này lan rộng và gây gián đoạn sản xuất. Trong tuần này, Nexperia đã thông báo với các khách hàng Nhật Bản rằng họ có thể không còn khả năng đảm bảo giao hàng đúng hạn. Căng thẳng tiếp tục leo thang khi Trung Quốc siết chặt kiểm soát các linh kiện sản xuất quan trọng, còn chính quyền Mỹ cũng áp dụng biện pháp đáp trả tương tự, trong bối cảnh hai bên chuẩn bị cho hội nghị thượng đỉnh được mong đợi diễn ra vào tuần tới.",
+      },
+      {
+        image: {
+          img: "https://photo.znews.vn/w860/Uploaded/aobhuua/2025_10_26/Nexperia_Chip_2.png",
+          title:
+            "Không phức tạp như các con chip sử dụng cho hệ thống vận hành, loại chip thế hệ cũ do Nexperia cung cấp vẫn được sử dụng rộng rãi cho các tính năng như cần gạt mưa, điều chỉnh cửa sổ... tuy nhiên có rất ít nhà sản xuất còn làm ra chúng.",
+        },
+      },
+      {
+        text: "Các chip mà Nexperia cung cấp cho ngành công nghiệp ôtô sử dụng công nghệ cũ hơn, đảm nhiệm các chức năng cơ bản như bật cần gạt nước, mở cửa sổ, điều khiển các hệ thống điện đơn giản... Dù không hiện đại như các chip phục vụ hệ thống hỗ trợ lái, những loại chip này lại cực kỳ quan trọng và có rất ít nhà sản xuất còn làm ra chúng.",
+      },
+      {
+        text: 'Tại Mỹ, các hãng xe lớn đều đang theo dõi sát sao tình hình. CEO Ford, Jim Farley, gọi xung đột Nexperia là một vấn đề "mang tính chính trị" và cho biết ông đã đưa vấn đề này ra thảo luận với các quan chức chính phủ trong chuyến công tác tại Washington tuần qua.',
+      },
+      {
+        image: {
+          img: "https://photo.znews.vn/w860/Uploaded/aobhuua/2025_10_13/US_Fixing_Cost_1.png",
+          title:
+            'Tuy không quá phức tạp, các con chip của Nexperia cũng đủ làm cho ngành công nghiệp ôtô toàn cầu "đứng im", có nguy cơ tạo ra một cuộc khủng hoảng chip lần thứ 2 sau đại dịch Covid-19.',
+        },
+      },
+      {
+        text: "CEO General Motors, Mary Barra, cũng thừa nhận hạn chế nguồn cung chip có thể ảnh hưởng đến sản xuất, dù GM đang nỗ lực phối hợp với các đối tác để giảm thiểu thiệt hại. Trong khi đó, Stellantis – tập đoàn mẹ của các thương hiệu như Jeep, Peugeot và Fiat – cho biết đang phối hợp cùng Nexperia và các nhà cung cấp khác để đánh giá tác động và xây dựng biện pháp ứng phó.",
+      },
+      {
+        text: "Nếu tình trạng này kéo dài, ngành công nghiệp ôtô Mỹ có thể lặp lại khủng hoảng chip năm 2021, khi hàng loạt nhà máy buộc phải dừng sản xuất, gây thiệt hại hàng chục tỷ USD và làm trễ kế hoạch giao xe trên toàn cầu. Các bên có liên quan đang hy vọng một thỏa thuận thương mại tạm thời giữa Mỹ, Trung Quốc và châu Âu có thể sớm tháo gỡ nút thắt này trước khi dây chuyền sản xuất phải dừng hoạt động.",
+      },
+    ],
+  },
+  {
+    id: 9,
+    title: "Honda Civic Type R ngừng bán tại Việt Nam",
+    writer: "Đan Thanh",
+    time: "Thứ sáu, 24/10/2025 08:40 (GMT+7)",
+    views: 440,
+    tag: ["Car", "Công nghệ", "Mạng xã hội"],
+    type: ["car", "review", "economy", "technique"],
+    origin: "zingnews.vn",
+    banner: {
+      image:
+        "https://photo.znews.vn/w960/Uploaded/bpivptvl/2024_10_11/honda_Civic_Type_R_7.jpg",
+      title:
+        "Honda vừa thông báo đợt nhận đặt hàng cuối cùng cho mẫu xe hiệu năng cao Civic Type R tại Việt Nam.",
+      description: [
+        "Sau khi nhận cọc 10 chiếc cuối cùng, mẫu sedan hiệu năng cao sẽ ngừng bán tại Việt Nam.",
+        'Cụ thể, thương hiệu ôtô Nhật Bản vừa nhận đặt cọc 10 chiếc Civic Type R cuối cùng, sau đó ngừng bán hoàn toàn mẫu xe này tại thị trường Việt. Thời gian giao dự kiến từ tháng 12/2026, tại một buổi lễ riêng như một "lời tạm biệt" dòng sedan hiệu năng cao này.',
+      ],
+    },
+    content: [
+      {
+        text: "Honda Civic Type R được giới thiệu lần đầu tiên vào tháng 10/2022, tại triển lãm Việt Nam motorshow (VMS) năm 2022. Đầu năm 2023, Civic Type R nhận đặt cọc với giá bán 2,399 tỷ đồng, cạnh tranh cùng Subaru WRX hay Hyundai Elantra N. Đến đầu năm nay, mẫu xe được nâng mức giá lên thành 2,999 tỷ đồng.",
+      },
+      {
+        text: "Civic Type R là mẫu xe đua hiệu năng cao, sở hữu động cơ tăng áp 2.0L VTEC, sản sinh công suất tối đa 315 mã lực tại 6.500 vòng/phút và mô-men xoắn cực đại 420 Nm tại 2.600-4.000 vòng/phút. Tốc độ cao nhất mà xe có thể đạt được là 272 km/h. Mẫu sedan này sử dụng hộp số sàn 6 cấp với 4 chế độ lái: Comfort, Sport, Individual và +R.",
+      },
+      {
+        text: "Mâm xe 19 inch với bộ lốp Michelin Pilot Sport 4S là trang bị tiêu chuẩn của Honda Civic Type R. Ngoài ra, xe còn có hệ thống Brembo hay tính năng bù ga khi xuống số Rev-matching.",
+      },
+      {
+        text: 'Với giá bán cao chuẩn "xe chơi", Civic Type R chưa bao giờ là một mẫu xe dành cho số đông. Vì vậy đây luôn là cái tên xuất hiện trong nhóm bán chậm của mỗi kỳ báo cáo doanh số tại Việt Nam.',
+      },
+    ],
+  },
+  // {
+  //   id: 10,
+  //   title: "ádf",
+  //   writer: "Đan Thanh",
+  //   time: "Thứ sáu, 24/10/2025 08:40 (GMT+7)",
+  //   views: 440,
+  //   tag: ["Car", "Công nghệ", "Mạng xã hội"],
+  //   type: ["car", "review", "economy", "technique"],
+  //   origin: "zingnews.vn",
+  //   banner: {
+  //     image:
+  //       "https://photo.znews.vn/w960/Uploaded/bpivptvl/2024_10_11/honda_Civic_Type_R_7.jpg",
+  //     title:
+  //       "Honda vừa thông báo đợt nhận đặt hàng cuối cùng cho mẫu xe hiệu năng cao Civic Type R tại Việt Nam.",
+  //     description: [
+  //       "Sau khi nhận cọc 10 chiếc cuối cùng, mẫu sedan hiệu năng cao sẽ ngừng bán tại Việt Nam.",
+  //       'Cụ thể, thương hiệu ôtô Nhật Bản vừa nhận đặt cọc 10 chiếc Civic Type R cuối cùng, sau đó ngừng bán hoàn toàn mẫu xe này tại thị trường Việt. Thời gian giao dự kiến từ tháng 12/2026, tại một buổi lễ riêng như một "lời tạm biệt" dòng sedan hiệu năng cao này.',
+  //     ],
+  //   },
+  //   content: [
+  //     {
+  //       video: "https://www.youtube.com/watch?v=RPT8_xatszk",
+  //       videoCaption: "Video: Zing News",
+  //     },
+  //   ],
+  // },
 ];

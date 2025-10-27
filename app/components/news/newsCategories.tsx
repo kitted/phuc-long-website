@@ -2,17 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-
-const categories = [
-  { name: "Mới nhất", slug: "" },
-  { name: "Ô tô", slug: "car" },
-  { name: "Xe máy", slug: "motorbike" },
-  { name: "Xe điện", slug: "electric" },
-  { name: "Kỹ thuật", slug: "technique" },
-  { name: "Đánh giá", slug: "review" },
-  { name: "Kinh tế", slug: "economy" },
-  { name: "Review", slug: "feedback" },
-];
+import { categories } from "@/app/data/news";
 
 export default function NewsCategories() {
   const router = useRouter();
