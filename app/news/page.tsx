@@ -60,7 +60,7 @@ export default function NewsPage() {
   const totalPages = Math.ceil(totalItems / itemsPerPage);
 
   // Dữ liệu hiển thị theo trang (sau 5 bài highlight)
-  const startIdx = 5 + (currentPage - 1) * itemsPerPage;
+  const startIdx = 7 + (currentPage - 1) * itemsPerPage;
   const endIdx = startIdx + itemsPerPage;
   const paginatedNews = filteredNews.slice(startIdx, endIdx);
 
@@ -94,7 +94,7 @@ export default function NewsPage() {
               <>
                 {/* ====== 5 BÀI HIGHLIGHT ====== */}
                 <NewsHighlight
-                  data={filteredNews.slice(0, 5)}
+                  data={filteredNews.slice(0, 7)}
                   darkMode={darkMode}
                 />
 

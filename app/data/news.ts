@@ -835,30 +835,213 @@ export const news = [
       },
     ],
   },
-  // {
-  //   id: 10,
-  //   title: "ádf",
-  //   writer: "Đan Thanh",
-  //   time: "Thứ sáu, 24/10/2025 08:40 (GMT+7)",
-  //   views: 440,
-  //   tag: ["Car", "Công nghệ", "Mạng xã hội"],
-  //   type: ["car", "review", "economy", "technique"],
-  //   origin: "zingnews.vn",
-  //   banner: {
-  //     image:
-  //       "https://photo.znews.vn/w960/Uploaded/bpivptvl/2024_10_11/honda_Civic_Type_R_7.jpg",
-  //     title:
-  //       "Honda vừa thông báo đợt nhận đặt hàng cuối cùng cho mẫu xe hiệu năng cao Civic Type R tại Việt Nam.",
-  //     description: [
-  //       "Sau khi nhận cọc 10 chiếc cuối cùng, mẫu sedan hiệu năng cao sẽ ngừng bán tại Việt Nam.",
-  //       'Cụ thể, thương hiệu ôtô Nhật Bản vừa nhận đặt cọc 10 chiếc Civic Type R cuối cùng, sau đó ngừng bán hoàn toàn mẫu xe này tại thị trường Việt. Thời gian giao dự kiến từ tháng 12/2026, tại một buổi lễ riêng như một "lời tạm biệt" dòng sedan hiệu năng cao này.',
-  //     ],
-  //   },
-  //   content: [
-  //     {
-  //       video: "https://www.youtube.com/watch?v=RPT8_xatszk",
-  //       videoCaption: "Video: Zing News",
-  //     },
-  //   ],
-  // },
+  {
+    id: 10,
+    title: "Ai sẽ mua Honda CT125?",
+    writer: "Đan Thanh",
+    time: "Thứ ba, 28/10/2025 10:31 (GMT+7)",
+    views: 4450,
+    tag: ["Xe máy", "Công nghệ", "Mạng xã hội", "Honda", "CT125"],
+    type: ["motorbike", "review", "economy", "technique"],
+    origin: "zingnews.vn",
+    banner: {
+      image:
+        "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_10_25/Honda_CT125_5.jpg",
+      title: " ",
+      description: [
+        "Honda CT125 được mở bán với giá gần 90 triệu đồng, nhỉnh hơn hẳn so với các mẫu xe tay ga cùng nhà. Vậy với mức giá này, CT125 sẽ dành cho ai?",
+        'Sau thời gian dài "nhá hàng", Honda đã ra mắt chiếc CT 125 tại Việt Nam. Đây là một mẫu xe trail với thiết kế "ăn chơi" so với các anh em cùng nhà như Honda Vision, SH hay Air Blade. Xe được bán với giá 87,5 triệu đồng, một con số không hề thấp nếu đặt cạnh những mẫu xe phổ thông quen thuộc.',
+        "Vậy đâu sẽ là tệp khách hàng chính của CT 125?",
+      ],
+    },
+    content: [
+      // {
+      //   video: "https://www.youtube.com/watch?v=RPT8_xatszk",
+      //   videoCaption: "Video: Zing News",
+      // },
+      { title: "Giá cao không bất ngờ" },
+      {
+        text: "Honda không phải lần đầu tiên mở bán những dòng xe chơi tại thị trường Việt. Trước đây, hãng từng giới thiệu MSX 125 hay Monkey 125 với giá dao động 50-70 triệu đồng, đều sử dụng động cơ xăng 125 phân khối.",
+      },
+      {
+        text: "Vì vậy, việc CT125 sẽ xuất hiện với khoảng giá tương tự, thậm chí đắt hơn cũng là chuyện không quá bất ngờ.",
+      },
+      {
+        text: "Thực tế CT125 không phải một mẫu xe lạ ở thị trường Việt. Thậm chí cách đây 4 năm, thời điểm chiếc C125 vừa xuất hiện, cộng đồng chơi xe tại Việt Nam đã ngóng chờ ngày CT125 được mang về.",
+      },
+      {
+        text: "Thời điểm đó, chiếc Honda C125 được bán với giá khoảng 86,2 triệu đồng. Vì vậy, CT125, phiên bản ăn chơi hơn của C125, gần như chắc chắn không thể có giá dưới 85 triệu đồng.",
+      },
+      {
+        text: "Trước khi được Honda phân phối chính hãng, chiếc xe trail này thường xuyên được mở bán thông qua các đại lý nhập khẩu tư nhân với số lượng giới hạn và giá cao.",
+      },
+      {
+        image: {
+          img: "https://photo.znews.vn/w960/Uploaded/bpivptvl/2025_10_22/Honda_CT_125_znews_1_3.jpg",
+          tile: "Chiếc Honda CT125 đầu tiên được bán ở Việt Nam qua đại lý tư nhân có giá vượt mốc 150 triệu đồng. Ảnh: Vĩnh Phúc.",
+        },
+      },
+      {
+        text: 'Những chiếc CT125 đầu tiên xuất hiện với giá vượt mốc 150 triệu đồng. Trong khi đó, phiên bản đặc biệt hơn là Chums từng được rao với giá 200 triệu đồng. Dù giá cao, những mẫu xe này nay đều đã có chủ, cho thấy mức độ "chịu chơi" của cộng đồng yêu thích dòng xe máy địa hình.',
+      },
+      {
+        text: "Tại Thái Lan, mẫu xe có giá khoảng 85.000 Baht, tương đương khoảng 2.300 USD, nhỉnh hơn so với các dòng xe phổ thông. Vì vậy có thể việc chiếc CT125 được định giá ở mức 87,5 triệu đồng khi về Việt Nam là không quá bất ngờ.",
+      },
+      {
+        text: "Thậm chí theo một số chia sẻ trên các hội nhóm mạng xã hội, mức giá này còn thấp hơn dự đoán.",
+      },
+      {
+        text: '"Tôi nghĩ giá xe phải hơn 90 triệu đồng cơ, vì C125 đang có giá hơn 86 triệu đồng rồi", một ý kiến được đăng tải ở hội nhóm yêu thích xe máy địa hình trên mạng xã hội có lượt đồng tình cao.',
+      },
+      { title: "Đâu là khách hàng của CT125?" },
+      {
+        text: 'Với giá bán cao cùng thiết kế hầm hố, CT125 đương nhiên không phải một sản phẩm dành cho số đông. Mẫu xe hướng trực tiếp đến tệp khách hàng yêu thích phong cách "bụi bặm", những "phượt thủ" khao khát chinh phục các đoạn đường xấu, gồ ghề ở Việt Nam trên chiếc xe 2 bánh và có ngân sách dư giả.',
+      },
+      {
+        text: "Đương nhiên với tệp người dùng này, việc chiếc xe chơi có giá 40 hay 100 triệu không phải là yếu tố quá lớn. Nhiều người cho rằng Yamaha PG-1 và Honda CT125 sẽ là 2 cái tên đúng cùng một bàn cân, khi xét đến doanh số hay lượt quan tâm. Tuy nhiên, CT125 lại nằm ở vị trí khác.",
+      },
+      {
+        images: [
+          {
+            src: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_10_25/Honda_CT125_6.jpg",
+          },
+          {
+            src: "https://photo.znews.vn/w960/Uploaded/yqdlmdxwp/2025_09_14/Yamaha_PG_1_znews_8.jpg",
+          },
+        ],
+        caption:
+          "Cả Honda CT125 hay Yamaha PG-1 đều không phải mẫu xe dành cho số đông. Ảnh: Honda, Phúc Hậu.",
+      },
+      {
+        text: "Yamaha đang đẩy mạnh các chương trình quảng cáo, xây dựng cộng đồng cho PG-1, biến mẫu xe này thành chủ lực doanh số mới cho hãng tại Việt Nam, khi các mẫu tay ga phổ thông dần bị lu mờ.",
+      },
+      {
+        text: "Trong khi đó, Honda dường như chỉ đem CT125 về nhằm lấp đầy những chỗ trống ở nhóm xe chơi mà hãng còn thiếu. CT125 cũng sẽ tương tự MSX 125 hay Monkey 125, nắm giữ cho mình một tệp khách hàng riêng biệt, không nhiều, nhưng vừa đủ để giữ lấy thị phần.",
+      },
+      {
+        text: "Dù khó tạo ra bứt phá về doanh số, Honda CT125 vẫn là mẫu xe giúp thương hiệu Nhật củng cố hình ảnh đa dạng sản phẩm tại Việt Nam. Sự xuất hiện của CT125 cùng các dòng “xe chơi” như Monkey hay MSX 125 cho thấy hãng không chỉ tập trung vào nhóm khách hàng phổ thông mà còn muốn duy trì sức hút với những tay lái đam mê khám phá và cá tính.",
+      },
+    ],
+  },
+  {
+    id: 11,
+    title:
+      "VinFast Evo Grand - lựa chọn lý tưởng trong phân khúc 20 triệu đồng",
+    writer: "Đắc An",
+    time: "Thứ ba, 28/10/2025 10:00 (GMT+7)",
+    views: 2450,
+    tag: ["Xe máy", "Công nghệ", "Mạng xã hội", "VinFast", "Evo Grand"],
+    type: ["motorbike", "review", "economy", "technique"],
+    origin: "zingnews.vn",
+    banner: {
+      image: "https://photo.znews.vn/w960/Uploaded/wyhktpu/2025_10_28/2.jpg",
+      title: "",
+      description: [
+        "VinFast Evo Grand giúp nhiều người dùng mạnh dạn “chia tay” xe xăng nhờ mức giá hợp lý, thiết kế hiện đại cùng quãng đường di chuyển tới 262 km.",
+        "Từ khi con vào đại học, anh Tạ Hồng Kha (Hải Phòng) vui mừng nhưng cũng đối mặt nhiều nỗi lo, trong đó có chuyện sắm sửa xe cộ. Đúng thời điểm này, anh cùng con tham gia một sự kiện “đổi xăng lấy điện” của VinFast được tổ chức ngay gần nhà. Tại đây, sau một vòng lái thử, anh đã quyết định mua ngay một chiếc VinFast Evo Grand cho con gái.",
+      ],
+    },
+    content: [
+      // {
+      //   video: "https://www.youtube.com/watch?v=RPT8_xatszk",
+      //   videoCaption: "Video: Zing News",
+      // },
+      { title: "Quẳng gánh lo cho người dùng" },
+      {
+        text: "“Điều đầu tiên tôi thấy được là xe trang bị hệ thống phanh an toàn và lốp xe bám đường tốt, lái mượt, êm. Mấy điểm này tốt là tôi yên tâm giao xe cho con”, anh Kha chia sẻ.",
+      },
+      {
+        text: "Tìm hiểu kỹ hơn và nghe giới thiệu từ nhân viên tư vấn bán hàng, anh Kha còn được biết Evo Grand có thiết kế 2 pin độc đáo với một pin có thể tháo lắp linh hoạt, cho phép di chuyển quãng đường đến 262 km khi sử dụng cả 2 pin. Với công suất tối đa 2.250 W, Evo Grand có thể đạt tốc độ tới 70 km/h, phù hợp nhu cầu đi lại hàng ngày của con anh. Ngoài ra, động cơ trên Evo Grand được thiết kế theo tiêu chuẩn kháng nước IP67, giúp người dùng yên tâm khi di chuyển trong điều kiện mưa lớn hoặc đường ngập.",
+      },
+      {
+        image: {
+          img: "https://photo.znews.vn/w960/Uploaded/wyhktpu/2025_10_28/1.jpg",
+          tile: "Người dùng chọn VinFast Evo Grand tại các sự kiện “đổi xăng lấy điện”.",
+        },
+      },
+      {
+        text: "Vừa “chốt” một chiếc Evo Grand tặng vợ cách đây vài tháng, anh Nguyễn Viết Trường (Hà Nội) chia sẻ: “Trước kia, vợ tôi đi xe xăng, chỉ biết mỗi đổ xăng chứ không rõ lúc nào đến kỳ thay dầu, bảo dưỡng. Những lúc tôi bận công việc không để ý là xe đi lọc xọc, chạy đến khô cả dầu máy”. Anh cho rằng mua xe máy điện giúp bản thân bớt nỗi lo này.",
+      },
+      {
+        text: "Anh lý giải kỳ bảo dưỡng Evo Grand dài hơn và giá cũng rẻ hơn nhiều nhờ cấu trúc đơn giản, ít bộ phận cơ khí dễ hỏng. Evo Grand sử dụng pin LFP nên anh cũng yên tâm về độ bền và chất lượng. Vì vậy, anh tin nếu vợ quên chăm sóc, chiếc xe vẫn hoạt động bình thường.",
+      },
+      { title: "Lên đời xe điện với chi phí tốt" },
+      {
+        text: "Theo anh Kha, giá bán cũng là yếu tố quan trọng để bản thân đi đến quyết định mua Evo Grand cho con.",
+      },
+      {
+        text: "“Với giá niêm yết hiện tại chỉ 21 triệu đồng, Evo Grand đúng là đang dẫn đầu phân khúc xe phổ thông tầm giá 20 triệu đồng. Đó là chưa kể VinFast cũng đang có nhiều ưu đãi, nên tôi mua xe chỉ tốn hơn 18 triệu đồng”, anh Kha đánh giá.",
+      },
+
+      {
+        text: "Vị khách hàng cho biết hiện tại, hãng xe Việt đang hỗ trợ 10% giá trị xe và 100% lệ phí trước bạ cho người mua trên toàn quốc. Người dùng như anh cũng có thể mua trả góp tới 80% giá trị xe. Như vậy, những người chưa sắp xếp đủ tài chính chỉ cần trả trước khoảng 2 triệu đồng là có thể nhận xe.",
+      },
+      {
+        text: "Không những vậy, chủ xe máy điện VinFast đang được miễn phí sạc tại các trạm sạc công cộng V-Green tới hết tháng 5/2027. Anh Kha cho rằng sạc điện xe, dù ở nhà hay ở trạm, đều tiện lợi vì không phải xếp hàng hay phụ thuộc vào người bán.",
+      },
+      {
+        text: "Nhiều người dùng cũng ghi nhận Evo Grand tiết kiệm đáng kể về chi phí dài hạn. “Mua xe về đi xong tính toán thì mình cũng tiết kiệm được cả trăm nghìn đồng mỗi tháng”, chị Trịnh Thị Thu (Hà Nội) chia sẻ.",
+      },
+      {
+        text: "Chị Thu cũng yên tâm khi Evo Grand đang có chế độ bảo hành dài hạn mới nhất đến 6 năm cho xe, 8 năm cho pin. Đi kèm với đó là hệ thống 400 xưởng dịch vụ trải dài khắp cả nước luôn sẵn sàng phục vụ người dùng xe máy điện.",
+      },
+      {
+        text: "Với độ tiện lợi đến từ hạ tầng, VinFast Evo Grand đang dần trở thành lựa chọn phổ biến trong tầm giá phổ thông, không chỉ đáp ứng nhu cầu đi lại hàng ngày, mà còn mở ra hướng di chuyển bền vững, tiết kiệm và tiện lợi hơn cho người Việt.",
+      },
+    ],
+  },
+  {
+    id: 12,
+    title: "Hơn 10 mẫu xe điện MG mới sắp ra mắt",
+    writer: "Đan Thanh",
+    time: "Thứ ba, 26/8/2025 14:38 (GMT+7)",
+    views: 2450,
+    tag: ["Ô tô", "Xe điện", "Công nghệ", "Mạng xã hội", "MG"],
+    type: ["Car", "review", "economy", "technique"],
+    origin: "zingnews.vn",
+    banner: {
+      image:
+        "https://photo.znews.vn/w960/Uploaded/bpivptvl/2025_08_26/mg_logo.jpg",
+      title: "",
+      description: [
+        "Chỉ trong 2 năm, SAIC MG dự kiến đầu tư hơn 1,4 tỷ USD cho việc ra mắt và nâng cấp xe điện toàn cầu.",
+      ],
+    },
+    content: [
+      // {
+      //   video: "https://www.youtube.com/watch?v=RPT8_xatszk",
+      //   videoCaption: "Video: Zing News",
+      // },
+      {
+        text: "Thương hiệu xe du lịch MG thuộc sở hữu của SAIC sẽ tung ra 13 mẫu xe điện mới trong vòng 2 năm tới trên phạm vi toàn cầu, theo tiết lộ từ Tổng giám đốc thương hiệu. MG dự kiến đầu tư 10 tỷ NDT (tương đương 1,4 tỷ USD) cho quá trình phát triển xe năng lượng mới, bao gồm nhiều dòng xe điện thuần pin (BEV), xe mở rộng phạm vi hoạt động (EREV) và xe hybrid sạc ngoài (PHEV).",
+      },
+      {
+        text: "MG vốn là một thương hiệu ô tô Anh quốc lâu đời, được tập đoàn quốc doanh Trung Quốc SAIC mua lại vào năm 2005. Kể từ đó, MG trở thành “đầu tàu xuất khẩu” của SAIC với 153.100 xe bán ra tại châu Âu trong nửa đầu năm 2025.",
+      },
+      {
+        text: "Ngược lại, tại Trung Quốc, thương hiệu này chỉ tiêu thụ 57.254 xe trong giai đoạn tháng 1-7/2025 (theo China EV DataTracker). Nguyên nhân chủ yếu là do thiếu sản phẩm năng lượng mới. MG hiện đã sẵn sàng để thay đổi tình thế.",
+      },
+      {
+        text: "Theo 21st Century News, Tổng giám đốc MG, ông Chen Cui, chia sẻ định hướng phát triển của thương hiệu. Ông cho biết các mẫu xe xăng MG vẫn có nhu cầu mạnh tại Trung Quốc, đặc biệt là mẫu sedan MG5, hướng tới giới trẻ và cộng đồng độ xe. Tuy nhiên, MG sẽ không chỉ dừng lại ở xe truyền thống, mà còn tập trung mạnh vào mảng xe năng lượng mới (NEV).",
+      },
+      {
+        text: "Ông Chen nhấn mạnh MG sẽ ra mắt 13 mẫu NEV toàn cầu trong vòng 2 năm, và chiến lược này không dựa trên giá rẻ. Thay vào đó, MG sẽ tận dụng công nghệ và chuỗi cung ứng của tập đoàn mẹ SAIC, đơn vị đang hợp tác phát triển xe điện cùng Audi (qua thương hiệu AUDI) và Huawei (qua thương hiệu Shangjie).",
+      },
+      {
+        image: {
+          img: "https://photo.znews.vn/w960/Uploaded/bpivptvl/2025_08_26/mg4_ev_hatchback.jpg",
+          tile: "Chiếc đầu tiên trong chuỗi xe điện mới là MG4 EV biến thể hatchback. Ảnh: MG.",
+        },
+      },
+      {
+        text: "Các mẫu xe mới của MG sẽ bao gồm BEV, EREV và PHEV. Lãnh đạo hãng cũng tiết lộ kế hoạch đẩy mạnh giải pháp kết nối xe với Oppo và phát triển pin thể rắn bán phần. Tham vọng lớn nhất của MG là trở thành thương hiệu xe năng lượng mới Trung Quốc có tầm vóc toàn cầu. Để chứng minh cam kết, hãng sẽ rót 10 tỷ NDT (1,4 tỷ USD) vào việc phát triển sản phẩm và công nghệ.",
+      },
+      {
+        text: "Sản phẩm đầu tiên đánh dấu bước chuyển sang chiến lược xe năng lượng mới là hatchback điện MG4 hoàn toàn mới. Xe đã bắt đầu nhận đặt trước tại Trung Quốc từ ngày 5/8 và sẽ ra mắt chính thức ngày 29/8. Phiên bản MG4 sử dụng pin thể rắn bán phần dự kiến ra mắt trước cuối năm nay.",
+      },
+      {
+        text: "MG4 có kích thước 4.395 x 1.842 x 1.551 mm, trang bị một động cơ điện đặt sau với công suất 161 mã lực. Mức giá của MG4 dùng pin lỏng truyền thống dao động từ 73.800-105.800 NDT (tương đương 10.300-14.760 USD).",
+      },
+    ],
+  },
 ];

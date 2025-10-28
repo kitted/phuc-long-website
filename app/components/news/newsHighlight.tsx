@@ -34,7 +34,7 @@ export default function NewsHighlight({ data, darkMode }: Props) {
             alt={first.title}
             // fill
             // priority
-            className="object-cover"
+            className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
           />
         </div>
         <div
@@ -51,7 +51,7 @@ export default function NewsHighlight({ data, darkMode }: Props) {
 
       {/* 🔹 5 bài còn lại */}
       <div className="flex flex-col gap-4">
-        {rest?.slice(0, 5)?.map((item: any) => (
+        {rest?.slice(0, 7)?.map((item: any) => (
           <Link
             href={`/news/${slugify(item.title)}`}
             key={item.id}
@@ -62,7 +62,7 @@ export default function NewsHighlight({ data, darkMode }: Props) {
                 src={item.banner.image}
                 alt={item.title}
                 // fill
-                className="object-cover"
+                className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div className="flex flex-col justify-between">

@@ -59,7 +59,7 @@ export default function ProductCardGrid({ products }: any) {
                 }
                 className={`mt-3 inline-block text-sm font-medium ${textColor} hover:underline`}
               >
-                View Product &gt;
+                Xem chi tiết sản phẩm &gt;
               </Link>
             </div>
           </Link>
