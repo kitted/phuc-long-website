@@ -147,7 +147,8 @@ export const productsList = [
     title: "Dầu Nhờn",
     name: "Dầu Nhờn",
     description: "",
-    image: "/lubrex/lubrex7.png",
+    image:
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/v1761586223/ChatGPT_Image_00_27_17_28_thg_10_2025_ohny0s.png",
     label: "Dầu Nhờn",
     url: "dau-nhon",
     tag: [],
