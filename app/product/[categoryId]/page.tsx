@@ -12,6 +12,7 @@ import SubLayout from "@/app/subLayout";
 import React, { useEffect, useMemo, useState } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import { productsList } from "../../data/listProducts";
+import { sidebarCategoriesV2 } from "@/app/data/menu";
 
 const ITEMS_PER_PAGE = 15;
 
@@ -130,7 +131,7 @@ export default function Category() {
               className={`flex-1 w-full md:max-w-[400px] ${containerBg2} rounded-lg`}
             >
               <SidebarFilter
-                categories={sidebarCategories}
+                categories={sidebarCategoriesV2}
                 onSearch={handleSearch}
                 onFilter={handleFilter}
               />

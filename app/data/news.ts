@@ -1,3 +1,6 @@
+import { title } from "process";
+import { text } from "stream/consumers";
+
 export const categories = [
   { name: "Mới nhất", slug: "" },
   { name: "Ô tô", slug: "car" },
@@ -1041,6 +1044,114 @@ export const news = [
       },
       {
         text: "MG4 có kích thước 4.395 x 1.842 x 1.551 mm, trang bị một động cơ điện đặt sau với công suất 161 mã lực. Mức giá của MG4 dùng pin lỏng truyền thống dao động từ 73.800-105.800 NDT (tương đương 10.300-14.760 USD).",
+      },
+    ],
+  },
+  {
+    id: 13,
+    title: "Có phải quy định hạn chế là lý do người Việt giảm mua xe máy xăng?",
+    writer: "Phúc Hậu",
+    time: "Chủ nhật, 26/10/2025 06:29 (GMT+7)",
+    views: 2450,
+    tag: ["Ô tô", "Xe điện", "Xe máy", "Công nghệ", "Mạng xã hội", "Việt Nam"],
+    type: ["Car", "motorbike", "review", "economy", "technique", "electric"],
+    origin: "zingnews.vn",
+    banner: {
+      image:
+        "https://photo.znews.vn/w960/Uploaded/zdhwqmjwq/2025_05_23/ketxe_znews_17.jpg",
+      title:
+        "Thị trường xe máy Việt Nam hiện có quy mô lớn thứ tư toàn cầu. Ảnh: Quỳnh Danh.",
+      description: [
+        "Thị trường xe máy Việt Nam giai đoạn đầu năm đang chứng kiến xu hướng giảm tiêu thụ xe xăng, tăng sức mua xe điện.",
+        "Theo báo cáo gần nhất do Hiệp hội các nhà sản xuất xe máy Việt Nam (VAMM) công bố, doanh số của 5 thành viên tại Việt Nam trong quý III/2025 đạt 621.732 xe, giảm 9,37% so với cùng kỳ năm ngoái.",
+        "Diễn biến này xuất hiện giữa bối cảnh nhiều thành phố lớn tại Việt Nam như Hà Nội hay TP.HCM đang lên kế hoạch giảm phát thải thông qua các quy định hạn chế xe máy chạy xăng.",
+        "Có phải người Việt đã giảm mua xe máy xăng, chuyển sang chọn xe điện để chuẩn bị cho kế hoạch hạn chế xe máy động cơ đốt trong tại các thành phố lớn từ năm sau?",
+      ],
+    },
+    content: [
+      // {
+      //   video: "https://www.youtube.com/watch?v=RPT8_xatszk",
+      //   videoCaption: "Video: Zing News",
+      // },
+      { title: "Tiêu thụ xe máy giảm từ đầu năm" },
+      {
+        text: "Theo báo cáo của VAMM, doanh số tại Việt Nam trong quý III/2024 của 5 thành viên hiệp hội đạt 686.001 xe. Các thành viên VAMM bao gồm Honda Việt Nam, Piaggio Việt Nam, Việt Nam Suzuki, SYM Việt Nam và Yamaha Motor Việt Nam.",
+      },
+      {
+        text: "Như vậy khi đặt cạnh lượng tiêu thụ nói trên, doanh số chung 621.732 xe của 5 thành viên hiệp hội trong giai đoạn tháng 7-9 năm nay tương đương mức sụt giảm 9,37%.",
+      },
+      {
+        text: "Nhìn lại giai đoạn từ đầu năm 2024 cho đến nay, báo cáo của VAMM chỉ ra doanh số thị trường xe máy tại Việt Nam trên thực tế đã bắt đầu giảm mạnh từ quý I/2025, kéo dài đến giữa năm.",
+      },
+      {
+        text: "Đáng nói, doanh số 621.732 xe trong quý gần nhất còn tương đương mức tăng trưởng nhẹ so với lượng tiêu thụ xe 2 bánh của 5 thành viên VAMM so với kỳ báo cáo quý II.",
+      },
+      {
+        image: {
+          img: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1761670245/Screenshot_2025-10-28_235025_a0l5yt.png",
+          tile: "",
+        },
+      },
+      {
+        text: "Như vậy, quy định về hạn chế xe máy chạy xăng tại các thành phố lớn dự kiến triển khai từ năm sau dường như không gây ra quá nhiều tác động đến doanh số nhóm xe này, ít nhất những gì thể hiện trong báo cáo doanh số do VAMM cung cấp.",
+      },
+      {
+        text: "Đà giảm doanh số của 5 thành viên VAMM đã bắt đầu từ giữa năm, trong khi các kế hoạch hạn chế xe máy chạy xăng được thông báo từ khoảng đầu tháng 7.",
+      },
+      {
+        text: "Khả năng cao hơn là thị trường xe máy Việt Nam đã chịu tác động từ làn sóng điện hóa. Phần lớn hãng xe thành viên VAMM hiện tại không có sản phẩm thuần điện, trong khi nhiều hãng xe như VinFast, Yadea đang ghi nhận đà tăng trưởng tốt tại Việt Nam.",
+      },
+      { title: "Dưới áp lực điện hóa" },
+      {
+        text: "Tại Việt Nam, doanh số xe máy điện đang chứng kiến xu hướng tăng trưởng tương đối mạnh mẽ. Dữ liệu do Motorcycles Data thu thập cho thấy Việt Nam hiện là thị trường xe máy điện lớn thứ ba toàn cầu.",
+      },
+      {
+        text: "Nhóm xe máy điện L1 (tương đương xe xăng dưới 50 cc) ghi nhận mức tăng trưởng doanh số 89% trong 9 tháng đầu năm. Nhóm xe máy điện còn lại xếp vào nhóm L3 thậm chí tăng trưởng mạnh hơn, doanh số trội hơn đến 178% so với 3 quý đầu năm 2024.",
+      },
+      {
+        images: [
+          {
+            src: "https://photo.znews.vn/w1200/Uploaded/yqdlmdxwp/2025_10_07/1_vinfast_evo_grand_znews_1_1.jpg",
+          },
+          {
+            src: "https://photo.znews.vn/w1200/Uploaded/bpivptvl/2025_05_31/duoiden_yadea_velax_znews.JPG",
+          },
+        ],
+        caption:
+          "VinFast và Yadea là những cái tên nổi bật trên thị trường xe máy điện Việt Nam. Ảnh: Đan Thanh.",
+      },
+      {
+        text: "Theo Motorcycles Data, VinFast đang là cái tên nổi bật hàng đầu thị trường xe máy điện Việt Nam. Doanh số hãng này tăng 354%, giúp VinFast đứng thứ ba toàn thị trường xe 2 bánh nội địa.",
+      },
+      {
+        text: "Yadea cũng tăng trưởng doanh số 48,5% so với cùng kỳ năm ngoái. Loạt thương hiệu khác như Dat Bike, Selex Motors, Dibao, Pega... không được đề cập số liệu cụ thể.",
+      },
+      {
+        text: "Trong khi đó, Honda Việt Nam công bố doanh số xe 2 bánh tháng 9 đạt 163.787 chiếc, giảm 11,4% so với cùng kỳ năm ngoái. Diễn biến này tương đồng xu hướng suy giảm doanh số trong các kỳ gần đây của 5 thành viên VAMM.",
+      },
+      {
+        text: "Theo Motorcycles Data, Honda và Yamaha vẫn là 2 cái tên dẫn đầu thị trường xe 2 bánh Việt. Chưa rõ số liệu cụ thể, nhưng VinFast được báo cáo hiện đứng thứ ba toàn thị trường và rất có khả năng sẽ sớm vượt qua Yamaha, vươn lên trở thành hãng xe máy bán chạy thứ nhì Việt Nam.",
+      },
+      {
+        text: "Áp lực điện hóa ngày càng rõ ràng khiến các hãng xe truyền thống như Honda, Suzuki phải có động thái cụ thể ở mảng xe máy điện.",
+      },
+      {
+        image: {
+          img: "https://photo.znews.vn/w860/Uploaded/yqdlmdxwp/2025_08_04/Honda_CUV_e_znews_2.JPG",
+          tile: "Honda chỉ vừa bắt đầu khởi động mảng xe máy điện tại Việt Nam. Ảnh: Phúc Hậu.",
+        },
+      },
+      {
+        text: "Năm ngoái, Honda ra mắt bộ đôi CUV e: và ICON e: tại sự kiện VMS 2024, bắt đầu mở bán/cho thuê từ giữa tháng 7. Suzuki gần đây cũng tiết lộ sẽ sớm trình làng xe máy điện tại thị trường Việt Nam.",
+      },
+      {
+        text: "Yamaha cũng có xe máy điện Neo's nhưng chưa rõ kế hoạch tiếp theo. Các hãng xe khác thuộc VAMM như Piaggio và SYM chưa có thông tin rõ ràng về lộ trình điện hóa tại Việt Nam.",
+      },
+      {
+        text: "Hãng xe tay ga hạng sang Lambretta của Italy gần đây quay trở lại Việt Nam đã trưng bày concept scooter thuần điện mang tên Elettra. Kế hoạch thương mại hóa mẫu xe này chưa được tiết lộ.",
+      },
+      {
+        text: "Trong tương lai, xu hướng điện hóa nhiều khả năng sẽ khiến diện mạo thị trường xe 2 bánh Việt có những thay đổi đáng kể. Hãng xe truyền thống nào có thể linh hoạt chiến lược xăng-điện ở giai đoạn này sẽ có tiềm năng duy trì thị phần, thậm chí tăng bậc trên thị trường xe Việt. Ngược lại, những cái tên chậm chân có thể sẽ chứng kiến doanh số bị ảnh hưởng ít nhiều.",
       },
     ],
   },

@@ -47,7 +47,7 @@ export default function ProductCardGrid({ products }: any) {
 
             {/* Content */}
             <div className={`p-4 flex flex-col flex-1 ${cardBg}`}>
-              <h3 className="font-semibold text-lg line-clamp-3">
+              <h3 className="font-semibold text-lg line-clamp-3 min-h-[3.5rem]">
                 {product.title}
               </h3>
               <p className={`text-sm ${textColor} mt-2 flex-1 line-clamp-3`}>

@@ -320,7 +320,7 @@ export default function ProductDetail({ product }: ProductDetailProps | any) {
 
           {/* CTA */}
           <button
-            className={`hover:bg-yellow-400 ${textColor2} ${containerBg2} font-extrabold text-lg px-8 py-4 rounded-lg shadow-lg transition w-full`}
+            className={`hover:bg-blue-800 ${textColor2} ${containerBg2} font-extrabold text-lg px-8 py-4 rounded-lg shadow-lg transition w-full`}
           >
             Liên hệ ngay
           </button>

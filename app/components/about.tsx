@@ -54,7 +54,7 @@ export default function AboutSection() {
             luôn đồng hành cùng khách hàng trong suốt quá trình kinh doanh...{" "}
             <br />
             <Link href="/about" className="underline font-medium">
-              Learn more &gt;
+              Xem thêm &gt;
             </Link>
           </p>
 
