@@ -4,7 +4,8 @@ export const productsList = [
     title: "Nhông Xích",
     name: "Nhông Xích",
     description: "",
-    image: "/lubrex/lubrex7.png",
+    image:
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762550433/ChatGPT_Image_04_16_20_8_thg_11_2025_1_qvspjy.png",
     label: "Nhông Xích",
     url: "nhong-xich",
     tag: [],
@@ -776,7 +777,8 @@ export const productsList = [
     title: "Ắc Quy",
     name: "Ắc Quy",
     description: "",
-    image: "/lubrex/lubrex7.png",
+    image:
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762551241/ChatGPT_Image_04_32_57_8_thg_11_2025_1_kdovvs.png",
     label: "Ắc Quy",
     url: "ac-quy",
     tag: [],
