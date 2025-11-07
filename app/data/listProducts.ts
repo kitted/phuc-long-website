@@ -5,7 +5,7 @@ export const productsList = [
     name: "Nhông Xích",
     description: "",
     image:
-      "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762550433/ChatGPT_Image_04_16_20_8_thg_11_2025_1_qvspjy.png",
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762552192/ChatGPT_Image_04_48_51_8_thg_11_2025_1_gikqab.png",
     label: "Nhông Xích",
     url: "nhong-xich",
     tag: [],
