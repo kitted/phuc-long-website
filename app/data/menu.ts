@@ -7,6 +7,8 @@ export const sidebarCategoriesV2 = [
       { name: "Sên WUSUKI", url: "wusuki" },
       { name: "Sên THAIKYM", url: "thaikym" },
       { name: "Sên TAIMAHA", url: "taimaha" },
+      { name: "Sên ABS", url: "abs" },
+      { name: "Sên YMR", url: "ymr" },
     ],
   },
   {
