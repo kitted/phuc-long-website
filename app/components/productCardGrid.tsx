@@ -51,7 +51,7 @@ export default function ProductCardGrid({ products }: any) {
                 {product.title}
               </h3>
               <p className={`text-sm ${textColor} mt-2 flex-1 line-clamp-3`}>
-                {product.description}
+                {product.shortDescription}
               </p>
               <Link
                 href={

@@ -1,24 +1,15 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import ProductImages from "./productImages";
 
 type ProductDetailProps = {
-  product: {
-    title?: string;
-    image?: string;
-    gallery?: string[];
-    type?: string[];
-    viscosity?: string;
-    acea?: string;
-    packaging?: string;
-    availableGrades?: string[];
-    description?: string;
-    benefits?: string[];
-    application?: string;
-  };
+  product: Record<string, any>;
 };
 
-export default function ProductDetail({ product }: ProductDetailProps | any) {
+export default function ProductDetail({ product }: ProductDetailProps) {
+  const router = useRouter();
   const [mainImage, setMainImage] = useState(product.image || "");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [darkMode, setDarkMode] = useState(false);
@@ -53,15 +44,15 @@ export default function ProductDetail({ product }: ProductDetailProps | any) {
   const containerBg2 = darkMode ? "bg-white" : "bg-black";
   const textColor2 = darkMode ? "text-black" : "text-white";
   const textColor3 = darkMode ? "text-yellow-300" : "text-blue-800";
+
   return (
     <div className={`w-full ${textColor} ${containerBg}`}>
       {/* TOP: layout 2 cột */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
-        {/* LEFT: ảnh chính */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-start">
         {product.image && (
           <div className="flex flex-col h-full">
             <div className="w-full rounded-lg overflow-hidden p-4 flex-1">
-              <div className="relative w-full h-[800px] sm:h-[550px] md:h-[500px] flex items-center justify-center rounded-lg">
+              <div className="relative w-full h-[300px] sm:h-[450px] md:h-[500px] lg:h-[500px] flex items-center justify-center rounded-lg">
                 <img
                   src={mainImage}
                   alt={product.title || "Product image"}
@@ -69,254 +60,172 @@ export default function ProductDetail({ product }: ProductDetailProps | any) {
                 />
               </div>
             </div>
+
+            {/* GALLERY thumbnails */}
+            {product.gallery && product.gallery.length > 0 && (
+              <div
+                ref={(el) => {
+                  if (!el) return;
+                  // auto-scroll khi currentIndex thay đổi
+                  const activeThumb = el.children[currentIndex] as HTMLElement;
+                  if (activeThumb) {
+                    const containerRect = el.getBoundingClientRect();
+                    const thumbRect = activeThumb.getBoundingClientRect();
+                    const offset =
+                      thumbRect.left -
+                      containerRect.left -
+                      containerRect.width / 2 +
+                      thumbRect.width / 2;
+                    el.scrollTo({
+                      left: el.scrollLeft + offset,
+                      behavior: "smooth",
+                    });
+                  }
+                }}
+                className="flex gap-3 mt-4 overflow-x-auto scrollbar-hide h-auto cursor-grab px-4"
+                onMouseDown={(e) => {
+                  const container = e.currentTarget;
+                  let startX = e.pageX - container.offsetLeft;
+                  let scrollLeft = container.scrollLeft;
+
+                  const handleMouseMove = (ev: MouseEvent) => {
+                    const x = ev.pageX - container.offsetLeft;
+                    const walk = (x - startX) * 1;
+                    container.scrollLeft = scrollLeft - walk;
+                  };
+
+                  const handleMouseUp = () => {
+                    window.removeEventListener("mousemove", handleMouseMove);
+                    window.removeEventListener("mouseup", handleMouseUp);
+                  };
+
+                  window.addEventListener("mousemove", handleMouseMove);
+                  window.addEventListener("mouseup", handleMouseUp);
+                }}
+              >
+                {product.gallery.map((img: any, idx: any) => (
+                  <button
+                    key={idx}
+                    onClick={() => {
+                      setMainImage(img);
+                      setCurrentIndex(idx);
+                    }}
+                    className={`flex-shrink-0 rounded-lg overflow-hidden border-2 transition-all ${
+                      idx === currentIndex
+                        ? "border-yellow-400 scale-100"
+                        : "border-transparent"
+                    }`}
+                  >
+                    <img
+                      src={img}
+                      alt={`Thumb ${idx + 1}`}
+                      className="w-28 h-28 object-cover block"
+                    />
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
         )}
 
         {/* RIGHT: thông tin chi tiết */}
-        <div className="flex flex-col justify-between h-full space-y-6">
+        <div className="flex flex-col justify-between h-full space-y-6 px-4">
+          {/* Title */}
           {product.title && (
-            <div className="block sm:hidden">
-              <h1
-                className="text-xl font-extrabold text-yellow-400 uppercase"
-                style={{ fontFamily: "sans-serif" }}
-              >
-                {product.title}
-                {/* <p className="text-sm font-extrabold text-red-800 uppercase mb-6">
-                      Fully Synthetic
-                    </p> */}
-              </h1>
+            <h1
+              className="text-3xl font-extrabold text-yellow-400 uppercase"
+              style={{ fontFamily: "sans-serif" }}
+            >
+              {product.title}
+            </h1>
+          )}
+
+          {product.shortDescription && (
+            <p className="text-base italic opacity-80">
+              {product.shortDescription}
+            </p>
+          )}
+
+          {/* Giá */}
+          <div className="flex items-center gap-4">
+            {product.discountPrice ? (
+              <>
+                <span className="text-2xl font-bold text-red-500">
+                  {product.discountPrice.toLocaleString("vi-VN")}₫
+                </span>
+                <span className="text-lg line-through opacity-70">
+                  {product.price.toLocaleString("vi-VN")}₫
+                </span>
+              </>
+            ) : (
+              <span className="text-2xl font-bold">
+                {product.price.toLocaleString("vi-VN")}₫
+              </span>
+            )}
+          </div>
+
+          {/* Số lượng tồn */}
+          {typeof product.stock === "number" && (
+            <div>
+              <span className="font-semibold">Tồn kho:</span>{" "}
+              <span>{product.stock} sản phẩm</span>
             </div>
           )}
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-8">
-            {/* Viscosity */}
-            {product.viscosity && (
-              <div>
-                <span className="text-base font-semibold">
-                  SAE Viscosity Grade:
+          {/* Option: Các biến thể sản phẩm */}
+          {product.option && Array.isArray(product.option) && (
+            <div>
+              <h4 className={`font-semibold mb-2 ${textColor3}`}>
+                Lựa chọn sản phẩm khác:
+              </h4>
+              <div className="flex flex-wrap gap-2">
+                {product.option.map((opt: any, index: number) => (
+                  <button
+                    key={index}
+                    onClick={() => router.push(`/${opt.url}`)}
+                    className="bg-gray-200 hover:bg-blue-600 hover:text-white text-sm font-medium px-4 py-2 rounded-lg transition-all"
+                  >
+                    {opt.name}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Tags */}
+          {product.tags && Array.isArray(product.tags) && (
+            <div className="flex flex-wrap gap-2">
+              {product.tags.map((tag: string, i: number) => (
+                <span
+                  key={i}
+                  className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm"
+                >
+                  #{tag}
                 </span>
-                <div className="flex flex-wrap gap-2 mt-2">
-                  <span className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm">
-                    {product.viscosity}
-                  </span>
-                </div>
-              </div>
-            )}
+              ))}
+            </div>
+          )}
 
-            {/* ACEA */}
-            {product.acea && (
-              <div>
-                <span className="text-base font-semibold">ACEA:</span>
-                <div className="flex flex-wrap gap-2 mt-2">
-                  <span className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm">
-                    {product.acea}
-                  </span>
-                </div>
-              </div>
-            )}
-
-            {/* Type */}
-            {product.type && (
-              <div>
-                <span className="text-base font-semibold">Loại:</span>
-                <div className="flex flex-wrap gap-2 mt-2">
-                  {Array.isArray(product.type) ? (
-                    product.type.map((item: string, index: number) => (
-                      <span
-                        key={index}
-                        className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm"
-                      >
-                        {item}
-                      </span>
-                    ))
-                  ) : (
-                    <span className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm">
-                      {product.type}
-                    </span>
-                  )}
-                </div>
-              </div>
-            )}
-
-            {/* Kích thước */}
-            {product.size && (
-              <div>
-                <span className="text-base font-semibold">Kích thước:</span>
-                <div className="flex flex-wrap gap-2 mt-2">
-                  {Array.isArray(product.size) ? (
-                    product.size.map((item: string, index: number) => (
-                      <span
-                        key={index}
-                        className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm"
-                      >
-                        {item}
-                      </span>
-                    ))
-                  ) : (
-                    <span className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm">
-                      {product.size}
-                    </span>
-                  )}
-                </div>
-              </div>
-            )}
-
-            {/* CCA */}
-            {product.cca && (
-              <div>
-                <span className="text-base font-semibold">Chỉ số CCA:</span>
-                <div className="flex flex-wrap gap-2 mt-2">
-                  {Array.isArray(product.cca) ? (
-                    product.cca.map((item: string, index: number) => (
-                      <span
-                        key={index}
-                        className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm"
-                      >
-                        {item}
-                      </span>
-                    ))
-                  ) : (
-                    <span className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm">
-                      {product.cca}
-                    </span>
-                  )}
-                </div>
-              </div>
-            )}
-
-            {/* Khối lượng */}
-            {product.weight && (
-              <div>
-                <span className="text-base font-semibold">Khối lượng:</span>
-                <div className="flex flex-wrap gap-2 mt-2">
-                  {Array.isArray(product.weight) ? (
-                    product.weight.map((item: string, index: number) => (
-                      <span
-                        key={index}
-                        className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm"
-                      >
-                        {item}
-                      </span>
-                    ))
-                  ) : (
-                    <span className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm">
-                      {product.weight}
-                    </span>
-                  )}
-                </div>
-              </div>
-            )}
-
-            {/* Dung lượng danh định */}
-            {product.dod && (
-              <div>
-                <span className="text-base font-semibold">
-                  Dung lượng danh định:
-                </span>
-                <div className="flex flex-wrap gap-2 mt-2">
-                  {Array.isArray(product.dod) ? (
-                    product.dod.map((item: string, index: number) => (
-                      <span
-                        key={index}
-                        className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm"
-                      >
-                        {item}
-                      </span>
-                    ))
-                  ) : (
-                    <span className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm">
-                      {product.dod}
-                    </span>
-                  )}
-                </div>
-              </div>
-            )}
-
-            {/* Chế độ nạp tiêu chuẩn */}
-            {product.standardCharge && (
-              <div>
-                <span className="text-base font-semibold">
-                  Chế độ nạp tiêu chuẩn:
-                </span>
-                <div className="flex flex-wrap gap-2 mt-2">
-                  {Array.isArray(product.standardCharge) ? (
-                    product.standardCharge.map(
-                      (item: string, index: number) => (
-                        <span
-                          key={index}
-                          className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm"
-                        >
-                          {item}
-                        </span>
-                      )
-                    )
-                  ) : (
-                    <span className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm">
-                      {product.standardCharge}
-                    </span>
-                  )}
-                </div>
-              </div>
-            )}
-
-            {/* Chế độ nạp nhanh */}
-            {product.withdrawCharge && (
-              <div>
-                <span className="text-base font-semibold">
-                  Chế độ nạp nhanh:
-                </span>
-                <div className="flex flex-wrap gap-2 mt-2">
-                  {Array.isArray(product.withdrawCharge) ? (
-                    product.withdrawCharge.map(
-                      (item: string, index: number) => (
-                        <span
-                          key={index}
-                          className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm"
-                        >
-                          {item}
-                        </span>
-                      )
-                    )
-                  ) : (
-                    <span className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm">
-                      {product.withdrawCharge}
-                    </span>
-                  )}
-                </div>
-              </div>
-            )}
-
-            {/* Đơn vị */}
-            {product.packaging && (
-              <div>
-                <span className="text-base font-semibold">Đơn vị:</span>
-                <div className="flex flex-wrap gap-2 mt-2">
-                  <span className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm">
-                    {product.packaging}
-                  </span>
-                </div>
-              </div>
-            )}
-
-            {/* Available Grades */}
-            {product.availableGrades && product.availableGrades.length > 0 && (
-              <div>
-                <span className="text-base font-semibold">
-                  Available Grades:
-                </span>
-                <div className="flex flex-wrap gap-2 mt-2">
-                  {product.availableGrades.map((g: any) => (
-                    <span
-                      key={g}
-                      className="inline-block bg-yellow-400 text-black px-3 py-1 rounded-lg text-sm"
-                    >
-                      {g}
-                    </span>
+          {/* Bảng thông số kỹ thuật */}
+          {product.specs && (
+            <div>
+              <h3 className={`text-lg font-semibold mb-2 ${textColor3}`}>
+                Thông số kỹ thuật:
+              </h3>
+              <table className="min-w-full border border-gray-400 rounded-md text-sm">
+                <tbody>
+                  {Object.entries(product.specs).map(([key, value]) => (
+                    <tr key={key} className="border-b border-gray-300">
+                      <td className="font-medium p-2 border-r border-gray-300">
+                        {key}
+                      </td>
+                      <td className="p-2">{value as string}</td>
+                    </tr>
                   ))}
-                </div>
-              </div>
-            )}
-          </div>
+                </tbody>
+              </table>
+            </div>
+          )}
 
           {/* CTA */}
           <button
@@ -327,104 +236,18 @@ export default function ProductDetail({ product }: ProductDetailProps | any) {
         </div>
       </div>
 
-      {/* GALLERY thumbnails */}
-      {product.gallery && product.gallery.length > 0 && (
-        <div
-          className="flex gap-3 mt-4 overflow-x-auto scrollbar-hide h-auto cursor-grab"
-          onMouseDown={(e) => {
-            const container = e.currentTarget;
-            let startX = e.pageX - container.offsetLeft;
-            let scrollLeft = container.scrollLeft;
-
-            const handleMouseMove = (ev: MouseEvent) => {
-              const x = ev.pageX - container.offsetLeft;
-              const walk = (x - startX) * 1;
-              container.scrollLeft = scrollLeft - walk;
-            };
-
-            const handleMouseUp = () => {
-              window.removeEventListener("mousemove", handleMouseMove);
-              window.removeEventListener("mouseup", handleMouseUp);
-            };
-
-            window.addEventListener("mousemove", handleMouseMove);
-            window.addEventListener("mouseup", handleMouseUp);
-          }}
-        >
-          {product.gallery.map((img: any, idx: any) => (
-            <button
-              key={idx}
-              onClick={() => {
-                setMainImage(img);
-                setCurrentIndex(idx);
-              }}
-              className={`flex-shrink-0 rounded-lg overflow-hidden border-2 transition-all ${
-                img === mainImage
-                  ? "border-yellow-400 scale-100"
-                  : "border-transparent"
-              }`}
-            >
-              <img
-                src={img}
-                alt={`Thumb ${idx + 1}`}
-                className="w-28 h-28 object-cover block"
-              />
-            </button>
-          ))}
-        </div>
-      )}
-
-      {/* BOTTOM sections */}
-      <div className="mt-10 space-y-6">
+      {/* BOTTOM SECTIONS */}
+      <div className="mt-10 space-y-6 px-4">
         {/* Description */}
         {product.description && (
           <section className={`${containerBg} p-6 rounded-lg`}>
             <h2 className={`text-lg font-semibold mb-2 ${textColor3}`}>
               Mô tả chi tiết sản phẩm:
             </h2>
-            <div className={`text-sm leading-relaxed ${textColor} space-y-2`}>
-              {Array.isArray(product.description) ? (
-                product.description.map((item: string, index: number) => (
-                  <p key={index}>{item}</p>
-                ))
-              ) : (
-                <p>{product.description}</p>
-              )}
-            </div>
-          </section>
-        )}
-
-        {/* Benefits */}
-        {product.benefits && product.benefits.length > 0 && (
-          <section className={`${containerBg} p-6 rounded-lg`}>
-            <h2 className={`text-lg font-semibold mb-2 ${textColor3}`}>
-              Chính sách ưu đãi khi mua hàng:
-            </h2>
-            <ul
-              className={`list-disc list-inside text-sm space-y-1 ${textColor} marker:${textColor3}`}
-            >
-              {product.benefits.map((b: any, i: any) => (
-                <li key={i}>{b}</li>
-              ))}
-            </ul>
-          </section>
-        )}
-
-        {/* Application */}
-        {product.application && (
-          <section className={`${containerBg} p-6 rounded-lg`}>
-            <h2 className={`text-lg font-semibold mb-2 ${textColor3}`}>
-              Ứng dụng sản phẩm:
-            </h2>
-            <div className={`text-sm leading-relaxed ${textColor} space-y-2`}>
-              {Array.isArray(product.application) ? (
-                product.application.map((item: string, index: number) => (
-                  <p key={index}>{item}</p>
-                ))
-              ) : (
-                <p>{product.application}</p>
-              )}
-            </div>
+            <div
+              className={`text-sm leading-relaxed ${textColor} space-y-2 prose max-w-none`}
+              dangerouslySetInnerHTML={{ __html: product.description }}
+            />
           </section>
         )}
       </div>
