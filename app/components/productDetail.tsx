@@ -183,7 +183,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
                   <button
                     key={index}
                     onClick={() => router.push(`/${opt.url}`)}
-                    className="bg-gray-200 hover:bg-blue-600 hover:text-white text-sm font-medium px-4 py-2 rounded-lg transition-all"
+                    className="text-black bg-gray-200 hover:bg-blue-600 hover:text-white text-sm font-medium px-4 py-2 rounded-lg transition-all"
                   >
                     {opt.name}
                   </button>
