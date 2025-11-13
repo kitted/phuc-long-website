@@ -4,12 +4,12 @@ import React, { useState, useEffect, useRef } from "react";
 
 const items = [
   { id: 1, image: "/store/store.png", title: "ĐC: ABC/123/456" },
-  { id: 2, image: "/store/store.png", title: "ĐC: ABC/123/456" },
-  { id: 3, image: "/store/store.png", title: "ĐC: ABC/123/456" },
-  { id: 4, image: "/store/store.png", title: "ĐC: ABC/123/456" },
-  { id: 5, image: "/store/store.png", title: "ĐC: ABC/123/456" },
-  { id: 6, image: "/store/store.png", title: "ĐC: ABC/123/456" },
-  { id: 7, image: "/store/store.png", title: "ĐC: ABC/123/456" },
+  // { id: 2, image: "/store/store1.png", title: "ĐC: ABC/123/456" },
+  { id: 3, image: "/store/store2.png", title: "ĐC: ABC/123/456" },
+  { id: 4, image: "/store/store3.png", title: "ĐC: ABC/123/456" },
+  { id: 5, image: "/store/store4.png", title: "ĐC: ABC/123/456" },
+  { id: 6, image: "/store/store5.png", title: "ĐC: ABC/123/456" },
+  // { id: 7, image: "/store/store.png", title: "ĐC: ABC/123/456" },
 ];
 
 const ITEM_WIDTH = 220;
@@ -133,9 +133,9 @@ const StoreSlider = () => {
                 alt={item.title}
                 className="w-full h-full object-cover"
               />
-              <div className="absolute bottom-0 left-0 w-full bg-black text-white text-center p-3 text-sm">
+              {/* <div className="absolute bottom-0 left-0 w-full bg-black text-white text-center p-3 text-sm">
                 {item.title}
-              </div>
+              </div> */}
             </div>
           );
         })}

@@ -2518,7 +2518,8 @@ export const productsList = [
     name: "Dầu Nhờn",
     description: "",
     image:
-      "https://res.cloudinary.com/dkxb7klnn/image/upload/v1761669098/abc_cffxys.png",
+      // "https://res.cloudinary.com/dkxb7klnn/image/upload/v1761669098/abc_cffxys.png",
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/v1763059048/ChatGPT_Image_01_36_26_14_thg_11_2025_n4tsho.png",
     label: "Dầu Nhờn",
     url: "dau-nhon",
     tag: [],
@@ -2961,6 +2962,196 @@ export const productsList = [
           "Xe côn tay",
           "Diesel nhẹ",
           "Phúc Long",
+        ],
+        option: [
+          {
+            name: "DẦU NHỜN MCO-MAXPLUS CI4/SN-10W40 (4 Lít)",
+            url: "product/dau-nhon/mco-maxplus-ci4-sn-10w40-4-lit",
+          },
+          {
+            url: "product/dau-nhon/maxplus-9000-4t-racing-10w40-1l",
+            name: "DẦU NHỜN MAXPLUS 9000 4T RACING 10W40 (1 Lít)",
+          },
+          {
+            name: "DẦU NHỜN MAXPLUS 9000 4T RACING 10W40 (0.8 Lít)",
+            url: "product/dau-nhon/maxplus-9000-4t-racing-10w40-08l",
+          },
+        ],
+      },
+      {
+        id: 11,
+        name: "DẦU NHỜN MCO-MAXPLUS 9000 4T RACING 10W40 (1 Lít)",
+        url: "dau-nhon/maxplus-9000-4t-racing-10w40-1l",
+        title: "DẦU NHỜN MCO-MAXPLUS 9000 4T RACING 10W40 – 1L",
+        image:
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763056761/e_frqrkk.png",
+        gallery: [
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763056761/d_n9e0gd.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763056761/e_frqrkk.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763056760/f_fozvim.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763056761/a_l64nyc.png",
+        ],
+        packaging: "Lon sắt 1L",
+        shortDescription:
+          "MAXPLUS 9000 4T RACING 10W40 (1L) – Dầu nhớt cao cấp công nghệ USA, đạt chuẩn API SN & JASO MA2/MB, giúp xe côn tay và xe ga chạy êm, tăng tốc bốc, bền máy vượt trội.",
+        description: `
+          <p><strong>Dầu nhớt MAXPLUS 9000 4T RACING 10W40 (1L)</strong> được phát triển theo <strong>công nghệ Hoa Kỳ</strong>, đạt tiêu chuẩn <strong>API SN – JASO MA2/MB</strong>. 
+          Công thức bán tổng hợp giúp <strong>bảo vệ động cơ, giảm ma sát và tăng khả năng tăng tốc</strong> cho xe máy 4 thì hiện đại.</p>
+      
+          <h4>Đặc điểm nổi bật:</h4>
+          <ul>
+            <li>⚙️ <strong>Hiệu suất cao – ổn định nhiệt tốt:</strong> Giữ độ nhớt ổn định ở nhiệt độ cao, bảo vệ máy bền bỉ khi chạy đường dài.</li>
+            <li>🔥 <strong>Tăng tốc mạnh – vận hành êm:</strong> Công thức đặc biệt giúp động cơ phản ứng nhanh, sang số mượt.</li>
+            <li>🛡️ <strong>Giảm hao dầu – chống oxy hóa:</strong> Duy trì độ sạch và bền cho máy trong suốt chu kỳ thay dầu.</li>
+            <li>💎 <strong>Bền nhiệt – kéo dài chu kỳ thay nhớt:</strong> Tới 2.500–3.000 km tùy điều kiện vận hành.</li>
+          </ul>
+      
+          <h4>Phù hợp sử dụng cho:</h4>
+          <ul>
+            <li>Xe số, xe côn tay, xe tay ga cao cấp.</li>
+            <li>Xe thường xuyên di chuyển xa, vận hành liên tục hoặc tải nặng.</li>
+          </ul>
+      
+          <h4>Ưu điểm cho đại lý & gara:</h4>
+          <ul>
+            <li>Lon sắt sang trọng, dễ trưng bày và bảo quản.</li>
+            <li>Sản phẩm hiệu suất cao, dễ bán – lợi nhuận tốt.</li>
+            <li>Phân phối chính thức bởi <strong>Phúc Long – PlusEx</strong>.</li>
+          </ul>
+        `,
+        specs: {
+          "Cấp độ nhớt": "SAE 10W-40",
+          "Tiêu chuẩn kỹ thuật": "API SN / JASO MA2 – MB",
+          "Dung tích": "1 Lít",
+          "Loại dầu": "Bán tổng hợp (Semi Synthetic)",
+          "Ứng dụng": "Xe số, xe côn tay, xe tay ga cao cấp",
+          "Màu sắc dầu": "Vàng hổ phách",
+          "Nhiệt độ làm việc": "Ổn định đến 200°C",
+          "Chu kỳ thay dầu khuyến nghị": "2.500 – 3.000 km",
+          "Xuất xứ": "Việt Nam – Công nghệ Hoa Kỳ",
+        },
+        benefits: [
+          "Tăng tốc mạnh, máy êm và mát hơn rõ rệt.",
+          "Giảm ma sát – tiết kiệm nhiên liệu.",
+          "Giữ động cơ sạch và bền bỉ lâu dài.",
+          "Bao bì lon sắt sang trọng – dễ trưng bày bán lẻ.",
+        ],
+        application:
+          "Dành cho xe côn tay, xe số 4 thì và xe tay ga cao cấp. Phù hợp khí hậu Việt Nam và các gara, đại lý miền Tây.",
+        price: 165000,
+        discountPrice: 145000,
+        stock: 150,
+        tags: [
+          "Dầu nhớt 4T",
+          "MAXPLUS 9000",
+          "10W40",
+          "API SN",
+          "JASO MA2",
+          "Xe côn tay",
+          "Xe ga",
+          "Phúc Long",
+        ],
+        option: [
+          {
+            name: "DẦU NHỜN MCO-MAXPLUS CI4/SN-10W40 (4 Lít)",
+            url: "product/dau-nhon/mco-maxplus-ci4-sn-10w40-4-lit",
+          },
+          {
+            url: "product/dau-nhon/maxplus-9000-4t-racing-10w40-1l",
+            name: "DẦU NHỜN MAXPLUS 9000 4T RACING 10W40 (1 Lít)",
+          },
+          {
+            name: "DẦU NHỜN MAXPLUS 9000 4T RACING 10W40 (0.8 Lít)",
+            url: "product/dau-nhon/maxplus-9000-4t-racing-10w40-08l",
+          },
+        ],
+      },
+      {
+        id: 12,
+        name: "DẦU NHỜN MCO-MAXPLUS 9000 4T RACING 10W40 (0.8 Lít)",
+        url: "dau-nhon/maxplus-9000-4t-racing-10w40-08l",
+        title: "DẦU NHỜN MCO-MAXPLUS 9000 4T RACING 10W40 – 0.8L",
+        image:
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763056761/e_frqrkk.png",
+        gallery: [
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763056761/b_s6tid5.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763056761/e_frqrkk.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763056760/f_fozvim.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763056761/a_l64nyc.png",
+        ],
+        packaging: "Lon sắt 0.8L",
+        shortDescription:
+          "MAXPLUS 9000 4T RACING 10W40 (0.8L) – Nhớt bán tổng hợp công nghệ USA, đạt chuẩn API SN – JASO MA2/MB, phù hợp xe tay ga & xe số 4 thì hiện đại. Tăng tốc êm, bền máy, tiết kiệm nhiên liệu.",
+        description: `
+          <p><strong>Dầu nhớt MAXPLUS 9000 4T RACING 10W40 (0.8L)</strong> được pha chế từ dầu gốc bán tổng hợp cao cấp cùng phụ gia thế hệ mới, 
+          đáp ứng tiêu chuẩn quốc tế <strong>API SN – JASO MA2/MB</strong>, phù hợp cho xe tay ga và xe số 4 thì hiện đại.</p>
+      
+          <h4>Đặc điểm nổi bật:</h4>
+          <ul>
+            <li>💨 <strong>Chạy êm – đề nhẹ:</strong> Giúp khởi động nhanh, sang số mượt, vận hành êm ái hơn rõ rệt.</li>
+            <li>🛡️ <strong>Chống mài mòn – bảo vệ động cơ:</strong> Tạo màng bảo vệ mạnh, giảm ma sát và hao dầu.</li>
+            <li>🔥 <strong>Ổn định nhiệt độ cao:</strong> Giữ độ nhớt ổn định tới 200°C, phù hợp điều kiện nóng ẩm Việt Nam.</li>
+            <li>💎 <strong>Giảm cặn – sạch động cơ:</strong> Giữ máy luôn trong tình trạng tối ưu, tiết kiệm nhiên liệu.</li>
+          </ul>
+      
+          <h4>Phù hợp sử dụng cho:</h4>
+          <ul>
+            <li>Xe tay ga phổ thông và cao cấp (Vision, Air Blade, Lead, SH...)</li>
+            <li>Xe số 4 thì (Wave, Future, Sirius...)</li>
+          </ul>
+      
+          <h4>Lợi ích cho đại lý & gara:</h4>
+          <ul>
+            <li>Dung tích 0.8L phù hợp thay cho hầu hết xe tay ga.</li>
+            <li>Thiết kế lon sắt sang trọng, dễ bảo quản, chống giả.</li>
+            <li>Phân phối chính thức bởi <strong>Phúc Long – PlusEx</strong>, hàng chuẩn, giá tốt.</li>
+          </ul>
+        `,
+        specs: {
+          "Cấp độ nhớt": "SAE 10W-40",
+          "Tiêu chuẩn kỹ thuật": "API SN / JASO MA2 – MB",
+          "Dung tích": "0.8 Lít",
+          "Loại dầu": "Bán tổng hợp (Semi Synthetic)",
+          "Ứng dụng": "Xe tay ga, xe số 4 thì",
+          "Màu sắc dầu": "Vàng nâu nhạt",
+          "Nhiệt độ làm việc": "Ổn định đến 200°C",
+          "Chu kỳ thay dầu khuyến nghị": "2.000 – 2.500 km",
+          "Xuất xứ": "Việt Nam – Công nghệ Hoa Kỳ",
+        },
+        benefits: [
+          "Máy êm – đề nhẹ – tăng tốc mượt.",
+          "Giảm tiêu hao nhiên liệu.",
+          "Kéo dài tuổi thọ động cơ và các chi tiết máy.",
+          "Bao bì sang trọng, dễ bán, lợi nhuận tốt.",
+        ],
+        application:
+          "Phù hợp cho xe tay ga và xe số 4 thì. Dòng nhớt cao cấp, ổn định trong điều kiện vận hành khắc nghiệt.",
+        price: 145000,
+        discountPrice: 130000,
+        stock: 200,
+        tags: [
+          "Dầu nhớt 4T",
+          "MAXPLUS 9000",
+          "10W40",
+          "API SN",
+          "JASO MA2",
+          "Xe tay ga",
+          "Xe số",
+          "Phúc Long",
+        ],
+        option: [
+          {
+            name: "DẦU NHỜN MCO-MAXPLUS CI4/SN-10W40 (4 Lít)",
+            url: "product/dau-nhon/mco-maxplus-ci4-sn-10w40-4-lit",
+          },
+          {
+            url: "product/dau-nhon/maxplus-9000-4t-racing-10w40-1l",
+            name: "DẦU NHỜN MAXPLUS 9000 4T RACING 10W40 (1 Lít)",
+          },
+          {
+            name: "DẦU NHỜN MAXPLUS 9000 4T RACING 10W40 (0.8 Lít)",
+            url: "product/dau-nhon/maxplus-9000-4t-racing-10w40-08l",
+          },
         ],
       },
     ],

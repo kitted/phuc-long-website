@@ -41,7 +41,7 @@ export default function ProductCardGrid({ products }: any) {
                 src={product.image}
                 alt={product.title}
                 loading="lazy"
-                className="w-full h-auto sm:h-full object-contain sm:object-fill transition-transform duration-300 group-hover:scale-105"
+                className="w-full h-auto sm:h-full object-contain sm:object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </div>
 
