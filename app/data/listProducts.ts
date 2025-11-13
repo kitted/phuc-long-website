@@ -2710,8 +2710,13 @@ export const productsList = [
         name: "DẦU NHỜN MCO-MAX VELOZ-10W40/SN (0.8 Lít)",
         url: "dau-nhon/mco-max-veloz-10w40-sn-08-lit",
         title: "DẦU NHỜN MCO-MAX VELOZ-10W40/SN",
-        image: "/lubrex/itemLubrex.png",
-        gallery: ["/lubrex/itemLubrex.png"],
+        image:
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763052363/DSC00253_rvjdqd.png",
+        gallery: [
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763052363/DSC00255_c0vu38.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763052363/DSC00254_pfbtxu.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763052363/DSC00257_nlndwv.png",
+        ],
         packaging: "Lon 0.8L",
         shortDescription:
           "Dầu nhớt MCO-MAX VELOZ 10W40/SN – dầu tổng hợp cao cấp dành cho xe tay ga 4 thì, giúp động cơ vận hành êm, mát máy và tiết kiệm nhiên liệu vượt trội.",
@@ -2788,8 +2793,13 @@ export const productsList = [
         name: "DẦU NHỜN MCO-MAX VELOZ-10W40/SN (1 Lít)",
         url: "dau-nhon/mco-max-veloz-10w40-sn-1-lit",
         title: "DẦU NHỜN MCO-MAX VELOZ-10W40/SN",
-        image: "/lubrex/itemLubrex.png",
-        gallery: ["/lubrex/itemLubrex.png"],
+        image:
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763052363/DSC00253_rvjdqd.png",
+        gallery: [
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763052363/DSC00255_c0vu38.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763052363/DSC00254_pfbtxu.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763052363/DSC00257_nlndwv.png",
+        ],
         packaging: "Lon 1L",
         shortDescription:
           "Dầu nhớt MCO-MAX VELOZ 10W40/SN – dầu bán tổng hợp chất lượng cao, tối ưu cho xe số và xe côn tay 4 thì, bảo vệ động cơ vượt trội và vận hành êm mát trong mọi điều kiện.",

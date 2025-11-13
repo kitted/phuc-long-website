@@ -25,7 +25,7 @@ export default function Example() {
           <ProductCardGrid products={productsList.slice(0, 6)} />
           <ContentText
             overlayText={
-              "CHÚNG TÔI CHUYÊN KINH DOANH CÁC DÒNG SẢN PHẨM NHẬP KHẨU"
+              "CHÚNG TÔI KINH DOANH CÁC SẢN PHẨM CHẤT LƯỢNG VÀ GIÁ CẠNH TRANH NHẤT THỊ TRƯỜNG"
             }
           />
           <AboutSection />

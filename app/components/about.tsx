@@ -31,7 +31,7 @@ export default function AboutSection() {
           src="/logo.png"
           alt="Phuc Long Logo"
           width={400}
-          height={200}
+          height={400}
           className="w-[90%] h-[50%] object-contain"
         />
       </div>
@@ -72,12 +72,12 @@ export default function AboutSection() {
 
         {/* Right logo (desktop mới hiển thị riêng) */}
         <div className="hidden md:flex justify-center md:justify-end">
-          <Image
-            src="/logo.png"
+          <img
+            src="https://res.cloudinary.com/drqacgi7a/image/upload/v1762966604/z7212871114971_bf1c7a207a3115e04361cfdf643c4155_rmuep8.png"
             alt="Phuc Long Logo"
             width={400}
             height={400}
-            className="w-full max-w-[350px] object-contain"
+            className="w-full max-w-[650px] object-contain"
           />
         </div>
       </div>

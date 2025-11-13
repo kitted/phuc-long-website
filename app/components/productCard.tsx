@@ -34,7 +34,7 @@ export default function ProductCardGrid({ products }: any) {
         >
           <Link
             href={`/product/${product.url}` || product.url || "/product/abc"}
-            className={`mt-3 inline-block text-sm font-medium ${textColor} hover:underline`}
+            className={`inline-block text-sm font-medium ${textColor} hover:underline`}
           >
             {/* Image */}
             <div className="relative w-full h-[265px] overflow-hidden rounded-t-2xl">
