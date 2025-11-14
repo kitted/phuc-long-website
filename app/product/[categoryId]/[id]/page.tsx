@@ -64,12 +64,12 @@ export default function ProductDetailPage() {
           </div>
 
           <div className={`${containerBg} w-full flex justify-center py-1`}>
-            <h1
+            {/* <h1
               className={`${textColor} italic font-black text-[20px] lg:text-[60px] md:text-[40px] sm:text-[25px] text-center px-4`}
               style={{ fontFamily: " sans-serif", letterSpacing: "2%" }}
             >
               {product?.name || "Sản phẩm không tồn tại"}
-            </h1>
+            </h1> */}
           </div>
 
           <div

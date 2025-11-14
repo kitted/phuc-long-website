@@ -60,8 +60,8 @@ export default function AboutSection() {
 
           {/* Small image */}
           <div className="w-full max-w-md">
-            <Image
-              src="/lubrex/lubrexFactory.png"
+            <img
+              src="https://res.cloudinary.com/drqacgi7a/image/upload/v1763110888/cc9acba6-ce3b-4363-a90b-6a8de232336a.png"
               alt="Lubrex Factory"
               width={600}
               height={400}
