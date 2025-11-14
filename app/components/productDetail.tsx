@@ -44,6 +44,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
   const containerBg2 = darkMode ? "bg-white" : "bg-black";
   const textColor2 = darkMode ? "text-black" : "text-white";
   const textColor3 = darkMode ? "text-yellow-300" : "text-blue-800";
+  const textColor4 = darkMode ? "text-white" : "text-black";
 
   return (
     <div className={`w-full ${textColor} ${containerBg}`}>
@@ -241,11 +242,13 @@ export default function ProductDetail({ product }: ProductDetailProps) {
         {/* Description */}
         {product.description && (
           <section className={`${containerBg} p-6 rounded-lg`}>
-            <h2 className={`text-lg font-semibold mb-2 ${textColor3}`}>
+            <h2 className={`text-lg font-semibold mb-2 ${textColor}`}>
               Mô tả chi tiết sản phẩm:
             </h2>
             <div
-              className={`text-sm leading-relaxed ${textColor} space-y-2 prose max-w-none`}
+              className={`text-sm leading-relaxed ${textColor4} space-y-2 prose prose-sm max-w-none ${
+                darkMode ? "prose-invert" : ""
+              }`}
               dangerouslySetInnerHTML={{ __html: product.description }}
             />
           </section>
