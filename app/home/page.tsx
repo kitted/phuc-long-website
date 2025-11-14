@@ -19,7 +19,13 @@ export default function Example() {
     <>
       <SubLayout>
         <div className="pt-[65px] md:pt-[1px]">
-          <Banner imageUrls={["/banner/banner1.png", "/banner/banner2.png"]} />
+          <Banner
+            imageUrls={[
+              "https://res.cloudinary.com/drqacgi7a/image/upload/v1763112438/banner2_enryjr.png",
+              "/banner/banner1.png",
+              "/banner/banner2.png",
+            ]}
+          />
           <Marquee />
           <ContentText overlayText={"UY TÍN TẠO NÊN THƯƠNG HIỆU"} />
           <ProductCardGrid products={productsList.slice(0, 6)} />
