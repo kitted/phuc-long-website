@@ -2,7 +2,7 @@
 
 import React, { useRef, useState, useEffect } from "react";
 
-const items = [
+export const itemsSlide = [
   { image: "/slide/slide1.png", title: "Max Plus" },
   { image: "/slide/slide2.png", title: "Plus EX" },
   { image: "/slide/slide3.png", title: "Max Veloz" },
@@ -93,7 +93,7 @@ const HorizontalSlider = () => {
       onMouseUp={handleMouseUp}
       onMouseMove={handleMouseMove}
     >
-      {items?.map((item, idx) => (
+      {itemsSlide?.map((item, idx) => (
         <div
           key={idx}
           className="min-w-[200px] max-w-[220px] flex-shrink-0 bg-neutral-900 rounded-2xl p-4 flex flex-col items-center justify-center"

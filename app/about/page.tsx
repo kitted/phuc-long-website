@@ -6,24 +6,9 @@ import Image from "next/image";
 import Footer from "../components/footer";
 import Head from "next/head";
 import { Link } from "lucide-react";
+import { itemsSlide } from "../components/horizontalSlider";
 
-const sliderItems = [
-  { image: "/slide/slide1.png", title: "Max Plus" },
-  { image: "/slide/slide2.png", title: "Plus EX" },
-  { image: "/slide/slide3.png", title: "Max Veloz" },
-  { image: "/slide/slide4.png", title: "YMR" },
-  { image: "/slide/slide5.png", title: "Và Nhiều Sản Phẩm Khác..." },
-  { image: "/slide/slide1.png", title: "Max Plus" },
-  { image: "/slide/slide2.png", title: "Plus EX" },
-  { image: "/slide/slide3.png", title: "Max Veloz" },
-  { image: "/slide/slide4.png", title: "YMR" },
-  { image: "/slide/slide5.png", title: "Và Nhiều Sản Phẩm Khác..." },
-  { image: "/slide/slide1.png", title: "Max Plus" },
-  { image: "/slide/slide2.png", title: "Plus EX" },
-  { image: "/slide/slide3.png", title: "Max Veloz" },
-  { image: "/slide/slide4.png", title: "YMR" },
-  { image: "/slide/slide5.png", title: "Và Nhiều Sản Phẩm Khác..." },
-];
+const sliderItems = itemsSlide;
 
 function About() {
   const contentRef = useRef<HTMLDivElement>(null);

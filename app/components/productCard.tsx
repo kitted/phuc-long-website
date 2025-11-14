@@ -30,14 +30,14 @@ export default function ProductCardGrid({ products }: any) {
       {products?.map((product: any, idx: any) => (
         <div
           key={idx}
-          className={`${cardBg} ${textColor} rounded-2xl overflow-hidden shadow-lg flex flex-col w-auto h-[476px] sm:w-auto sm:h-auto`}
+          className={`${cardBg} ${textColor} rounded-2xl overflow-hidden shadow-lg flex flex-col w-auto h-auto sm:w-auto sm:h-auto`}
         >
           <Link
             href={`/product/${product.url}` || product.url || "/product/abc"}
             className={`inline-block text-sm font-medium ${textColor} hover:underline`}
           >
             {/* Image */}
-            <div className="relative w-full h-[365px] overflow-hidden rounded-t-2xl">
+            <div className="relative w-full h-auto overflow-hidden rounded-t-2xl">
               <img
                 src={product.image}
                 alt={product.title}
