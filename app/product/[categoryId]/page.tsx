@@ -26,32 +26,43 @@ export default function Category() {
   const [darkMode, setDarkMode] = useState(false);
   const [categories, setCategories] = useState<any[]>(productsList);
 
+  /* ===================== THEME ===================== */
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
     setDarkMode(storedTheme === "dark");
+
     const handleThemeChange = () =>
       setDarkMode(localStorage.getItem("theme") === "dark");
+
     window.addEventListener("themeChange", handleThemeChange);
     return () => window.removeEventListener("themeChange", handleThemeChange);
   }, []);
 
+  /* ===================== FILTER BY URL ===================== */
   useEffect(() => {
     const pathParts = pathname.split("/").filter(Boolean);
-    const categorySlug = pathParts[1];
-    const subSlug = searchParams.get("sub");
+    const categorySlug = pathParts[1]; // /product/bo-thang
+    const subSlug = searchParams.get("sub"); // ?sub=bo-thang-dum-elig
 
     const category = productsList.find((c) => c.url === categorySlug);
 
+    // If category & subSlug → filter prefix match
     if (category && subSlug) {
-      const filtered = category.products.filter(
-        (p) =>
-          p.url.endsWith(subSlug) ||
-          p.name.toLowerCase().includes(subSlug.toLowerCase())
-      );
+      const lower = subSlug.toLowerCase();
+
+      const filtered = category.products.filter((p) => {
+        const last = p.url.split("/").pop()?.toLowerCase() || "";
+        return last.startsWith(lower); // MATCH ĐẦU
+      });
+
       setFilteredProducts(filtered);
-    } else if (category) {
+    }
+    // Nếu có category nhưng không có sub → trả hết
+    else if (category) {
       setFilteredProducts(category.products);
-    } else {
+    }
+    // Nếu không có category → trả all
+    else {
       const all = productsList.flatMap((c: any) => c.products);
       setFilteredProducts(all);
     }
@@ -59,30 +70,48 @@ export default function Category() {
     setCurrentPage(1);
   }, [pathname, searchParams]);
 
+  /* ===================== SEARCH ===================== */
   const handleSearch = (keyword: string) => {
     const lowerKeyword = keyword.toLowerCase();
     const allProducts = productsList.flatMap((c: any) => c.products);
+
     const filtered = allProducts.filter(
       (p) =>
         p.name.toLowerCase().includes(lowerKeyword) ||
         p.title.toLowerCase().includes(lowerKeyword) ||
         p.tag.some((t: any) => t.toLowerCase().includes(lowerKeyword))
     );
+
     setFilteredProducts(filtered);
     setCurrentPage(1);
   };
 
+  /* ===================== SIDEBAR FILTER ===================== */
   const handleFilter = (category: string, sub: string) => {
     const cat = productsList.find((c) => c.title === category);
-    if (cat) {
-      const filtered = cat.products.filter((p) =>
-        p.name.toLowerCase().includes(sub.toLowerCase())
-      );
+
+    if (cat && !sub) {
+      setFilteredProducts(cat.products);
+      setCurrentPage(1);
+      return;
+    }
+
+    // Thay equal match → prefix match
+    if (cat && sub) {
+      const lower = sub.toLowerCase();
+
+      const filtered = cat.products.filter((p) => {
+        const last = p.url.split("/").pop()?.toLowerCase() || "";
+        return last.startsWith(lower);
+      });
+
       setFilteredProducts(filtered);
       setCurrentPage(1);
+      return;
     }
   };
 
+  /* ===================== SIDEBAR DATA ===================== */
   const sidebarCategories = productsList.map((category) => ({
     name: category.title,
     url: category.url,
@@ -92,7 +121,9 @@ export default function Category() {
     })),
   }));
 
+  /* ===================== PAGINATION ===================== */
   const totalPages = Math.ceil(filteredProducts.length / ITEMS_PER_PAGE);
+
   const paginatedProducts = filteredProducts.slice(
     (currentPage - 1) * ITEMS_PER_PAGE,
     currentPage * ITEMS_PER_PAGE
@@ -101,25 +132,22 @@ export default function Category() {
   const containerBg = darkMode ? "bg-black" : "bg-white";
   const containerBg2 = darkMode ? "bg-[#161616]" : "bg-[#F2F2F2]";
 
+  /* ===================== TITLE ===================== */
   const currentCategory = useMemo(() => {
     return categories.find((c) => c.url === currentSlug);
   }, [categories, currentSlug]);
 
   const [pageTitle, setPageTitle] = useState("Sản phẩm Lubrex");
+
   useEffect(() => {
-    if (currentCategory) {
-      setPageTitle(currentCategory.title);
-    } else {
-      setPageTitle("Sản phẩm Lubrex");
-    }
+    setPageTitle(currentCategory ? currentCategory.title : "Sản phẩm Lubrex");
   }, [currentCategory]);
 
+  /* ===================== RENDER ===================== */
   return (
     <>
       <SubLayout>
         <div className="pt-[85px] md:pt-[1px]">
-          {/* <Banner imageUrls={["/banner/banner1.png", "/banner/banner2.png"]} /> */}
-
           <Marquee />
           <Breadcrumbs />
           <ContentText overlayText={pageTitle} />
@@ -149,6 +177,7 @@ export default function Category() {
           />
         </div>
       </SubLayout>
+
       <Footer />
     </>
   );

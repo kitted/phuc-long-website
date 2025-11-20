@@ -17,12 +17,26 @@ export const sidebarCategoriesV2 = [
     subcategories: [
       { name: "MCO PlusEx", url: "mco-plusex" },
       { name: "MCO MaxPlus", url: "mco-maxplus" },
-      { name: "MCO MaxVeloz", url: "max veloz" },
+      { name: "MCO MaxVeloz", url: "mco-max-veloz" },
     ],
   },
   {
     name: "Ắc Quy",
     url: "ac-quy",
-    subcategories: [{ name: "Ắc quy ABS", url: "abs" }],
+    subcategories: [{ name: "Ắc quy ABS", url: "ac-quy-xe-may-abs" }],
   },
+  {
+    name: "Pin Xe Điện",
+    url: "pin-xe-dien",
+    subcategories: [{ name: "Pin Xe Điện", url: "pin-xe-dien-tianneng" }],
+  },
+  {
+    name: "Bố Thắng",
+    url: "bo-thang",
+    subcategories: [
+      { name: "Bố Thắng Đùm Elig", url: "bo-thang-dum-elig" },
+      { name: "Bố Thắng Đĩa Elig", url: "bo-thang-dia-elig" },
+    ],
+  },
+  // https://chatgpt.com/share/691f2f78-0304-8001-83d1-49fb715af751
 ];

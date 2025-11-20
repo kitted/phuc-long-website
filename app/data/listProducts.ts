@@ -3347,4 +3347,316 @@ export const productsList = [
       },
     ],
   },
+  {
+    id: 4,
+    title: "Pin Xe Điện",
+    name: "Pin Xe Điện",
+    description: "",
+    image:
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/v1763644966/acquybanner_vkkkqy.png",
+    label: "Pin Xe Điện",
+    url: "pin-xe-dien",
+    tag: [],
+    products: [
+      {
+        id: 1,
+        name: "Pin Xe Điện Tianneng TNE12-15",
+        url: "pin-xe-dien/pin-xe-dien-tianneng-tne12-15",
+        title: "Pin Xe Điện Tianneng TNE12-15 (6-DZF-12.3)",
+        image:
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580377/14_ggoxrr.png",
+        gallery: [
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580377/14_ggoxrr.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580376/13_nflhlc.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580378/16_uy8cd0.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580378/15_tt01rf.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580379/17_cb6k3p.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580379/18_ttkdpy.png",
+        ],
+        type: ["TNE12-15", "6-DZF-12.3"],
+        packaging: "Bình",
+        shortDescription:
+          "Pin xe điện Tianneng TNE12-15 – dòng bình GEL chuyên dụng siêu bền, chịu nhiệt cao, tuổi thọ vượt trội, hiệu năng mạnh mẽ cho mọi dòng xe điện.",
+        description: `
+    <p><strong>Pin Tianneng TNE12-15 (6-DZF-12.3)</strong> thuộc dòng <strong>Deep Cycle Black Gold Battery</strong>, 
+    sử dụng công nghệ AGM GEL kín khí hiện đại, chuyên dành cho xe máy điện – xe đạp điện. 
+    Với khả năng chịu nhiệt tốt, độ bền cao và chu kỳ sạc xả dài, đây là lựa chọn tiêu chuẩn của nhiều hãng xe trên thị trường.</p>
+
+    <h4>Ưu điểm nổi bật:</h4>
+    <ul>
+      <li>🔥 <strong>Phiên bản chịu nhiệt cao (High Temp Version):</strong> hoạt động ổn định trong khí hậu nóng ẩm Việt Nam.</li>
+      <li>🔋 <strong>Deep Cycle – Sạc xả sâu:</strong> giữ dung lượng tốt, tuổi thọ cao hơn ắc quy thường.</li>
+      <li>⚡ <strong>Dòng xả mạnh:</strong> cho khả năng tăng tốc tốt, vận hành ổn định ngay cả khi tải nặng.</li>
+      <li>🧪 <strong>Công nghệ AGM GEL:</strong> không rò rỉ, chống bay hơi, an toàn tuyệt đối khi sử dụng.</li>
+      <li>💪 <strong>Thân vỏ chịu va đập:</strong> thiết kế chắc chắn, bền bỉ, chống nứt vỡ.</li>
+      <li>🛡️ <strong>Kín khí – Không cần bảo dưỡng:</strong> không châm nước, không mùi axit, an toàn cho người dùng.</li>
+      <li>♻️ <strong>Vật liệu đạt tiêu chuẩn quốc tế:</strong> chống sulfation, hạn chế chai bình.</li>
+    </ul>
+
+    <h4>Thông số sạc – xả nổi bật:</h4>
+    <ul>
+      <li>12V – 12.3Ah (C1 đến 1.75V/cell @25°C)</li>
+      <li>12V – 15Ah (C20 đến 1.8V/cell @25°C)</li>
+      <li>Chu kỳ: 200 – 500 lần (tùy điều kiện sử dụng)</li>
+      <li>Ắc quy VRLA AGM GEL – không tràn, không bảo trì</li>
+    </ul>
+
+    <p><strong>Thương hiệu:</strong> Tianneng – Tập đoàn ắc quy xe điện số 1 Trung Quốc, phân phối chính hãng bởi <strong>Phúc Long</strong>.</p>
+  `,
+        specs: {
+          "Loại sản phẩm": "Pin xe điện – AGM GEL (VRLA – kín khí)",
+          "Dung lượng": "12.3Ah – 15Ah tùy theo chế độ xả",
+          "Điện áp danh định": "12V",
+          "Công nghệ": "Deep Cycle Black Gold – AGM GEL",
+          "Chu kỳ sạc": "200 – 500 chu kỳ",
+          "Vỏ bình": "Nhựa ABS chống cháy, chịu nhiệt cao",
+          "Kích thước": "Chuẩn ắc quy 6-DZF (dùng cho xe điện phổ thông)",
+          "Xuất xứ": "Tianneng Group – Lắp ráp tại Việt Nam",
+        },
+        benefits: [
+          "PIN CHUYÊN DỤNG CHO XE ĐIỆN",
+          "AGM GEL KÍN KHÍ – AN TOÀN TUYỆT ĐỐI",
+          "CHU KỲ SẠC XẢ SÂU – TUỔI THỌ CAO",
+          "BẢO HÀNH CHÍNH HÃNG 6–12 THÁNG",
+        ],
+        application:
+          "Phù hợp hầu hết các dòng xe máy điện, xe đạp điện sử dụng bình 6-DZF: Vinfast Feliz (bản bình chì), JVC, Nijia, Xmen, Giant, Anbico, Espero…",
+        price: 890000,
+        discountPrice: 820000,
+        stock: 40,
+        tags: [
+          "Pin xe điện",
+          "Tianneng",
+          "6-DZF-12.3",
+          "TNE12-15",
+          "Pin",
+          "12V",
+          "Phúc Long",
+        ],
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Bố Thắng",
+    name: "Bố Thắng",
+    description: "",
+    image:
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/v1763648154/eligbanner_sd4jxe.png",
+    label: "Bố Thắng",
+    url: "bo-thang",
+    tag: [],
+    products: [
+      {
+        id: 1,
+        name: "Bố Thắng Đùm Elig",
+        url: "bo-thang/bo-thang-dum-elig",
+        title: "Bố Thắng Đùm Elig Chính Hãng",
+        image:
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580388/42_fnovn2.png",
+        gallery: [
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580388/42_fnovn2.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580382/34_notl4h.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580382/35_trgufo.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580387/36_ev8gnf.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580387/37_e0lkl3.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580387/38_yct4u3.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580388/40_zlunsc.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580388/41_ymg3l7.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580388/43_irsyll.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580389/39_sxlq1d.png",
+        ],
+        type: ["Front", "Rear"],
+        packaging: "Hộp",
+        shortDescription:
+          "Bố thắng đùm Elig – linh kiện an toàn, phanh ăn, êm, bền. Sản phẩm đạt chuẩn quốc tế, 100% không amiăng, được nhiều hãng xe tin dùng.",
+        description: `
+    <p><strong>Bố thắng đùm Elig</strong> là sản phẩm phanh chất lượng cao của thương hiệu 
+    <strong>Elig Brake</strong> – nổi tiếng với công nghệ phanh tiên tiến và tiêu chuẩn an toàn quốc tế. 
+    Sản phẩm được sản xuất theo quy trình ISO 9001, đảm bảo độ bền, độ bám và hiệu suất phanh ổn định cho mọi dòng xe máy.</p>
+
+    <h4>Ưu điểm nổi bật:</h4>
+    <ul>
+      <li>🛡️ <strong>An toàn tuyệt đối:</strong> vật liệu phanh đạt chuẩn quốc tế, không amiăng – bảo vệ sức khỏe.</li>
+      <li>⚙️ <strong>Độ bám vượt trội:</strong> má phanh bám đều, phanh êm – không gây trượt bánh.</li>
+      <li>🌀 <strong>Tản nhiệt tốt:</strong> công nghệ vật liệu cải tiến giúp giảm nóng khi phanh liên tục.</li>
+      <li>💪 <strong>Độ bền cao:</strong> ít mài mòn, tuổi thọ dài hơn bố thắng thông thường.</li>
+      <li>🔧 <strong>Dễ lắp đặt:</strong> thiết kế chuẩn size theo xe, thay thế nhanh chóng.</li>
+      <li>🌿 <strong>100% không amiăng:</strong> thân thiện môi trường, an tâm sử dụng lâu dài.</li>
+    </ul>
+
+    <h4>Chứng nhận – Giải thưởng:</h4>
+    <ul>
+      <li>Đạt chuẩn ISO 9001</li>
+      <li>Hàng Việt Nam – Chất lượng cao</li>
+      <li>Thương hiệu vàng Công Nghiệp Việt Nam</li>
+    </ul>
+
+    <p><strong>Ứng dụng:</strong> Dùng cho hầu hết xe số và xe tay ga sử dụng phanh đùm: Wave, Dream, Sirius, Jupiter, Vision (bản đùm), Lead đời cũ, Future,…</p>
+  `,
+        specs: {
+          "Loại sản phẩm": "Bố thắng đùm (phanh đùm)",
+          "Chất liệu": "Hợp chất ma sát không amiăng",
+          "Công nghệ": "Tiêu chuẩn phanh Elig – hiệu suất cao",
+          "Độ bám": "Ổn định, phanh êm, không trượt",
+          "Chuẩn chất lượng": "ISO 9001",
+          "Ứng dụng": "Xe số – xe tay ga dùng phanh đùm",
+          "Xuất xứ": "Elig – Việt Nam",
+        },
+        benefits: [
+          "PHANH AN TOÀN – KHÔNG AMIĂNG",
+          "BỀN – BÁM TỐT – KHÔNG LÀM MÒN ĐÙM",
+          "CHỨNG NHẬN ISO 9001",
+          "THƯƠNG HIỆU PHANH CAO CẤP",
+        ],
+        application:
+          "Phù hợp nhiều dòng xe phổ thông tại Việt Nam như Honda, Yamaha, SYM, Suzuki…",
+        price: 85000,
+        discountPrice: 75000,
+        stock: 120,
+        tags: [
+          "bố thắng đùm",
+          "phanh đùm",
+          "Elig",
+          "phanh xe máy",
+          "phụ tùng xe máy",
+          "má phanh",
+        ],
+        option: [
+          {
+            name: "Wave",
+            url: "product/bo-thang/bo-thang-dum-elig",
+          },
+          {
+            name: "Dream",
+            url: "product/bo-thang/bo-thang-dum-elig",
+          },
+          {
+            name: "Sirius",
+            url: "product/bo-thang/bo-thang-dum-elig",
+          },
+          {
+            name: "Vision (bản đùm)",
+            url: "product/bo-thang/bo-thang-dum-elig",
+          },
+          {
+            name: "Lead đời cũ",
+            url: "product/bo-thang/bo-thang-dum-elig",
+          },
+          {
+            name: "Future",
+            url: "product/bo-thang/bo-thang-dum-elig",
+          },
+          {
+            name: "Jupiter",
+            url: "product/bo-thang/bo-thang-dum-elig",
+          },
+        ],
+      },
+      {
+        id: 2,
+        name: "Bố Thắng Đùm Elig",
+        url: "bo-thang/bo-thang-dum-elig-hop-xanh",
+        title: "Bố Thắng Đùm Elig Chính Hãng Hộp Xanh",
+        image:
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580376/1_ya4uda.png",
+        gallery: [
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580376/1_ya4uda.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580376/3_qi82jc.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580377/4_bofd4d.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580376/12_u62al9.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580377/6_es8iyd.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580377/7_umpzro.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580378/8_fdauk8.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580378/9_whshty.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580378/10_z0u1qa.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580379/11_jgosx9.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580380/5_tohq79.png",
+        ],
+        type: ["Front", "Rear"],
+        packaging: "Hộp",
+        shortDescription:
+          "Bố thắng đùm Elig hộp xanh – dòng sản phẩm tiêu chuẩn bền bỉ, phanh êm, không amiăng, phù hợp mọi dòng xe phổ thông.",
+        description: `
+    <p><strong>Bố thắng đùm Elig hộp xanh</strong> là sản phẩm phanh tiêu chuẩn của Elig – thương hiệu uy tín chuyên về hệ thống phanh xe máy tại Việt Nam. 
+    Dòng hộp xanh tập trung vào độ bền, khả năng phanh ổn định và mức giá dễ tiếp cận.</p>
+
+    <h4>Ưu điểm nổi bật:</h4>
+    <ul>
+      <li>🛡️ <strong>Không amiăng:</strong> an toàn cho sức khỏe và thân thiện môi trường.</li>
+      <li>⚙️ <strong>Phanh êm – ổn định:</strong> hiệu năng tốt trong mọi điều kiện thời tiết.</li>
+      <li>💪 <strong>Độ bền cao:</strong> vật liệu ít mài mòn, tuổi thọ dài.</li>
+      <li>🔧 <strong>Lắp đặt nhanh:</strong> thiết kế chuẩn size theo từng loại xe.</li>
+      <li>🎯 <strong>Giá tốt – chất lượng ổn định:</strong> lựa chọn tối ưu cho xe phổ thông.</li>
+    </ul>
+
+    <h4>Tiêu chuẩn:</h4>
+    <ul>
+      <li>ISO 9001</li>
+      <li>TS 16949</li>
+    </ul>
+
+    <p><strong>Phù hợp với:</strong> Wave, Dream, Sirius, Jupiter, Future, SYM, Suzuki và các xe sử dụng phanh đùm.</p>
+  `,
+        specs: {
+          "Loại sản phẩm": "Bố thắng đùm (phanh đùm)",
+          "Chất liệu": "Hợp chất ma sát không amiăng (Asbestos Free)",
+          "Chuẩn chất lượng": "TS16949, ISO 9001",
+          "Độ bám": "Ổn định, phanh êm",
+          "Độ bền": "Cao, ít mài mòn",
+          "Ứng dụng": "Xe số – xe ga dùng phanh đùm",
+          "Xuất xứ": "Elig – Việt Nam",
+        },
+        benefits: [
+          "ASBESTOS FREE – KHÔNG AMIĂNG",
+          "PHANH ÊM – AN TOÀN – BỀN BỈ",
+          "CHUẨN TS16949 & ISO 9001",
+          "GIÁ TỐT – ĐỘ BỀN CAO",
+        ],
+        application:
+          "Dùng cho đa dạng xe số và xe tay ga đời cũ sử dụng phanh đùm.",
+        price: 65000,
+        discountPrice: 55000,
+        stock: 150,
+        tags: [
+          "bố thắng đùm",
+          "phanh đùm",
+          "Elig hộp xanh",
+          "má phanh",
+          "phụ tùng xe máy",
+          "phanh xe",
+        ],
+        option: [
+          {
+            name: "Wave",
+            url: "product/bo-thang/bo-thang-dum-elig-hop-xanh",
+          },
+          {
+            name: "Dream",
+            url: "product/bo-thang/bo-thang-dum-elig-hop-xanh",
+          },
+          {
+            name: "Sirius",
+            url: "product/bo-thang/bo-thang-dum-elig-hop-xanh",
+          },
+          {
+            name: "SYM",
+            url: "product/bo-thang/bo-thang-dum-elig-hop-xanh",
+          },
+          {
+            name: "Suzuki",
+            url: "product/bo-thang/bo-thang-dum-elig-hop-xanh",
+          },
+          {
+            name: "Future",
+            url: "product/bo-thang/bo-thang-dum-elig-hop-xanh",
+          },
+          {
+            name: "Jupiter",
+            url: "product/bo-thang/bo-thang-dum-elig-hop-xanh",
+          },
+        ],
+      },
+    ],
+  },
 ];

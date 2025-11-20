@@ -22,6 +22,8 @@ export default function Example() {
           <Banner
             imageUrls={[
               "https://res.cloudinary.com/drqacgi7a/image/upload/v1763112438/banner2_enryjr.png",
+              "https://res.cloudinary.com/drqacgi7a/image/upload/v1763644133/banner2-Recovered_nh0ui3.png",
+              "https://res.cloudinary.com/dkxb7klnn/image/upload/v1763647189/banner3_au7lgl.png",
               "/banner/banner1.png",
               "/banner/banner2.png",
             ]}
