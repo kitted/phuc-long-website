@@ -71,7 +71,7 @@ export default function SidebarFilter({
       router.push(newUrl);
     } else {
       router.push(newUrl, { scroll: false });
-      onFilter?.(cat.name, sub.name);
+      onFilter?.(cat.name, sub.url);
     }
   };
 

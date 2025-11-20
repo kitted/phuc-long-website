@@ -41,30 +41,43 @@ export default function Category() {
   /* ===================== FILTER BY URL ===================== */
   useEffect(() => {
     const pathParts = pathname.split("/").filter(Boolean);
-    const categorySlug = pathParts[1]; // /product/bo-thang
-    const subSlug = searchParams.get("sub"); // ?sub=bo-thang-dum-elig
+    const categorySlug = pathParts[1];
+    const subSlug = searchParams.get("sub") || "";
 
     const category = productsList.find((c) => c.url === categorySlug);
 
-    // If category & subSlug → filter prefix match
-    if (category && subSlug) {
-      const lower = subSlug.toLowerCase();
+    const filterByWords = (products: any[], sub: string) => {
+      const words = sub
+        .toLowerCase()
+        .split(/[-\s]+/)
+        .filter(Boolean);
 
-      const filtered = category.products.filter((p) => {
-        const last = p.url.split("/").pop()?.toLowerCase() || "";
-        return last.startsWith(lower); // MATCH ĐẦU
+      if (words.length === 0) return products;
+
+      return products.filter((p) => {
+        const name = p.name.toLowerCase();
+        const title = p.title.toLowerCase();
+        const tags = (p.tags || []).map((t: string) => t.toLowerCase());
+
+        // match theo từ
+        return words.some(
+          (w) =>
+            name.includes(w) ||
+            title.includes(w) ||
+            tags.some((t: any) => t.includes(w))
+        );
       });
+    };
 
-      setFilteredProducts(filtered);
-    }
-    // Nếu có category nhưng không có sub → trả hết
-    else if (category) {
-      setFilteredProducts(category.products);
-    }
-    // Nếu không có category → trả all
-    else {
+    if (category) {
+      if (subSlug) {
+        setFilteredProducts(filterByWords(category.products, subSlug));
+      } else {
+        setFilteredProducts(category.products);
+      }
+    } else {
       const all = productsList.flatMap((c: any) => c.products);
-      setFilteredProducts(all);
+      setFilteredProducts(subSlug ? filterByWords(all, subSlug) : all);
     }
 
     setCurrentPage(1);
@@ -75,12 +88,19 @@ export default function Category() {
     const lowerKeyword = keyword.toLowerCase();
     const allProducts = productsList.flatMap((c: any) => c.products);
 
-    const filtered = allProducts.filter(
-      (p) =>
-        p.name.toLowerCase().includes(lowerKeyword) ||
-        p.title.toLowerCase().includes(lowerKeyword) ||
-        p.tag.some((t: any) => t.toLowerCase().includes(lowerKeyword))
-    );
+    const filtered = allProducts.filter((p) => {
+      const name = p.name.toLowerCase();
+      const title = p.title.toLowerCase();
+      const url = p.url.toLowerCase(); // thêm dòng này
+      const tags = (p.tags || []).map((t: string) => t.toLowerCase()); // SỬA p.tag → p.tags
+
+      return (
+        name.includes(lowerKeyword) ||
+        title.includes(lowerKeyword) ||
+        url.includes(lowerKeyword) ||
+        tags.some((t: any) => t.includes(lowerKeyword))
+      );
+    });
 
     setFilteredProducts(filtered);
     setCurrentPage(1);
@@ -90,19 +110,32 @@ export default function Category() {
   const handleFilter = (category: string, sub: string) => {
     const cat = productsList.find((c) => c.title === category);
 
+    // Nếu chỉ có category
     if (cat && !sub) {
       setFilteredProducts(cat.products);
       setCurrentPage(1);
       return;
     }
 
-    // Thay equal match → prefix match
+    // Nếu có category + sub → match theo từ
     if (cat && sub) {
-      const lower = sub.toLowerCase();
+      const words = sub
+        .toLowerCase()
+        .split(/[-\s]+/)
+        .filter(Boolean);
 
       const filtered = cat.products.filter((p) => {
-        const last = p.url.split("/").pop()?.toLowerCase() || "";
-        return last.startsWith(lower);
+        const name = p.name.toLowerCase();
+        const title = p.title.toLowerCase();
+        const tags = (p.tags || []).map((t: string) => t.toLowerCase());
+
+        // match nếu bất kỳ từ nào xuất hiện trong name, title hoặc tags
+        return words.some(
+          (w) =>
+            name.includes(w) ||
+            title.includes(w) ||
+            tags.some((t) => t.includes(w))
+        );
       });
 
       setFilteredProducts(filtered);

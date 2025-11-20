@@ -632,7 +632,7 @@ export const productsList = [
         id: 9,
         name: "Sên THAIKYM Wave RS Fi",
         url: "nhong-xich/thaikym-Wave-RS-Fi",
-        title: "Sên WUSUKI Wave RS Fi",
+        title: "Sên THAIKYM Wave RS Fi",
         image:
           "https://res.cloudinary.com/drqacgi7a/image/upload/v1763110391/DSC00167_jnv1uu.png",
         gallery: [
@@ -686,19 +686,19 @@ export const productsList = [
         option: [
           {
             url: "product/nhong-xich/thaikym-Wave-RS-Fi",
-            name: "Sên WUSUKI Wave RS Fi",
+            name: "Sên THAIKYM Wave RS Fi",
           },
           {
             url: "product/nhong-xich/thaikym-Wave-Ez",
-            name: "Sên WUSUKI Wave Wave Ez",
+            name: "Sên THAIKYM Wave Wave Ez",
           },
           {
             url: "product/nhong-xich/thaikym-Sirus-Fi",
-            name: "Sên WUSUKI Sirus Fi",
+            name: "Sên THAIKYM Sirus Fi",
           },
           {
             url: "product/nhong-xich/thaikym-Sirus-Yupito",
-            name: "Sên WUSUKI Sirus Yupito",
+            name: "Sên THAIKYM Sirus Yupito",
           },
         ],
       },
@@ -729,7 +729,7 @@ export const productsList = [
         id: 10,
         name: "Sên THAIKYM Wave EZ",
         url: "nhong-xich/thaikym-Wave-Ez",
-        title: "Sên WUSUKI Wave Wave Ez",
+        title: "Sên THAIKYM Wave Wave Ez",
         image:
           "https://res.cloudinary.com/drqacgi7a/image/upload/v1763110391/DSC00167_jnv1uu.png",
         gallery: [
@@ -783,19 +783,19 @@ export const productsList = [
         option: [
           {
             url: "product/nhong-xich/thaikym-Wave-RS-Fi",
-            name: "Sên WUSUKI Wave RS Fi",
+            name: "Sên THAIKYM Wave RS Fi",
           },
           {
             url: "product/nhong-xich/thaikym-Wave-Ez",
-            name: "Sên WUSUKI Wave Wave Ez",
+            name: "Sên THAIKYM Wave Wave Ez",
           },
           {
             url: "product/nhong-xich/thaikym-Sirus-Fi",
-            name: "Sên WUSUKI Sirus Fi",
+            name: "Sên THAIKYM Sirus Fi",
           },
           {
             url: "product/nhong-xich/thaikym-Sirus-Yupito",
-            name: "Sên WUSUKI Sirus Yupito",
+            name: "Sên THAIKYM Sirus Yupito",
           },
         ],
       },
@@ -826,7 +826,7 @@ export const productsList = [
         id: 11,
         name: "Sên THAIKYM Sirius Fi",
         url: "nhong-xich/thaikym-Sirus-Fi",
-        title: "Sên WUSUKI Sirus Fi",
+        title: "Sên THAIKYM Sirus Fi",
         image:
           "https://res.cloudinary.com/drqacgi7a/image/upload/v1763110391/DSC00167_jnv1uu.png",
         gallery: [
@@ -880,19 +880,19 @@ export const productsList = [
         option: [
           {
             url: "product/nhong-xich/thaikym-Wave-RS-Fi",
-            name: "Sên WUSUKI Wave RS Fi",
+            name: "Sên THAIKYM Wave RS Fi",
           },
           {
             url: "product/nhong-xich/thaikym-Wave-Ez",
-            name: "Sên WUSUKI Wave Wave Ez",
+            name: "Sên THAIKYM Wave Wave Ez",
           },
           {
             url: "product/nhong-xich/thaikym-Sirus-Fi",
-            name: "Sên WUSUKI Sirus Fi",
+            name: "Sên THAIKYM Sirus Fi",
           },
           {
             url: "product/nhong-xich/thaikym-Sirus-Yupito",
-            name: "Sên WUSUKI Sirus Yupito",
+            name: "Sên THAIKYM Sirus Yupito",
           },
         ],
       },
@@ -923,7 +923,7 @@ export const productsList = [
         id: 12,
         name: "Sên THAIKYM Sirius Jupiter",
         url: "nhong-xich/thaikym-Sirus-Yupito",
-        title: "Sên WUSUKI Sirus Yupito",
+        title: "Sên THAIKYM Sirus Yupito",
         image:
           "https://res.cloudinary.com/drqacgi7a/image/upload/v1763110391/DSC00167_jnv1uu.png",
         gallery: [
@@ -985,19 +985,19 @@ export const productsList = [
         option: [
           {
             url: "product/nhong-xich/thaikym-Wave-RS-Fi",
-            name: "Sên WUSUKI Wave RS Fi",
+            name: "Sên THAIKYM Wave RS Fi",
           },
           {
             url: "product/nhong-xich/thaikym-Wave-Ez",
-            name: "Sên WUSUKI Wave Wave Ez",
+            name: "Sên THAIKYM Wave Wave Ez",
           },
           {
             url: "product/nhong-xich/thaikym-Sirus-Fi",
-            name: "Sên WUSUKI Sirus Fi",
+            name: "Sên THAIKYM Sirus Fi",
           },
           {
             url: "product/nhong-xich/thaikym-Sirus-Yupito",
-            name: "Sên WUSUKI Sirus Yupito",
+            name: "Sên THAIKYM Sirus Yupito",
           },
         ],
       },
@@ -2708,9 +2708,9 @@ export const productsList = [
 
       {
         id: 8,
-        name: "DẦU NHỜN MCO-MAX VELOZ-10W40/SN (0.8 Lít)",
+        name: "DẦU NHỜN MCO MAX VELOZ - 10W40/SN (0.8 Lít)",
         url: "dau-nhon/mco-max-veloz-10w40-sn-08-lit",
-        title: "DẦU NHỜN MCO-MAX VELOZ-10W40/SN",
+        title: "DẦU NHỜN MCO MAX VELOZ - 10W40/SN",
         image:
           "https://res.cloudinary.com/drqacgi7a/image/upload/v1763052363/DSC00253_rvjdqd.png",
         gallery: [
@@ -2791,9 +2791,9 @@ export const productsList = [
       // },
       {
         id: 9,
-        name: "DẦU NHỜN MCO-MAX VELOZ-10W40/SN (1 Lít)",
+        name: "DẦU NHỜN MCO MAX VELOZ - 10W40/SN (1 Lít)",
         url: "dau-nhon/mco-max-veloz-10w40-sn-1-lit",
-        title: "DẦU NHỜN MCO-MAX VELOZ-10W40/SN",
+        title: "DẦU NHỜN MCO MAX VELOZ - 10W40/SN",
         image:
           "https://res.cloudinary.com/drqacgi7a/image/upload/v1763052363/DSC00253_rvjdqd.png",
         gallery: [
@@ -3654,6 +3654,410 @@ export const productsList = [
           {
             name: "Jupiter",
             url: "product/bo-thang/bo-thang-dum-elig-hop-xanh",
+          },
+        ],
+      },
+      {
+        id: 3,
+        name: "Bố Thắng Đĩa Elig",
+        url: "bo-thang/bo-thang-dia-elig",
+        title: "Bố Thắng Đĩa Elig Chính Hãng",
+        image:
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580393/47_roz5o7.png",
+        gallery: [
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580393/47_roz5o7.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580393/54_i7fdte.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580398/67_evki6j.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580397/66_zv5sk9.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580393/55_latoaj.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580392/51_mrc0lv.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580392/50_s65cns.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580392/48_grxhjb.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580388/44_cn9g3k.png",
+        ],
+        type: ["Front", "Rear"],
+        packaging: "Hộp",
+        shortDescription:
+          "Bố thắng đĩa Elig – má phanh chất lượng cao, phanh ăn, ổn định, tản nhiệt tốt, bền bỉ và an toàn tuyệt đối.",
+        description: `
+          <p><strong>Bố thắng đĩa Elig</strong> là dòng má phanh cao cấp của Elig Brake – thương hiệu uy tín hàng đầu về hệ thống phanh xe máy. 
+          Sản phẩm được sản xuất theo quy chuẩn quốc tế, đảm bảo an toàn, độ bám cao và hiệu suất phanh ổn định, phù hợp với nhiều loại xe phổ thông và xe tay ga.</p>
+      
+          <h4>Ưu điểm nổi bật:</h4>
+          <ul>
+            <li>🛡️ <strong>An toàn – ổn định:</strong> lực phanh mạnh, không bị trượt ngay cả khi vận hành tốc độ cao.</li>
+            <li>🔥 <strong>Tản nhiệt vượt trội:</strong> giảm hiện tượng cháy bố, phanh không bị “mất ăn” khi xuống dốc hoặc phanh liên tục.</li>
+            <li>💪 <strong>Độ bền cao:</strong> ít mòn đĩa, tuổi thọ má phanh cao hơn loại thường.</li>
+            <li>🌿 <strong>Không amiăng (Asbestos Free):</strong> an toàn cho sức khỏe, thân thiện môi trường.</li>
+            <li>🔧 <strong>Dễ lắp đặt:</strong> đúng chuẩn kích thước từng dòng xe, thao tác nhanh.</li>
+          </ul>
+      
+          <h4>Hướng dẫn lắp ráp (theo hộp sản phẩm):</h4>
+          <ol>
+            <li>Dùng cờ lê tháo bu lông cố định caliper và chốt má phanh. Tháo má phanh mòn ra khỏi caliper.</li>
+            <li>Vệ sinh caliper, chổi má phanh và các chi tiết bám bụi. Lắp má phanh Elig mới vào đúng vị trí và cố định lại bằng bu lông.</li>
+          </ol>
+      
+          <p><strong>Tiêu chuẩn:</strong> ISO 9001 – TS16949 – Hàng Việt Nam chất lượng cao.</p>
+        `,
+        specs: {
+          "Loại sản phẩm": "Bố thắng đĩa (disc brake pads)",
+          "Chất liệu": "Hợp chất ma sát không amiăng",
+          "Tính năng": "Bám tốt – Tản nhiệt nhanh – Phanh êm",
+          "Chuẩn chất lượng": "ISO 9001, TS16949",
+          "Ứng dụng": "Xe số – xe tay ga – xe côn tay dùng phanh đĩa",
+          "Xuất xứ": "Elig – Việt Nam",
+        },
+        benefits: [
+          "PHANH ĂN – TẢN NHIỆT NHANH",
+          "KHÔNG AMIĂNG – AN TOÀN TUYỆT ĐỐI",
+          "ĐỘ BỀN CAO – ÍT MÒN ĐĨA",
+          "TIÊU CHUẨN ISO 9001 – TS16949",
+        ],
+        application:
+          "Phù hợp hầu hết các dòng xe máy sử dụng phanh đĩa: Wave RSX, Winner, Vision, Air Blade, Lead, Sirius FI, Jupiter, SH Mode…",
+        price: 120000,
+        discountPrice: 100000,
+        stock: 80,
+        tags: [
+          "bố thắng đĩa",
+          "má phanh đĩa",
+          "Elig",
+          "phanh xe máy",
+          "phụ tùng xe máy",
+        ],
+        option: [
+          {
+            name: "Wave RSX",
+            url: "product/bo-thang/bo-thang-dia-elig",
+          },
+          {
+            name: "Winner",
+            url: "product/bo-thang/bo-thang-dia-elig",
+          },
+          {
+            name: "Vision",
+            url: "product/bo-thang/bo-thang-dia-elig",
+          },
+          {
+            name: "Air Blade",
+            url: "product/bo-thang/bo-thang-dia-elig",
+          },
+          {
+            name: "Lead",
+            url: "product/bo-thang/bo-thang-dia-elig",
+          },
+          {
+            name: "Sirius FI",
+            url: "product/bo-thang/bo-thang-dia-elig",
+          },
+          {
+            name: "Jupiter",
+            url: "product/bo-thang/bo-thang-dia-elig",
+          },
+          {
+            name: "SH Mode",
+            url: "product/bo-thang/bo-thang-dia-elig",
+          },
+        ],
+      },
+      {
+        id: 4,
+        name: "Bố Thắng Đĩa Elig Hộp Lùn",
+        url: "bo-thang/bo-thang-dia-elig-hop-lun",
+        title: "Bố Thắng Đĩa Elig Hộp Lùn Chính Hãng",
+        image:
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580392/49_lcpd7n.png",
+        gallery: [
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580392/49_lcpd7n.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580396/56_pxwq9t.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580397/60_f0dw0p.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580397/64_dbnvdv.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580398/62_cfx0cf.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580398/69_s4qfpz.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580399/70_ur1c3n.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580396/58_mjcwsx.png",
+        ],
+        type: ["Front", "Rear"],
+        packaging: "Hộp",
+        shortDescription:
+          "Bố thắng đĩa Elig hộp lùn – má phanh 100% không amiăng, phanh ăn, bền, ổn định và an toàn cho mọi dòng xe máy.",
+        description: `
+          <p><strong>Bố thắng đĩa Elig hộp lùn</strong> là sản phẩm phanh tiêu chuẩn dành cho xe máy phổ thông, đảm bảo an toàn – hiệu suất tốt – giá thành hợp lý. 
+          Với công nghệ sản xuất theo chuẩn <strong>ISO 9001</strong> và vật liệu ma sát <strong>asbestos-free</strong>, sản phẩm mang lại độ bám ổn định, phanh êm và bền bỉ.</p>
+      
+          <h4>Ưu điểm nổi bật:</h4>
+          <ul>
+            <li>🛡️ <strong>100% không AMIĂNG:</strong> an toàn cho người dùng và thân thiện môi trường.</li>
+            <li>⚙️ <strong>Bám phanh tốt – Phanh êm:</strong> kiểm soát an toàn ngay cả trong điều kiện mưa trơn.</li>
+            <li>🔥 <strong>Tản nhiệt khá tốt:</strong> hạn chế cháy bố khi phanh liên tục.</li>
+            <li>💪 <strong>Độ bền ổn định:</strong> tuổi thọ cao hơn các loại bố giá rẻ trên thị trường.</li>
+            <li>✔️ <strong>Phù hợp nhiều dòng xe:</strong> xe số, xe ga, xe côn tay phanh đĩa.</li>
+          </ul>
+      
+          <h4>Chứng nhận – tiêu chuẩn:</h4>
+          <ul>
+            <li>ISO 9001</li>
+            <li>Sản phẩm – Dịch vụ Hàng Việt Nam Chất Lượng Cao</li>
+          </ul>
+      
+          <p><strong>Ứng dụng:</strong> Dùng cho Wave, Dream, Sirius, Jupiter, Vision, Air Blade, Lead, Winner, Exciter và nhiều dòng xe phanh đĩa khác.</p>
+        `,
+        specs: {
+          "Loại sản phẩm": "Bố thắng đĩa (disc brake pads)",
+          "Chất liệu": "Hợp chất ma sát không amiăng",
+          "Tính năng": "Phanh êm – Bám tốt – Ít mòn đĩa",
+          "Chuẩn chất lượng": "ISO 9001",
+          "Ứng dụng": "Xe số – xe ga – xe côn tay phanh đĩa",
+          "Xuất xứ": "Elig – Việt Nam",
+        },
+        benefits: [
+          "100% KHÔNG AMIĂNG",
+          "PHANH ÊM – BÁM TỐT",
+          "CHUẨN ISO 9001",
+          "BỀN – ỔN ĐỊNH – GIÁ TỐT",
+        ],
+        application:
+          "Phù hợp cho hầu hết các xe máy phổ thông sử dụng phanh đĩa.",
+        price: 95000,
+        discountPrice: 85000,
+        stock: 100,
+        tags: [
+          "bố thắng đĩa",
+          "elig",
+          "phanh xe máy",
+          "má phanh đĩa",
+          "asbestos free",
+          "phụ tùng xe máy",
+        ],
+        option: [
+          {
+            name: "Wave",
+            url: "product/bo-thang/bo-thang-dia-elig-hop-lun",
+          },
+          {
+            name: "Dream",
+            url: "product/bo-thang/bo-thang-dia-elig-hop-lun",
+          },
+          {
+            name: "Sirius",
+            url: "product/bo-thang/bo-thang-dia-elig-hop-lun",
+          },
+          {
+            name: "Jupiter",
+            url: "product/bo-thang/bo-thang-dia-elig-hop-lun",
+          },
+          {
+            name: "Vision",
+            url: "product/bo-thang/bo-thang-dia-elig-hop-lun",
+          },
+          {
+            name: "Air Blade",
+            url: "product/bo-thang/bo-thang-dia-elig-hop-lun",
+          },
+          {
+            name: "Lead",
+            url: "product/bo-thang/bo-thang-dia-elig-hop-lun",
+          },
+          {
+            name: "Winner",
+            url: "product/bo-thang/bo-thang-dia-elig-hop-lun",
+          },
+          {
+            name: "Exciter",
+            url: "product/bo-thang/bo-thang-dia-elig-hop-lun",
+          },
+        ],
+      },
+      {
+        id: 5,
+        name: "Bố Thắng Đĩa SAPORO",
+        url: "bo-thang/bo-thang-dia-truoc-saporo",
+        title: "Bố Thắng Đĩa SAPORO Trước Chính Hãng",
+        image:
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580382/31_ynql1j.png",
+        gallery: [
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580382/31_ynql1j.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580381/32_lhhcw4.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580381/26_ccvbdq.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580380/24_ejebxh.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580380/23_l3csvu.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580380/21_isn0dz.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580379/20_tt66cs.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580379/19_qen3px.png",
+        ],
+        type: ["Front", "Rear"],
+        packaging: "Hộp",
+        shortDescription:
+          "Bố thắng đĩa SAPORO – má phanh trước giá tốt, phanh ổn định, phù hợp xe phổ thông. Lựa chọn kinh tế cho tiệm sửa xe và đại lý.",
+        description: `
+          <p><strong>Bố thắng đĩa SAPORO</strong> là dòng má phanh phổ thông, tối ưu cho nhu cầu thay thế nhanh – giá rẻ – chất lượng ổn định. 
+          Sản phẩm phù hợp các tiệm sửa xe muốn hàng xoay vòng nhanh, lợi nhuận đều mà vẫn đảm bảo an toàn cho khách hàng.</p>
+      
+          <h4>Đặc điểm nổi bật:</h4>
+          <ul>
+            <li>⚙️ <strong>Bám phanh ổn định:</strong> phù hợp di chuyển hằng ngày ở tốc độ thấp & trung bình.</li>
+            <li>💲 <strong>Giá cạnh tranh:</strong> rất dễ tư vấn cho khách, dễ bán, lợi nhuận xoay vòng tốt.</li>
+            <li>🧱 <strong>Vật liệu ma sát ổn định:</strong> ít gây mòn đĩa, độ bền tương đối tốt trong phân khúc.</li>
+            <li>🔧 <strong>Đúng chuẩn từng dòng xe:</strong> lắp đặt nhanh, phù hợp hầu hết xe số – xe ga.</li>
+            <li>🚚 <strong>Nguồn hàng ổn định:</strong> được phân phối bởi NPP Phúc Long – luôn có sẵn số lượng lớn.</li>
+          </ul>
+      
+          <h4>Ứng dụng:</h4>
+          <p>Phù hợp dòng xe: Wave, Dream, Blade, Future, Sirius, Jupiter, Vision, Air Blade, Lead, Winner, Exciter…</p>
+      
+          <p><strong>Đề xuất cho:</strong> Tiệm sửa xe cần sản phẩm giá mềm, phù hợp khách bình dân, thay nhanh – lời nhanh.</p>
+        `,
+        specs: {
+          "Loại sản phẩm": "Bố thắng đĩa (Disc Brake Pads)",
+          "Chất liệu": "Hợp chất ma sát tiêu chuẩn",
+          "Tính năng": "Bám ổn định – Ít mòn đĩa",
+          "Độ bền": "Trung bình (phân khúc giá rẻ)",
+          "Ứng dụng": "Xe số – xe ga – xe côn tay phanh đĩa",
+          "Xuất xứ": "SAPORO – OEM",
+        },
+        benefits: [
+          "GIÁ RẺ – XOAY VÒNG NHANH",
+          "PHANH ỔN ĐỊNH",
+          "DỄ BÁN – PHÙ HỢP MỌI TIỆM",
+          "HÀNG THAY THẾ PHỔ THÔNG",
+        ],
+        application:
+          "Phù hợp cho hầu hết các dòng xe máy phổ thông dùng phanh đĩa.",
+        price: 50000,
+        discountPrice: 45000,
+        stock: 300,
+        tags: [
+          "SAPORO",
+          "bố thắng đĩa",
+          "bố thắng đĩa trước",
+          "phụ tùng xe máy giá rẻ",
+          "disc brake",
+          "phanh xe máy",
+          "má phanh phổ thông",
+        ],
+        option: [
+          {
+            name: "Wave",
+            url: "product/bo-thang/bo-thang-dia-truoc-saporo",
+          },
+          {
+            name: "Dream",
+            url: "product/bo-thang/bo-thang-dia-truoc-saporo",
+          },
+          {
+            name: "Blade",
+            url: "product/bo-thang/bo-thang-dia-truoc-saporo",
+          },
+          {
+            name: "Future",
+            url: "product/bo-thang/bo-thang-dia-truoc-saporo",
+          },
+          {
+            name: "Sirius",
+            url: "product/bo-thang/bo-thang-dia-truoc-saporo",
+          },
+          {
+            name: "Jupiter",
+            url: "product/bo-thang/bo-thang-dia-truoc-saporo",
+          },
+          {
+            name: "Vision",
+            url: "product/bo-thang/bo-thang-dia-truoc-saporo",
+          },
+          {
+            name: "Air Blade",
+            url: "product/bo-thang/bo-thang-dia-truoc-saporo",
+          },
+          {
+            name: "Lead",
+            url: "product/bo-thang/bo-thang-dia-truoc-saporo",
+          },
+          {
+            name: "Winner",
+            url: "product/bo-thang/bo-thang-dia-truoc-saporo",
+          },
+          {
+            name: "Exciter",
+            url: "product/bo-thang/bo-thang-dia-truoc-saporo",
+          },
+        ],
+      },
+      {
+        id: 6,
+        name: "Bố Thắng Đĩa Saporo",
+        url: "bo-thang/bo-thang-dia-sau-saporo",
+        title: "Bố Thắng Đĩa Saporo Sau Chính Hãng",
+        image:
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580382/31_ynql1j.png",
+        gallery: [
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580382/31_ynql1j.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580381/32_lhhcw4.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580381/26_ccvbdq.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580380/24_ejebxh.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580380/23_l3csvu.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580380/21_isn0dz.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580379/20_tt66cs.png",
+          "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580379/19_qen3px.png",
+        ],
+        type: ["Front", "Rear"],
+        packaging: "Hộp",
+        shortDescription:
+          "Bố thắng đĩa Saporo – má phanh sau giá tốt, phanh ổn định, phù hợp xe phổ thông. Lựa chọn kinh tế cho tiệm sửa xe và đại lý.",
+        description: `
+          <p><strong>Bố thắng đĩa SAPORO</strong> là dòng má phanh phổ thông, tối ưu cho nhu cầu thay thế nhanh – giá rẻ – chất lượng ổn định. 
+          Sản phẩm phù hợp các tiệm sửa xe muốn hàng xoay vòng nhanh, lợi nhuận đều mà vẫn đảm bảo an toàn cho khách hàng.</p>
+      
+          <h4>Đặc điểm nổi bật:</h4>
+          <ul>
+            <li>⚙️ <strong>Bám phanh ổn định:</strong> phù hợp di chuyển hằng ngày ở tốc độ thấp & trung bình.</li>
+            <li>💲 <strong>Giá cạnh tranh:</strong> rất dễ tư vấn cho khách, dễ bán, lợi nhuận xoay vòng tốt.</li>
+            <li>🧱 <strong>Vật liệu ma sát ổn định:</strong> ít gây mòn đĩa, độ bền tương đối tốt trong phân khúc.</li>
+            <li>🔧 <strong>Đúng chuẩn từng dòng xe:</strong> lắp đặt nhanh, phù hợp hầu hết xe số – xe ga.</li>
+            <li>🚚 <strong>Nguồn hàng ổn định:</strong> được phân phối bởi NPP Phúc Long – luôn có sẵn số lượng lớn.</li>
+          </ul>
+      
+          <h4>Ứng dụng:</h4>
+          <p>Phù hợp dòng xe:  Winner, Exciter…</p>
+      
+          <p><strong>Đề xuất cho:</strong> Tiệm sửa xe cần sản phẩm giá mềm, phù hợp khách bình dân, thay nhanh – lời nhanh.</p>
+        `,
+        specs: {
+          "Loại sản phẩm": "Bố thắng đĩa (Disc Brake Pads)",
+          "Chất liệu": "Hợp chất ma sát tiêu chuẩn",
+          "Tính năng": "Bám ổn định – Ít mòn đĩa",
+          "Độ bền": "Trung bình (phân khúc giá rẻ)",
+          "Ứng dụng": "Xe côn tay phanh đĩa",
+          "Xuất xứ": "SAPORO – OEM",
+        },
+        benefits: [
+          "GIÁ RẺ – XOAY VÒNG NHANH",
+          "PHANH ỔN ĐỊNH",
+          "DỄ BÁN – PHÙ HỢP MỌI TIỆM",
+          "HÀNG THAY THẾ PHỔ THÔNG",
+        ],
+        application:
+          "Phù hợp cho hầu hết các dòng xe máy phổ thông dùng phanh đĩa sau.",
+        price: 50000,
+        discountPrice: 45000,
+        stock: 300,
+        tags: [
+          "SAPORO",
+          "bố thắng đĩa",
+          "bố thắng đĩa trước",
+          "phụ tùng xe máy giá rẻ",
+          "disc brake",
+          "phanh xe máy",
+          "má phanh phổ thông",
+        ],
+        option: [
+          {
+            name: "Winner",
+            url: "product/bo-thang/bo-thang-dia-truoc-saporo",
+          },
+          {
+            name: "Exciter",
+            url: "product/bo-thang/bo-thang-dia-truoc-saporo",
           },
         ],
       },
