@@ -82,12 +82,13 @@ const HorizontalSlider = () => {
     return () => window.removeEventListener("themeChange", handleThemeChange);
   }, []);
 
-  const containerBg = darkMode ? "bg-black" : "bg-black";
+  const containerBg = darkMode ? "bg-black" : "bg-white";
+  const containerBg1 = darkMode ? "bg-gray/90" : "bg-white/10";
   const textColor = darkMode ? "text-white" : "text-black";
   return (
     <div
       ref={sliderRef}
-      className={`${containerBg} bg-black flex gap-4 overflow-x-auto no-scrollbar cursor-grab active:cursor-grabbing px-4 pb-10`}
+      className={`${containerBg} flex gap-4 overflow-x-auto no-scrollbar cursor-grab active:cursor-grabbing px-4 pb-10`}
       onMouseDown={handleMouseDown}
       onMouseLeave={handleMouseLeave}
       onMouseUp={handleMouseUp}
@@ -96,9 +97,9 @@ const HorizontalSlider = () => {
       {itemsSlide?.map((item, idx) => (
         <div
           key={idx}
-          className="min-w-[200px] max-w-[220px] flex-shrink-0 bg-neutral-900 rounded-2xl p-4 flex flex-col items-center justify-center"
+          className={`${containerBg1} shadow-lg min-w-[200px] max-w-[220px] flex-shrink-0 bg-neutral-900 rounded-2xl p-4 flex flex-col items-center justify-center`}
         >
-          <p className="mt-3 text-white text-center">{item.title}</p>
+          <p className={`mt-3 ${textColor} text-center`}>{item.title}</p>
           <img
             src={item.image}
             alt={item.title}
