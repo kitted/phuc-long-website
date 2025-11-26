@@ -2342,7 +2342,7 @@ export const productsList = [
     name: "Pin Xe Điện",
     description: "",
     image:
-      "https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1700,h_1130/v1763923996/www.phutungdaunhot.com_2_hc6mcq.png",
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1700,h_1130/v1764144056/HIGH_5_ragyyg.png",
     label: "Pin Xe Điện",
     url: "pin-xe-dien",
     tag: [],
