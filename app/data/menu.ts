@@ -9,6 +9,7 @@ export const sidebarCategoriesV2 = [
       { name: "Sên ABS", url: "abs" },
       { name: "Sên YMR", url: "ymr" },
       { name: "Sên TLT Vàng", url: "tlt" },
+      { name: "Sên Cam", url: "sss" },
     ],
   },
   {
@@ -49,6 +50,16 @@ export const sidebarCategoriesV2 = [
     name: "Vòng Bi",
     url: "vong-bi",
     subcategories: [
+      { name: "Vòng Bi TPI", url: "tpi" },
+      { name: "Vòng Bi NPT", url: "npt" },
+      { name: "Vòng Bi Thai R", url: "ankor thai" },
+    ],
+  },
+  {
+    name: "Đồ Điện Xe Máy",
+    url: "do-dien",
+    subcategories: [
+      { name: "Vòng Bi TPI", url: "tpi" },
       { name: "Vòng Bi NPT", url: "npt" },
       { name: "Vòng Bi Thai R", url: "ankor thai" },
     ],

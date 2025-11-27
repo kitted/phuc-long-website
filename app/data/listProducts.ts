@@ -2063,6 +2063,76 @@ export const productsList = [
           },
         ],
       },
+      {
+        id: 29,
+        name: "Sên Cam Xe Máy SSS 25H",
+        url: "nhong-xich/sen-cam-sss-25h",
+        title: "Sên cam SSS 25H – Bền bỉ, êm ái, chuẩn Racing",
+        image:
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180802/DSC00397-_-%C4%90%C3%A3-s%E1%BB%ADa_safbwg.png",
+        gallery: [
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180802/DSC00397-_-%C4%90%C3%A3-s%E1%BB%ADa_safbwg.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180802/DSC00396-_-%C4%90%C3%A3-s%E1%BB%ADa_p59gvz.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180803/DSC00399-_-%C4%90%C3%A3-s%E1%BB%ADa_isdspi.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180803/DSC00400-_-%C4%90%C3%A3-s%E1%BB%ADa_wsmojr.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180803/DSC00401-_-%C4%90%C3%A3-s%E1%BB%ADa_uwzfpy.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180805/DSC00398-_-%C4%90%C3%A3-s%E1%BB%ADa_zlhwbp.png",
+        ],
+        type: ["25H", "25H Racing", "25H Premium"],
+        packaging: "Hộp",
+        shortDescription:
+          "Sên cam SSS 25H – dòng sên cao cấp độ bền vượt trội, vận hành êm ái, đảm bảo độ chính xác tuyệt đối cho hệ cam động cơ.",
+        description: `
+    <p><strong>Sên cam SSS 25H</strong> là dòng sên cam chất lượng cao dành cho xe máy phổ thông 
+    và xe công suất lớn, được thiết kế theo tiêu chuẩn Racing cho độ bền, độ chính xác và khả năng vận hành vượt trội.</p>
+
+    <h4>Ưu điểm nổi bật:</h4>
+    <ul>
+      <li>🔩 <strong>Thép hợp kim cường lực:</strong> chịu mài mòn tốt, chống giãn hiệu quả.</li>
+      <li>⚙️ <strong>Vận hành êm ái:</strong> giảm tiếng ồn, duy trì độ ổn định của trục cam.</li>
+      <li>🏍️ <strong>Chuẩn Racing:</strong> phù hợp cả xe chạy tốc độ cao hoặc độ máy.</li>
+      <li>🛡️ <strong>Chịu nhiệt tốt:</strong> không biến dạng khi động cơ hoạt động lâu ở nhiệt độ cao.</li>
+      <li>🔧 <strong>Độ chính xác cao:</strong> đảm bảo thời điểm đóng mở van chuẩn xác.</li>
+      <li>📦 <strong>Hộp SSS chính hãng:</strong> chống hàng giả, có tem kiểm định chất lượng.</li>
+    </ul>
+
+    <h4>Phù hợp cho các dòng xe:</h4>
+    <ul>
+      <li>Wave, Dream, Sirius, Jupiter.</li>
+      <li>Exciter đời cũ (dòng dùng cam sên 25H).</li>
+      <li>Các xe độ máy, xe chạy đường dài cần độ ổn định cao.</li>
+    </ul>
+
+    <p><strong>Thương hiệu:</strong> SSS – phụ tùng xe máy nổi tiếng, độ bền cao, được biker tin dùng.</p>
+  `,
+        specs: {
+          "Loại sản phẩm": "Sên cam",
+          "Quy cách": "25H",
+          "Chất liệu": "Thép hợp kim cường lực",
+          "Thiết kế": "Racing – độ chính xác cao",
+          "Khả năng chịu nhiệt": "Tốt – không biến dạng",
+          "Tính năng nổi bật": "Êm, bền, chống giãn, chuẩn thời điểm cam",
+          "Xuất xứ": "SSS (Thái Lan/Indonesia – tùy lô sản xuất)",
+        },
+        benefits: [
+          "ĐỘ BỀN CAO",
+          "HOẠT ĐỘNG ÊM ÁI",
+          "CHỐNG GIÃN VƯỢT TRỘI",
+          "ĐẢM BẢO THỜI ĐIỂM CAM CHÍNH XÁC",
+        ],
+        application:
+          "Dùng thay thế sên cam cho xe số phổ thông, xe độ nhẹ, xe chạy Racing 25H.",
+        price: "Liên hệ ",
+        discountPrice: "Liên hệ ",
+        stock: 120,
+        tags: [
+          "sên cam",
+          "SSS",
+          "sên 25H",
+          "phụ tùng xe máy",
+          "sên cam racing",
+        ],
+      },
     ],
   },
   {
@@ -4141,6 +4211,13 @@ export const productsList = [
           "https://res.cloudinary.com/dkxb7klnn/image/upload/v1763918103/DSC00366-_-%C4%90a%CC%83-su%CC%9B%CC%89a_znfqwy.png",
           "https://res.cloudinary.com/dkxb7klnn/image/upload/v1763918102/DSC00365-_-%C4%90a%CC%83-su%CC%9B%CC%89a_lgclry.png",
           "https://res.cloudinary.com/dkxb7klnn/image/upload/v1763918100/DSC00363-_-%C4%90a%CC%83-su%CC%9B%CC%89a_gb4yuz.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266205/DSC00465-_-%C4%90%C3%A3-s%E1%BB%ADa_fssisc.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266205/DSC00466-_-%C4%90%C3%A3-s%E1%BB%ADa_qc8zid.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266206/DSC00467-_-%C4%90%C3%A3-s%E1%BB%ADa_wo4mqj.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266210/DSC00468-_-%C4%90%C3%A3-s%E1%BB%ADa_tvycci.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266212/DSC00469-_-%C4%90%C3%A3-s%E1%BB%ADa_kepuya.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266215/DSC00470-_-%C4%90%C3%A3-s%E1%BB%ADa_honxkr.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266218/DSC00471-_-%C4%90%C3%A3-s%E1%BB%ADa_jijes6.png",
         ],
         packaging: "Hộp giấy NPT (10 vòng)",
         shortDescription:
@@ -4171,6 +4248,20 @@ export const productsList = [
           <li>Sản phẩm ổn định – ít bảo hành – giữ uy tín cho tiệm.</li>
           <li>Nhập sĩ nguyên thùng 10 hộp tiết kiệm chi phí.</li>
         </ul>
+        <div style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 16px;
+  ">
+    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764268773/db7ed629-8fdd-4e76-8c37-263346893b4b.png" 
+      style="width:750px; height:auto; object-fit:cover;" />
+
+    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764268895/ebe16023-2ad2-4212-8b16-50a5f753f87f.png" 
+      style="width:750px; height:auto; object-fit:cover;" />
+      <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764268969/fa87b05a-b3a8-4320-a021-a187eb31159c.png" 
+      style="width:750px; height:auto; object-fit:cover;" />
+  </div>
       `,
         specs: {
           "Loại sản phẩm": "Vòng bi (Bạc đạn xe máy)",
@@ -4203,6 +4294,23 @@ export const productsList = [
           "Phúc Long",
           "Xe số – xe ga",
           "Bán chạy",
+        ],
+        option: [
+          {
+            name: "6301",
+          },
+          {
+            name: "6300",
+          },
+          {
+            name: "6201",
+          },
+          {
+            name: "6203",
+          },
+          {
+            name: "6004",
+          },
         ],
       },
       {
@@ -4267,8 +4375,8 @@ export const productsList = [
         ],
         application:
           "Dùng thay bi cổ cho xe số và tay ga. Sản phẩm bền – ổn định – phù hợp thị trường miền Tây.",
-        price: 45000,
-        discountPrice: 38000,
+        price: "Liên hệ ",
+        discountPrice: "Liên hệ ",
         stock: 800,
         tags: [
           "Bi cổ",
@@ -4280,6 +4388,200 @@ export const productsList = [
           "Bán chạy",
         ],
       },
+      {
+        id: 5,
+        name: "Bạc Đạn TPI Chính Hãng",
+        url: "vong-bi/bac-dan-tpi",
+        title: "Bạc đạn TPI – Bi tròn chuẩn xác, êm, siêu bền",
+        image:
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180815/DSC00461-_-%C4%90%C3%A3-s%E1%BB%ADa_pn2cut.png",
+        gallery: [
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180815/DSC00461-_-%C4%90%C3%A3-s%E1%BB%ADa_pn2cut.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180813/DSC00457-_-%C4%90%C3%A3-s%E1%BB%ADa_jjppj9.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180813/DSC00458-_-%C4%90%C3%A3-s%E1%BB%ADa_cxovli.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180813/DSC00460-_-%C4%90%C3%A3-s%E1%BB%ADa_vdvmuq.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180814/DSC00459-_-%C4%90%C3%A3-s%E1%BB%ADa_oew0oj.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180815/DSC00461-_-%C4%90%C3%A3-s%E1%BB%ADa_pn2cut.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180833/DSC00462-_-%C4%90%C3%A3-s%E1%BB%ADa_uldhqs.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266241/DSC00480-_-%C4%90%C3%A3-s%E1%BB%ADa_zqv3tf.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266244/DSC00481-_-%C4%90%C3%A3-s%E1%BB%ADa_cklhmp.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266248/DSC00482-_-%C4%90%C3%A3-s%E1%BB%ADa_fyrwxk.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266251/DSC00483-_-%C4%90%C3%A3-s%E1%BB%ADa_h8o9hz.png",
+        ],
+        type: ["6201", "6202", "6203", "6301", "6302"],
+        packaging: "Hộp TPI Indonesia",
+        shortDescription:
+          "Bạc đạn TPI chính hãng – độ bền cao, bi chạy êm, chuẩn kích thước, chịu tải tốt. Lựa chọn hàng đầu cho xe số – tay ga.",
+        description: `
+    <p><strong>Bạc đạn TPI</strong> là thương hiệu bạc đạn nổi tiếng đến từ Indonesia, 
+    được sử dụng rộng rãi trong xe máy nhờ độ bền, độ chính xác và khả năng vận hành mượt mà.</p>
+
+    <h4>Ưu điểm nổi bật:</h4>
+    <ul>
+      <li>⚙️ <strong>Chuẩn kích thước quốc tế:</strong> lắp khít, không rơ, không lệch tâm.</li>
+      <li>🔩 <strong>Thép carbon cường lực:</strong> chịu tải cao, chống mài mòn cực tốt.</li>
+      <li>🏍️ <strong>Vận hành êm ái:</strong> bi quay mượt, giảm ma sát, giảm ồn.</li>
+      <li>🛡️ <strong>Bền bỉ theo thời gian:</strong> tuổi thọ cao hơn bạc đạn phổ thông.</li>
+      <li>📦 <strong>Hộp TPI màu xanh chính hãng:</strong> giúp chống hàng giả.</li>
+    </ul>
+
+    <h4>Phù hợp cho:</h4>
+    <ul>
+      <li>Xe số: Wave, Dream, Sirius, Jupiter...</li>
+      <li>Tay ga: Vision, Airblade, Lead, Nouvo (tùy theo size).</li>
+      <li>Các dòng xe máy cần độ bền & độ ổn định cao.</li>
+    </ul>
+
+    <p><strong>Thương hiệu:</strong> TPI Indonesia – chất lượng quốc tế, bền bỉ, chạy êm.</p>
+  `,
+        specs: {
+          "Loại sản phẩm": "Bạc đạn (Vòng bi)",
+          "Chất liệu": "Thép hợp kim carbon",
+          "Độ rơ": "Chuẩn P0/P6 theo tiêu chuẩn quốc tế",
+          "Khả năng chịu tải": "Cao – dùng cho xe số & xe ga",
+          "Độ ồn": "Thấp – bi chạy mượt",
+          "Xuất xứ": "TPI Indonesia",
+        },
+        benefits: [
+          "BI CHẠY ÊM",
+          "ĐỘ BỀN CAO",
+          "CHỐNG MÀI MÒN TỐT",
+          "KHÔNG RƠ, KHÔNG LỆCH TÂM",
+        ],
+        application:
+          "Lắp thay thế cho bạc đạn bánh trước/sau, bạc đạn cổ, bạc đạn máy tùy size.",
+        price: "Liên hệ ",
+        discountPrice: "Liên hệ ",
+        stock: 180,
+        tags: [
+          "bạc đạn",
+          "TPI",
+          "vòng bi",
+          "phụ tùng xe máy",
+          "bạc đạn Indonesia",
+        ],
+        option: [
+          {
+            name: "6301 LLU",
+          },
+          {
+            name: "6300 LLU",
+          },
+          {
+            name: "6201 LLU",
+          },
+          {
+            name: "6203 LLU",
+          },
+          {
+            name: "6902 LLU",
+          },
+        ],
+      },
+      {
+        id: 6,
+        name: "Bạc Đạn Kim TPI Chính Hãng",
+        url: "vong-bi/bac-dan-kim-tpi",
+        title: "Bạc đạn kim TPI – chịu tải cao, siêu bền",
+        image:
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266221/DSC00473-_-%C4%90%C3%A3-s%E1%BB%ADa_wvrll4.png",
+        gallery: [
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266221/DSC00473-_-%C4%90%C3%A3-s%E1%BB%ADa_wvrll4.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266233/DSC00477-_-%C4%90%C3%A3-s%E1%BB%ADa_yglweo.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266230/DSC00476-_-%C4%90%C3%A3-s%E1%BB%ADa_psnw8q.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266236/DSC00478-_-%C4%90%C3%A3-s%E1%BB%ADa_hnr4mk.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266238/DSC00479-_-%C4%90%C3%A3-s%E1%BB%ADa_zoduoy.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266227/DSC00475-_-%C4%90%C3%A3-s%E1%BB%ADa_hrvsi2.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266224/DSC00474-_-%C4%90%C3%A3-s%E1%BB%ADa_qzefvh.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180812/DSC00450-_-%C4%90%C3%A3-s%E1%BB%ADa_vp57k2.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180812/DSC00454-_-%C4%90%C3%A3-s%E1%BB%ADa_pts6ek.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180812/DSC00453-_-%C4%90%C3%A3-s%E1%BB%ADa_fsbqlb.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180812/DSC00452-_-%C4%90%C3%A3-s%E1%BB%ADa_a4dkwf.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180811/DSC00451-_-%C4%90%C3%A3-s%E1%BB%ADa_rdl42h.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180811/DSC00449-_-%C4%90%C3%A3-s%E1%BB%ADa_eh0ijk.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180811/DSC00448-_-%C4%90%C3%A3-s%E1%BB%ADa_yvkykh.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180811/DSC00446-_-%C4%90%C3%A3-s%E1%BB%ADa_rily6c.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180811/DSC00444-_-%C4%90%C3%A3-s%E1%BB%ADa_ee3t8d.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180811/DSC00447-_-%C4%90%C3%A3-s%E1%BB%ADa_wibqds.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180811/DSC00445-_-%C4%90%C3%A3-s%E1%BB%ADa_qjudgd.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180810/DSC00443-_-%C4%90%C3%A3-s%E1%BB%ADa_aadpcs.png",
+        ],
+        type: ["Trục nhỏ", "Needle Bearing"],
+        packaging: "Hộp TPI Indonesia màu xanh",
+        shortDescription:
+          "Bạc đạn kim TPI chính hãng – chịu tải lớn, ma sát thấp, bền bỉ cho các chi tiết quay tốc độ cao.",
+        description: `
+    <p><strong>Bạc đạn kim TPI</strong> được thiết kế cho các vị trí chịu tải lớn, 
+    tốc độ cao nhưng cần độ ma sát thấp. Sử dụng kim thép cường lực, giúp tăng độ bền và giảm mài mòn.</p>
+
+    <h4>Ưu điểm nổi bật:</h4>
+    <ul>
+      <li>🔩 <strong>Chịu tải rất cao:</strong> do thiết kế kim dày và đều.</li>
+      <li>⚙️ <strong>Vận hành mượt:</strong> ma sát thấp, không bị bó kẹt.</li>
+      <li>🛡️ <strong>Thép hợp kim cứng:</strong> chống mài mòn, chống biến dạng.</li>
+      <li>📦 <strong>Hộp TPI xanh chính hãng:</strong> đảm bảo đúng tiêu chuẩn Indonesia.</li>
+      <li>🏍️ <strong>Độ bền vượt trội:</strong> phù hợp cho xe chạy nhiều – tải nặng.</li>
+    </ul>
+
+    <h4>Ứng dụng:</h4>
+    <ul>
+      <li>Trục nhỏ, trục nhông, các cơ cấu quay chịu tải lớn.</li>
+      <li>Xe số & tay ga phổ thông.</li>
+      <li>Phù hợp Honda – Yamaha – SYM (tùy theo size lắp đặt).</li>
+    </ul>
+
+    <p><strong>Xuất xứ:</strong> TPI Bearing – Indonesia.</p>
+  `,
+        specs: {
+          "Loại sản phẩm": "Bạc đạn kim / Needle Bearing",
+          "Chất liệu": "Thép hợp kim tôi cứng",
+          "Khả năng chịu tải": "Rất cao",
+          "Độ ma sát": "Thấp",
+          "Ứng dụng": "Trục nhỏ – bộ phận quay chịu tải",
+          "Thương hiệu": "TPI",
+          "Xuất xứ": "Indonesia",
+        },
+        benefits: [
+          "CHỊU TẢI CAO",
+          "ĐỘ BỀN VƯỢT TRỘI",
+          "CHỐNG MÀI MÒN",
+          "MA SÁT THẤP",
+        ],
+        application:
+          "Dùng thay thế bạc đạn kim cho trục nhỏ, trục nhông hoặc bộ phận quay chịu tải lớn.",
+        price: 35000,
+        discountPrice: 29000,
+        stock: 160,
+        tags: ["bạc đạn kim", "TPI", "needle bearing", "phụ tùng xe máy"],
+        option: [
+          {
+            name: "HKS20x29x18/L588",
+          },
+          {
+            name: "HMK22x29x18",
+          },
+          {
+            name: "6301 C3",
+          },
+          {
+            name: "6201 C3",
+          },
+          {
+            name: "6203 C3",
+          },
+        ],
+      },
     ],
+  },
+  {
+    id: 7,
+    title: "Đồ Điện Xe Máy",
+    name: "Đồ Điện Xe Máy",
+    description: "",
+    image: "",
+    label: "Đồ Điện Xe Máy",
+    url: "do-dien",
+    tag: [],
+    products: [],
   },
 ];

@@ -138,7 +138,7 @@ export default function Example() {
               <TourMapContact
                 locations={[
                   {
-                    name: "h1/19, Lê Hồng Phong, Bình Thuỷ, TPCT",
+                    name: "B1/19, Lê Hồng Phong, Bình Thuỷ, TPCT",
                     lat: 10.08261,
                     lon: 105.73968,
                   },

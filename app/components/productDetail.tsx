@@ -183,7 +183,9 @@ export default function ProductDetail({ product }: ProductDetailProps) {
                 {product.option.map((opt: any, index: number) => (
                   <button
                     key={index}
-                    onClick={() => router.push(`/${opt.url}`)}
+                    onClick={() =>
+                      opt.url ? router.push(`/${opt.url}`) : null
+                    }
                     className="text-black bg-gray-200 hover:bg-blue-600 hover:text-white text-sm font-medium px-4 py-2 rounded-lg transition-all"
                   >
                     {opt.name}
@@ -207,27 +209,6 @@ export default function ProductDetail({ product }: ProductDetailProps) {
             </div>
           )}
 
-          {/* Bảng thông số kỹ thuật */}
-          {product.specs && (
-            <div>
-              <h3 className={`text-lg font-semibold mb-2 ${textColor3}`}>
-                Thông số kỹ thuật:
-              </h3>
-              <table className="min-w-full border border-gray-400 rounded-md text-sm">
-                <tbody>
-                  {Object.entries(product.specs).map(([key, value]) => (
-                    <tr key={key} className="border-b border-gray-300">
-                      <td className="font-medium p-2 border-r border-gray-300">
-                        {key}
-                      </td>
-                      <td className="p-2">{value as string}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          )}
-
           {/* CTA */}
           <button
             className={`hover:bg-blue-800 ${textColor2} ${containerBg2} font-extrabold text-lg px-8 py-4 rounded-lg shadow-lg transition w-full`}
@@ -239,6 +220,27 @@ export default function ProductDetail({ product }: ProductDetailProps) {
 
       {/* BOTTOM SECTIONS */}
       <div className="mt-10 space-y-6 px-4">
+        {/* Bảng thông số kỹ thuật */}
+        {product.specs && (
+          <div>
+            <h3 className={`text-lg font-semibold mb-2 ${textColor3}`}>
+              Thông số kỹ thuật:
+            </h3>
+            <table className="min-w-full border border-gray-400 rounded-md text-sm">
+              <tbody>
+                {Object.entries(product.specs).map(([key, value]) => (
+                  <tr key={key} className="border-b border-gray-300">
+                    <td className="font-medium p-2 border-r border-gray-300">
+                      {key}
+                    </td>
+                    <td className="p-2">{value as string}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+
         {/* Description */}
         {product.description && (
           <section className={`${containerBg} p-6 rounded-lg`}>
