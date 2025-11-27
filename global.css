@@ -149,3 +149,23 @@
   scrollbar-width: thin;
   scrollbar-color: #cbd5e1 transparent;
 }
+
+.description-content div {
+  display: flex;
+  flex-wrap: wrap; /* Cho phép ảnh tự xuống dòng */
+  justify-content: center;
+  gap: 12px; /* Khoảng cách giữa các ảnh */
+}
+
+.description-content img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .description-content img {
+    width: 100% !important; /* Mỗi ảnh chiếm full dòng */
+  }
+}

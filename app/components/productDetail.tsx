@@ -246,9 +246,12 @@ export default function ProductDetail({ product }: ProductDetailProps) {
               Mô tả chi tiết sản phẩm:
             </h2>
             <div
-              className={`text-sm leading-relaxed ${textColor4} space-y-2 prose prose-sm max-w-none ${
-                darkMode ? "prose-invert" : ""
-              }`}
+              className={`
+    text-sm leading-relaxed ${textColor4}
+    space-y-2 prose prose-sm max-w-none
+    ${darkMode ? "prose-invert" : ""}
+    description-content
+  `}
               dangerouslySetInnerHTML={{ __html: product.description }}
             />
           </section>

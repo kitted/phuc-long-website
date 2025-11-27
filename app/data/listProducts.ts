@@ -2480,6 +2480,18 @@ export const productsList = [
       <li>Hàng Việt Nam – Chất lượng cao</li>
       <li>Thương hiệu vàng Công Nghiệp Việt Nam</li>
     </ul>
+   <div style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 16px;
+  ">
+    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764233577/Screenshot_2025-11-27_at_15.49.51_saj20i.png" 
+      style="width:250px; height:auto; object-fit:cover;" />
+
+    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764234628/Screenshot_2025-11-27_at_15.50.27_qi177i.png" 
+      style="width:250px; height:auto; object-fit:cover;" />
+  </div>
 
     <p><strong>Ứng dụng:</strong> Dùng cho hầu hết xe số và xe tay ga sử dụng phanh đùm: Wave, Dream, Sirius, Jupiter, Vision (bản đùm), Lead đời cũ, Future,…</p>
   `,
@@ -2584,7 +2596,18 @@ export const productsList = [
       <li>ISO 9001</li>
       <li>TS 16949</li>
     </ul>
+<div style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 16px;
+  ">
+    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764233577/Screenshot_2025-11-27_at_15.49.51_saj20i.png" 
+      style="width:250px; height:auto; object-fit:cover;" />
 
+    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764234628/Screenshot_2025-11-27_at_15.50.27_qi177i.png" 
+      style="width:250px; height:auto; object-fit:cover;" />
+  </div>
     <p><strong>Phù hợp với:</strong> Wave, Dream, Sirius, Jupiter, Future, SYM, Suzuki và các xe sử dụng phanh đùm.</p>
   `,
         specs: {
@@ -2686,7 +2709,18 @@ export const productsList = [
             <li>Dùng cờ lê tháo bu lông cố định caliper và chốt má phanh. Tháo má phanh mòn ra khỏi caliper.</li>
             <li>Vệ sinh caliper, chổi má phanh và các chi tiết bám bụi. Lắp má phanh Elig mới vào đúng vị trí và cố định lại bằng bu lông.</li>
           </ol>
-      
+      <div style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 16px;
+  ">
+    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764233577/Screenshot_2025-11-27_at_15.49.51_saj20i.png" 
+      style="width:250px; height:auto; object-fit:cover;" />
+
+    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764234628/Screenshot_2025-11-27_at_15.50.27_qi177i.png" 
+      style="width:250px; height:auto; object-fit:cover;" />
+  </div>
           <p><strong>Tiêu chuẩn:</strong> ISO 9001 – TS16949 – Hàng Việt Nam chất lượng cao.</p>
         `,
         specs: {
@@ -2789,7 +2823,18 @@ export const productsList = [
             <li>ISO 9001</li>
             <li>Sản phẩm – Dịch vụ Hàng Việt Nam Chất Lượng Cao</li>
           </ul>
-      
+      <div style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 16px;
+  ">
+    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764233577/Screenshot_2025-11-27_at_15.49.51_saj20i.png" 
+      style="width:250px; height:auto; object-fit:cover;" />
+
+    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764234628/Screenshot_2025-11-27_at_15.50.27_qi177i.png" 
+      style="width:250px; height:auto; object-fit:cover;" />
+  </div>
           <p><strong>Ứng dụng:</strong> Dùng cho Wave, Dream, Sirius, Jupiter, Vision, Air Blade, Lead, Winner, Exciter và nhiều dòng xe phanh đĩa khác.</p>
         `,
         specs: {
