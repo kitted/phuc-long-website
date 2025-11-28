@@ -7,8 +7,15 @@ interface BannerProps {
   overlayText?: string;
   interval?: number;
 }
+const imageUrls = [
+  "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764319674/WWW.PHUTUNGDAUNHOT.COM_8_rg0ifr.png",
+  "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764320763/WWW.PHUTUNGDAUNHOT.COM_10_prmugy.png",
+  "https://res.cloudinary.com/drqacgi7a/image/upload/v1763112438/banner2_enryjr.png",
+  "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764320232/WWW.PHUTUNGDAUNHOT.COM_9_wg8kxk.png",
+  "https://res.cloudinary.com/dkxb7klnn/image/upload/v1763647189/banner3_au7lgl.png",
+];
 
-const Banner: React.FC<BannerProps> = ({ imageUrls, interval = 5000 }) => {
+const Banner: React.FC<BannerProps> = ({ interval = 5000 }) => {
   const [darkMode, setDarkMode] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
