@@ -59,10 +59,18 @@ export const sidebarCategoriesV2 = [
     name: "Đồ Điện Xe Máy",
     url: "do-dien",
     subcategories: [
-      { name: "Vòng Bi TPI", url: "tpi" },
-      { name: "Vòng Bi NPT", url: "npt" },
-      { name: "Vòng Bi Thai R", url: "ankor thai" },
+      { name: "Dây", url: "dây" },
+      { name: "Mobin Sườn", url: "mobin" },
+      { name: "IC", url: "ic" },
+      { name: "Bố Lửa", url: "fire wheels" },
+      { name: "Bugi", url: "bugi" },
+      { name: "Chớp Đèn", url: "chớp đèn" },
     ],
+  },
+  {
+    name: "Vỏ Xe Máy",
+    url: "vo-xe-may",
+    subcategories: [{ name: "Vỏ xe ECOTIRE", url: "ecotire" }],
   },
   // https://chatgpt.com/share/691f2f78-0304-8001-83d1-49fb715af751
 ];

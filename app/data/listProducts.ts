@@ -4549,8 +4549,8 @@ export const productsList = [
         ],
         application:
           "Dùng thay thế bạc đạn kim cho trục nhỏ, trục nhông hoặc bộ phận quay chịu tải lớn.",
-        price: 35000,
-        discountPrice: 29000,
+        price: "Liên hệ ",
+        discountPrice: "Liên hệ ",
         stock: 160,
         tags: ["bạc đạn kim", "TPI", "needle bearing", "phụ tùng xe máy"],
         option: [
@@ -4582,6 +4582,909 @@ export const productsList = [
     label: "Đồ Điện Xe Máy",
     url: "do-dien",
     tag: [],
-    products: [],
+    products: [
+      {
+        id: 38,
+        name: "DÂY THẮNG YMR – JAPAN QUALITY",
+        url: "do-dien/day-thang-ymr",
+        title: "DÂY THẮNG YMR",
+        image:
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180803/DSC00402-_-%C4%90%C3%A3-s%E1%BB%ADa_zp2nxd.png",
+        gallery: [
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180803/DSC00402-_-%C4%90%C3%A3-s%E1%BB%ADa_zp2nxd.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180804/DSC00405-_-%C4%90%C3%A3-s%E1%BB%ADa_sic8nj.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180804/DSC00408-_-%C4%90%C3%A3-s%E1%BB%ADa_zunf2d.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180805/DSC00409-_-%C4%90%C3%A3-s%E1%BB%ADa_xuvtvw.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180806/DSC00410-_-%C4%90%C3%A3-s%E1%BB%ADa_vvnz5b.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180806/DSC00411-_-%C4%90%C3%A3-s%E1%BB%ADa_lqczyw.png",
+        ],
+        packaging: "Bao bì YMR Japan Quality",
+        shortDescription:
+          "Dây thắng YMR – độ bền cao, thắng ăn, bóp nhẹ, chịu lực tốt. Hàng chất lượng Nhật, phù hợp cho hầu hết xe số – xe tay ga.",
+        description: `
+          <p><strong>Dây thắng YMR – Japan Quality</strong> là dòng cáp thắng chất lượng cao, được thiết kế cho độ bền vượt trội, 
+          bóp nhẹ, thắng ăn và đảm bảo an toàn cho xe máy trong mọi điều kiện vận hành.</p>
+      
+          <h4>Đặc điểm nổi bật:</h4>
+          <ul>
+            <li>⚙️ <strong>Lõi cáp thép xoắn chịu lực:</strong> Không giãn, không đứt khi sử dụng lâu dài.</li>
+            <li>🛞 <strong>Vỏ dây chịu ma sát – chống nứt:</strong> Chạy mượt, không bị kẹt dây khi dính bụi.</li>
+            <li>🔥 <strong>Bóp nhẹ – thắng ăn:</strong> Hỗ trợ thắng gấp, tăng độ an toàn.</li>
+            <li>💎 <strong>Độ bền cao:</strong> Tuổi thọ gấp 1.5–2 lần dây thắng phổ thông.</li>
+            <li>🛡️ <strong>Tiêu chuẩn Japan Quality:</strong> Gia công chính xác, đầu cos chắc – không tuột.</li>
+          </ul>
+      
+          <h4>Phù hợp sử dụng cho:</h4>
+          <ul>
+            <li>Xe số: Wave, Dream, Future, Sirius, Jupiter...</li>
+            <li>Xe tay ga: Vision, Air Blade, Vario, Lead...</li>
+            <li>Xe chạy dịch vụ – xe chạy đường xa.</li>
+          </ul>
+      
+          <h4>Ưu điểm cho gara – đại lý:</h4>
+          <ul>
+            <li>Dễ bán – xoay vòng nhanh.</li>
+            <li>Giá hợp lý – lợi nhuận tốt.</li>
+            <li>Hàng chuẩn – ít bảo hành – giữ uy tín tiệm.</li>
+            <li>Thương hiệu YMR được thợ đánh giá cao.</li>
+          </ul>
+        `,
+        specs: {
+          "Loại sản phẩm": "Dây thắng trước / sau",
+          "Thương hiệu": "YMR",
+          "Chất liệu lõi": "Thép xoắn chịu lực",
+          "Vỏ dây": "Nhựa tổng hợp chống ma sát",
+          "Chiều dài": "Theo từng dòng xe (được ghi trên bao bì)",
+          "Tương thích": "Xe số – Xe ga – Xe côn tay",
+          "Tiêu chuẩn": "Japan Quality",
+          "Độ bền": "1.5–2 năm tùy điều kiện",
+          "Đặc tính": "Không giãn – không kẹt – thắng ăn",
+        },
+        benefits: [
+          "Bóp nhẹ – thắng mượt – an toàn.",
+          "Không giãn – không đứt – chịu lực tốt.",
+          "Độ bền cao hơn dây thắng phổ thông.",
+          "Giá tốt – dễ bán – lợi nhuận đều.",
+        ],
+        application:
+          "Dùng cho xe số, xe tay ga và xe côn tay. Phù hợp gara sửa xe và đại lý phụ tùng tại miền Tây.",
+        price: "Liên hệ ",
+        discountPrice: "Liên hệ ",
+        stock: 1800,
+        tags: [
+          "Dây thắng",
+          "YMR",
+          "Cáp thắng",
+          "Phụ tùng xe máy",
+          "Phúc Long",
+          "Japan Quality",
+        ],
+        option: [
+          {
+            name: "Wave",
+          },
+          {
+            name: "Dream",
+          },
+          {
+            name: "Future",
+          },
+          {
+            name: "Sirius",
+          },
+          {
+            name: "Jupiter",
+          },
+          {
+            name: "Vision",
+          },
+          {
+            name: "Air Blade",
+          },
+          {
+            name: "Vario",
+          },
+          {
+            name: "Lead",
+          },
+        ],
+      },
+      {
+        id: 39,
+        name: "DÂY CÔN YMR – JAPAN QUALITY",
+        url: "do-dien/day-con-ymr",
+        title: "DÂY CÔN YMR",
+        image:
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180806/DSC00412-_-%C4%90%C3%A3-s%E1%BB%ADa_amjynv.png",
+        gallery: [
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180806/DSC00412-_-%C4%90%C3%A3-s%E1%BB%ADa_amjynv.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180806/DSC00417-_-%C4%90%C3%A3-s%E1%BB%ADa_ctbyyv.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180807/DSC00420-_-%C4%90%C3%A3-s%E1%BB%ADa_lvxj57.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180807/DSC00421-_-%C4%90%C3%A3-s%E1%BB%ADa_ubhwvx.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180808/DSC00422-_-%C4%90%C3%A3-s%E1%BB%ADa_xvnz71.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180808/DSC00423-_-%C4%90%C3%A3-s%E1%BB%ADa_isdmnl.png",
+        ],
+        packaging: "Bao bì YMR Japan Quality",
+        shortDescription:
+          "Dây côn YMR – chất lượng Nhật, chịu lực tốt, bóp nhẹ, sang số mượt. Sản phẩm bền, ít giãn, phù hợp cho xe côn tay phổ thông.",
+        description: `
+          <p><strong>Dây côn YMR – Japan Quality</strong> là dòng cáp côn cao cấp dành cho xe côn tay, 
+          được sản xuất theo tiêu chuẩn Nhật Bản với độ bền cao, chịu kéo tốt và hỗ trợ sang số mượt mà hơn.</p>
+      
+          <h4>Đặc điểm nổi bật:</h4>
+          <ul>
+            <li>⚙️ <strong>Lõi cáp thép xoắn chịu lực cao:</strong> Không giãn, không đứt khi bóp mạnh hoặc sang số liên tục.</li>
+            <li>🛞 <strong>Vỏ dây chống ma sát:</strong> Giúp dây chạy mượt, không kẹt dù trời mưa hoặc bụi bẩn.</li>
+            <li>🔥 <strong>Bóp nhẹ – sang số ngọt:</strong> Tạo cảm giác lái thoải mái, phù hợp xe chạy đường dài.</li>
+            <li>💎 <strong>Độ bền vượt trội:</strong> Tuổi thọ gấp 1.5–2 lần dây côn phổ thông.</li>
+            <li>🛡️ <strong>Japan Quality:</strong> Đầu cos cứng, chống tuột – đảm bảo an toàn.</li>
+          </ul>
+      
+          <h4>Phù hợp sử dụng cho:</h4>
+          <ul>
+            <li>Xe côn tay phổ thông: Winner, Exciter, Raider, Sonic…</li>
+            <li>Xe số độ côn tay (Wave độ côn, Future độ côn…)</li>
+            <li>Xe dịch vụ – xe phượt – xe chạy đường dài.</li>
+          </ul>
+     
+          <h4>Lợi ích cho gara – đại lý:</h4>
+          <ul>
+            <li>Dễ bán – khách côn tay thay thường xuyên.</li>
+            <li>Giá tốt – biên lợi nhuận cao.</li>
+            <li>Hàng chuẩn – ít bảo hành – tăng uy tín.</li>
+            <li>Thương hiệu YMR được thợ đánh giá tốt.</li>
+          </ul>
+        `,
+        specs: {
+          "Loại sản phẩm": "Dây côn xe máy",
+          "Thương hiệu": "YMR",
+          "Chất liệu lõi": "Thép xoắn chịu kéo",
+          "Vỏ dây": "Nhựa tổng hợp chống ma sát – chống nứt",
+          "Chiều dài": "Theo từng dòng xe (ghi trên bao bì)",
+          "Tiêu chuẩn": "Japan Quality",
+          "Tương thích": "Xe côn tay – Xe số độ côn",
+          "Độ bền": "1.5–2 năm",
+          "Đặc tính": "Không giãn – kéo nhẹ – sang số mượt",
+        },
+        benefits: [
+          "Bóp nhẹ – sang số êm – bền bỉ.",
+          "Không giãn – không đứt – chịu lực tốt.",
+          "Hoạt động ổn định trong mưa – bụi – đường xấu.",
+          "Bao bì đẹp – dễ bán – giá tốt.",
+          "Phù hợp khách chạy côn tay nhiều.",
+        ],
+        application:
+          "Dành cho xe côn tay và xe độ côn. Phù hợp gara, đại lý phụ tùng, khách chạy dịch vụ, khách phượt.",
+        price: "Liên hệ ",
+        discountPrice: "Liên hệ ",
+        stock: 1600,
+        tags: [
+          "Dây côn",
+          "YMR",
+          "Cáp côn",
+          "Phúc Long",
+          "Japan Quality",
+          "Xe côn tay",
+        ],
+        option: [
+          {
+            name: "Winner",
+          },
+          {
+            name: "Exciter",
+          },
+          {
+            name: "Raider",
+          },
+          {
+            name: "Sonic…",
+          },
+          {
+            name: "Satria",
+          },
+          {
+            name: "Wave độ côn",
+          },
+          {
+            name: "Future độ côn",
+          },
+        ],
+      },
+      {
+        id: 40,
+        name: "DÂY GA YMR – JAPAN QUALITY",
+        url: "do-dien/day-ga-ymr",
+        title: "DÂY GA YMR",
+        image:
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180808/DSC00424-_-%C4%90%C3%A3-s%E1%BB%ADa_ga2cvm.png",
+        gallery: [
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180808/DSC00424-_-%C4%90%C3%A3-s%E1%BB%ADa_ga2cvm.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180808/DSC00429-_-%C4%90%C3%A3-s%E1%BB%ADa_daamxe.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180809/DSC00431-_-%C4%90%C3%A3-s%E1%BB%ADa_yzhcjk.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180809/DSC00432-_-%C4%90%C3%A3-s%E1%BB%ADa_i0nhgb.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180809/DSC00433-_-%C4%90%C3%A3-s%E1%BB%ADa_wkqihe.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180809/DSC00434-_-%C4%90%C3%A3-s%E1%BB%ADa_yw71ec.png",
+        ],
+        packaging: "Bao bì YMR Japan Quality",
+        shortDescription:
+          "Dây ga YMR – độ mượt cao, ga nhẹ, lên đều, không kẹt – không giật. Lõi thép bền, vỏ dây chống ma sát, tiêu chuẩn Nhật Bản.",
+        description: `
+          <p><strong>Dây ga YMR – Japan Quality</strong> là dòng cáp ga chất lượng cao, được thiết kế để mang lại độ mượt tối ưu, 
+          giúp xe tăng ga nhẹ, đều và ổn định, phù hợp mọi dòng xe số – xe tay ga.</p>
+      
+          <h4>Đặc điểm nổi bật:</h4>
+          <ul>
+            <li>⚙️ <strong>Lõi cáp xoắn thép chống giãn:</strong> Độ bền cao, không bị đứt hoặc xơ sợi.</li>
+            <li>🚀 <strong>Ga nhẹ – lên đều:</strong> Tối ưu cho xe số & ga, vận hành mượt trong đô thị.</li>
+            <li>🔥 <strong>Vỏ dây chống ma sát:</strong> Chống kẹt, chống gãy gập khi đánh lái.</li>
+            <li>💎 <strong>Tuổi thọ cao:</strong> Gấp 1.5–2 lần dây ga phổ thông.</li>
+            <li>🛡️ <strong>Japan Quality:</strong> Đầu cos chắc chắn, không tuột – đảm bảo an toàn.</li>
+          </ul>
+      
+          <h4>Phù hợp sử dụng cho:</h4>
+          <ul>
+            <li>Xe số: Wave, Sirius, Dream, Future, Jupiter…</li>
+            <li>Xe tay ga: Vision, Lead, Air Blade, Vario…</li>
+            <li>Xe chạy dịch vụ, xe chạy đường dài.</li>
+          </ul>
+      
+          <h4>Ưu điểm cho gara – đại lý:</h4>
+          <ul>
+            <li>Dễ bán – khách thay thường xuyên.</li>
+            <li>Giá tốt – lời đều – xoay vòng nhanh.</li>
+            <li>Hàng bền – ít bảo hành – giữ uy tín tiệm.</li>
+            <li>Thương hiệu YMR quen thuộc với thợ.</li>
+          </ul>
+        `,
+        specs: {
+          "Loại sản phẩm": "Dây ga xe máy",
+          "Thương hiệu": "YMR",
+          "Chất liệu lõi": "Thép xoắn chống giãn",
+          "Vỏ dây": "Nhựa tổng hợp chịu ma sát",
+          "Chiều dài": "Theo từng dòng xe (ghi trên bao bì)",
+          "Tiêu chuẩn": "Japan Quality",
+          "Tương thích": "Xe số – Xe ga",
+          "Độ bền": "1.5–2 năm",
+          "Đặc tính": "Ga nhẹ – không kẹt – không giật",
+        },
+        benefits: [
+          "Ga nhẹ – lên đều – xe chạy mượt.",
+          "Không kẹt – không giật – không giãn.",
+          "Bền hơn dây ga phổ thông.",
+          "Giá rẻ – lời tốt – dễ trưng bày bán lẻ.",
+        ],
+        application:
+          "Dùng cho xe số và xe tay ga. Phù hợp gara sửa xe và đại lý phụ tùng tại miền Tây.",
+        price: "Liên hệ ",
+        discountPrice: "Liên hệ ",
+        stock: 2000,
+        tags: [
+          "Dây ga",
+          "Cáp ga",
+          "YMR",
+          "Japan Quality",
+          "Phúc Long",
+          "Phụ tùng xe máy",
+        ],
+        option: [
+          {
+            name: "Wave",
+          },
+          {
+            name: "Dream",
+          },
+          {
+            name: "Future",
+          },
+          {
+            name: "Sirius",
+          },
+          {
+            name: "Jupiter",
+          },
+          {
+            name: "Vision",
+          },
+          {
+            name: "Air Blade",
+          },
+          {
+            name: "Vario",
+          },
+          {
+            name: "Lead",
+          },
+        ],
+      },
+      {
+        id: 41,
+        name: "DÂY ĐỒNG HỒ (DÂY KM) YMR – JAPAN QUALITY",
+        url: "do-dien/day-dong-ho-ymr",
+        title: "DÂY ĐỒNG HỒ YMR",
+        image:
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180809/DSC00435-_-%C4%90%C3%A3-s%E1%BB%ADa_kx36uf.png",
+        gallery: [
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180809/DSC00435-_-%C4%90%C3%A3-s%E1%BB%ADa_kx36uf.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180810/DSC00439-_-%C4%90%C3%A3-s%E1%BB%ADa_ghnxoa.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180810/DSC00440-_-%C4%90%C3%A3-s%E1%BB%ADa_nymebv.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180810/DSC00441-_-%C4%90%C3%A3-s%E1%BB%ADa_ubaqaj.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180812/DSC00442-_-%C4%90%C3%A3-s%E1%BB%ADa_kceote.png",
+        ],
+        packaging: "Bao bì YMR Japan Quality",
+        shortDescription:
+          "Dây đồng hồ (dây km) YMR – chạy mượt, lên số km chuẩn, không kẹt – không gãy. Bền hơn dây km phổ thông, tiêu chuẩn chất lượng Nhật.",
+        description: `
+          <p><strong>Dây đồng hồ YMR – Japan Quality</strong> là dây công tơ mét cao cấp, giúp đồng hồ km hoạt động chính xác, 
+          không rung – không nhảy số – không đứng km, phù hợp cho xe số và xe tay ga.</p>
+      
+          <h4>Đặc điểm nổi bật:</h4>
+          <ul>
+            <li>⚙️ <strong>Lõi cáp thép mạ kẽm:</strong> Chống gỉ, chống đứt, xoay mượt – lên km ổn định.</li>
+            <li>🛞 <strong>Đầu cos chuẩn:</strong> Lắp vừa zin, không tuột trong quá trình vận hành.</li>
+            <li>🔥 <strong>Vỏ dây chịu nhiệt – chống nứt:</strong> Bền vượt trội ngay cả khi chạy xa hoặc phơi nắng.</li>
+            <li>💎 <strong>Độ bền cao:</strong> Tuổi thọ gấp 1.5–2 lần dây km phổ thông.</li>
+            <li>🛡️ <strong>Japan Quality:</strong> Quy trình gia công chính xác – độ ổn định cao.</li>
+          </ul>
+      
+          <h4>Phù hợp sử dụng cho:</h4>
+          <ul>
+            <li>Xe số: Wave, Dream, Sirius, Jupiter, Future…</li>
+            <li>Xe tay ga: Vision, Lead, Air Blade, Vario…</li>
+            <li>Xe chạy dịch vụ – Grab – xe đi nhiều mỗi ngày.</li>
+          </ul>
+      
+          <h4>Lợi ích cho gara – đại lý:</h4>
+          <ul>
+            <li>Dễ bán – khách thay thường xuyên khi dây km bị gãy.</li>
+            <li>Giá tốt – lời đều – xoay vòng nhanh.</li>
+            <li>Hàng bền – ít bảo hành – giữ uy tín tiệm.</li>
+            <li>Thương hiệu YMR quen thuộc trên thị trường.</li>
+          </ul>
+        `,
+        specs: {
+          "Loại sản phẩm": "Dây đồng hồ / Dây công tơ mét",
+          "Thương hiệu": "YMR",
+          "Lõi cáp": "Thép mạ kẽm – chống gỉ",
+          "Vỏ dây": "Nhựa tổng hợp chịu ma sát",
+          "Chiều dài": "Theo từng dòng xe (ghi trên bao bì)",
+          "Tiêu chuẩn": "Japan Quality",
+          "Tương thích": "Xe số – Xe tay ga",
+          "Độ bền": "1.5–2 năm",
+          "Đặc tính": "Xoay mượt – lên km chuẩn – không nhảy số",
+        },
+        benefits: [
+          "Lên km chính xác – không nhảy số.",
+          "Không kẹt – không gãy – xoay mượt.",
+          "Độ bền cao hơn dây km phổ thông.",
+          "Bao bì đẹp – dễ bán – lợi nhuận đều.",
+        ],
+        application:
+          "Dây công tơ mét dành cho xe số & xe tay ga. Phù hợp gara sửa xe và đại lý phụ tùng tại miền Tây.",
+        price: "Liên hệ ",
+        discountPrice: "Liên hệ ",
+        stock: 1800,
+        tags: [
+          "Dây đồng hồ",
+          "Dây km",
+          "Cáp công tơ mét",
+          "YMR",
+          "Japan Quality",
+          "Phúc Long",
+          "Phụ tùng xe máy",
+        ],
+        option: [
+          {
+            name: "Wave",
+          },
+          {
+            name: "Dream",
+          },
+          {
+            name: "Future",
+          },
+          {
+            name: "Sirius",
+          },
+          {
+            name: "Jupiter",
+          },
+          {
+            name: "Vision",
+          },
+          {
+            name: "Air Blade",
+          },
+          {
+            name: "Vario",
+          },
+          {
+            name: "Lead",
+          },
+        ],
+      },
+      {
+        id: 42,
+        name: "MOBIN SƯỜN THÁI-R (CÔNG NGHỆ THÁI LAN)",
+        url: "do-dien/mobin-suon-thair",
+        title: "MOBIN SƯỜN Thái-R",
+        image:
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180802/DSC00377-_-%C4%90%C3%A3-s%E1%BB%ADa_eft8mw.png",
+        gallery: [
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180802/DSC00377-_-%C4%90%C3%A3-s%E1%BB%ADa_eft8mw.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180802/DSC00378-_-%C4%90%C3%A3-s%E1%BB%ADa_yzqyrs.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180804/DSC00379-_-%C4%90%C3%A3-s%E1%BB%ADa_z9jzwn.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180803/DSC00380-_-%C4%90%C3%A3-s%E1%BB%ADa_gyfyuk.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180803/DSC00381-_-%C4%90%C3%A3-s%E1%BB%ADa_mzd42e.png",
+        ],
+        packaging: "Hộp giấy THAI-R – 1 PCS",
+        shortDescription:
+          "Mobin sườn THÁI-R – đánh lửa mạnh, lửa xanh, đề nhẹ, máy nổ đều. Hàng công nghệ Thái Lan, bền – khỏe – ổn định.",
+        description: `
+          <p><strong>Mobin sườn THAI-R</strong> là dòng mobin chất lượng cao theo công nghệ Thái Lan, 
+          cho khả năng đánh lửa mạnh, ổn định, giúp xe đề nhẹ, máy nổ bốc và giảm hụt ga.</p>
+      
+          <h4>Đặc điểm nổi bật:</h4>
+          <ul>
+            <li>⚡ <strong>Lửa mạnh – lửa xanh:</strong> Đốt cháy hòa khí tốt hơn, tăng hiệu suất động cơ.</li>
+            <li>🔥 <strong>Khởi động nhanh:</strong> Đề nhẹ, nổ máy nhanh ngay cả khi bình yếu.</li>
+            <li>🚀 <strong>Tăng tốc mượt:</strong> Giảm hiện tượng hụt ga, giật cục khi tăng tốc.</li>
+            <li>🛡️ <strong>Cuộn dây đồng chất lượng:</strong> Bền, chống chập, chống nóng.</li>
+            <li>💎 <strong>Độ ổn định cao:</strong> Tuổi thọ lâu, ít hư hỏng.</li>
+          </ul>
+      
+          <h4>Phù hợp cho:</h4>
+          <ul>
+            <li>Xe số phổ thông: Wave, Dream, Future, Sirius, Jupiter…</li>
+            <li>Xe tay ga đời cũ sử dụng mobin sườn tương thích.</li>
+            <li>Xe độ nhẹ, cần lửa khỏe hơn zin.</li>
+          </ul>
+      
+          <h4>Lợi ích cho gara – đại lý:</h4>
+          <ul>
+            <li>Dễ bán – nhu cầu thay thế cao.</li>
+            <li>Hàng bền – ít bảo hành – giữ uy tín tiệm.</li>
+            <li>Giá tốt – lời gọn – xoay vòng nhanh.</li>
+            <li>Thương hiệu THAI-R quen thuộc với thợ.</li>
+          </ul>
+        `,
+        specs: {
+          "Loại sản phẩm": "Mobin sườn (IC đánh lửa phụ)",
+          "Thương hiệu": "THAI-R (Amkor)",
+          "Công nghệ": "Technology of Thailand",
+          "Số lượng": "1 PCS",
+          "Cuộn dây": "Đồng chịu nhiệt",
+          "Điện áp": "12V",
+          "Tương thích": "Xe số phổ thông – một số xe tay ga đời cũ",
+          "Đặc tính": "Lửa xanh – mạnh – đề nhẹ – cháy tốt hòa khí",
+          "Độ bền": "1–2 năm tùy điều kiện",
+        },
+        benefits: [
+          "Đề nhẹ – máy nổ ngọt.",
+          "Tăng lực đánh lửa – giảm hụt ga.",
+          "Dễ thay – độ ổn định cao.",
+          "Bền – ít bảo hành – giữ uy tín gara.",
+        ],
+        application:
+          "Dùng thay mobin sườn cho xe số & một số xe ga. Phù hợp gara sửa xe và đại lý phụ tùng tại miền Tây.",
+        price: "Liên hệ ",
+        discountPrice: "Liên hệ ",
+        stock: 500,
+        tags: [
+          "Mobin sườn",
+          "THAI-R",
+          "Amkor",
+          "Phụ tùng xe máy",
+          "Đánh lửa mạnh",
+          "Phúc Long",
+        ],
+      },
+      {
+        id: 43,
+        name: "BỘ FIRE WHEELS THAI-R (CÔNG NGHỆ THÁI LAN)",
+        url: "do-dien/fire-wheels-thair",
+        title: "FIRE WHEELS THAI-R",
+        image:
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180807/DSC00388-_-%C4%90%C3%A3-s%E1%BB%ADa_lsnq1r.png",
+        gallery: [
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180807/DSC00388-_-%C4%90%C3%A3-s%E1%BB%ADa_lsnq1r.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180804/DSC00382-_-%C4%90%C3%A3-s%E1%BB%ADa_abfd9d.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180805/DSC00383-_-%C4%90%C3%A3-s%E1%BB%ADa_cbxa6y.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180805/DSC00384-_-%C4%90%C3%A3-s%E1%BB%ADa_fkkidp.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180805/DSC00385-_-%C4%90%C3%A3-s%E1%BB%ADa_mof8th.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180805/DSC00386-_-%C4%90%C3%A3-s%E1%BB%ADa_dhcxak.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180806/DSC00387-_-%C4%90%C3%A3-s%E1%BB%ADa_zswjyk.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180807/DSC00389-_-%C4%90%C3%A3-s%E1%BB%ADa_nf2ugw.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180807/DSC00390-_-%C4%90%C3%A3-s%E1%BB%ADa_ccxeag.png",
+        ],
+        packaging: "Hộp giấy THAI-R – Fire Wheels",
+        shortDescription:
+          "Fire Wheels THAI-R – bộ má đùm / cụm thắng trước chất lượng cao theo công nghệ Thái Lan. Thắng ăn, ít mài mòn, bền, phù hợp xe số phổ thông.",
+        description: `
+          <p><strong>Fire Wheels THAI-R</strong> là bộ má đùm & cụm thắng trước chất lượng cao, thiết kế theo 
+          <strong>công nghệ Thái Lan</strong>, cho lực thắng ổn định, thắng ăn, ít nóng và rất bền theo thời gian.</p>
+      
+          <h4>Đặc điểm nổi bật:</h4>
+          <ul>
+            <li>🛞 <strong>Thắng ăn – lực phanh mạnh:</strong> Ma sát tốt, phù hợp chạy phố & đường dài.</li>
+            <li>🔥 <strong>Chịu nhiệt tốt:</strong> Không bị chai bố hoặc giảm ma sát khi phanh nhiều.</li>
+            <li>💎 <strong>Vật liệu bền:</strong> Hợp kim + bố thắng chất lượng cao, ít mài mòn.</li>
+            <li>⚙️ <strong>Độ ổn định cao:</strong> Không rung, không bó phanh, thắng êm.</li>
+            <li>🛡️ <strong>Thiết kế chuẩn xe số:</strong> Lắp vừa zin nhiều dòng xe phổ thông.</li>
+          </ul>
+      
+          <h4>Phù hợp cho:</h4>
+          <ul>
+            <li>Wave, Dream, Future</li>
+            <li>Sirius, Jupiter</li>
+            <li>Xe số 4 thì thông dụng</li>
+          </ul>
+      
+          <h4>Lợi ích cho gara – đại lý:</h4>
+          <ul>
+            <li>Dễ bán – khách thay thường xuyên.</li>
+            <li>Ổn định – ít bảo hành – giữ uy tín cho tiệm.</li>
+            <li>Giá tốt – xoay vòng nhanh.</li>
+            <li>Thương hiệu THAI-R quen thuộc với thợ miền Tây.</li>
+          </ul>
+        `,
+        specs: {
+          "Loại sản phẩm": "Bộ má đùm / Cùm thắng / Fire Wheels",
+          "Thương hiệu": "THAI-R",
+          "Công nghệ": "Technology of Thailand",
+          "Vật liệu": "Hợp kim + bố ma sát chịu nhiệt",
+          "Tương thích": "Xe số phổ thông",
+          "Độ bền": "1–2 năm",
+          "Đặc tính": "Thắng ăn – ít mài mòn – ổn định",
+        },
+        benefits: [
+          "Thắng ăn – ổn định – không hú.",
+          "Chịu nhiệt tốt – ít chai bố.",
+          "Ít bảo hành – phù hợp gara, đại lý.",
+          "Thương hiệu mạnh – dễ bán.",
+        ],
+        application:
+          "Sử dụng thay cho cụm thắng/má đùm xe số. Phù hợp gara, đại lý và tiệm sửa xe tại miền Tây.",
+        price: "Liên hệ",
+        discountPrice: "Liên hệ",
+        stock: 500,
+        tags: [
+          "Fire Wheels",
+          "Thai-R",
+          "Má đùm",
+          "Cùm thắng",
+          "Phụ tùng xe máy",
+          "Phúc Long",
+        ],
+      },
+      {
+        id: 45,
+        name: "CHỚP ĐÈN THAI-R (CDI) – VỎ CAM",
+        url: "do-dien/chop-den-thai-r-vo-cam",
+        title: "CHỚP ĐÈN THAI-R",
+        image:
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180807/DSC00391-_-%C4%90%C3%A3-s%E1%BB%ADa_sjauwd.png",
+        gallery: [
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180807/DSC00391-_-%C4%90%C3%A3-s%E1%BB%ADa_sjauwd.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180807/DSC00392-_-%C4%90%C3%A3-s%E1%BB%ADa_b7tshq.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180808/DSC00393-_-%C4%90%C3%A3-s%E1%BB%ADa_fhzgo0.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180808/DSC00394-_-%C4%90%C3%A3-s%E1%BB%ADa_tjpw4j.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180810/DSC00395-_-%C4%90%C3%A3-s%E1%BB%ADa_uwkusw.png",
+        ],
+        packaging: "Sản phẩm dạng rời – không hộp",
+        shortDescription:
+          "Chớp đèn 2 chân vỏ cam – loại thông dụng nhất cho xe số. Nháy ổn định, bền, chịu tải tốt, giá rẻ – rất dễ bán.",
+        description: `
+        <p><strong>Chớp đèn 2 chân vỏ cam</strong> là loại relay xi-nhan phổ biến nhất trên thị trường, 
+        dùng được cho hầu hết các dòng <strong>xe số 4 thì</strong>. Đây là loại rẻ – bền – dễ thay thế và được thợ sử dụng rất nhiều.</p>
+    
+        <h4>Đặc điểm nổi bật:</h4>
+        <ul>
+          <li>⚡ <strong>Nháy đều – ổn định:</strong> Không chậm – không nhanh bất thường.</li>
+          <li>🔥 <strong>Chịu tải tốt:</strong> Xài ok với bóng zin & bóng LED công suất nhỏ.</li>
+          <li>🛡️ <strong>Thiết kế 2 chân:</strong> Lắp nhanh, tương thích đa số xe số.</li>
+          <li>💎 <strong>Vỏ cam cứng:</strong> Chống nứt – chống nóng – tuổi thọ tốt.</li>
+          <li>💡 <strong>An toàn điện:</strong> Mạch ổn định, không gây cháy cầu chì.</li>
+        </ul>
+    
+        <h4>Phù hợp cho:</h4>
+        <ul>
+          <li>Wave – Dream – Future</li>
+          <li>Sirius – Jupiter</li>
+          <li>Xe số 4 thì phổ thông</li>
+        </ul>
+    
+        <h4>Lợi ích cho gara – đại lý:</h4>
+        <ul>
+          <li>Giá rẻ – xoay vòng cực nhanh.</li>
+          <li>Nhu cầu thay xuất hiện thường xuyên.</li>
+          <li>Sản phẩm đơn giản – ít bảo hành.</li>
+          <li>Thợ rất chuộng loại 2 chân vỏ cam.</li>
+        </ul>
+      `,
+        specs: {
+          "Loại sản phẩm": "Relay xi-nhan / Chớp đèn",
+          "Số chân": "2 chân",
+          "Màu vỏ": "Cam",
+          "Điện áp": "12V",
+          "Tương thích": "Xe số 4 thì",
+          "Khả năng chịu tải": "Bóng sợi đốt & LED công suất nhỏ",
+          "Độ bền": "6–18 tháng tùy điều kiện",
+        },
+        benefits: [
+          "Nháy đều – không lỗi.",
+          "Lắp nhanh – đơn giản.",
+          "Giá rẻ – dễ bán – lời đều.",
+          "Ít hư vặt – phù hợp gara.",
+        ],
+        application:
+          "Dùng thay relay xi-nhan cho xe số 4 thì. Phù hợp gara, tiệm sửa xe và đại lý phụ tùng.",
+        price: "Liên hệ",
+        discountPrice: "Liên hệ",
+        stock: 3000,
+        tags: [
+          "Chớp đèn",
+          "Relay xi-nhan",
+          "2 chân",
+          "Vỏ cam",
+          "Phụ tùng xe máy",
+          "Phúc Long",
+        ],
+      },
+      {
+        id: 46,
+        name: "BUGI SUPERTOP – 3 CHẤU (THREE SIDE ELECTRODES)",
+        url: "do-dien/bugi-supertop-3-chau",
+        title: "BUGI SUPERTOP 3 CHẤU",
+        image:
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266270/DSC00490-_-%C4%90%C3%A3-s%E1%BB%ADa_ihnizy.png",
+        gallery: [
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266270/DSC00490-_-%C4%90%C3%A3-s%E1%BB%ADa_ihnizy.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266257/DSC00485-_-%C4%90%C3%A3-s%E1%BB%ADa_chtnpv.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266254/DSC00484-_-%C4%90%C3%A3-s%E1%BB%ADa_ixtazn.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266259/DSC00486-_-%C4%90%C3%A3-s%E1%BB%ADa_pythg8.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266262/DSC00487-_-%C4%90%C3%A3-s%E1%BB%ADa_ebiiyx.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266265/DSC00488-_-%C4%90%C3%A3-s%E1%BB%ADa_sznzdh.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266268/DSC00489-_-%C4%90%C3%A3-s%E1%BB%ADa_dy5vqw.png",
+        ],
+        packaging: "Hộp giấy SUPERTOP + ống nhựa bảo vệ bugi",
+        shortDescription:
+          "Bugi SUPERTOP 3 chấu – đánh lửa mạnh, lửa xanh, tăng tốc bốc, tiết kiệm nhiên liệu. Bugi hiệu suất cao, phù hợp xe số – xe ga.",
+        description: `
+          <p><strong>Bugi SUPERTOP 3 chấu</strong> là dòng bugi hiệu suất cao với thiết kế đầu 3 điện cực, 
+          cho khả năng đánh lửa mạnh hơn, tối ưu đốt cháy hòa khí, giúp xe chạy bốc – mượt – tiết kiệm xăng.</p>
+      
+          <h4>Đặc điểm nổi bật:</h4>
+          <ul>
+            <li>⚡ <strong>Đầu 3 chấu – tia lửa mạnh:</strong> Tối ưu khả năng đốt cháy, tăng hiệu suất động cơ.</li>
+            <li>🔥 <strong>Khởi động nhanh:</strong> Đề nhẹ, lửa xanh – xe nổ dễ ngay cả khi trời lạnh.</li>
+            <li>🚀 <strong>Tăng tốc tốt:</strong> Giảm hụt ga – máy bốc hơn bugi 1 chấu phổ thông.</li>
+            <li>💎 <strong>Điện cực bền:</strong> Chịu nhiệt tốt, tuổi thọ dài hơn bugi thường.</li>
+            <li>🛡️ <strong>Ổn định – ít bỏ lửa:</strong> Phù hợp xe chạy dịch vụ, xe đi nhiều.</li>
+          </ul>
+      
+          <h4>Phù hợp cho:</h4>
+          <ul>
+            <li>Xe số: Wave, Dream, Sirius, Jupiter…</li>
+            <li>Xe tay ga: Vision, Lead, Air Blade, Vario…</li>
+            <li>Xe đi tour – xe chạy dịch vụ – xe độ nhẹ.</li>
+          </ul>
+      
+          <h4>Lợi ích cho gara – đại lý:</h4>
+          <ul>
+            <li>Dòng bugi bán chạy – dễ bán.</li>
+            <li>Khách thích vì xe nổ êm – bốc – ổn định.</li>
+            <li>Giá rẻ – xoay vòng nhanh – ít bảo hành.</li>
+            <li>Thương hiệu SUPERTOP quen thuộc thị trường.</li>
+          </ul>
+        `,
+        specs: {
+          "Loại sản phẩm": "Bugi 3 chấu – Three Side Electrodes",
+          "Thương hiệu": "SUPERTOP",
+          "Điện cực": "3 đầu – tia lửa mạnh",
+          "Chất liệu": "Niken cao cấp",
+          "Chịu nhiệt": "Cao – ít mòn",
+          "Tương thích": "Xe số – Xe tay ga – Xe độ nhẹ",
+          "Độ bền": "10.000 – 15.000 km",
+        },
+        benefits: [
+          "Xe nổ bốc – tăng tốc mượt.",
+          "Tiết kiệm xăng hơn bugi thường.",
+          "Khởi động nhanh – lửa xanh mạnh.",
+          "Bền – ít hư – phù hợp xe chạy nhiều.",
+        ],
+        application:
+          "Dùng thay bugi cho xe số và tay ga. Phù hợp gara sửa xe và đại lý phụ tùng.",
+        price: "Liên hệ",
+        discountPrice: "Liên hệ",
+        stock: 2000,
+        tags: [
+          "Bugi 3 chấu",
+          "SUPERTOP",
+          "Spark Plug",
+          "Three Side Electrodes",
+          "Phụ tùng xe máy",
+          "Phúc Long",
+        ],
+      },
+
+      {
+        id: 47,
+        name: "IC THAI-R – SUPER POWER C.D.I UNIT",
+        url: "do-dien/ic-thai-r-super-power",
+        title: "IC THAI-R SUPER POWER",
+        image:
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266273/DSC00491-_-%C4%90%C3%A3-s%E1%BB%ADa_vvlbjb.png",
+        gallery: [
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266273/DSC00491-_-%C4%90%C3%A3-s%E1%BB%ADa_vvlbjb.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266276/DSC00492-_-%C4%90%C3%A3-s%E1%BB%ADa_shczvq.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266279/DSC00493-_-%C4%90%C3%A3-s%E1%BB%ADa_mqnusk.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266282/DSC00494-_-%C4%90%C3%A3-s%E1%BB%ADa_kayagj.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266286/DSC00495-_-%C4%90%C3%A3-s%E1%BB%ADa_zzogzc.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266289/DSC00496-_-%C4%90%C3%A3-s%E1%BB%ADa_nrm0ew.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266301/DSC00500-_-%C4%90%C3%A3-s%E1%BB%ADa_s0apnm.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266304/DSC00501-_-%C4%90%C3%A3-s%E1%BB%ADa_xpancu.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266307/DSC00502-_-%C4%90%C3%A3-s%E1%BB%ADa_ebw2cs.png",
+        ],
+        packaging: "Hộp giấy THAI-R – Super Power",
+        shortDescription:
+          "IC THAI-R Super Power – đánh lửa mạnh, ổn định, máy nổ êm – bốc, phù hợp đa số xe số 4 thì. Công nghệ Thailand – bền – ít hư – rất dễ bán.",
+        description: `
+          <p><strong>IC THAI-R Super Power</strong> là bộ IC đánh lửa chất lượng cao theo 
+          <strong>công nghệ Thái Lan</strong>, được thiết kế cho khả năng đánh lửa mạnh, ổn định, tăng lực đốt cháy hòa khí và giúp xe nổ êm hơn.</p>
+      
+          <h4>Đặc điểm nổi bật:</h4>
+          <ul>
+            <li>⚡ <strong>Lửa mạnh – ổn định:</strong> Xe bốc hơn, giảm hiện tượng hụt ga.</li>
+            <li>🔥 <strong>Khởi động nhanh:</strong> Đề nhẹ, nổ nhanh kể cả khi bình yếu.</li>
+            <li>🚀 <strong>Tăng tốc mượt:</strong> Xe chạy êm, ít giật cục khi tăng ga.</li>
+            <li>🛡️ <strong>Bo mạch bền:</strong> Chống chập – chống nóng – ít lỗi vặt.</li>
+            <li>💎 <strong>Tuổi thọ cao:</strong> Hoạt động ổn định trong thời gian dài.</li>
+          </ul>
+      
+          <h4>Phù hợp cho:</h4>
+          <ul>
+            <li>Wave – Dream – Future</li>
+            <li>Sirius – Jupiter</li>
+            <li>Các dòng xe số 4 thì phổ thông</li>
+          </ul>
+      
+          <h4>Lợi ích cho gara – đại lý:</h4>
+          <ul>
+            <li>Sản phẩm bán chạy – giá rẻ – xoay vòng nhanh.</li>
+            <li>Ít bảo hành – giữ uy tín gara/đại lý.</li>
+            <li>Thương hiệu THAI-R quen thuộc với thợ.</li>
+          </ul>
+        `,
+        specs: {
+          "Loại sản phẩm": "IC đánh lửa (CDI)",
+          "Phiên bản": "Super Power",
+          "Thương hiệu": "THAI-R",
+          "Công nghệ": "Technology of Thailand",
+          "Điện áp": "12V",
+          "Tương thích": "Xe số 4 thì phổ thông",
+          "Đặc tính": "Đánh lửa mạnh – ổn định – tăng tốc tốt",
+          "Độ bền": "1–2 năm",
+        },
+        benefits: [
+          "Máy bốc – đề nhẹ – ít hụt ga.",
+          "Tốc độ phản hồi nhanh hơn IC thường.",
+          "Bền – ổn định – ít bảo hành.",
+          "Giá tốt – dễ bán – phù hợp gara.",
+        ],
+        application:
+          "Thay thế IC đánh lửa cho xe số 4 thì. Phù hợp gara sửa xe và đại lý phụ tùng.",
+        price: "Liên hệ",
+        discountPrice: "Liên hệ",
+        stock: 900,
+        tags: [
+          "IC xe máy",
+          "IC THAI-R",
+          "Super Power",
+          "C.D.I Unit",
+          "Phụ tùng xe máy",
+          "Phúc Long",
+          "Điện – đánh lửa",
+        ],
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "Vỏ xe máy",
+    name: "Vỏ xe máy",
+    description: "",
+    image: "",
+    label: "Vỏ xe máy",
+    url: "vo-xe-may",
+    tag: [],
+    products: [
+      {
+        id: 48,
+        name: "VỎ XE ECOTIRE 80/90-17 (MADE IN THAILAND)",
+        url: "vo-xe-may/eco-tire-80-90-17",
+        title: "VỎ ECOTIRE 80/90-17",
+        image:
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266320/DSC00506-_-%C4%90%C3%A3-s%E1%BB%ADa_e9edzc.png",
+        gallery: [
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266320/DSC00506-_-%C4%90%C3%A3-s%E1%BB%ADa_e9edzc.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266310/DSC00503-_-%C4%90%C3%A3-s%E1%BB%ADa_khk0jv.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266313/DSC00504-_-%C4%90%C3%A3-s%E1%BB%ADa_vx0lpq.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266316/DSC00505-_-%C4%90%C3%A3-s%E1%BB%ADa_npnsyd.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266323/DSC00507-_-%C4%90%C3%A3-s%E1%BB%ADa_ssytff.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266335/DSC00511-_-%C4%90%C3%A3-s%E1%BB%ADa_xzvji5.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266338/DSC00512-_-%C4%90%C3%A3-s%E1%BB%ADa_zzkliu.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266341/DSC00513-_-%C4%90%C3%A3-s%E1%BB%ADa_snkxbb.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266343/DSC00514-_-%C4%90%C3%A3-s%E1%BB%ADa_nsdfci.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266346/DSC00515-_-%C4%90%C3%A3-s%E1%BB%ADa_xbszcf.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266349/DSC00516-_-%C4%90%C3%A3-s%E1%BB%ADa_t1rtwi.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266352/DSC00517-_-%C4%90%C3%A3-s%E1%BB%ADa_tucppi.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266358/DSC00519-_-%C4%90%C3%A3-s%E1%BB%ADa_wzlbac.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764266356/DSC00518-_-%C4%90%C3%A3-s%E1%BB%ADa_txevpg.png",
+        ],
+        packaging: "Đóng gói cuộn bạc đỏ – ECOTire",
+        shortDescription:
+          "Vỏ xe ECOTire 80/90-17 – cao su Thái Lan, bám đường tốt, ít mòn, chạy êm, phù hợp xe số phổ thông. Hàng chuẩn Thái – chất lượng cao.",
+        description: `
+        <p><strong>Vỏ xe ECOTire 80/90-17</strong> là dòng vỏ cao su Thái Lan cao cấp, 
+        có độ bám đường cao, ít mài mòn, chạy êm và ổn định trên mọi loại địa hình. 
+        Sản phẩm đạt tiêu chuẩn quốc tế <strong>ISO 9001 – ISO 45001</strong> và nhiều chứng nhận chất lượng.</p>
+    
+        <h4>Đặc điểm nổi bật:</h4>
+        <ul>
+          <li>🛞 <strong>Bám đường tốt:</strong> Lốp mềm – độ ma sát cao, an toàn khi cua hoặc đi đường ướt.</li>
+          <li>🔥 <strong>Chịu nhiệt – chống nứt:</strong> Chạy đường xa hoặc phơi nắng vẫn bền.</li>
+          <li>💎 <strong>Độ bền cao:</strong> Cao su chất lượng từ Thailand, ít mòn – ít lủng.</li>
+          <li>🚀 <strong>Chạy êm – ổn định:</strong> Không rung, không giật – cảm giác lái mượt.</li>
+          <li>🛡️ <strong>Tiêu chuẩn EC – Thái Lan:</strong> Có dấu MS, E4, ISO 9001, ISO 45001.</li>
+        </ul>
+    
+        <h4>Phù hợp cho:</h4>
+        <ul>
+          <li>Wave – Dream – Future</li>
+          <li>Sirius – Jupiter</li>
+          <li>Xe số phổ thông dùng cỡ mâm 17</li>
+        </ul>
+    
+        <h4>Lợi ích cho gara – đại lý:</h4>
+        <ul>
+          <li>Vỏ Thái – dễ bán – khách tin dùng.</li>
+          <li>Độ bền cao – ít bảo hành.</li>
+          <li>Xoay vòng nhanh – biên lợi nhuận ổn định.</li>
+          <li>Thương hiệu ECOTire nổi tiếng trên thị trường.</li>
+        </ul>
+      `,
+        specs: {
+          "Thương hiệu": "ECOTire",
+          "Xuất xứ": "Thái Lan",
+          "Kích thước": "80/90-17",
+          Loại: "Lốp không ruột (TL)",
+          "Mã sản phẩm": "44P EC008 TL",
+          "Vật liệu": "Cao su thiên nhiên + cao su tổng hợp",
+          "Tiêu chuẩn": "ISO 9001, ISO 45001, MS, E4",
+          "Phù hợp": "Xe số phổ thông – mâm 17",
+          "Độ bền": "15.000 – 25.000 km tùy điều kiện",
+        },
+        benefits: [
+          "Bám đường cao – an toàn khi cua.",
+          "Ít mòn – ít lủng.",
+          "Chạy êm – không rung.",
+          "Hàng Thái – chất lượng ổn định.",
+          "Dễ bán – phù hợp tiệm sửa xe.",
+        ],
+        application:
+          "Vỏ xe số 80/90-17, thích hợp chạy phố – chạy xa – xe dịch vụ. Phù hợp garage và đại lý phụ tùng.",
+        price: "Liên hệ",
+        discountPrice: "Liên hệ",
+        stock: 800,
+        tags: [
+          "Vỏ xe máy",
+          "ECOTire",
+          "Lốp 80/90-17",
+          "Vỏ Thái Lan",
+          "Phụ tùng xe máy",
+          "Phúc Long",
+        ],
+      },
+    ],
   },
 ];

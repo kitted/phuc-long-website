@@ -1,6 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import {
+  useEffect,
+  useState,
+  useRef,
+  type MouseEvent as ReactMouseEvent,
+} from "react";
 import { useRouter } from "next/navigation";
 import ProductImages from "./productImages";
 
@@ -14,9 +19,23 @@ export default function ProductDetail({ product }: ProductDetailProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [darkMode, setDarkMode] = useState(false);
 
+  // 🔍 Zoom & hover state
+  const [isDesktop, setIsDesktop] = useState(false);
+  const [isZoomOpen, setIsZoomOpen] = useState(false);
+  const [zoomPos, setZoomPos] = useState({ x: 0.5, y: 0.5 });
+
+  const [isHoveringMain, setIsHoveringMain] = useState(false);
+
+  // 👉 NEW: dùng ref để lưu timeout
+  const zoomDelayRef = useRef<NodeJS.Timeout | null>(null);
+
   // 🖼 Auto slide gallery
   useEffect(() => {
     if (!product.gallery || product.gallery.length === 0) return;
+
+    // 👉 Nếu đang hover main image thì tắt auto slide
+    if (isHoveringMain) return;
+
     const interval = setInterval(() => {
       setCurrentIndex((prev) => {
         const nextIndex = (prev + 1) % product.gallery!.length;
@@ -24,20 +43,63 @@ export default function ProductDetail({ product }: ProductDetailProps) {
         return nextIndex;
       });
     }, 4000);
+
     return () => clearInterval(interval);
-  }, [product.gallery]);
+  }, [product.gallery, isHoveringMain]);
 
   // 🌗 Sync dark mode
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
     setDarkMode(storedTheme === "dark");
+
     const handleThemeChange = () => {
       const newTheme = localStorage.getItem("theme");
       setDarkMode(newTheme === "dark");
     };
+
     window.addEventListener("themeChange", handleThemeChange);
     return () => window.removeEventListener("themeChange", handleThemeChange);
   }, []);
+
+  // 🖥 Xác định desktop để bật hover zoom
+  useEffect(() => {
+    const checkDesktop = () => setIsDesktop(window.innerWidth >= 1024);
+    checkDesktop();
+    window.addEventListener("resize", checkDesktop);
+    return () => window.removeEventListener("resize", checkDesktop);
+  }, []);
+
+  // 📍 Cập nhật vị trí zoom khi di chuột
+  const handleMouseMoveOnImage = (e: ReactMouseEvent<HTMLDivElement>) => {
+    if (!isDesktop || !isHoveringMain) return;
+
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    const percentX = Math.min(Math.max(x / rect.width, 0), 1);
+    const percentY = Math.min(Math.max(y / rect.height, 0), 1);
+
+    setZoomPos({ x: percentX, y: percentY });
+  };
+
+  // 👉 NEW: Hàm xử lý hover có delay 2s
+  const handleMouseEnter = () => {
+    if (!isDesktop) return;
+
+    // nếu đang có delay trước đó → clear
+    if (zoomDelayRef.current) clearTimeout(zoomDelayRef.current);
+
+    zoomDelayRef.current = setTimeout(() => {
+      setIsHoveringMain(true);
+    }, 1000);
+  };
+
+  // 👉 NEW: Khi rời chuột → tắt zoom ngay + clear timeout
+  const handleMouseLeave = () => {
+    if (zoomDelayRef.current) clearTimeout(zoomDelayRef.current);
+    setIsHoveringMain(false);
+  };
 
   const containerBg = darkMode ? "bg-black" : "bg-white";
   const textColor = darkMode ? "text-white" : "text-black";
@@ -46,19 +108,41 @@ export default function ProductDetail({ product }: ProductDetailProps) {
   const textColor3 = darkMode ? "text-yellow-300" : "text-blue-800";
   const textColor4 = darkMode ? "text-white" : "text-black";
 
+  const zoomBackgroundPosition = `${zoomPos.x * 100}% ${zoomPos.y * 100}%`;
+
   return (
     <div className={`w-full ${textColor} ${containerBg}`}>
       {/* TOP: layout 2 cột */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-start">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-start relative">
         {product.image && (
           <div className="flex flex-col h-full">
-            <div className="w-full rounded-lg overflow-hidden p-4 flex-1">
-              <div className="relative w-full h-[300px] sm:h-[450px] md:h-[500px] lg:h-[500px] flex items-center justify-center rounded-lg">
+            <div className="w-full rounded-lg overflow-visible p-4 flex-1">
+              {/* MAIN IMAGE + ZOOM */}
+              <div
+                className="relative w-full h-[300px] sm:h-[450px] md:h-[500px] lg:h-[500px] flex items-center justify-center rounded-lg cursor-zoom-in lg:cursor-crosshair"
+                onClick={() => setIsZoomOpen(true)}
+                onMouseMove={handleMouseMoveOnImage}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
                 <img
                   src={mainImage}
                   alt={product.title || "Product image"}
                   className="max-h-full max-w-full object-contain"
                 />
+
+                {/* Vùng zoom (desktop + sau 2 giây hover) */}
+                {isDesktop && isHoveringMain && (
+                  <div
+                    className="hidden lg:block absolute top-1/2 -left-[180px] -translate-y-1/2 w-[360px] h-[360px] border border-gray-500 rounded-lg overflow-hidden shadow-xl bg-white/90 z-20"
+                    style={{
+                      backgroundImage: `url(${mainImage})`,
+                      backgroundRepeat: "no-repeat",
+                      backgroundSize: "300%",
+                      backgroundPosition: zoomBackgroundPosition,
+                    }}
+                  />
+                )}
               </div>
             </div>
 
@@ -67,7 +151,6 @@ export default function ProductDetail({ product }: ProductDetailProps) {
               <div
                 ref={(el) => {
                   if (!el) return;
-                  // auto-scroll khi currentIndex thay đổi
                   const activeThumb = el.children[currentIndex] as HTMLElement;
                   if (activeThumb) {
                     const containerRect = el.getBoundingClientRect();
@@ -131,12 +214,8 @@ export default function ProductDetail({ product }: ProductDetailProps) {
 
         {/* RIGHT: thông tin chi tiết */}
         <div className="flex flex-col justify-between h-full space-y-6 px-4">
-          {/* Title */}
           {product.title && (
-            <h1
-              className="text-3xl font-extrabold text-yellow-400 uppercase"
-              // style={{ fontFamily: "sans-serif" }}
-            >
+            <h1 className="text-3xl font-extrabold text-yellow-400 uppercase">
               {product.title}
             </h1>
           )}
@@ -147,7 +226,6 @@ export default function ProductDetail({ product }: ProductDetailProps) {
             </p>
           )}
 
-          {/* Giá */}
           <div className="flex items-center gap-4">
             {product.discountPrice ? (
               <>
@@ -165,7 +243,6 @@ export default function ProductDetail({ product }: ProductDetailProps) {
             )}
           </div>
 
-          {/* Số lượng tồn */}
           {typeof product.stock === "number" && (
             <div>
               <span className="font-semibold">Tồn kho:</span>{" "}
@@ -173,7 +250,6 @@ export default function ProductDetail({ product }: ProductDetailProps) {
             </div>
           )}
 
-          {/* Option: Các biến thể sản phẩm */}
           {product.option && Array.isArray(product.option) && (
             <div>
               <h4 className={`font-semibold mb-2 ${textColor3}`}>
@@ -195,7 +271,6 @@ export default function ProductDetail({ product }: ProductDetailProps) {
             </div>
           )}
 
-          {/* Tags */}
           {product.tags && Array.isArray(product.tags) && (
             <div className="flex flex-wrap gap-2">
               {product.tags.map((tag: string, i: number) => (
@@ -209,7 +284,6 @@ export default function ProductDetail({ product }: ProductDetailProps) {
             </div>
           )}
 
-          {/* CTA */}
           <button
             className={`hover:bg-blue-800 ${textColor2} ${containerBg2} font-extrabold text-lg px-8 py-4 rounded-lg shadow-lg transition w-full`}
           >
@@ -218,9 +292,8 @@ export default function ProductDetail({ product }: ProductDetailProps) {
         </div>
       </div>
 
-      {/* BOTTOM SECTIONS */}
+      {/* BOTTOM */}
       <div className="mt-10 space-y-6 px-4">
-        {/* Bảng thông số kỹ thuật */}
         {product.specs && (
           <div>
             <h3 className={`text-lg font-semibold mb-2 ${textColor3}`}>
@@ -241,7 +314,6 @@ export default function ProductDetail({ product }: ProductDetailProps) {
           </div>
         )}
 
-        {/* Description */}
         {product.description && (
           <section className={`${containerBg} p-6 rounded-lg`}>
             <h2 className={`text-lg font-semibold mb-2 ${textColor}`}>
@@ -249,16 +321,42 @@ export default function ProductDetail({ product }: ProductDetailProps) {
             </h2>
             <div
               className={`
-    text-sm leading-relaxed ${textColor4}
-    space-y-2 prose prose-sm max-w-none
-    ${darkMode ? "prose-invert" : ""}
-    description-content
-  `}
+                text-sm leading-relaxed ${textColor4}
+                space-y-2 prose prose-sm max-w-none
+                ${darkMode ? "prose-invert" : ""}
+                description-content
+              `}
               dangerouslySetInnerHTML={{ __html: product.description }}
             />
           </section>
         )}
       </div>
+
+      {/* POPUP */}
+      {isZoomOpen && (
+        <div
+          className="fixed inset-0 z-50 bg-white/80 flex items-center justify-center p-4"
+          onClick={() => setIsZoomOpen(false)}
+        >
+          <div
+            className="relative max-w-[95vw] max-h-[95vh]"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              className="absolute -top-3 -right-3 bg-white text-black rounded-full w-8 h-8 flex items-center justify-center font-bold shadow-lg"
+              onClick={() => setIsZoomOpen(false)}
+              aria-label="Đóng"
+            >
+              ×
+            </button>
+            <img
+              src={mainImage}
+              alt="Zoomed product"
+              className="w-full h-full object-contain rounded-lg"
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 }
