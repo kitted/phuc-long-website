@@ -2501,7 +2501,7 @@ export const productsList = [
     name: "Bố Thắng",
     description: "",
     image:
-      "https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1000,h_666/v1763924184/www.phutungdaunhot.com_4_pghetr.png",
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1700,h_1130/v1764318924/Thie%CC%82%CC%81t_ke%CC%82%CC%81_chu%CC%9Ba_co%CC%81_te%CC%82n_3_hn7chy.png",
     label: "Bố Thắng",
     url: "bo-thang",
     tag: [],
@@ -4193,7 +4193,7 @@ export const productsList = [
     name: "Vòng Bi",
     description: "",
     image:
-      "https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1700,h_1130/v1763925294/www.phutungdaunhot.com_5_egxlh8.png",
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1700,h_1130/v1764313864/Thie%CC%82%CC%81t_ke%CC%82%CC%81_chu%CC%9Ba_co%CC%81_te%CC%82n_a4juwx.png",
     label: "Vòng Bi",
     url: "vong-bi",
     tag: [],
@@ -4578,7 +4578,8 @@ export const productsList = [
     title: "Đồ Điện Xe Máy",
     name: "Đồ Điện Xe Máy",
     description: "",
-    image: "",
+    image:
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1700,h_1130/v1764315683/Thie%CC%82%CC%81t_ke%CC%82%CC%81_chu%CC%9Ba_co%CC%81_te%CC%82n_1_ovzbcw.png",
     label: "Đồ Điện Xe Máy",
     url: "do-dien",
     tag: [],
@@ -5393,7 +5394,8 @@ export const productsList = [
     title: "Vỏ xe máy",
     name: "Vỏ xe máy",
     description: "",
-    image: "",
+    image:
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1700,h_1130/v1764316750/Thie%CC%82%CC%81t_ke%CC%82%CC%81_chu%CC%9Ba_co%CC%81_te%CC%82n_2_u32dgt.png",
     label: "Vỏ xe máy",
     url: "vo-xe-may",
     tag: [],

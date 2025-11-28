@@ -21,16 +21,17 @@ export default function Example() {
         <div className="pt-[65px] md:pt-[1px]">
           <Banner
             imageUrls={[
+              "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764319674/WWW.PHUTUNGDAUNHOT.COM_8_rg0ifr.png",
               "https://res.cloudinary.com/drqacgi7a/image/upload/v1763112438/banner2_enryjr.png",
-              "https://res.cloudinary.com/drqacgi7a/image/upload/v1763644133/banner2-Recovered_nh0ui3.png",
+              "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764320232/WWW.PHUTUNGDAUNHOT.COM_9_wg8kxk.png",
               "https://res.cloudinary.com/dkxb7klnn/image/upload/v1763647189/banner3_au7lgl.png",
-              "/banner/banner1.png",
-              "/banner/banner2.png",
+              // "/banner/banner1.png",
+              // "/banner/banner2.png",
             ]}
           />
           <Marquee />
           <ContentText overlayText={"UY TÍN TẠO NÊN THƯƠNG HIỆU"} />
-          <ProductCardGrid products={productsList.slice(0, 6)} />
+          <ProductCardGrid products={productsList.slice(0, 9)} />
           <ContentText
             overlayText={
               "CHÚNG TÔI KINH DOANH CÁC SẢN PHẨM CHẤT LƯỢNG VÀ GIÁ CẠNH TRANH NHẤT THỊ TRƯỜNG"

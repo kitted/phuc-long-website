@@ -7,21 +7,21 @@ const items = [
   "PLUS EX",
   "MAXPLUS",
   "LPD",
-  "YMR",
-  "MAX VELOZ",
-  "PLUS EX",
-  "MAXPLUS",
-  "LPD",
-  "YMR",
-  "MAX VELOZ",
-  "PLUS EX",
-  "MAXPLUS",
-  "LPD",
-  "YMR",
-  "MAX VELOZ",
-  "PLUS EX",
-  "MAXPLUS",
-  "LPD",
+  "ABS",
+  "TIANNENG",
+  "ELIG",
+  "TPI",
+  "ANKOR THAI-R",
+  "ECOTire",
+  "NPT",
+  "WUSUKI",
+  "THAIKYM",
+  "TAIHAMA",
+  "TLT",
+  "SAPORO",
+  "NAYAHA",
+  "SUPER TOP",
+  "KEN THAI",
 ];
 
 export default function Marquee() {
@@ -51,7 +51,7 @@ export default function Marquee() {
         >
           <div className="flex w-max animate-marquee">
             {[...Array(2)]?.map((_, i) => (
-              <div key={i} className="flex gap-10 mr-10">
+              <div key={i} className="flex gap-7 mr-7">
                 {items?.map((text, idx) => (
                   <span
                     key={`${i}-${idx}`}
@@ -69,7 +69,7 @@ export default function Marquee() {
         <div className={`relative overflow-hidden ${containerBg}`}>
           <div className="flex w-max animate-marquee">
             {[...Array(2)]?.map((_, i) => (
-              <div key={i} className="flex gap-10 mr-10">
+              <div key={i} className="flex gap-7 mr-7">
                 {items
                   .slice()
                   .reverse()
