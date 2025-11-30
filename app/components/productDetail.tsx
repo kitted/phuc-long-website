@@ -26,17 +26,17 @@ export default function ProductDetail({ product }: ProductDetailProps) {
 
   const [isHoveringMain, setIsHoveringMain] = useState(false);
 
-  // 👉 NEW: dùng ref để lưu timeout
-  const zoomDelayRef = useRef<NodeJS.Timeout | null>(null);
+  // Dùng number cho browser (setTimeout trả về number)
+  const zoomDelayRef = useRef<number | null>(null);
 
   // 🖼 Auto slide gallery
   useEffect(() => {
     if (!product.gallery || product.gallery.length === 0) return;
 
-    // 👉 Nếu đang hover main image thì tắt auto slide
-    if (isHoveringMain) return;
+    // 👉 Nếu đang hover main image HOẶC đang mở popup zoom → tắt auto slide
+    if (isHoveringMain || isZoomOpen) return;
 
-    const interval = setInterval(() => {
+    const interval = window.setInterval(() => {
       setCurrentIndex((prev) => {
         const nextIndex = (prev + 1) % product.gallery!.length;
         setMainImage(product.gallery![nextIndex]);
@@ -44,8 +44,8 @@ export default function ProductDetail({ product }: ProductDetailProps) {
       });
     }, 4000);
 
-    return () => clearInterval(interval);
-  }, [product.gallery, isHoveringMain]);
+    return () => window.clearInterval(interval);
+  }, [product.gallery, isHoveringMain, isZoomOpen]);
 
   // 🌗 Sync dark mode
   useEffect(() => {
@@ -83,21 +83,20 @@ export default function ProductDetail({ product }: ProductDetailProps) {
     setZoomPos({ x: percentX, y: percentY });
   };
 
-  // 👉 NEW: Hàm xử lý hover có delay 2s
+  // 👉 Hover có delay 2s mới bật zoom
   const handleMouseEnter = () => {
     if (!isDesktop) return;
 
-    // nếu đang có delay trước đó → clear
-    if (zoomDelayRef.current) clearTimeout(zoomDelayRef.current);
+    if (zoomDelayRef.current) window.clearTimeout(zoomDelayRef.current);
 
-    zoomDelayRef.current = setTimeout(() => {
+    zoomDelayRef.current = window.setTimeout(() => {
       setIsHoveringMain(true);
-    }, 1000);
+    }, 2000);
   };
 
-  // 👉 NEW: Khi rời chuột → tắt zoom ngay + clear timeout
+  // 👉 Rời chuột: tắt zoom + clear timeout
   const handleMouseLeave = () => {
-    if (zoomDelayRef.current) clearTimeout(zoomDelayRef.current);
+    if (zoomDelayRef.current) window.clearTimeout(zoomDelayRef.current);
     setIsHoveringMain(false);
   };
 
@@ -120,7 +119,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
               {/* MAIN IMAGE + ZOOM */}
               <div
                 className="relative w-full h-[300px] sm:h-[450px] md:h-[500px] lg:h-[500px] flex items-center justify-center rounded-lg cursor-zoom-in lg:cursor-crosshair"
-                onClick={() => setIsZoomOpen(true)}
+                onClick={() => setIsZoomOpen(true)} // 👉 mở popup zoom toàn màn hình
                 onMouseMove={handleMouseMoveOnImage}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
@@ -134,7 +133,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
                 {/* Vùng zoom (desktop + sau 2 giây hover) */}
                 {isDesktop && isHoveringMain && (
                   <div
-                    className="hidden lg:block absolute top-1/2 -left-[180px] -translate-y-1/2 w-[360px] h-[360px] border border-gray-500 rounded-lg overflow-hidden shadow-xl bg-white/90 z-20"
+                    className="hidden lg:block absolute top-1/2 -left-[180px] -translate-y-1/2 w-[360px] h-[360px] border border-gray-500 rounded-lg overflow-hidden shadow-xl bg-black/90 z-20"
                     style={{
                       backgroundImage: `url(${mainImage})`,
                       backgroundRepeat: "no-repeat",
@@ -214,9 +213,24 @@ export default function ProductDetail({ product }: ProductDetailProps) {
 
         {/* RIGHT: thông tin chi tiết */}
         <div className="flex flex-col justify-between h-full space-y-6 px-4">
+          {/* Title */}
           {product.title && (
-            <h1 className="text-3xl font-extrabold text-yellow-400 uppercase">
-              {product.title}
+            <h1 className="relative inline-block text-3xl font-extrabold uppercase tracking-[0.05em]">
+              {/* Lớp viền đen phía dưới */}
+              <span
+                className="
+                absolute inset-0 
+                text-black 
+                translate-x-[1px] translate-y-[1px]
+                select-none pointer-events-none
+              "
+                aria-hidden="true"
+              >
+                {product.title}
+              </span>
+
+              {/* Lớp chữ vàng phía trên */}
+              <span className="relative text-yellow-400">{product.title}</span>
             </h1>
           )}
 
@@ -226,6 +240,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
             </p>
           )}
 
+          {/* Giá */}
           <div className="flex items-center gap-4">
             {product.discountPrice ? (
               <>
@@ -243,6 +258,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
             )}
           </div>
 
+          {/* Số lượng tồn */}
           {typeof product.stock === "number" && (
             <div>
               <span className="font-semibold">Tồn kho:</span>{" "}
@@ -250,6 +266,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
             </div>
           )}
 
+          {/* Option: Các biến thể sản phẩm */}
           {product.option && Array.isArray(product.option) && (
             <div>
               <h4 className={`font-semibold mb-2 ${textColor3}`}>
@@ -271,6 +288,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
             </div>
           )}
 
+          {/* Tags */}
           {product.tags && Array.isArray(product.tags) && (
             <div className="flex flex-wrap gap-2">
               {product.tags.map((tag: string, i: number) => (
@@ -284,6 +302,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
             </div>
           )}
 
+          {/* CTA */}
           <button
             className={`hover:bg-blue-800 ${textColor2} ${containerBg2} font-extrabold text-lg px-8 py-4 rounded-lg shadow-lg transition w-full`}
           >
@@ -292,8 +311,9 @@ export default function ProductDetail({ product }: ProductDetailProps) {
         </div>
       </div>
 
-      {/* BOTTOM */}
+      {/* BOTTOM SECTIONS */}
       <div className="mt-10 space-y-6 px-4">
+        {/* Bảng thông số kỹ thuật */}
         {product.specs && (
           <div>
             <h3 className={`text-lg font-semibold mb-2 ${textColor3}`}>
@@ -314,6 +334,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
           </div>
         )}
 
+        {/* Description */}
         {product.description && (
           <section className={`${containerBg} p-6 rounded-lg`}>
             <h2 className={`text-lg font-semibold mb-2 ${textColor}`}>
@@ -332,10 +353,10 @@ export default function ProductDetail({ product }: ProductDetailProps) {
         )}
       </div>
 
-      {/* POPUP */}
+      {/* 🔍 POPUP PHÓNG TO ẢNH */}
       {isZoomOpen && (
         <div
-          className="fixed inset-0 z-50 bg-white/80 flex items-center justify-center p-4"
+          className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"
           onClick={() => setIsZoomOpen(false)}
         >
           <div

@@ -5487,6 +5487,186 @@ export const productsList = [
           "Phúc Long",
         ],
       },
+      {
+        id: 49,
+        name: "VỎ XE ECOTIRE 70/90-17 (MADE IN THAILAND)",
+        url: "vo-xe-may/eco-tire-70-90-17",
+        title: "VỎ ECOTIRE 70/90-17",
+        image:
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524675/DSC00531-_-%C4%90%C3%A3-s%E1%BB%ADa_lhrgha.png",
+        gallery: [
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524675/DSC00531-_-%C4%90%C3%A3-s%E1%BB%ADa_lhrgha.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524674/DSC00558-_-%C4%90%C3%A3-s%E1%BB%ADa_j0f5mr.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524682/DSC00554-_-%C4%90%C3%A3-s%E1%BB%ADa_iktpcx.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524683/DSC00553-_-%C4%90%C3%A3-s%E1%BB%ADa_htcer1.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524682/DSC00551-_-%C4%90%C3%A3-s%E1%BB%ADa_redn5g.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524682/DSC00548-_-%C4%90%C3%A3-s%E1%BB%ADa_sdulns.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524681/DSC00546-_-%C4%90%C3%A3-s%E1%BB%ADa_nk2dns.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524681/DSC00545-_-%C4%90%C3%A3-s%E1%BB%ADa_wani4t.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524683/DSC00542-_-%C4%90%C3%A3-s%E1%BB%ADa_rml86b.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524680/DSC00541-_-%C4%90%C3%A3-s%E1%BB%ADa_kpdygn.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524679/DSC00540-_-%C4%90%C3%A3-s%E1%BB%ADa_olfonm.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524678/DSC00538-_-%C4%90%C3%A3-s%E1%BB%ADa_lvpjml.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524678/DSC00535-_-%C4%90%C3%A3-s%E1%BB%ADa_ola0of.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524677/DSC00533-_-%C4%90%C3%A3-s%E1%BB%ADa_arbgw6.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524677/DSC00530-_-%C4%90%C3%A3-s%E1%BB%ADa_txnfxk.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524675/DSC00529-_-%C4%90%C3%A3-s%E1%BB%ADa_eefa0z.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524675/DSC00528-_-%C4%90%C3%A3-s%E1%BB%ADa_smvtak.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524674/DSC00525-_-%C4%90%C3%A3-s%E1%BB%ADa_baw84o.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524674/DSC00524-_-%C4%90%C3%A3-s%E1%BB%ADa_juxhpw.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524676/DSC00520-_-%C4%90%C3%A3-s%E1%BB%ADa_k9kjrw.png",
+        ],
+        packaging: "Đóng gói bạc – đỏ – xanh thương hiệu ECOTire",
+        shortDescription:
+          "Vỏ xe ECOTire 70/90-17 – cao su Thái Lan đạt chuẩn quốc tế, bám đường tốt, chạy êm, độ bền cao. Dòng vỏ cực kỳ dễ bán cho xe số.",
+        description: `
+          <p><strong>Vỏ xe ECOTire 70/90-17</strong> là dòng vỏ cao su Thái Lan chất lượng cao, 
+          được đánh giá tốt về độ bám đường, độ êm và độ bền trong điều kiện đường Việt Nam.</p>
+      
+          <h4>Ưu điểm nổi bật:</h4>
+          <ul>
+            <li>🛞 <strong>Bám đường vượt trội:</strong> An toàn khi phanh và ôm cua.</li>
+            <li>🔥 <strong>Chống trượt – chống nứt:</strong> Cao su chịu nhiệt tốt.</li>
+            <li>💎 <strong>Độ bền cao:</strong> Mòn chậm – phù hợp xe chạy nhiều.</li>
+            <li>🚀 <strong>Chạy êm – ổn định:</strong> Giảm rung – không sàng lắc.</li>
+            <li>🛡️ <strong>Tiêu chuẩn chất lượng:</strong> MS, E4, ISO 9001, ISO 45001.</li>
+          </ul>
+      
+          <h4>Phù hợp cho:</h4>
+          <ul>
+            <li>Wave – Blade – Future</li>
+            <li>Sirius – Jupiter</li>
+            <li>Các dòng xe số phổ thông mâm 17</li>
+          </ul>
+      
+          <h4>Lợi ích cho gara – tiệm sửa xe:</h4>
+          <ul>
+            <li>Vỏ Thái – thương hiệu dễ bán.</li>
+            <li>Xoay vòng nhanh – lời ổn định.</li>
+            <li>Ít bảo hành – uy tín gara.</li>
+            <li>Khách hài lòng vì chạy êm – bám tốt.</li>
+          </ul>
+        `,
+        specs: {
+          "Thương hiệu": "ECOTire",
+          "Xuất xứ": "Thái Lan",
+          "Kích thước": "70/90-17",
+          Loại: "Lốp không ruột (TL)",
+          "Mã sản phẩm": "38P EC008 TL",
+          "Chất liệu": "Cao su Thái Lan",
+          "Tiêu chuẩn": "ISO 9001, ISO 45001, E4, MS",
+          "Phù hợp": "Xe số mâm 17",
+          "Độ bền": "15.000 – 22.000 km",
+        },
+        benefits: [
+          "Bám đường cao – an toàn.",
+          "Chạy êm – không rung.",
+          "Ít mòn – bền bỉ.",
+          "Giá tốt – dễ bán.",
+          "Tiệm sửa xe tin dùng.",
+        ],
+        application:
+          "Vỏ xe số 70/90-17, dành cho xe phổ thông chạy phố – chạy xa – chạy dịch vụ.",
+        price: "Liên hệ",
+        discountPrice: "Liên hệ",
+        stock: 950,
+        tags: [
+          "Vỏ xe máy",
+          "ECOTire",
+          "70/90-17",
+          "Vỏ Thái Lan",
+          "Phụ tùng xe máy",
+          "Phúc Long",
+        ],
+      },
+      {
+        id: 50,
+        name: "VỎ XE ECOTIRE 100/90-14 (MADE IN THAILAND)",
+        url: "vo-xe-may/eco-tire-100-90-14",
+        title: "VỎ ECOTIRE 100/90-14",
+        image:
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524682/DSC00570-_-%C4%90%C3%A3-s%E1%BB%ADa_op5tay.png",
+        gallery: [
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524682/DSC00570-_-%C4%90%C3%A3-s%E1%BB%ADa_op5tay.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524681/DSC00586-_-%C4%90%C3%A3-s%E1%BB%ADa_ttzam9.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524682/DSC00585-_-%C4%90%C3%A3-s%E1%BB%ADa_obqkhq.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524681/DSC00583-_-%C4%90%C3%A3-s%E1%BB%ADa_hko02n.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524680/DSC00579-_-%C4%90%C3%A3-s%E1%BB%ADa_lqmj3m.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524679/DSC00577-_-%C4%90%C3%A3-s%E1%BB%ADa_sufrg9.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524678/DSC00574-_-%C4%90%C3%A3-s%E1%BB%ADa_qswage.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524678/DSC00572-_-%C4%90%C3%A3-s%E1%BB%ADa_h92ckd.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524677/DSC00571-_-%C4%90%C3%A3-s%E1%BB%ADa_w9ofds.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524678/DSC00568-_-%C4%90%C3%A3-s%E1%BB%ADa_jjq4nv.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524676/DSC00567-_-%C4%90%C3%A3-s%E1%BB%ADa_btt2j0.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524676/DSC00565-_-%C4%90%C3%A3-s%E1%BB%ADa_vmizyi.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524680/DSC00564-_-%C4%90%C3%A3-s%E1%BB%ADa_jdtfg8.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524676/DSC00563-_-%C4%90%C3%A3-s%E1%BB%ADa_aiu5ct.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524674/DSC00562-_-%C4%90%C3%A3-s%E1%BB%ADa_qr0dfx.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764524674/DSC00559-_-%C4%90%C3%A3-s%E1%BB%ADa_rgy1as.png",
+        ],
+        packaging: "Đóng gói bạc–đỏ–xanh thương hiệu ECOTire (Thái Lan)",
+        shortDescription:
+          "Vỏ xe ECOTire 100/90-14 – cao su Thái Lan cao cấp, bám đường mạnh, vào cua chắc, chạy êm. Thích hợp xe tay ga bánh 14 inch.",
+        description: `
+          <p><strong>Vỏ xe ECOTire 100/90-14</strong> là dòng vỏ Thái Lan được ưa chuộng với độ bền cao, 
+          bám đường tốt và hiệu suất ổn định trong mọi điều kiện vận hành.</p>
+      
+          <h4>Ưu điểm nổi bật:</h4>
+          <ul>
+            <li>🛞 <strong>Độ bám đường cao:</strong> Chống trượt tốt khi phanh và ôm cua.</li>
+            <li>🔥 <strong>Chịu nhiệt – chống nứt:</strong> Cao su chất lượng Thái Lan.</li>
+            <li>💎 <strong>Mòn chậm – tuổi thọ cao:</strong> Lý tưởng cho chạy dịch vụ.</li>
+            <li>🚀 <strong>Chạy êm – ít rung:</strong> Tăng độ ổn định, giảm tiếng ồn.</li>
+            <li>🛡️ <strong>Đạt chuẩn quốc tế:</strong> MS, E4, ISO 9001, ISO 45001.</li>
+          </ul>
+      
+          <h4>Phù hợp cho các dòng xe tay ga bánh 14 inch:</h4>
+          <ul>
+            <li>Honda: Vision – AirBlade 110 – Lead (đời bánh 14)</li>
+            <li>Yamaha: Janus – Latte</li>
+            <li>SYM – KYMCO bánh 14 inch</li>
+          </ul>
+      
+          <h4>Lợi ích cho gara & tiệm sửa xe:</h4>
+          <ul>
+            <li>Dễ tư vấn – khách chuộng vỏ Thái.</li>
+            <li>Xoay vòng nhanh – lợi nhuận đều.</li>
+            <li>Chất lượng cao – hạn chế phát sinh bảo hành.</li>
+            <li>Phù hợp phân khúc tầm trung – dễ bán.</li>
+          </ul>
+        `,
+        specs: {
+          "Thương hiệu": "ECOTire",
+          "Xuất xứ": "Thái Lan",
+          "Kích thước": "100/90-14",
+          Loại: "Không ruột (TL)",
+          "Chỉ số tải – tốc độ": "57P",
+          "Mã sản phẩm": "EC008 TL",
+          "Tiêu chuẩn": "MS, E4, ISO 9001, ISO 45001",
+          "Chất liệu": "Cao su Thái Lan",
+          "Phù hợp": "Xe tay ga bánh 14 inch",
+        },
+        benefits: [
+          "Bám đường mạnh – an toàn tối đa.",
+          "Chạy êm – ổn định.",
+          "Độ bền cao – ít mòn.",
+          "Tiết kiệm chi phí cho khách.",
+          "Dễ bán cho gara và tiệm sửa xe.",
+        ],
+        application:
+          "Vỏ xe tay ga 100/90-14 – dùng cho Vision, Janus, Latte, AirBlade 110 và các dòng xe tương đương.",
+        price: "Liên hệ",
+        discountPrice: "Liên hệ",
+        stock: 780,
+        tags: [
+          "Vỏ xe máy",
+          "ECOTire",
+          "100/90-14",
+          "Vỏ Thái Lan",
+          "Phụ tùng xe máy",
+          "Phúc Long",
+        ],
+      },
     ],
   },
 ];
