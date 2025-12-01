@@ -338,7 +338,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
 
         {/* Description */}
         {product.description && (
-          <section className={`${containerBg} p-6 rounded-lg`}>
+          <section className={`${containerBg} rounded-lg`}>
             <h2 className={`text-lg font-semibold mb-2 ${textColor}`}>
               Mô tả chi tiết sản phẩm:
             </h2>
