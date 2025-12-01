@@ -23,6 +23,9 @@ export default function SidebarFilter({
   const [search, setSearch] = useState("");
   const [darkMode, setDarkMode] = useState(false);
 
+  // ✅ trạng thái đóng/mở sidebar trên mobile
+  const [isMobileOpen, setIsMobileOpen] = useState(false);
+
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -83,7 +86,8 @@ export default function SidebarFilter({
     <aside
       className={`w-full ${textColor} p-4 space-y-4 ${containerBg} rounded-lg`}
     >
-      <div className="w-full">
+      {/* 🔍 Thanh search: luôn hiện trên mọi màn hình */}
+      <div className="w-full mb-3">
         <form
           onSubmit={(e) => {
             e.preventDefault();
@@ -93,12 +97,10 @@ export default function SidebarFilter({
             const pathParts = pathname.split("/").filter(Boolean);
             const categorySlug = pathParts[1] || "all";
 
-            // ✅ Điều hướng sang category tương ứng
             router.push(
               `/product/${categorySlug}?search=${encodeURIComponent(keyword)}`
             );
 
-            // ✅ Gọi onSearch để update UI ngay lập tức (optional)
             onSearch(keyword);
           }}
         >
@@ -111,14 +113,31 @@ export default function SidebarFilter({
               onSearch(e.target.value); // lọc realtime
             }}
             className={`w-full h-[40px] rounded-[12px] px-4 text-sm ${textColor}
-      border border-white/30 placeholder-white/60 focus:outline-none
-      backdrop-blur-md [background:linear-gradient(90deg,rgba(11,70,118,0.25)_0%,rgba(21,13,255,0.25)_100%)]
-    `}
+              border border-white/30 placeholder-white/60 focus:outline-none
+              backdrop-blur-md [background:linear-gradient(90deg,rgba(11,70,118,0.25)_0%,rgba(21,13,255,0.25)_100%)]
+            `}
           />
         </form>
       </div>
 
-      <div className="space-y-2">
+      {/* 🔽 Nút đóng/mở danh mục – chỉ hiện trên mobile */}
+      <button
+        type="button"
+        className={`w-full flex items-center justify-between md:hidden px-4 py-2 rounded-lg text-sm font-medium ${containerBg2}`}
+        onClick={() => setIsMobileOpen((prev) => !prev)}
+      >
+        <span>Bộ lọc danh mục</span>
+        {isMobileOpen ? (
+          <ChevronUp className="w-4 h-4" />
+        ) : (
+          <ChevronDown className="w-4 h-4" />
+        )}
+      </button>
+
+      {/* Danh mục: mobile có thể ẩn/hiện, desktop luôn hiện */}
+      <div
+        className={`${isMobileOpen ? "block" : "hidden"} md:block space-y-2`}
+      >
         {categories.map((cat: any) => {
           const isCategorySelected = selected?.category === cat.url;
           return (

@@ -37,7 +37,7 @@ export default function ContactSection() {
       {/* Social links */}
       <div className="flex flex-col md:flex-row gap-4">
         <a
-          href="#"
+          href="https://zalo.me/3648225468408384638"
           className={`flex items-center gap-3 px-6 py-3 rounded-[16px]
                    ${buttonBg} backdrop-blur-md
                    hover:from-white/10 hover:to-white/10
@@ -53,7 +53,7 @@ export default function ContactSection() {
         </a>
 
         <a
-          href="#"
+          href="https://www.facebook.com/daunhotphutungPHUCLONG"
           className={`flex items-center gap-3 px-6 py-3 rounded-[16px]
                    ${buttonBg} backdrop-blur-md
                    hover:from-white/10 hover:to-white/10
@@ -61,7 +61,7 @@ export default function ContactSection() {
                    transition`}
         >
           <img
-            src="/facebook.png"
+            src="https://www.facebook.com/daunhotphutungPHUCLONG"
             alt="facebook"
             className="h-6 w-auto object-contain"
           />

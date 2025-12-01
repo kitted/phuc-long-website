@@ -83,7 +83,7 @@ export default function Footer() {
           {/* Social icons */}
           <div className="flex justify-center gap-3 mt-6 border-t border-gray-200 pt-5">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/daunhotphutungPHUCLONG"
               className="w-8 h-8 flex items-center justify-center rounded-full bg-black text-white"
             >
               <Facebook className="w-4 h-4" />
@@ -104,10 +104,10 @@ export default function Footer() {
 
           {/* Company info */}
           <div className="space-y-1 text-gray-600 text-sm mt-4">
-            <p>Địa chỉ: h2/19 Lê Hồng Phong, Bình Thủy, TPCT</p>
-            <p>Sđt: 09xxxxxxxx</p>
+            <p>Địa chỉ: B1/19 Lê Hồng Phong, Bình Thủy, TP.CT</p>
+            <p>Sđt: 0939449861</p>
             <p>Email: phuclong@gmail.com</p>
-            <p>MST: 1234567</p>
+            <p>MST: *****</p>
           </div>
 
           {/* Copyright */}

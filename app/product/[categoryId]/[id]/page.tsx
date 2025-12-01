@@ -63,20 +63,16 @@ export default function ProductDetailPage() {
             <Breadcrumbs />
           </div>
 
-          <div className={`${containerBg} w-full flex justify-center py-1`}>
-            {/* <h1
-              className={`${textColor} italic font-black text-[20px] lg:text-[60px] md:text-[40px] sm:text-[25px] text-center px-4`}
-              style={{ fontFamily: " sans-serif", letterSpacing: "2%" }}
-            >
-              {product?.name || "Sản phẩm không tồn tại"}
-            </h1> */}
-          </div>
+          <div
+            className={`${containerBg} w-full flex justify-center py-1`}
+          ></div>
 
           <div
             className={`flex flex-col md:flex-row gap-4 px-[2%] py-[2%] ${containerBg}`}
           >
+            {/* SidebarFilter: nằm dưới trên mobile, bên trái trên desktop */}
             <div
-              className={`flex-1 w-full md:max-w-[400px] ${containerBg2} rounded-lg`}
+              className={`flex-1 w-full md:max-w-[400px] ${containerBg2} rounded-lg order-2 md:order-1`}
             >
               <SidebarFilter
                 categories={sidebarCategoriesV2}
@@ -84,7 +80,8 @@ export default function ProductDetailPage() {
               />
             </div>
 
-            <div className="flex-[3]">
+            {/* ProductDetail: nằm trên trên mobile, bên phải trên desktop */}
+            <div className="flex-[3] order-1 md:order-2">
               {product ? (
                 <ProductDetail product={product} />
               ) : (

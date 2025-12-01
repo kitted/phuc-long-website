@@ -114,21 +114,21 @@ export default function FloatingAssistant() {
   const subButtons = [
     {
       key: "fb",
-      href: "https://facebook.com",
+      href: "https://www.facebook.com/daunhotphutungPHUCLONG",
       label: "Facebook",
       bg: "bg-blue-600",
       icon: <Facebook size={18} className="text-white" />,
     },
     {
       key: "zalo",
-      href: "https://zalo.me",
+      href: "https://zalo.me/3648225468408384638",
       label: "Zalo",
       bg: "bg-white",
       icon: <img src="/zalo.png" alt="Zalo" className="w-8 h-5" />,
     },
     {
       key: "phone",
-      href: "tel:0123456789",
+      href: "tel:0939449861",
       label: "Gọi",
       bg: "bg-green-500",
       icon: <Phone size={18} className="text-white" />,

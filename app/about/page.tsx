@@ -330,10 +330,6 @@ function About() {
                 <a className="text-blue-500 hover:underline" href="0939449861">
                   0939449861
                 </a>
-                &
-                <a className="text-blue-500 hover:underline" href="0939449861">
-                  0939449861
-                </a>
               </div>
               <div className={`flex gap-2 items-center ${textColor}`}>
                 <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
