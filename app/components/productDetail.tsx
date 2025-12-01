@@ -18,6 +18,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
   const [mainImage, setMainImage] = useState(product.image || "");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [darkMode, setDarkMode] = useState(false);
+  const [isContactOpen, setIsContactOpen] = useState(false);
 
   // 🔍 Zoom & hover state
   const [isDesktop, setIsDesktop] = useState(false);
@@ -304,9 +305,10 @@ export default function ProductDetail({ product }: ProductDetailProps) {
 
           {/* CTA */}
           <button
+            onClick={() => setIsContactOpen(true)}
             className={`hover:bg-blue-800 ${textColor2} ${containerBg2} font-extrabold text-lg px-8 py-4 rounded-lg shadow-lg transition w-full`}
           >
-            Liên hệ ngay
+            Liên hệ đặt hàng ngay
           </button>
         </div>
       </div>
@@ -375,6 +377,54 @@ export default function ProductDetail({ product }: ProductDetailProps) {
               alt="Zoomed product"
               className="w-full h-full object-contain rounded-lg"
             />
+          </div>
+        </div>
+      )}
+      {/* POPUP CHỌN CÁCH LIÊN HỆ */}
+      {isContactOpen && (
+        <div
+          className="fixed inset-0 z-50 bg-black/70 flex items-center justify-center p-4"
+          onClick={() => setIsContactOpen(false)}
+        >
+          <div
+            className={`${containerBg} ${textColor} w-full max-w-sm rounded-2xl shadow-2xl p-6 space-y-4`}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <h3 className="text-xl font-bold text-center mb-2">
+              Chọn cách liên hệ
+            </h3>
+
+            <p className="text-sm text-center opacity-80">
+              Anh em có thể gọi trực tiếp hoặc nhắn Zalo cho Phúc Long.
+            </p>
+
+            <div className="space-y-3 mt-2">
+              {/* Gọi điện thoại */}
+              <a href="tel:0939449861" className="block">
+                <button className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 rounded-lg">
+                  📞 Gọi: 0939 449 861
+                </button>
+              </a>
+
+              {/* Zalo OA – anh đổi đúng link OA của mình vào đây */}
+              <a
+                href="https://zalo.me/3648225468408384638" // 👉 thay bằng link Zalo OA chính thức
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <button className="w-full bg-sky-600 hover:bg-sky-700 text-white font-semibold py-3 rounded-lg">
+                  💬 Nhắn Zalo OA Phúc Long
+                </button>
+              </a>
+            </div>
+
+            <button
+              onClick={() => setIsContactOpen(false)}
+              className="w-full mt-3 text-sm opacity-70 hover:opacity-100"
+            >
+              Đóng
+            </button>
           </div>
         </div>
       )}
