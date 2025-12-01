@@ -101,10 +101,6 @@ export default function Example() {
                     <a className="text-base underline" href="0939449861">
                       0939449861
                     </a>
-                    &
-                    <a className="text-base underline" href="0939449861">
-                      0939449861
-                    </a>
                   </div>
                   <div className={`flex gap-2 items-center ${textColor}`}>
                     <Mail size={20} />
