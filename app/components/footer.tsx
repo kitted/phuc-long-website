@@ -22,9 +22,9 @@ export default function Footer() {
         {/* Cột trái: Logo */}
         <div className="flex justify-center md:justify-start">
           <img
-            src="/logo.png"
+            src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764693713/PLUS_1_lpcvtz.png"
             alt="Phuc Long Logo"
-            className="max-w-[355px] max-h-[493px] w-full h-auto"
+            className="  w-full h-auto"
           />
         </div>
 

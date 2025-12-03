@@ -57,7 +57,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 25,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "sên WUSUKI", "xe số", "RS", "phổ thông"],
         option: [
           {
@@ -117,7 +117,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 30,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "sên WUSUKI", "EZ", "xe số", "phổ thông"],
         option: [
           {
@@ -183,7 +183,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 28,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "THAIKYM", "Wave RS", "xe số", "phổ thông"],
         option: [
           {
@@ -257,7 +257,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 35,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "THAIKYM", "Wave EZ", "xe số", "phổ thông"],
         option: [
           {
@@ -331,7 +331,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 32,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "THAIKYM", "Sirius Fi", "xe số", "phổ thông"],
         option: [
           {
@@ -406,7 +406,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 30,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "nhông xích",
           "THAIKYM",
@@ -487,7 +487,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 26,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "TAIMAHA", "Wave RS", "xe số", "phổ thông"],
         option: [
           {
@@ -562,7 +562,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 29,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "nhông xích",
           "TAIMAHA",
@@ -643,7 +643,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 20,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "TAIMAHA", "Winner 150", "côn tay", "xe thể thao"],
         option: [
           {
@@ -719,7 +719,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 33,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "TAIMAHA", "Wave EZ", "Blade", "Future", "xe số"],
         option: [
           {
@@ -793,7 +793,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 25,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "nhông xích",
           "TAIMAHA",
@@ -872,7 +872,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 18,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "ABS", "Exciter 150", "côn tay", "xe thể thao"],
         option: [
           {
@@ -946,7 +946,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 22,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "ABS", "Wave", "Dream", "xe số", "phổ thông"],
         option: [
           {
@@ -1019,7 +1019,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 20,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "ABS", "Wave RS", "xe số", "phổ thông"],
         option: [
           {
@@ -1092,7 +1092,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 24,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "ABS", "Sirius", "Jupiter", "xe số", "phổ thông"],
         option: [
           {
@@ -1165,7 +1165,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 20,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "nhông xích",
           "ABS",
@@ -1245,7 +1245,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 15,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "nhông xích",
           "YMR",
@@ -1314,7 +1314,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 18,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "YMR", "Viva", "Suzuki", "xe số", "bền bỉ"],
         option: [
           { url: "product/nhong-xich/ymr-exciter-150", name: "Exciter 150" },
@@ -1376,7 +1376,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 14,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "nhông xích",
           "YMR",
@@ -1446,7 +1446,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 16,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "nhông xích",
           "YMR",
@@ -1515,7 +1515,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 18,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "YMR", "Sirius", "Jupiter", "xe số", "chống giãn"],
         option: [
           { url: "product/nhong-xich/ymr-exciter-150", name: "Exciter 150" },
@@ -1577,7 +1577,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 22,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "YMR", "Wave RS", "RSX", "xe số", "bền bỉ"],
         option: [
           { url: "product/nhong-xich/ymr-exciter-150", name: "Exciter 150" },
@@ -1638,7 +1638,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 18,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "sên vàng", "TLT", "xe thể thao", "côn tay"],
         option: [
           {
@@ -1718,7 +1718,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 15,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "sên vàng", "TLT", "Exciter 150", "côn tay"],
         option: [
           {
@@ -1797,7 +1797,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 20,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "sên vàng", "TLT", "Winner 150", "côn tay"],
         option: [
           {
@@ -1876,7 +1876,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 22,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "sên vàng", "TLT", "Exciter 135", "côn tay"],
         option: [
           {
@@ -1955,7 +1955,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 16,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "sên vàng", "TLT", "Raider 150", "côn tay"],
         option: [
           {
@@ -2034,7 +2034,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 18,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["nhông xích", "sên vàng", "TLT", "Sonic 150R", "côn tay"],
         option: [
           {
@@ -2124,7 +2124,7 @@ export const productsList = [
           "Dùng thay thế sên cam cho xe số phổ thông, xe độ nhẹ, xe chạy Racing 25H.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 120,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "sên cam",
           "SSS",
@@ -2218,7 +2218,7 @@ export const productsList = [
           "Dùng cho xe số, xe tay ga, xe côn tay và các dòng xe máy phổ thông tại Việt Nam.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 50,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Ắc quy xe máy",
           "ABS",
@@ -2314,7 +2314,7 @@ export const productsList = [
           "Phù hợp cho xe số, xe tay ga và xe côn tay cỡ nhỏ; thiết kế sang trọng, an toàn, chống nghiêng và chống rò rỉ axit.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 40,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Ắc Quy ABS",
           "Ắc Quy Gel",
@@ -2393,7 +2393,7 @@ export const productsList = [
           "Dùng để thay thế bình ắc quy 12V cho xe máy, xe điện và thiết bị phụ trợ. Phù hợp cho gara, đại lý và tiệm sửa xe tại miền Tây.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 120,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Ắc quy Natri",
           "YMR",
@@ -2426,6 +2426,7 @@ export const productsList = [
           "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580377/14_ggoxrr.png",
         gallery: [
           "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580377/14_ggoxrr.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764692126/z7283661257177_f9c47314cee5777a7ea9515827b02258_umg76j.jpg",
           "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580376/13_nflhlc.png",
           "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580378/16_uy8cd0.png",
           "https://res.cloudinary.com/drqacgi7a/image/upload/v1763580378/15_tt01rf.png",
@@ -2437,28 +2438,106 @@ export const productsList = [
         shortDescription:
           "Pin xe điện Tianneng TNE12-15 – dòng bình GEL chuyên dụng siêu bền, chịu nhiệt cao, tuổi thọ vượt trội, hiệu năng mạnh mẽ cho mọi dòng xe điện.",
         description: `
-    <p><strong>Pin Tianneng TNE12-15 (6-DZF-12.3)</strong> thuộc dòng <strong>Deep Cycle Black Gold Battery</strong>, 
-    sử dụng công nghệ AGM GEL kín khí hiện đại, chuyên dành cho xe máy điện – xe đạp điện. 
-    Với khả năng chịu nhiệt tốt, độ bền cao và chu kỳ sạc xả dài, đây là lựa chọn tiêu chuẩn của nhiều hãng xe trên thị trường.</p>
+   <p><strong>Bình ắc quy xe máy điện TIANNENG TNE12-25 (12V – 25Ah)</strong> thuộc phân khúc 
+<strong>AGM GEL – VRLA</strong>, được sản xuất bởi <strong>Tianneng Group</strong> – Tập đoàn ắc quy xe điện hàng đầu Trung Quốc.  
+Đây là dòng sản phẩm được thiết kế chuyên dụng cho xe máy điện, đáp ứng tiêu chuẩn chất lượng quốc tế và phù hợp hoàn toàn với điều kiện khí hậu nóng ẩm tại Việt Nam.</p>
 
-    <h4>Ưu điểm nổi bật:</h4>
-    <ul>
-      <li>🔥 <strong>Phiên bản chịu nhiệt cao (High Temp Version):</strong> hoạt động ổn định trong khí hậu nóng ẩm Việt Nam.</li>
-      <li>🔋 <strong>Deep Cycle – Sạc xả sâu:</strong> giữ dung lượng tốt, tuổi thọ cao hơn ắc quy thường.</li>
-      <li>⚡ <strong>Dòng xả mạnh:</strong> cho khả năng tăng tốc tốt, vận hành ổn định ngay cả khi tải nặng.</li>
-      <li>🧪 <strong>Công nghệ AGM GEL:</strong> không rò rỉ, chống bay hơi, an toàn tuyệt đối khi sử dụng.</li>
-      <li>💪 <strong>Thân vỏ chịu va đập:</strong> thiết kế chắc chắn, bền bỉ, chống nứt vỡ.</li>
-      <li>🛡️ <strong>Kín khí – Không cần bảo dưỡng:</strong> không châm nước, không mùi axit, an toàn cho người dùng.</li>
-      <li>♻️ <strong>Vật liệu đạt tiêu chuẩn quốc tế:</strong> chống sulfation, hạn chế chai bình.</li>
-    </ul>
+<p>Bình TNE12-25 được sản xuất trên dây chuyền công nghệ tiên tiến, trải qua quy trình kiểm soát nghiêm ngặt và 
+đạt các chứng nhận <strong>ISO 9001 – IATF 16949 – ISO 14001</strong>. Dung lượng thực đạt chuẩn giúp xe điện vận hành ổn định, 
+đi được quãng đường xa hơn, đồng thời khả năng phóng điện mạnh mẽ giúp xe tăng tốc tốt và duy trì hiệu năng trong suốt quá trình sử dụng.</p>
 
-    <h4>Thông số sạc – xả nổi bật:</h4>
-    <ul>
-      <li>12V – 12.3Ah (C1 đến 1.75V/cell @25°C)</li>
-      <li>12V – 15Ah (C20 đến 1.8V/cell @25°C)</li>
-      <li>Chu kỳ: 200 – 500 lần (tùy điều kiện sử dụng)</li>
-      <li>Ắc quy VRLA AGM GEL – không tràn, không bảo trì</li>
-    </ul>
+<p>Mọi bình ắc quy xe máy điện TIANNENG TNE12-25 do <strong>Phúc Long</strong> cung cấp đều là hàng mới chính hãng, 
+bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</strong>, đảm bảo an tâm tuyệt đối cho khách hàng và đại lý.</p>
+
+<h4>Ưu điểm nổi bật:</h4>
+<ul>
+  <li>🔋 <strong>Tuổi thọ cao 400–600 chu kỳ</strong> ở 100% DOD – bền hơn nhiều so với bình nước thông thường.</li>
+  <li>🔥 <strong>Dung lượng chuẩn 25Ah</strong> – giúp xe đi xa hơn, không bị hụt điện khi leo dốc hoặc tải nặng.</li>
+  <li>🧪 <strong>Công nghệ AGM GEL kín khí</strong>: không châm nước, không rò rỉ axit, an toàn tuyệt đối.</li>
+  <li>💪 <strong>Bản cực dày – tăng cường phóng điện</strong>, phục hồi tốt khi xả sâu.</li>
+  <li>🛡️ <strong>Vỏ ABS chống cháy</strong> đạt chuẩn UL94-HB – chịu lực, chống va đập tốt.</li>
+  <li>🚀 <strong>Xả mạnh – tăng tốc tốt</strong> ngay cả khi chở nặng hoặc chạy liên tục.</li>
+  <li>♻️ <strong>Tự xả thấp</strong> (5–15%/tháng) giúp lưu kho lâu mà không lo chai bình.</li>
+  <li>🛠️ <strong>Van an toàn tự động</strong> – giảm nguy cơ thoát hơi nước khi nạp xả.</li>
+</ul>
+
+<h4>Thông tin sạc – xả & cấu tạo:</h4>
+<ul>
+  <li>Ắc quy VRLA – AGM GEL: kín khí hoàn toàn, không cần bảo dưỡng.</li>
+  <li>Chất điện phân GEL nano silica – tăng khả năng phóng điện sâu.</li>
+  <li>Bộ tách AGM áp suất cao – ngăn chạm mạch, hoạt động ổn định khi xả sâu.</li>
+  <li>Tấm cực âm Pb–Canxi – tăng dung lượng hơn 5% so với các bình cùng loại.</li>
+</ul>
+
+<h4>Thông số kỹ thuật:</h4>
+<ul>
+  <li><strong>Mã sản phẩm:</strong> TNE12-25</li>
+  <li><strong>Công nghệ:</strong> VRLA – AGM GEL</li>
+  <li><strong>Điện áp danh định:</strong> 12V</li>
+  <li><strong>Dung lượng:</strong> 25Ah</li>
+  <li><strong>Trọng lượng:</strong> 6.25 kg</li>
+  <li><strong>Kích thước:</strong> 181 x 77 x 177 mm</li>
+  <li><strong>Tự phóng điện:</strong> 5–15%/tháng</li>
+  <li><strong>Bảo hành:</strong> 6 tháng chính hãng</li>
+  <li><strong>Ứng dụng:</strong> Xe máy điện – UPS – cửa cuốn – loa kéo – quạt sạc – hệ thống đèn 12V</li>
+</ul>
+
+<h4>Hướng dẫn sử dụng & bảo quản:</h4>
+<ul>
+  <li>Sạc đầy bình trước khi lắp đặt vào xe.</li>
+  <li>Hạn chế để xe dưới nắng trực tiếp – nhiệt độ cao làm giảm tuổi thọ bình.</li>
+  <li>Sử dụng xe thường xuyên để đảm bảo chu kỳ nạp xả ổn định.</li>
+  <li>Nếu không dùng lâu, cần sạc lại mỗi 30 ngày.</li>
+  <li>Định kỳ kiểm tra bu-lông, đầu cực, vệ sinh chống oxy hóa.</li>
+</ul>
+
+<p><strong>Thương hiệu:</strong> Tianneng – Phân phối bởi <strong>Phúc Long</strong>.</p>
+
+<div style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+">
+  <div style="
+    padding: 10px;
+    border: 2px solid #888;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.18);
+  ">
+    <img 
+      src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764692126/z7283661272611_80c06afd1d9b6b9b8672f5900a2c7924_h30fa9.jpg"
+      style="
+        width:250px;
+        height:auto;
+        border-radius: 4px;
+        display:block;
+      "
+    />
+  </div>
+
+  <div style="
+    padding: 10px;
+    border: 2px solid #888;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.18);
+  ">
+    <img 
+      src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764692126/z7283661222295_5d126ad4a1cd8df3419b206a2eb76793_fffp7h.jpg"
+      style="
+        width:250px;
+        height:auto;
+        border-radius: 4px;
+        display:block;
+      "
+    />
+  </div>
+</div>
+
+
+
 
     <p><strong>Thương hiệu:</strong> Tianneng – Tập đoàn ắc quy xe điện số 1 Trung Quốc, phân phối chính hãng bởi <strong>Phúc Long</strong>.</p>
   `,
@@ -2482,7 +2561,7 @@ export const productsList = [
           "Phù hợp hầu hết các dòng xe máy điện, xe đạp điện sử dụng bình 6-DZF: Vinfast Feliz (bản bình chì), JVC, Nijia, Xmen, Giant, Anbico, Espero…",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 40,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Pin xe điện",
           "Tianneng",
@@ -2584,7 +2663,7 @@ export const productsList = [
           "Phù hợp nhiều dòng xe phổ thông tại Việt Nam như Honda, Yamaha, SYM, Suzuki…",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 120,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "bố thắng đùm",
           "phanh đùm",
@@ -2699,7 +2778,7 @@ export const productsList = [
           "Dùng cho đa dạng xe số và xe tay ga đời cũ sử dụng phanh đùm.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 150,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "bố thắng đùm",
           "phanh đùm",
@@ -2811,7 +2890,7 @@ export const productsList = [
           "Phù hợp hầu hết các dòng xe máy sử dụng phanh đĩa: Wave RSX, Winner, Vision, Air Blade, Lead, Sirius FI, Jupiter, SH Mode…",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 80,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "bố thắng đĩa",
           "má phanh đĩa",
@@ -2925,7 +3004,7 @@ export const productsList = [
           "Phù hợp cho hầu hết các xe máy phổ thông sử dụng phanh đĩa.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 100,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "bố thắng đĩa",
           "elig",
@@ -3030,7 +3109,7 @@ export const productsList = [
           "Phù hợp cho hầu hết các dòng xe máy phổ thông dùng phanh đĩa.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 300,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "SAPORO",
           "bố thắng đĩa",
@@ -3144,7 +3223,7 @@ export const productsList = [
           "Phù hợp cho hầu hết các dòng xe máy phổ thông dùng phanh đĩa sau.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 300,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "SAPORO",
           "bố thắng đĩa",
@@ -3229,7 +3308,7 @@ export const productsList = [
           "Phù hợp cho xe số và xe tay ga sử dụng phanh đĩa. Dành cho các gara, tiệm sửa xe và đại lý phụ tùng khu vực miền Tây.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 500,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Bố thắng đĩa",
           "Saporo",
@@ -3351,7 +3430,7 @@ export const productsList = [
           "Dùng cho các dòng xe số 4 thì phổ thông. Thích hợp cho gara, tiệm sửa xe và đại lý phụ tùng tại miền Tây.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 600,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Bố thắng đùm",
           "Nayaha",
@@ -3446,9 +3525,9 @@ export const productsList = [
         ],
         application:
           "Phù hợp cho các dòng xe số 4 thì phổ thông. Dành cho gara và đại lý phụ tùng khu vực miền Tây.",
-        price: 52000,
-        discountPrice: 45000,
-        stock: 650,
+        price: "Liên hệ ",
+        discountPrice: "Liên hệ ",
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Bố thắng đùm",
           "Ken Thái",
@@ -3541,7 +3620,7 @@ export const productsList = [
           "Dùng cho xe số 4 thì phổ thông. Sản phẩm giá tốt – phù hợp cho tiệm sửa xe và đại lý phụ tùng cần xoay vòng nhanh.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 900,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Bố thắng đùm",
           "Bịt hồng",
@@ -3641,7 +3720,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 24,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["dầu nhớt tay ga", "PlusEx", "10W40", "API SN", "dầu tổng hợp"],
       },
 
@@ -3700,7 +3779,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 30,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["dầu nhớt xe số", "PlusEx", "15W40", "API SL", "dầu tổng hợp"],
       },
 
@@ -3759,7 +3838,7 @@ export const productsList = [
         },
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 20,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "dầu nhớt xe côn tay",
           "PlusEx",
@@ -3827,9 +3906,9 @@ export const productsList = [
         ],
         application:
           "Dành cho các dòng xe tay ga 4 thì (Honda, Yamaha, Suzuki, SYM…) – phù hợp cả xe phun xăng điện tử FI và xe sử dụng thường xuyên trong đô thị.",
-        price: 115000,
-        discountPrice: 98000,
-        stock: 100,
+        price: "Liên hệ ",
+        discountPrice: "Liên hệ ",
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Dầu nhớt xe tay ga",
           "MCO-MAX",
@@ -3904,7 +3983,7 @@ export const productsList = [
           "Thích hợp cho xe số, xe côn tay 4 thì như Wave, Sirius, Exciter, Winner, Raider, Future... – phù hợp điều kiện đường nóng và tần suất sử dụng cao.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 80,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Dầu nhớt xe số",
           "MCO-MAX",
@@ -3984,7 +4063,7 @@ export const productsList = [
           "Phù hợp cho xe máy côn tay, xe số 4 thì, động cơ diesel nhẹ và máy phát điện. Dành cho khách hàng chuyên nghiệp và gara sử dụng nhiều.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 50,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Dầu nhớt đa dụng",
           "MCO-MAXPLUS",
@@ -4071,7 +4150,7 @@ export const productsList = [
           "Dành cho xe côn tay, xe số 4 thì và xe tay ga cao cấp. Phù hợp khí hậu Việt Nam và các gara, đại lý miền Tây.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 150,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Dầu nhớt 4T",
           "MAXPLUS 9000",
@@ -4159,7 +4238,7 @@ export const productsList = [
           "Phù hợp cho xe tay ga và xe số 4 thì. Dòng nhớt cao cấp, ổn định trong điều kiện vận hành khắc nghiệt.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 200,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Dầu nhớt 4T",
           "MAXPLUS 9000",
@@ -4285,7 +4364,7 @@ export const productsList = [
           "Dùng thay thế vòng bi cho xe số, xe ga và xe côn tay. Phù hợp cho gara, tiệm sửa xe và đại lý phụ tùng tại miền Tây.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 1500,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Vòng bi",
           "Bạc đạn NPT",
@@ -4377,7 +4456,7 @@ export const productsList = [
           "Dùng thay bi cổ cho xe số và tay ga. Sản phẩm bền – ổn định – phù hợp thị trường miền Tây.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 800,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Bi cổ",
           "Bạc đạn cổ",
@@ -4452,7 +4531,7 @@ export const productsList = [
           "Lắp thay thế cho bạc đạn bánh trước/sau, bạc đạn cổ, bạc đạn máy tùy size.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 180,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "bạc đạn",
           "TPI",
@@ -4551,7 +4630,7 @@ export const productsList = [
           "Dùng thay thế bạc đạn kim cho trục nhỏ, trục nhông hoặc bộ phận quay chịu tải lớn.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 160,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: ["bạc đạn kim", "TPI", "needle bearing", "phụ tùng xe máy"],
         option: [
           {
@@ -4651,7 +4730,7 @@ export const productsList = [
           "Dùng cho xe số, xe tay ga và xe côn tay. Phù hợp gara sửa xe và đại lý phụ tùng tại miền Tây.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 1800,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Dây thắng",
           "YMR",
@@ -4758,7 +4837,7 @@ export const productsList = [
           "Dành cho xe côn tay và xe độ côn. Phù hợp gara, đại lý phụ tùng, khách chạy dịch vụ, khách phượt.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 1600,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Dây côn",
           "YMR",
@@ -4858,7 +4937,7 @@ export const productsList = [
           "Dùng cho xe số và xe tay ga. Phù hợp gara sửa xe và đại lý phụ tùng tại miền Tây.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 2000,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Dây ga",
           "Cáp ga",
@@ -4963,7 +5042,7 @@ export const productsList = [
           "Dây công tơ mét dành cho xe số & xe tay ga. Phù hợp gara sửa xe và đại lý phụ tùng tại miền Tây.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 1800,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Dây đồng hồ",
           "Dây km",
@@ -5069,7 +5148,7 @@ export const productsList = [
           "Dùng thay mobin sườn cho xe số & một số xe ga. Phù hợp gara sửa xe và đại lý phụ tùng tại miền Tây.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
-        stock: 500,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Mobin sườn",
           "THAI-R",
@@ -5147,7 +5226,7 @@ export const productsList = [
           "Sử dụng thay cho cụm thắng/má đùm xe số. Phù hợp gara, đại lý và tiệm sửa xe tại miền Tây.",
         price: "Liên hệ",
         discountPrice: "Liên hệ",
-        stock: 500,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Fire Wheels",
           "Thai-R",
@@ -5221,7 +5300,7 @@ export const productsList = [
           "Dùng thay relay xi-nhan cho xe số 4 thì. Phù hợp gara, tiệm sửa xe và đại lý phụ tùng.",
         price: "Liên hệ",
         discountPrice: "Liên hệ",
-        stock: 3000,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Chớp đèn",
           "Relay xi-nhan",
@@ -5297,7 +5376,7 @@ export const productsList = [
           "Dùng thay bugi cho xe số và tay ga. Phù hợp gara sửa xe và đại lý phụ tùng.",
         price: "Liên hệ",
         discountPrice: "Liên hệ",
-        stock: 2000,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Bugi 3 chấu",
           "SUPERTOP",
@@ -5376,7 +5455,7 @@ export const productsList = [
           "Thay thế IC đánh lửa cho xe số 4 thì. Phù hợp gara sửa xe và đại lý phụ tùng.",
         price: "Liên hệ",
         discountPrice: "Liên hệ",
-        stock: 900,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "IC xe máy",
           "IC THAI-R",
@@ -5477,7 +5556,7 @@ export const productsList = [
           "Vỏ xe số 80/90-17, thích hợp chạy phố – chạy xa – xe dịch vụ. Phù hợp garage và đại lý phụ tùng.",
         price: "Liên hệ",
         discountPrice: "Liên hệ",
-        stock: 800,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Vỏ xe máy",
           "ECOTire",
@@ -5569,7 +5648,7 @@ export const productsList = [
           "Vỏ xe số 70/90-17, dành cho xe phổ thông chạy phố – chạy xa – chạy dịch vụ.",
         price: "Liên hệ",
         discountPrice: "Liên hệ",
-        stock: 950,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Vỏ xe máy",
           "ECOTire",
@@ -5657,7 +5736,7 @@ export const productsList = [
           "Vỏ xe tay ga 100/90-14 – dùng cho Vision, Janus, Latte, AirBlade 110 và các dòng xe tương đương.",
         price: "Liên hệ",
         discountPrice: "Liên hệ",
-        stock: 780,
+        stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Vỏ xe máy",
           "ECOTire",
@@ -5668,5 +5747,17 @@ export const productsList = [
         ],
       },
     ],
+  },
+  {
+    id: 8,
+    title: "Lọc gió - Lọc nhớt",
+    name: "Lọc gió - Lọc nhớt",
+    description: "",
+    image:
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1700,h_1130/v1764694688/WWW.PHUTUNGDAUNHOT.COM_11_enrmqz.png",
+    label: "Lọc gió - Lọc nhớt",
+    url: "loc-gio-loc-nhot",
+    tag: [],
+    products: [],
   },
 ];

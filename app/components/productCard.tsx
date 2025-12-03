@@ -57,7 +57,7 @@ export default function ProductCardGrid({ products }: any) {
                 }
                 className={`mt-3 inline-block text-sm font-medium ${textColor} hover:underline`}
               >
-                {`View ${product.name || "Product"} `} &gt;
+                {`Xem các sản phẩm ${product.name || "Product"} `} &gt;
               </Link>
             </div>
           </Link>

@@ -3,12 +3,12 @@ import { text } from "stream/consumers";
 
 export const categories = [
   { name: "Mới nhất", slug: "" },
+  { name: "Kỹ thuật", slug: "technique" },
+  { name: "Sự kiện", slug: "event" },
   { name: "Ô tô", slug: "car" },
   { name: "Xe máy", slug: "motorbike" },
   { name: "Xe điện", slug: "electric" },
-  { name: "Kỹ thuật", slug: "technique" },
   { name: "Đánh giá", slug: "review" },
-  { name: "Kinh tế", slug: "economy" },
 ];
 export const news = [
   {

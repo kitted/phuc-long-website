@@ -72,5 +72,10 @@ export const sidebarCategoriesV2 = [
     url: "vo-xe-may",
     subcategories: [{ name: "Vỏ xe ECOTIRE", url: "ecotire" }],
   },
+  {
+    name: "Lọc Gió - Lọc Nhớt",
+    url: "loc-gio-loc-nhot",
+    subcategories: [],
+  },
   // https://chatgpt.com/share/691f2f78-0304-8001-83d1-49fb715af751
 ];

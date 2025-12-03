@@ -260,10 +260,10 @@ export default function ProductDetail({ product }: ProductDetailProps) {
           </div>
 
           {/* Số lượng tồn */}
-          {typeof product.stock === "number" && (
+          {product.stock && (
             <div>
               <span className="font-semibold">Tồn kho:</span>{" "}
-              <span>{product.stock} sản phẩm</span>
+              <span>{product.stock}</span>
             </div>
           )}
 
