@@ -52,7 +52,7 @@ export default function PartnerSection() {
           <h3 className={`text-lg sm:text-xl font-bold ${textColor}`}>
             Cộng tác với hơn{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#18A0FB] to-[#907CFF]">
-              200+ địa điểm bán lẻ
+              1000+ địa điểm bán lẻ
             </span>{" "}
             khắp <span className="font-extrabold">ĐBSCL</span>
           </h3>
