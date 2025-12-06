@@ -328,7 +328,11 @@ function About() {
                   Hotline:
                 </p>
                 <a className="text-blue-500 hover:underline" href="0939449861">
-                  0939449861
+                  0939 449 861
+                </a>{" "}
+                hoặc
+                <a className="text-blue-500 hover:underline" href="0939869861">
+                  0939 869 861
                 </a>
               </div>
               <div className={`flex gap-2 items-center ${textColor}`}>
@@ -339,13 +343,13 @@ function About() {
                   href="mailto:phuclong@gmail.com"
                   className="text-blue-500 hover:underline"
                 >
-                  phuclong@gmail.com
+                  phuclonglink@gmail.com
                 </a>
               </div>
 
               <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
-                Địa chỉ kho hàng: Số B1 hẻm 19, đường Lê Hồng Phong, Khu vực 2,
-                Phường Bình Thủy, quận Bình Thủy, TP Cần Thơ
+                Địa chỉ kho hàng: B1/19, đường Lê Hồng Phong, Khu vực 2, Phường
+                Bình Thủy, quận Bình Thủy, TP Cần Thơ
               </p>
             </div>
             {/* Slider */}

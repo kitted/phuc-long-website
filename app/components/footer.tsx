@@ -105,7 +105,7 @@ export default function Footer() {
           {/* Company info */}
           <div className="space-y-1 text-gray-600 text-sm mt-4">
             <p>Địa chỉ: B1/19 Lê Hồng Phong, Bình Thủy, TP.CT</p>
-            <p>Sđt: 0939449861</p>
+            <p>Hotline: 0939 449 861 hoặc 0939 869 861</p>
             <p>Email: phuclong@gmail.com</p>
             <p>MST: *****</p>
           </div>

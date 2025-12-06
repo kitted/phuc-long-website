@@ -99,16 +99,20 @@ export default function Example() {
                   <div className={`flex gap-2 items-center ${textColor}`}>
                     <PhoneCall size={20} />
                     <a className="text-base underline" href="0939449861">
-                      0939449861
+                      0939 449 861
+                    </a>
+                    hoặc
+                    <a className="text-base underline" href="0939869861">
+                      0939 869 861
                     </a>
                   </div>
                   <div className={`flex gap-2 items-center ${textColor}`}>
                     <Mail size={20} />
                     <a
-                      href="mailto:phuclong@gmail.com"
+                      href="mailto:phuclonglink@gmail.com"
                       className="text-base underline"
                     >
-                      phuclong@gmail.com
+                      phuclonglink@gmail.com
                     </a>
                   </div>
                   <div className={`flex gap-2 items-center ${textColor}`}>
@@ -118,14 +122,14 @@ export default function Example() {
                       target="_blank"
                       href="https://www.facebook.com/daunhotphutungPHUCLONG"
                     >
-                      fb/@phuclong
+                      fb/@daunhotphutungPHUCLONG
                     </a>
                   </div>
                   <div className={`flex gap-2 items-start ${textColor}`}>
                     <MapPin className="w-6 h-6 flex-shrink-0 mt-1" />
                     <span className="text-base underline">
-                      Số B1 hẻm 19, đường Lê Hồng Phong, Khu vực 2, Phường Bình
-                      Thủy, quận Bình Thủy, TP Cần Thơ
+                      B1/19, đường Lê Hồng Phong, Khu vực 2, Phường Bình Thủy,
+                      quận Bình Thủy, TP Cần Thơ
                     </span>
                   </div>
                 </div>
