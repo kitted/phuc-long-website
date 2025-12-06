@@ -61,9 +61,9 @@ export default function ContactSection() {
                    transition`}
         >
           <img
-            src="https://www.facebook.com/daunhotphutungPHUCLONG"
+            src="/facebook.png"
             alt="facebook"
-            className="h-6 w-auto object-contain"
+            className="h-8 w-full object-contain"
           />
           <span>Facebook/PhucLong</span>
         </a>

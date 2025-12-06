@@ -3,12 +3,12 @@
 import React, { useState, useEffect, useRef } from "react";
 
 const items = [
-  { id: 1, image: "/store/store.png", title: "ĐC: ABC/123/456" },
+  { id: 1, image: "/store/1.png", title: "ĐC: ABC/123/456" },
   // { id: 2, image: "/store/store1.png", title: "ĐC: ABC/123/456" },
-  { id: 3, image: "/store/store2.png", title: "ĐC: ABC/123/456" },
-  { id: 4, image: "/store/store3.png", title: "ĐC: ABC/123/456" },
-  { id: 5, image: "/store/store4.png", title: "ĐC: ABC/123/456" },
-  { id: 6, image: "/store/store5.png", title: "ĐC: ABC/123/456" },
+  { id: 3, image: "/store/2.png", title: "ĐC: ABC/123/456" },
+  { id: 4, image: "/store/3.png", title: "ĐC: ABC/123/456" },
+  { id: 5, image: "/store/4.png", title: "ĐC: ABC/123/456" },
+  { id: 6, image: "/store/5.png", title: "ĐC: ABC/123/456" },
   // { id: 7, image: "/store/store.png", title: "ĐC: ABC/123/456" },
 ];
 
