@@ -2145,6 +2145,146 @@ export const productsList = [
     label: "Ắc Quy",
     url: "ac-quy",
     tag: [],
+    menu: [
+      {
+        title: "1  Thông tin bình ắc quy xe máy",
+        description: `Ắc quy xe máy là phụ tùng được ví như trái tim của mỗi chiếc xe. Nếu không có nó, bạn không thể khởi động xe hoặc cấp nguồn cho bất kỳ thiết bị điện nào. Điều bạn cần quan tâm các dòng xe máy đời mới hiện nay thường đòi hỏi mức sử dụng năng lượng điện rất cao do được trang bị thêm nhiều tiện ích điện tử. Vì vậy, bạn nên mua loại ắc quy xe máy có chất lượng tốt nhất và không nên bị cám dỗ bởi mức giá rẻ do một số nhà bán lẻ cung cấp. Ắc quy Duy Phát sẽ không dự trữ ắc quy xe máy nếu không có quá trình kiểm tra nghiêm ngặt để đảm bảo chúng tôi chỉ kinh doanh những sản phẩm ắc quy xe máy có chất lượng tốt, hiệu suất cao. Kinh nghiệm và danh tiếng của chúng tôi trong lĩnh vực thay bình ắc quy xe máy đã được khẳng định trong nhiều năm bởi đa số khách hàng, và chúng tôi cố gắng duy trì điều này bằng cách chỉ cung cấp các loại ắc quy tốt nhất và đáng tin cậy nhất hiện nay.
+    
+    Tất cả ắc quy xe máy lớn đa phần là ắc quy 12V hoặc 6V. Mỗi ắc quy xe máy có số Ampe (Ah) là chỉ số dung lượng của ắc quy và số dòng khởi động nguội CCA được đo bằng Amps (A) - là số đo công suất khởi động đầu ra của ắc quy. Theo nguyên tắc chung, ắc quy càng lớn thì những con số này càng cao. Những dòng xe máy đời mới đạt tiêu chuẩn khí thải Euro 5 hoặc có nhu cầu sử dụng thiết bị điện cao cần ắc quy có dung lượng (Ah) cao hơn vì điều này bảo vệ chống xả điện quá mức.`,
+      },
+      {
+        title: "2  Ắc quy xe máy là gì?",
+        description: `Ắc quy xe máy là loại ắc quy khởi động nhỏ, nó được thiết kế để tạo ra dòng điện mạnh để khởi động động cơ. Trong quá trình lái xe, ắc quy xe máy sẽ được sạc lại bằng hệ thống sạc của xe. Ngoài ra khi xe không hoạt động, ắc quy còn cung cấp nguồn năng lượng điện cho các thiết bị điện trên xe.
+    
+    Các loại ắc quy xe máy có kích thước khác nhau tùy thuộc vào công suất khởi động và công suất tải điện của xe.`,
+      },
+      {
+        title: "3  Ắc quy xe máy hoạt động như thế nào?",
+        description: `Ắc quy xe máy lưu trữ năng lượng ở dạng hóa năng được giải phóng dưới dạng điện năng. Năng lượng điện này được sử dụng cho hệ thống đánh lửa của xe để khởi động động cơ. Ngoài ra ắc quy của xe cũng có thể cung cấp năng lượng cho hệ thống đèn và các thiết bị điện tử khác trên xe. Trong trường hợp dây curoa máy phát điện trên xe bị hỏng, ắc quy xe máy cũng có thể cung cấp năng lượng cho toàn bộ hệ thống điện của xe trong một khoảng thời gian ngắn.`,
+      },
+      {
+        title: "4  Phân loại ắc quy xe máy?",
+        description: `Hiện tại có 4 loại ắc quy xe máy:
+    
+    - Ắc quy axit-chì (hay còn gọi là ắc quy nước): có chất điện phân di chuyển tự do trong các hộc bình ắc quy và có thể tràn ra nếu bị lật ngược hoặc lắp đặt ở góc nghiêng.
+    - Ắc quy miễn bảo dưỡng (MF): Ắc quy miễn bảo dưỡng còn được gọi ắc quy kín khí, ắc quy khô. Ắc quy miễn bảo dưỡng là dòng sản phẩm được cải tiến từ ắc quy nước, chúng có thiết kế kín và không cần châm thêm nước định kỳ.
+    - Ắc quy AGM: sử dụng công nghệ thảm thủy tinh hấp thụ. Điều này cho phép các chất điện phân được giữ bên trong các tấm lót bằng sợi thủy tinh vì vậy ắc quy AGM có thể xả và sạc lại nhanh hơn so với ắc quy thông thường. Ắc quy AGM là loại ắc quy kín khí, miễn bảo dưỡng, chống tràn vì vậy có thể lắp đặt ở mọi góc nghiêng trên xe.
+    - Ắc quy Lithium: Các tế bào Lithium cực kỳ nhẹ, nhẹ hơn khoảng 65% so với các loại ắc quy thông thường, kích thước cực kỳ nhỏ gọn và có giá thành cao nhất.`,
+      },
+      {
+        title: "5  Sự khác biệt giữa ắc quy khô xe máy và ắc quy nước là gì?",
+        description: `Hợp kim của các bản cực, tấm lắc bên trong ắc quy là khác nhau:
+    
+    - Ắc quy khô miễn bảo dưỡng: Hợp kim chì - canxi, có tỷ lệ xả thấp và mất nước chậm, chi phí cao hơn.
+    - Ắc quy nước châm axit truyền thống: Hợp kim chì - antimon, có tỷ lệ xả cao và mất nước nhanh, chi phí thấp hơn.`,
+      },
+      {
+        title:
+          "6  Tại sao nên sử dụng ắc quy khô xe máy (ắc quy miễn bảo dưỡng)?",
+        description: `Ắc quy khô xe máy (miễn bảo dưỡng) rất tiện lợi, không cần phải châm thêm nước trong suốt quá trình sử dụng. Loại bình ắc quy này được thiết kế với kiểu dáng chắc chắn, mạnh mẽ, bền bỉ, thích hợp cho tất cả các loại xe, đặc biệt ắc quy khô xe máy miễn bảo dưỡng có dung lượng cao, giảm thiểu khả năng mất nước so với ắc quy nước truyền thống nên thường có tuổi thọ sử dụng lâu bền.`,
+      },
+      {
+        title: "7  Nên chọn bình ắc quy xe máy loại nào tốt?",
+        description: `Việc lựa chọn ắc quy phụ thuộc vào loại xe, nhu cầu sử dụng điện và khuyến nghị của nhà sản xuất. Với các dòng xe đời mới, nhiều thiết bị điện tử hoặc mô tô phân khối lớn, nên ưu tiên các dòng ắc quy chất lượng cao như AGM và các thương hiệu uy tín để đảm bảo khả năng khởi động và độ bền. Nội dung chi tiết tham khảo thêm ở các mục 7.1 và 7.2 bên dưới.`,
+      },
+      {
+        title: "7.1  Xe mô tô phân khối lớn dùng loại ắc quy AGM là tốt nhất.",
+        description: `Ắc quy AGM sử dụng công nghệ thảm thủy tinh hấp thụ, cho phép các chất điện phân được giữ bên trong các tấm lót bằng sợi thủy tinh, vì vậy ắc quy AGM có thể xả và sạc lại nhanh hơn, cung cấp hiệu suất khởi động cao hơn so với các loại ắc quy thông thường. Ắc quy AGM là loại ắc quy kín khí, miễn bảo dưỡng, chống tràn nên có thể lắp đặt ở mọi góc nghiêng trên xe.
+    
+    Ắc quy Duy Phát là nhà cung cấp hàng đầu về bình ắc quy xe máy từ những thương hiệu ắc quy đáng tin cậy hiện nay. Chúng tôi tự tin về kinh nghiệm, sự đa dạng các sản phẩm ắc quy xe máy và dịch vụ khách hàng thân thiện. Tất cả ắc quy xe máy chúng tôi cung cấp luôn được kiểm tra hiệu suất kỹ lưỡng và sẵn sàng lắp đặt.`,
+      },
+      {
+        title: "7.2  Thương hiệu ắc quy xe máy đáng tin cậy",
+        description: `Thương hiệu ắc quy xe máy được đa số khách hàng tin tưởng hiện nay chính là GS, ĐỒNG NAI, GLOBE, MOTOBATT, TOPLITE. Đây là những thương hiệu ắc quy xe máy được rất nhiều nhà sản xuất xe chỉ định và khuyên dùng với chất lượng và sự tin cậy đã được kiểm chứng nhiều năm tại thị trường Việt Nam.
+    
+    Tìm hiểu thêm về thương hiệu ắc quy xe máy GS  
+    Tìm hiểu thêm về thương hiệu ắc quy xe máy GLOBE  
+    Tìm hiểu thêm về thương hiệu ắc quy xe máy ĐỒNG NAI  
+    Tìm hiểu thêm về thương hiệu ắc quy xe máy MOTOBATT  
+    Tìm hiểu thêm về thương hiệu ắc quy xe máy TOPLITE.`,
+      },
+      {
+        title: "8  Tuổi thọ của ắc quy xe máy là bao lâu?",
+        description: `Tuổi thọ của ắc quy xe máy sẽ bị ảnh hưởng bởi các yếu tố bên ngoài như điều kiện hoạt động của xe, hệ thống sạc trên xe, thói quen của người dùng, quá trình bảo dưỡng ắc quy.
+    
+    - Ắc quy axit-chì: Ắc quy axit-chì thông thường chỉ có tuổi thọ trung bình từ 1 đến 2 năm.
+    - Ắc quy miễn bảo dưỡng: Ắc quy xe máy miễn bảo dưỡng thông thường có tuổi thọ trung bình từ 2 đến 3 năm.
+    - Ắc quy AGM: Ắc quy AGM thường có tuổi thọ trung bình từ 3 đến 5 năm.
+    - Ắc quy Lithium: Ắc quy Lithium thường có tuổi thọ trung bình từ 3 đến 5 năm.`,
+      },
+      {
+        title: "9  Ắc quy xe máy được bảo hành mấy tháng?",
+        description: `Hầu hết ắc quy xe máy được bảo hành 6 tháng kể từ ngày bán. Nếu ắc quy được trả lại có dấu hiệu bị hư hỏng vật lý, sử dụng sai mục đích khởi động động cơ, hoặc sạc quá mức sẽ không được chấp nhận bảo hành.`,
+      },
+      {
+        title: "10  Xe không nổ được máy, có phải do ắc quy xe máy bị hỏng?",
+        description: `Có một số nguyên nhân xe không nổ máy như bộ khởi động trên xe bị hỏng, bugi bị hỏng, hệ thống mạch điện hỏng, ắc quy hết điện,...
+    
+    Ắc quy xe máy hết điện không có nghĩa là ắc quy bị hỏng mà phải tháo ắc quy ra khỏi xe để sạc lại. Sử dụng bộ sạc để sạc lại ắc quy, sau 12 tiếng kiểm tra xem ắc quy có bị hỏng hay không bằng máy đo điện áp. Nói chung, khả năng trở lại trạng thái bình thường của ắc quy là khá cao.`,
+      },
+      {
+        title:
+          "11  Sự khác biệt giữa ắc quy xe máy hết điện và ắc quy xe máy đã bị hỏng.",
+        description: `Hầu như tất cả mọi người đã có vài lần để quên đèn pha cả đêm vào một thời điểm nào đó. Việc rút năng lượng chậm này mà không có khả năng sạc lại từ hệ thống sạc chắc chắn sẽ làm cạn kiệt ắc quy và khiến nó "hết điện". Trong hầu hết các trường hợp, ắc quy đã hết điện có thể được hồi sinh bằng cách kích đề và chạy xe ở quãng đường dài.
+    
+    Khi ắc quy xe máy đã bị hỏng, không có cách nào để khôi phục nó. Bất kể bạn sạc bao nhiêu lần, ắc quy xe máy đã bị hỏng sẽ không sạc được.`,
+      },
+      {
+        title:
+          "12  Điều gì khiến ắc quy xe máy có thể bị hỏng ngay sau khi lắp đặt",
+        description: `- Hệ thống sạc trên xe bị lỗi, quá sạc gây hỏng ắc quy.  
+    - Một mạch ngắn trong hệ thống điện trên xe.  
+    - Các cọc ắc quy bị hỏng, tiếp xúc giữa cọc ắc quy với thiết bị đầu cuối không chính xác hoặc không được lắp đặt đúng cách.  
+    - Dung lượng điện của ắc quy không đủ cho công suất khởi động của xe, gây hư hỏng ắc quy ngay khi khởi động.  
+    - Ắc quy đã được kích hoạt không đầy đủ, làm tiêu hao hiệu suất sử dụng của nó ngay từ đầu.  
+    - Ắc quy sau khi được đổ đầy axit đã để quá lâu mà không sử dụng dẫn đến sunfat hóa, chai lắc.`,
+      },
+      {
+        title: "13  Bảo dưỡng ắc quy xe máy như thế nào?",
+        description: `- Không bao giờ để ắc quy rơi vào trạng thái cạn kiệt, hết điện hoàn toàn.  
+    - Sạc ắc quy định kỳ mỗi tháng một lần.  
+    - Nếu bạn không lái xe trên 30 ngày, hãy cắm bộ sạc và sạc lại ắc quy.  
+    - Giữ cho bề mặt của ắc quy luôn sạch sẽ, khô ráo và không có bụi bẩn.  
+    - Làm sạch các đầu cọc của ắc quy để tránh bị ăn mòn. Kiểm tra ống thông hơi, đảm bảo rằng nó không bị cong, tắc nghẽn.  
+    - Bảo vệ ắc quy khỏi các tác động hoặc chấn động mạnh.`,
+      },
+      {
+        title:
+          "14  Nếu xe máy để lâu ngày không nổ máy thì điều gì sẽ xảy với ắc quy?",
+        description: `Ắc quy sẽ tự xả, nếu chiếc xe máy của bạn bị rò rỉ điện nó sẽ làm ắc quy xả điện nhanh hơn và gây ra sự cố khởi động động cơ sau 15 ngày hoặc thậm chí sớm hơn. Vui lòng tháo cực âm của ắc quy trong xe nếu bạn không lái xe trong một thời gian dài.`,
+      },
+      {
+        title: "15  Tại sao ắc quy xe máy không sạc lại được?",
+        description: `Khi ắc quy xe máy ở trạng thái xả quá mức, nó sẽ rơi vào trạng thái cạn kiệt, hết điện hoàn toàn, ắc quy sẽ không chấp nhận sạc lại ở mức sạc tiêu chuẩn.`,
+      },
+      {
+        title:
+          "16  Những lợi ích khi sạc ắc quy xe mô tô phân khối lớn định kỳ mỗi tháng",
+        description: `Khi không sử dụng, ắc quy sẽ phóng điện hàng ngày có khi lên đến 0,5–1%. Tốc độ phóng điện này tăng lên khi khí hậu ấm áp. Để bù đắp cho sự mất mát do không sử dụng, hãy sạc đầy ắc quy định kỳ mỗi tháng một lần.`,
+      },
+      {
+        title:
+          "17  Hệ thống sạc trên xe có sạc cho ắc quy nếu xe đang chạy bình thường không?",
+        description: `Nếu bạn nhận thấy hệ thống sạc trên xe có khả năng sạc lại ắc quy đã yếu điện, bạn có thể cần phải chạy xe thêm một quãng đường nữa để máy phát điện hoạt động hiệu quả nhất. Trong hầu hết các trường hợp, một chuyến đi trên đường là đủ để sạc lại ắc quy cho nhu cầu sử dụng bình thường. Tuy nhiên, nếu ắc quy đã cạn kiệt nó có thể không khởi động lại sau khi tắt máy. Nếu điều này xảy ra, chúng tôi khuyên bạn nên sử dụng bộ sạc để đưa ắc quy về trạng thái sạc đầy.`,
+      },
+      {
+        title: "18  Bộ sạc ắc quy tự động dùng cho xe máy là gì?",
+        description: `Bộ sạc ắc quy tự động là loại bộ sạc tốt nhất vì chúng kết hợp cả công nghệ dòng điện không đổi và điện áp không đổi. Đặc tính sạc mạnh của bộ sạc dòng điện không đổi được sử dụng để sạc ban đầu cho ắc quy; khi đó bộ sạc sẽ tự động chuyển sang chế độ điện áp không đổi để sạc nổi hoặc duy trì ắc quy. Bộ sạc tự động thông minh giám sát trạng thái sạc của ắc quy và sẽ tự động bắt đầu sạc khi điện áp ắc quy giảm xuống dưới một điện áp cụ thể. Công nghệ thông minh này cũng được sử dụng để giữ cho ắc quy không bị sạc quá mức, do đó giảm thất thoát nước trong ắc quy.`,
+      },
+      {
+        title:
+          "19  Mối quan hệ giữa bình ắc quy xe máy và xe máy đạt tiêu chuẩn khí thải Euro 5 là gì?",
+        description: `Xe mô tô phân khối lớn đạt tiêu chuẩn khí thải Euro 5 có bơm nhiên liệu cần sử dụng nhiều năng lượng điện hơn nên cần ắc quy có dung lượng lớn hơn.
+    
+    Xe mô tô phân khối lớn đạt tiêu chuẩn khí thải Euro 5 đã sử dụng năng lượng điện từ trước khi xe nổ máy nên cần ắc quy có dung lượng lớn hơn. Hãy đảm bảo rằng bạn đã tắt nguồn và rút chìa khóa để tránh xả ắc quy quá mức, gây ra sự cố khi khởi động động cơ.`,
+      },
+      {
+        title:
+          "20  Làm thế nào bạn có thể biết ắc quy xe máy của bạn không thể phục hồi?",
+        description: `Cách duy nhất để biết chắc chắn tình trạng ắc quy của bạn là sử dụng máy kiểm tra ắc quy chuyên dụng sau khi đã sạc lại đầy ắc quy. Thiết bị này có thể kiểm tra tình trạng ắc quy của bạn chỉ trong vài giây. Những người bán hàng ắc quy trung thực sẽ thông báo chính xác tình trạng ắc quy sau khi kiểm tra ắc quy của bạn.`,
+      },
+    ],
+
     products: [
       {
         id: 1,
@@ -3995,9 +4135,9 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
       },
       {
         id: 10,
-        name: "DẦU NHỜN MCO-MAXPLUS CI4/SN-10W40 (4 Lít)",
-        url: "dau-nhon/mco-maxplus-ci4-sn-10w40-4-lit",
-        title: "DẦU NHỜN MCO-MAXPLUS CI4/SN-10W40",
+        name: "DẦU NHỜN MAXPLUS CI4/SN-10W40 (4 Lít)",
+        url: "dau-nhon/maxplus-ci4-sn-10w40-4-lit",
+        title: "DẦU NHỜN MAXPLUS CI4/SN-10W40",
         image:
           "https://res.cloudinary.com/dkxb7klnn/image/upload/v1761651452/DSC00088_cyse4k.png",
         gallery: [
@@ -4007,9 +4147,9 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
         ],
         packaging: "Can 4L",
         shortDescription:
-          "Dầu nhớt MCO-MAXPLUS CI4/SN 10W40 – dầu đa dụng cao cấp đạt chuẩn quốc tế API CI-4/SN, phù hợp cho xe máy côn tay, xe số tải nặng và động cơ diesel nhỏ, bảo vệ tối đa trong điều kiện khắc nghiệt.",
+          "Dầu nhớt MAXPLUS CI4/SN 10W40 – dầu đa dụng cao cấp đạt chuẩn quốc tế API CI-4/SN, phù hợp cho xe máy côn tay, xe số tải nặng và động cơ diesel nhỏ, bảo vệ tối đa trong điều kiện khắc nghiệt.",
         description: `
-          <p><strong>Dầu nhớt MCO-MAXPLUS CI4/SN 10W40</strong> là dòng sản phẩm cao cấp được pha chế từ dầu gốc bán tổng hợp chất lượng cao kết hợp hệ phụ gia thế hệ mới đạt tiêu chuẩn <strong>API CI-4/SN</strong>. 
+          <p><strong>Dầu nhớt MAXPLUS CI4/SN 10W40</strong> là dòng sản phẩm cao cấp được pha chế từ dầu gốc bán tổng hợp chất lượng cao kết hợp hệ phụ gia thế hệ mới đạt tiêu chuẩn <strong>API CI-4/SN</strong>. 
           Sản phẩm được thiết kế để đáp ứng yêu cầu khắt khe của <strong>động cơ 4 thì công suất lớn, xe côn tay, xe số tải nặng và động cơ diesel nhẹ</strong>, vận hành trong điều kiện nhiệt độ cao và tải trọng nặng.</p>
       
           <h4>Đặc điểm nổi bật:</h4>
@@ -4036,7 +4176,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
             <li>Sản phẩm phân phối độc quyền bởi <strong>Phúc Long – PlusEx</strong>, đảm bảo nguồn gốc và chất lượng.</li>
           </ul>
       
-          <p><strong>Thương hiệu:</strong> MCO-MAXPLUS – Dòng dầu nhờn thế hệ mới dành cho thị trường Việt Nam, đạt tiêu chuẩn quốc tế, hiệu suất cao và độ bền vượt trội.</p>
+          <p><strong>Thương hiệu:</strong> MAXPLUS – Dòng dầu nhờn thế hệ mới dành cho thị trường Việt Nam, đạt tiêu chuẩn quốc tế, hiệu suất cao và độ bền vượt trội.</p>
         `,
         specs: {
           "Cấp độ nhớt": "SAE 10W-40",
@@ -4066,7 +4206,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
         stock: "Còn hàng cung ứng cho đại lý",
         tags: [
           "Dầu nhớt đa dụng",
-          "MCO-MAXPLUS",
+          "MAXPLUS",
           "CI4 SN",
           "10W40",
           "Xe côn tay",
@@ -4075,8 +4215,8 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
         ],
         option: [
           {
-            name: "DẦU NHỜN MCO-MAXPLUS CI4/SN-10W40 (4 Lít)",
-            url: "product/dau-nhon/mco-maxplus-ci4-sn-10w40-4-lit",
+            name: "DẦU NHỜN MAXPLUS CI4/SN-10W40 (4 Lít)",
+            url: "product/dau-nhon/maxplus-ci4-sn-10w40-4-lit",
           },
           {
             url: "product/dau-nhon/maxplus-9000-4t-racing-10w40-1l",
@@ -4163,8 +4303,8 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
         ],
         option: [
           {
-            name: "DẦU NHỜN MCO-MAXPLUS CI4/SN-10W40 (4 Lít)",
-            url: "product/dau-nhon/mco-maxplus-ci4-sn-10w40-4-lit",
+            name: "DẦU NHỜN MAXPLUS CI4/SN-10W40 (4 Lít)",
+            url: "product/dau-nhon/maxplus-ci4-sn-10w40-4-lit",
           },
           {
             url: "product/dau-nhon/maxplus-9000-4t-racing-10w40-1l",
@@ -4251,8 +4391,8 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
         ],
         option: [
           {
-            name: "DẦU NHỜN MCO-MAXPLUS CI4/SN-10W40 (4 Lít)",
-            url: "product/dau-nhon/mco-maxplus-ci4-sn-10w40-4-lit",
+            name: "DẦU NHỜN MAXPLUS CI4/SN-10W40 (4 Lít)",
+            url: "product/dau-nhon/maxplus-ci4-sn-10w40-4-lit",
           },
           {
             url: "product/dau-nhon/maxplus-9000-4t-racing-10w40-1l",

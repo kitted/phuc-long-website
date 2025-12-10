@@ -13,6 +13,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import { productsList } from "../../data/listProducts";
 import { sidebarCategoriesV2 } from "@/app/data/menu";
+import MenuProduction from "@/app/components/menuProductions";
 
 const ITEMS_PER_PAGE = 15;
 
@@ -171,7 +172,6 @@ export default function Category() {
   }, [categories, currentSlug]);
 
   const [pageTitle, setPageTitle] = useState("Sản phẩm Lubrex");
-
   useEffect(() => {
     setPageTitle(currentCategory ? currentCategory.title : "Sản phẩm Lubrex");
   }, [currentCategory]);
@@ -208,6 +208,13 @@ export default function Category() {
             totalPages={totalPages}
             onPageChange={setCurrentPage}
           />
+          <div
+            className={`flex flex-col md:flex-row gap-4 px-[2%] py-[2%] ${containerBg}`}
+          >
+            {currentCategory?.menu && (
+              <MenuProduction data={currentCategory?.menu} title={pageTitle} />
+            )}
+          </div>
         </div>
       </SubLayout>
 
