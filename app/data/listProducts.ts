@@ -1594,14 +1594,14 @@ export const productsList = [
         url: "nhong-xich/tlt-vang-sport",
         title: "Sên TLT Vàng Sport",
         image:
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509028/DSC00117_nldtby.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374631/DSC00113-_-%C4%90%C3%A3-s%E1%BB%ADa_oxclv0.png",
         gallery: [
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509295/DSC00117_nldtby.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509028/DSC00113_qz6qnr.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509028/DSC00115_av8q7i.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509125/DSC00135_tpiivl.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509295/DSC00118_zne0x2.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509148/DSC00148_ibhhot.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374631/DSC00113-_-%C4%90%C3%A3-s%E1%BB%ADa_oxclv0.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374636/DSC00116-_-%C4%90%C3%A3-s%E1%BB%ADa_la5k8o.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374632/DSC00117-_-%C4%90%C3%A3-s%E1%BB%ADa_qfvupq.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374631/DSC00118-_-%C4%90%C3%A3-s%E1%BB%ADa_fdyohe.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374628/DSC00135-_-%C4%90%C3%A3-s%E1%BB%ADa_qyhxui.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374630/DSC00148-_-%C4%90%C3%A3-s%E1%BB%ADa_te8oai.png",
         ],
 
         shortDescription:
@@ -1673,14 +1673,13 @@ export const productsList = [
         url: "nhong-xich/tlt-vang-exciter-150cc",
         title: "Sên TLT Vàng Exciter 150cc",
         image:
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509364/DSC00124_kfcphj.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374634/DSC00122-_-%C4%90%C3%A3-s%E1%BB%ADa_p5yddi.png",
         gallery: [
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509364/DSC00124_kfcphj.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509365/DSC00123_zh2vln.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509366/DSC00122_lrzk0e.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509381/DSC00125_nibfyy.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509148/DSC00148_ibhhot.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509125/DSC00135_tpiivl.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374634/DSC00122-_-%C4%90%C3%A3-s%E1%BB%ADa_p5yddi.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374630/DSC00123-_-%C4%90%C3%A3-s%E1%BB%ADa_wft1ih.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374629/DSC00125-_-%C4%90%C3%A3-s%E1%BB%ADa_paq1q4.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374628/DSC00135-_-%C4%90%C3%A3-s%E1%BB%ADa_qyhxui.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374630/DSC00148-_-%C4%90%C3%A3-s%E1%BB%ADa_te8oai.png",
         ],
         shortDescription:
           "Bộ nhông sên dĩa TLT Vàng Exciter 150cc – thiết kế chuẩn zin, sên mạ vàng cao cấp, nhông dĩa xử lý nhiệt HP cho độ bền vượt trội và truyền động êm ái.",
@@ -1753,13 +1752,13 @@ export const productsList = [
         url: "nhong-xich/tlt-vang-winner-150cc",
         title: "Sên TLT Vàng Winner 150cc",
         image:
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509641/DSC00129_xbf7qh.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374632/DSC00126-_-%C4%90%C3%A3-s%E1%BB%ADa_stakwo.png",
         gallery: [
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509641/DSC00129_xbf7qh.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509640/DSC00128_rzxtri.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509642/DSC00126_upbyve.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509148/DSC00148_ibhhot.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509125/DSC00135_tpiivl.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374632/DSC00126-_-%C4%90%C3%A3-s%E1%BB%ADa_stakwo.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374634/DSC00129-_-%C4%90%C3%A3-s%E1%BB%ADa_jjepfc.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374632/DSC00128-_-%C4%90%C3%A3-s%E1%BB%ADa_n25pbf.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374628/DSC00135-_-%C4%90%C3%A3-s%E1%BB%ADa_qyhxui.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374630/DSC00148-_-%C4%90%C3%A3-s%E1%BB%ADa_te8oai.png",
         ],
         shortDescription:
           "Bộ nhông sên dĩa TLT Vàng Winner 150cc – chuẩn hiệu suất cao, sên mạ vàng chống rỉ, nhông dĩa thép carbon xử lý nhiệt HP giúp xe bốc và êm hơn.",
@@ -1832,13 +1831,13 @@ export const productsList = [
         url: "nhong-xich/tlt-vang-exciter-gp-135cc",
         title: "Sên TLT Vàng Exciter GP 135cc",
         image:
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509777/DSC00133_r49dpe.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374628/DSC00130-_-%C4%90%C3%A3-s%E1%BB%ADa_el4fdz.png",
         gallery: [
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509777/DSC00133_r49dpe.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509777/DSC00130_fcrh28.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509752/DSC00132_tz0d9i.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509148/DSC00148_ibhhot.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509125/DSC00135_tpiivl.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374628/DSC00130-_-%C4%90%C3%A3-s%E1%BB%ADa_el4fdz.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374628/DSC00133-_-%C4%90%C3%A3-s%E1%BB%ADa_vugrex.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374628/DSC00132-_-%C4%90%C3%A3-s%E1%BB%ADa_u4iqhk.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374628/DSC00135-_-%C4%90%C3%A3-s%E1%BB%ADa_qyhxui.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374630/DSC00148-_-%C4%90%C3%A3-s%E1%BB%ADa_te8oai.png",
         ],
         shortDescription:
           "Bộ nhông sên dĩa TLT Vàng Exciter GP 135cc – thiết kế chuẩn zin, truyền động mạnh mẽ, sên mạ vàng chống rỉ, bền bỉ đến 30.000 km.",
@@ -1911,13 +1910,13 @@ export const productsList = [
         url: "nhong-xich/tlt-vang-raider-fi-150cc",
         title: "Sên TLT Vàng Raider Fi 150cc",
         image:
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509882/DSC00139_jdfr5e.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374629/DSC00134-_-%C4%90%C3%A3-s%E1%BB%ADa_hkqyrz.png",
         gallery: [
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509882/DSC00139_jdfr5e.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509859/DSC00136_xmfgkj.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509858/DSC00134_jtnfp8.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509148/DSC00148_ibhhot.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509125/DSC00135_tpiivl.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374629/DSC00134-_-%C4%90%C3%A3-s%E1%BB%ADa_hkqyrz.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374630/DSC00139-_-%C4%90%C3%A3-s%E1%BB%ADa_pypmnt.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374630/DSC00136-_-%C4%90%C3%A3-s%E1%BB%ADa_eexxtv.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374628/DSC00135-_-%C4%90%C3%A3-s%E1%BB%ADa_qyhxui.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374630/DSC00148-_-%C4%90%C3%A3-s%E1%BB%ADa_te8oai.png",
         ],
         shortDescription:
           "Bộ nhông sên dĩa TLT Vàng Raider Fi 150cc – thiết kế chuyên biệt cho xe Suzuki Raider, sên mạ vàng chống rỉ, nhông dĩa thép carbon HP bền bỉ, sang số êm và bốc máy.",
@@ -1990,13 +1989,13 @@ export const productsList = [
         url: "nhong-xich/tlt-vang-sonic-150R",
         title: "Sên TLT Vàng Sonic 150R",
         image:
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509967/DSC00144_yn9miv.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374630/DSC00140-_-%C4%90%C3%A3-s%E1%BB%ADa_bxpgas.png",
         gallery: [
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509967/DSC00144_yn9miv.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509969/DSC00141_a6i29y.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509969/DSC00143_urm5i5.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509148/DSC00148_ibhhot.png",
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762509125/DSC00135_tpiivl.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374630/DSC00140-_-%C4%90%C3%A3-s%E1%BB%ADa_bxpgas.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374631/DSC00144-_-%C4%90%C3%A3-s%E1%BB%ADa_kzypsp.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374631/DSC00143-_-%C4%90%C3%A3-s%E1%BB%ADa_frdhpa.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374628/DSC00135-_-%C4%90%C3%A3-s%E1%BB%ADa_qyhxui.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1765374630/DSC00148-_-%C4%90%C3%A3-s%E1%BB%ADa_te8oai.png",
         ],
         shortDescription:
           "Bộ nhông sên dĩa TLT Vàng Sonic 150R – thiết kế chuẩn hiệu năng cao, truyền động êm, sên mạ vàng chống rỉ, nhông dĩa thép carbon HP siêu bền.",
@@ -2195,13 +2194,10 @@ export const productsList = [
       },
       {
         title: "7.2  Thương hiệu ắc quy xe máy đáng tin cậy",
-        description: `Thương hiệu ắc quy xe máy được đa số khách hàng tin tưởng hiện nay chính là GS, ĐỒNG NAI, GLOBE, MOTOBATT, TOPLITE. Đây là những thương hiệu ắc quy xe máy được rất nhiều nhà sản xuất xe chỉ định và khuyên dùng với chất lượng và sự tin cậy đã được kiểm chứng nhiều năm tại thị trường Việt Nam.
+        description: `Thương hiệu ắc quy xe máy được đa số khách hàng tin tưởng hiện nay chính là ABS, YMR. Đây là những thương hiệu ắc quy xe máy được rất nhiều nhà sản xuất xe chỉ định và khuyên dùng với chất lượng và sự tin cậy đã được kiểm chứng nhiều năm tại thị trường Việt Nam.
     
-    Tìm hiểu thêm về thương hiệu ắc quy xe máy GS  
-    Tìm hiểu thêm về thương hiệu ắc quy xe máy GLOBE  
-    Tìm hiểu thêm về thương hiệu ắc quy xe máy ĐỒNG NAI  
-    Tìm hiểu thêm về thương hiệu ắc quy xe máy MOTOBATT  
-    Tìm hiểu thêm về thương hiệu ắc quy xe máy TOPLITE.`,
+    Tìm hiểu thêm về thương hiệu ắc quy xe máy ABS   
+    Tìm hiểu thêm về thương hiệu ắc quy xe máy YMR.`,
       },
       {
         title: "8  Tuổi thọ của ắc quy xe máy là bao lâu?",
