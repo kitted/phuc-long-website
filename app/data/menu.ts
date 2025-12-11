@@ -3,8 +3,8 @@ export const sidebarCategoriesV2 = [
     name: "Nhông Xích",
     url: "nhong-xich",
     subcategories: [
-      { name: "Sên WUSUKI", url: "wusuki" },
       { name: "Sên THAIKYM", url: "thaikym" },
+      { name: "Sên WUSUKI", url: "wusuki" },
       { name: "Sên TAIMAHA", url: "taimaha" },
       { name: "Sên ABS", url: "abs" },
       { name: "Sên YMR", url: "ymr" },
