@@ -9,6 +9,36 @@ const items = [
   { id: 4, image: "/store/3.png", title: "ĐC: ABC/123/456" },
   { id: 5, image: "/store/4.png", title: "ĐC: ABC/123/456" },
   { id: 6, image: "/store/5.png", title: "ĐC: ABC/123/456" },
+  {
+    id: 7,
+    image:
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311863/z7171592044751_77e0c2a17f2a22974a8085080f4801ad_uvmqiv.jpg",
+    title: "ĐC: ABC/123/456",
+  },
+  {
+    id: 8,
+    image:
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311877/z7311868087332_fcb1bb04292e83516ccdd484cd0718ba_ycyv5y.jpg",
+    title: "ĐC: ABC/123/456",
+  },
+  {
+    id: 9,
+    image:
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311878/z7304167677754_ce90af5cef9cfe20214f4586c6c605bf_hd4fc2.jpg",
+    title: "ĐC: ABC/123/456",
+  },
+  {
+    id: 10,
+    image:
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311878/z7267792322408_04276dd02ddc15fdbcb4c8b3a1f8ec84_vjrxp3.jpg",
+    title: "ĐC: ABC/123/456",
+  },
+  {
+    id: 11,
+    image:
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311880/z7267789874402_a926dcbc8ae1de8c7561932ebf810957_gb31fz.jpg",
+    title: "ĐC: ABC/123/456",
+  },
   // { id: 7, image: "/store/store.png", title: "ĐC: ABC/123/456" },
 ];
 

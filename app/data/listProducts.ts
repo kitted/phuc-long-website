@@ -2469,6 +2469,10 @@ export const productsList = [
           "https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_500/v1763918103/DSC00357-2-_-%C4%90a%CC%83-su%CC%9B%CC%89a_qiqzfx.png",
         gallery: [
           "https://res.cloudinary.com/dkxb7klnn/image/upload/v1763918103/DSC00357-2-_-%C4%90a%CC%83-su%CC%9B%CC%89a_qiqzfx.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311677/z7177010487282_3a1261e761c01a345dd39624da0cda7c_fiqt0k.jpg",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311676/z7176860160344_2beb22676849dde5b8ac7b2b0f1e6cfe_enbwjp.jpg",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311676/z7177010494676_b37f192ca86836861c6de78308702f53_buqrug.jpg",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311676/z7177010482221_7bfc0a1ca99f8371d87180555bccdf52_hq0ujg.jpg",
           "https://res.cloudinary.com/dkxb7klnn/image/upload/v1763918101/DSC00357-_-%C4%90a%CC%83-su%CC%9B%CC%89a_ni4f2a.png",
           "https://res.cloudinary.com/dkxb7klnn/image/upload/v1763918103/DSC00359-_-%C4%90a%CC%83-su%CC%9B%CC%89a_ujg9lr.png",
           "https://res.cloudinary.com/dkxb7klnn/image/upload/v1763918104/DSC00360-_-%C4%90a%CC%83-su%CC%9B%CC%89a_b5kday.png",
@@ -2504,6 +2508,26 @@ export const productsList = [
             <li>Biên lợi nhuận tốt – dễ bán, khách chọn nhiều.</li>
             <li>Phân phối bởi <strong>Phúc Long – PlusEx</strong>, kho sẵn hàng.</li>
           </ul>
+           <div class="pl-gallery">
+    <figure class="pl-card">
+      <img 
+        src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311677/z7177010487282_3a1261e761c01a345dd39624da0cda7c_fiqt0k.jpg"
+        alt="ROKI R-MAX 1"
+        loading="lazy"
+        class="pl-zoom"
+      />
+    </figure>
+
+    <figure class="pl-card">
+      <img 
+        src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311676/z7177010494676_b37f192ca86836861c6de78308702f53_buqrug.jpg"
+        alt="ROKI R-MAX 2"
+        loading="lazy"
+        class="pl-zoom"
+      />
+    </figure>
+     
+  </div>
         `,
         specs: {
           "Điện áp": "12V",
@@ -5475,7 +5499,254 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
     label: "Lọc gió - Lọc nhớt",
     url: "loc-gio-loc-nhot",
     tag: [],
-    products: [],
+    products: [
+      {
+        id: 39,
+        name: "LỌC GIÓ ROKI R-MAX",
+        url: "loc-gio-loc-nhot/loc-gio-roki-r-max",
+        title: "Lọc gió xe máy ROKI R-MAX Series – Công nghệ Nhật Bản",
+        image:
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305003/z2183053590020_877e1d13c9ab99648cd241ef20c6b018_gxyfyt.jpg",
+        gallery: [
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305003/z2183053590020_877e1d13c9ab99648cd241ef20c6b018_gxyfyt.jpg",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305003/z2183053593538_0252dac46e7f7c906fe30427468cbf70_decm3b.jpg",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305003/z2183053589940_6e47919571be4ab451f23e51d4141320_b6rydv.jpg",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305003/z2183053590015_0f4ae4daeb1574b5eb56f890e071d037_o5z5tc.jpg",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305003/z2183053594035_1ff14460dd6491ca4dad26e449e0d18b_xhzzl2.jpg",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305002/z2183053590027_b26ca8e9d0101125ec03079e290f95ff_l3iood.jpg",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305002/z2183053590714_0b5b229df963a5c2e45a6186a58e640e_tkuuiy.jpg",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305002/z2183053589941_9b9ef81902e2025fb62971027ea47f4e_bdkwbb.jpg",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305002/z2183053590017_75373615ccc9e37928fd0a64f2cd76b4_pzdgrl.jpg",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305002/z2183053589925_245bc10bd5e772c22901bbc9ff5cc9e9_tyvgcs.jpg",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305001/z2183053589926_f9fee31123ab2d8bca06ac6e8300aa92_kpweqv.jpg",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305001/z2183053589922_3c275d83cbae1d3517d1be642e842d1a_t5pzwe.jpg",
+        ],
+        packaging: "Catalogue / bao bì ROKI R-MAX Series",
+        shortDescription:
+          "Lọc gió ROKI R-MAX Series – màng lọc tách nước & tách dầu, độ cản khí thấp giúp tiết kiệm xăng, bảo vệ động cơ và tăng tốc mượt. Khuyến nghị thay mỗi 10.000km.",
+
+        description: `
+<p><strong>Lọc gió xe máy ROKI R-MAX Series</strong> là dòng lọc gió chất lượng cao theo <strong>công nghệ Nhật Bản</strong>, 
+thiết kế chuẩn zin cho các dòng xe phổ biến tại Việt Nam. Sản phẩm nổi bật với <strong>màng lọc tách nước & tách dầu</strong>, 
+giúp không khí nạp sạch hơn, động cơ bền hơn và vận hành tiết kiệm nhiên liệu.</p>
+
+<h4>Ưu điểm nổi bật:</h4>
+<ul>
+  <li>✅ <strong>Tiết kiệm nhiên liệu:</strong> độ cản khí thấp giúp tăng lưu lượng gió nạp.</li>
+  <li>✅ <strong>Bảo vệ động cơ:</strong> lọc bụi mịn hiệu quả, giảm mài mòn lòng xy-lanh.</li>
+  <li>✅ <strong>Màng lọc tách nước & tách dầu:</strong> hỗ trợ khí nạp sạch – cháy tối ưu.</li>
+  <li>✅ <strong>Tăng tốc mượt:</strong> máy thoáng, ga bốc hơn khi tải nặng.</li>
+  <li>✅ <strong>Khung nhựa nguyên sinh:</strong> không cong vênh, lắp kín khít với cổ hút.</li>
+</ul>
+
+<h4>Khuyến nghị thay thế:</h4>
+<ul>
+  <li>🔁 <strong>Thay định kỳ mỗi 10.000 km</strong> (điều kiện tiêu chuẩn).</li>
+  <li>⚠️ Sau ~15.000 km có thể gây <strong>hao xăng – máy yếu</strong> tùy môi trường sử dụng.</li>
+</ul>
+
+<div class="pl-gallery">
+    <figure class="pl-card">
+      <img 
+        src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305003/z2183053590015_0f4ae4daeb1574b5eb56f890e071d037_o5z5tc.jpg"
+        alt="ROKI R-MAX 1"
+        loading="lazy"
+        class="pl-zoom"
+      />
+    </figure>
+
+    <figure class="pl-card">
+      <img 
+        src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305003/z2183053590015_0f4ae4daeb1574b5eb56f890e071d037_o5z5tc.jpg"
+        alt="ROKI R-MAX 2"
+        loading="lazy"
+        class="pl-zoom"
+      />
+    </figure>
+
+    <figure class="pl-card">
+      <img 
+        src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305002/z2183053589997_8f23599ecbc9a165c9fec31d8f983203_wjrg5a.jpg"
+        alt="ROKI R-MAX 3"
+        loading="lazy"
+        class="pl-zoom"
+      />
+    </figure>
+
+    <figure class="pl-card">
+      <img 
+        src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305002/z2183053590017_75373615ccc9e37928fd0a64f2cd76b4_pzdgrl.jpg"
+        alt="ROKI R-MAX 4"
+        loading="lazy"
+        class="pl-zoom"
+      />
+    </figure>
+
+     <figure class="pl-card">
+      <img 
+        src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305002/z2183053590027_b26ca8e9d0101125ec03079e290f95ff_l3iood.jpg"
+        alt="ROKI R-MAX 5"
+        loading="lazy"
+        class="pl-zoom"
+      />
+    </figure>
+    <figure class="pl-card">
+      <img 
+        src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305002/z2183053590714_0b5b229df963a5c2e45a6186a58e640e_tkuuiy.jpg"
+        alt="ROKI R-MAX 6"
+        loading="lazy"
+        class="pl-zoom"
+      />
+    </figure>
+    <figure class="pl-card">
+      <img 
+        src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305002/z2183053590017_75373615ccc9e37928fd0a64f2cd76b4_pzdgrl.jpg"
+        alt="ROKI R-MAX 7"
+        loading="lazy"
+        class="pl-zoom"
+      />
+    </figure>
+  </div>
+
+<p><strong>Phân phối:</strong> Phúc Long – chuyên cung cấp phụ tùng xe máy cho đại lý/gara tại miền Tây.</p>
+`,
+
+        specs: {
+          "Loại sản phẩm": "Lọc gió xe máy",
+          "Thương hiệu": "ROKI",
+          "Dòng sản phẩm": "R-MAX Series",
+          "Công nghệ": "Nhật Bản",
+          "Đặc tính màng lọc": "Tách nước & tách dầu, lọc bụi mịn",
+          Khung: "Nhựa nguyên sinh – lắp kín khít, không cong vênh",
+          "Chu kỳ thay khuyến nghị": "10.000 km",
+          "Ứng dụng": "Xe số / xe tay ga (tùy mã sản phẩm)",
+          "Phân phối": "Phúc Long",
+        },
+        benefits: [
+          "Tiết kiệm xăng – máy thoáng.",
+          "Lọc sạch bụi mịn – bảo vệ động cơ.",
+          "Màng lọc tách nước & tách dầu.",
+          "Khung nhựa chuẩn – lắp kín khít.",
+        ],
+        application:
+          "Phù hợp các dòng xe Honda, Yamaha phổ biến (chọn đúng mã theo xe).",
+        price: "Liên hệ ",
+        discountPrice: "Liên hệ ",
+        stock: "Còn hàng cung ứng cho đại lý",
+        tags: [
+          "Lọc gió",
+          "ROKI",
+          "R-MAX",
+          "Phụ tùng xe máy",
+          "Honda",
+          "Yamaha",
+          "Phúc Long",
+        ],
+        option: [
+          // HONDA
+          {
+            name: "Honda Future Neo / Wave RS / Wave 100",
+            code: "VN2TY-KPH-014",
+          },
+          { name: "Honda Air Blade 110 (2008)", code: "VN2TY-KVB-011" },
+          { name: "Honda Air Blade FI 110", code: "VN2TY-KVG-003" },
+          { name: "Honda Wave RSX 110 FI", code: "VN2TY-KWW-001" },
+          { name: "Honda Future 125 FI / Future X 125", code: "VN2TY-KYZ-002" },
+          {
+            name: "Honda Air Blade 125/150 / SH Mode / Vario / PCX (2014–2017)",
+            code: "VN2TY-KZR-007",
+          },
+          { name: "Honda SH 125/150", code: "VN2BE-K78-002" },
+          { name: "Honda Vision 110 FI (2014–)", code: "VN2BE-K44-003" },
+          { name: "Honda Lead 125", code: "VN2PC-K12-002" },
+
+          // YAMAHA
+          { name: "Yamaha Janus", code: "VN2BE-2PH-002 / VN2BE-2PH-003" },
+          { name: "Yamaha Nouvo SX", code: "VN2TY-1DB-006" },
+          { name: "Yamaha Sirius FI", code: "VN2TY-1FC-004" },
+          { name: "Yamaha Exciter 135", code: "VN2TY-5PP-005" },
+        ],
+      },
+      {
+        id: 40,
+        name: "LỌC NHỚT ROKI R-MAX",
+        url: "loc-gio-loc-nhot/loc-nhot-roki-r-max",
+        title: "Lọc nhớt xe Yamaha ROKI R-MAX Series – Bảo vệ động cơ tối ưu",
+        image:
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305002/z2183053589932_afca83d5545dff3797adea5131e08d72_crkpxp.jpg",
+        gallery: [
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305002/z2183053589932_afca83d5545dff3797adea5131e08d72_crkpxp.jpg",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305003/z2183053594035_1ff14460dd6491ca4dad26e449e0d18b_xhzzl2.jpg",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305002/z2183053589997_8f23599ecbc9a165c9fec31d8f983203_wjrg5a.jpg",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305001/z2183053589923_6371611b4a20a7129a54b7086965cd12_ggfgys.jpg",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305001/z2183053589989_476666124ecc5284fa396f11f29bf6bd_j087bv.jpg",
+        ],
+        packaging: "Catalogue / bao bì ROKI R-MAX Series",
+        shortDescription:
+          "Lọc nhớt ROKI R-MAX (Yamaha) – chất lượng cao theo công nghệ Nhật, lọc cặn bẩn hiệu quả giúp dầu sạch lâu, bảo vệ động cơ và tăng tuổi thọ máy.",
+        description: `
+          <p><strong>Lọc nhớt ROKI R-MAX Series</strong> dành cho xe Yamaha là giải pháp giúp <strong>lọc sạch cặn bẩn trong dầu</strong>,
+          giữ dầu sạch lâu hơn, giảm mài mòn và giúp động cơ vận hành êm bền.</p>
+      
+          <h4>Ưu điểm nổi bật:</h4>
+          <ul>
+            <li>✅ <strong>Lọc cặn tốt:</strong> hỗ trợ bảo vệ lòng máy – giảm mài mòn.</li>
+            <li>✅ <strong>Giữ dầu sạch:</strong> dầu bền hơn trong chu kỳ sử dụng.</li>
+            <li>✅ <strong>Vận hành êm:</strong> máy êm – ít nóng hơn khi chạy tải.</li>
+            <li>✅ <strong>Chất lượng theo công nghệ Nhật:</strong> gia công chuẩn, lắp đúng form.</li>
+          </ul>
+      <div class="pl-gallery">
+    <figure class="pl-card">
+      <img 
+        src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305003/z2183053594035_1ff14460dd6491ca4dad26e449e0d18b_xhzzl2.jpg"
+        alt="ROKI R-MAX 1"
+        loading="lazy"
+        class="pl-zoom"
+      />
+    </figure>
+
+    <figure class="pl-card">
+      <img 
+        src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305002/z2183053589997_8f23599ecbc9a165c9fec31d8f983203_wjrg5a.jpg"
+        alt="ROKI R-MAX 2"
+        loading="lazy"
+        class="pl-zoom"
+      />
+    </figure>
+  </div>
+          <p><strong>Phân phối:</strong> Phúc Long – cung ứng đại lý/gara, hỗ trợ sỉ và chính sách hợp tác.</p>
+        `,
+        specs: {
+          "Loại sản phẩm": "Lọc nhớt xe máy",
+          "Thương hiệu": "ROKI",
+          "Dòng sản phẩm": "R-MAX Series",
+          "Công nghệ": "Nhật Bản",
+          "Dòng xe phù hợp": "Yamaha",
+          "Mã sản phẩm": "VN2DN-5YB-001A",
+          "Phân phối": "Phúc Long",
+        },
+        benefits: [
+          "Giữ dầu sạch – bảo vệ động cơ.",
+          "Giảm mài mòn – tăng tuổi thọ máy.",
+          "Chất lượng ổn định – lắp chuẩn form.",
+          "Dễ bán cho gara – khách thay định kỳ.",
+        ],
+        application:
+          "Dùng cho các dòng xe Yamaha sử dụng lọc nhớt theo mã VN2DN-5YB-001A (chọn đúng theo xe).",
+        price: "Liên hệ ",
+        discountPrice: "Liên hệ ",
+        stock: "Còn hàng cung ứng cho đại lý",
+        tags: [
+          "Lọc nhớt",
+          "ROKI",
+          "R-MAX",
+          "Yamaha",
+          "Phụ tùng xe máy",
+          "Phúc Long",
+        ],
+        option: [{ name: "Lọc nhớt xe Yamaha", code: "VN2DN-5YB-001A" }],
+      },
+    ],
   },
   {
     id: 10,

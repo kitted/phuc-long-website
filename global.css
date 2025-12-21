@@ -169,3 +169,49 @@
     width: 100% !important; /* Mỗi ảnh chiếm full dòng */
   }
 }
+
+/* Gallery */
+.pl-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 12px 0;
+}
+
+.pl-card {
+  padding: 10px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.pl-card img {
+  width: 100%;
+  border-radius: 6px;
+  cursor: zoom-in;
+}
+
+/* Overlay phóng to */
+.pl-lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.pl-lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  cursor: zoom-out;
+}
+
+@media (max-width: 640px) {
+  .pl-gallery {
+    grid-template-columns: 1fr;
+  }
+}

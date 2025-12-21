@@ -75,7 +75,10 @@ export const sidebarCategoriesV2 = [
   {
     name: "Lọc Gió - Lọc Nhớt",
     url: "loc-gio-loc-nhot",
-    subcategories: [],
+    subcategories: [
+      { name: "Lọc Gió Roky", url: "gió" },
+      { name: "Lọc Nhớt Roky", url: "nhớt" },
+    ],
   },
   {
     name: "Dây Xe Máy",
