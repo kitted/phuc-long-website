@@ -4825,9 +4825,9 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
     products: [
       {
         id: 42,
-        name: "MOBIN SƯỜN THÁI-R (CÔNG NGHỆ THÁI LAN)",
-        url: "do-dien/mobin-suon-thair",
-        title: "MOBIN SƯỜN Thái-R",
+        name: "LỬA 6 CUỘN THÁI-R (CÔNG NGHỆ THÁI LAN)",
+        url: "do-dien/lua-sau-cuon-thair",
+        title: "LỬA 6 CUỘN Thái-R",
         image:
           "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764180802/DSC00377-_-%C4%90%C3%A3-s%E1%BB%ADa_eft8mw.png",
         gallery: [
@@ -4839,9 +4839,9 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
         ],
         packaging: "Hộp giấy THAI-R – 1 PCS",
         shortDescription:
-          "Mobin sườn THÁI-R – đánh lửa mạnh, lửa xanh, đề nhẹ, máy nổ đều. Hàng công nghệ Thái Lan, bền – khỏe – ổn định.",
+          "Lửa sáu cuộn THÁI-R – đánh lửa mạnh, lửa xanh, đề nhẹ, máy nổ đều. Hàng công nghệ Thái Lan, bền – khỏe – ổn định.",
         description: `
-          <p><strong>Mobin sườn THAI-R</strong> là dòng mobin chất lượng cao theo công nghệ Thái Lan, 
+          <p><strong>Lửa sáu cuộn THAI-R</strong> là dòng lửa sáu cuộn chất lượng cao theo công nghệ Thái Lan, 
           cho khả năng đánh lửa mạnh, ổn định, giúp xe đề nhẹ, máy nổ bốc và giảm hụt ga.</p>
       
           <h4>Đặc điểm nổi bật:</h4>
@@ -4856,7 +4856,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           <h4>Phù hợp cho:</h4>
           <ul>
             <li>Xe số phổ thông: Wave, Dream, Future, Sirius, Jupiter…</li>
-            <li>Xe tay ga đời cũ sử dụng mobin sườn tương thích.</li>
+            <li>Xe tay ga đời cũ sử dụng lửa sáu cuộn Thai R tương thích.</li>
             <li>Xe độ nhẹ, cần lửa khỏe hơn zin.</li>
           </ul>
       
@@ -4869,7 +4869,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           </ul>
         `,
         specs: {
-          "Loại sản phẩm": "Mobin sườn (IC đánh lửa phụ)",
+          "Loại sản phẩm": "Lửa sáu cuộn (IC đánh lửa phụ)",
           "Thương hiệu": "THAI-R (Amkor)",
           "Công nghệ": "Technology of Thailand",
           "Số lượng": "1 PCS",
@@ -4886,12 +4886,12 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "Bền – ít bảo hành – giữ uy tín gara.",
         ],
         application:
-          "Dùng thay mobin sườn cho xe số & một số xe ga. Phù hợp gara sửa xe và đại lý phụ tùng tại miền Tây.",
+          "Dùng thay lửa sáu cuộn sườn cho xe số & một số xe ga. Phù hợp gara sửa xe và đại lý phụ tùng tại miền Tây.",
         price: "Liên hệ ",
         discountPrice: "Liên hệ ",
         stock: "Còn hàng cung ứng cho đại lý",
         tags: [
-          "Mobin sườn",
+          "Lửa sáu cuộn",
           "THAI-R",
           "Amkor",
           "Phụ tùng xe máy",
