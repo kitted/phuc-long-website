@@ -2332,7 +2332,7 @@ export const productsList = [
             <li>12N7 – Phù hợp các dòng xe chuyên dụng, xe điện khởi động mạnh.</li>
           </ul>
       
-          <p><strong>Thương hiệu:</strong> ABS – Hiệu suất cao, bền bỉ, an toàn, được phân phối toàn quốc qua hệ thống đại lý <strong>Phúc Long</strong>.</p>
+          <p><strong>Thương hiệu:</strong> ABS – Hiệu suất cao, bền bỉ, an toàn, được phân phối toàn quốc qua hệ thống đại lý <strong>PlusEx Phúc Long</strong>.</p>
         `,
         specs: {
           "Loại sản phẩm": "Ắc quy chì - axit (khô, kín khí, miễn bảo trì)",
@@ -2359,7 +2359,7 @@ export const productsList = [
           "Ắc quy xe máy",
           "ABS",
           "Cene",
-          "Phúc Long",
+          "PlusEx Phúc Long",
           "ắc quy khô",
           "12V",
         ],
@@ -2455,7 +2455,7 @@ export const productsList = [
           "Ắc Quy ABS",
           "Ắc Quy Gel",
           "Công Nghệ AGM",
-          "Phúc Long",
+          "PlusEx Phúc Long",
           "12V",
           "Chống Bay Hơi",
         ],
@@ -2506,7 +2506,7 @@ export const productsList = [
             <li>Hàng hot – xu hướng mới thay thế ắc quy chì.</li>
             <li>Ít bảo hành, không phồng – không chảy nước – rất ổn định.</li>
             <li>Biên lợi nhuận tốt – dễ bán, khách chọn nhiều.</li>
-            <li>Phân phối bởi <strong>Phúc Long – PlusEx</strong>, kho sẵn hàng.</li>
+            <li>Phân phối bởi <strong>PlusEx Phúc Long – PlusEx</strong>, kho sẵn hàng.</li>
           </ul>
            <div class="pl-gallery">
     <figure class="pl-card">
@@ -2561,7 +2561,7 @@ export const productsList = [
           "Ắc quy xe máy",
           "VPRS-26",
           "Ắc quy công nghệ mới",
-          "Phúc Long",
+          "PlusEx Phúc Long",
         ],
       },
     ],
@@ -2606,7 +2606,7 @@ export const productsList = [
 đạt các chứng nhận <strong>ISO 9001 – IATF 16949 – ISO 14001</strong>. Dung lượng thực đạt chuẩn giúp xe điện vận hành ổn định, 
 đi được quãng đường xa hơn, đồng thời khả năng phóng điện mạnh mẽ giúp xe tăng tốc tốt và duy trì hiệu năng trong suốt quá trình sử dụng.</p>
 
-<p>Mọi bình ắc quy xe máy điện TIANNENG TNE12-25 do <strong>Phúc Long</strong> cung cấp đều là hàng mới chính hãng, 
+<p>Mọi bình ắc quy xe máy điện TIANNENG TNE12-25 do <strong>PlusEx Phúc Long</strong> cung cấp đều là hàng mới chính hãng, 
 bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</strong>, đảm bảo an tâm tuyệt đối cho khách hàng và đại lý.</p>
 
 <h4>Ưu điểm nổi bật:</h4>
@@ -2651,7 +2651,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
   <li>Định kỳ kiểm tra bu-lông, đầu cực, vệ sinh chống oxy hóa.</li>
 </ul>
 
-<p><strong>Thương hiệu:</strong> Tianneng – Phân phối bởi <strong>Phúc Long</strong>.</p>
+<p><strong>Thương hiệu:</strong> Tianneng – Phân phối bởi <strong>PlusEx Phúc Long</strong>.</p>
 
 <div style="
   display: flex;
@@ -2699,7 +2699,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
 
 
 
-    <p><strong>Thương hiệu:</strong> Tianneng – Tập đoàn ắc quy xe điện số 1 Trung Quốc, phân phối chính hãng bởi <strong>Phúc Long</strong>.</p>
+    <p><strong>Thương hiệu:</strong> Tianneng – Tập đoàn ắc quy xe điện số 1 Trung Quốc, phân phối chính hãng bởi <strong>PlusEx Phúc Long</strong>.</p>
   `,
         specs: {
           "Loại sản phẩm": "Pin xe điện – AGM GEL (VRLA – kín khí)",
@@ -2729,7 +2729,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "TNE12-15",
           "Pin",
           "12V",
-          "Phúc Long",
+          "PlusEx Phúc Long",
         ],
       },
     ],
@@ -2745,6 +2745,140 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
     url: "bo-thang",
     tag: [],
     products: [
+      {
+        id: 39,
+        name: "BỐ THẮNG ĐĨA MACAN iNC",
+        url: "bo-thang/bo-thang-macan-inc-thailand",
+        title: "Bố Thắng Đĩa Macan iNC – Công Nghệ Thái Lan",
+        image:
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1100,h_1100,ar_1:1/v1768466459/7_jazgxy.png",
+        gallery: [
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1100,h_1100,ar_1:1/v1768466459/7_jazgxy.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1100,h_1100,ar_1:1/v1768466459/4_lfd9g3.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1100,h_1100,ar_1:1/v1768466459/6_zolnn5.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1100,h_1100,ar_1:1/v1768466459/8_j6glmg.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1100,h_1100,ar_1:1/v1768466458/5_pyjamg.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768466681/Gemini_Generated_Image_meserxmeserxmese_b8jdo4.png",
+        ],
+
+        type: ["Macan iNC", "Jupiter", "Novo", "Viva"],
+        packaging: "Hộp (10 cặp/hộp) – Công nghệ Thái Lan",
+        shortDescription:
+          "Bố thắng đĩa Macan iNC công nghệ Thái Lan – thắng ăn, bền nhiệt, ít mòn đĩa, phù hợp nhiều dòng xe phổ thông. PlusEx Phúc Long cung ứng sỉ cho đại lý/gara miền Tây.",
+
+        description: `
+          <p><strong>Bố thắng đĩa Macan iNC</strong> là dòng bố thắng cao cấp ứng dụng <strong>công nghệ vật liệu ma sát Thái Lan</strong>,
+          được nghiên cứu để đáp ứng điều kiện vận hành khắc nghiệt tại Đông Nam Á: nhiệt độ cao, dừng–chạy liên tục, tải nặng và môi trường bụi.</p>
+        
+          <p>Khác với các loại bố thắng phổ thông chỉ tập trung “ăn gắt lúc đầu”, Macan iNC được phát triển theo triết lý
+          <strong>ma sát ổn định – bền nhiệt – kiểm soát lực thắng</strong>. Nhờ đó, bố cho cảm giác bóp chắc tay, lực thắng lên đều,
+          không bị giật cục và duy trì hiệu suất ổn định trong suốt vòng đời sử dụng.</p>
+        
+          <h4>Công nghệ & cấu trúc vật liệu:</h4>
+          <ul>
+            <li>🧪 <strong>Hợp chất ma sát bán kim loại (Semi-Metallic Compound):</strong>
+              kết hợp sợi kim loại chịu nhiệt và vật liệu ma sát hữu cơ, giúp cân bằng giữa lực thắng và độ bền.</li>
+            <li>🔥 <strong>Ổn định hệ số ma sát khi nhiệt độ cao:</strong>
+              hạn chế hiện tượng chai bố, mất thắng khi chạy đường dài hoặc đổ đèo.</li>
+            <li>🛠️ <strong>Ép nhiệt & gia công chính xác:</strong>
+              bề mặt bố phẳng đều, tiếp xúc đĩa đồng nhất, giảm rung và tiếng rít.</li>
+            <li>🛡️ <strong>Kiểm soát mài mòn đĩa:</strong>
+              vật liệu được tinh chỉnh để không “ăn đĩa”, giúp tăng tuổi thọ đĩa thắng.</li>
+          </ul>
+        
+          <h4>Ưu điểm nổi bật khi sử dụng thực tế:</h4>
+          <ul>
+            <li>✅ <strong>Thắng ăn – bắt lực nhanh:</strong> phù hợp chạy phố, thắng nhiều lần liên tục.</li>
+            <li>✅ <strong>Ít rít – ít bụi mạt:</strong> mâm sạch hơn, heo dầu ít bám bụi.</li>
+            <li>✅ <strong>Độ ổn định cao:</strong> lực thắng không thay đổi đột ngột khi bố nóng.</li>
+            <li>✅ <strong>Cảm giác lái an toàn:</strong> dễ kiểm soát khi bóp nhẹ hoặc bóp sâu.</li>
+            <li>✅ <strong>Lắp chuẩn form:</strong> khớp heo dầu, hạn chế kẹt bố – lệch bố.</li>
+          </ul>
+        
+          <h4>Hình ảnh sản phẩm:</h4>
+        
+          <!-- Render-friendly gallery -->
+          <div class="pl-gallery" style="display:flex;flex-wrap:wrap;gap:12px;justify-content:flex-start;">
+            <figure style="margin:0;">
+              <img class="pl-zoom"
+                src="https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1100,h_1100,ar_1:1/v1768466459/7_jazgxy.png"
+                data-full="https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1100,h_1100,ar_1:1/v1768466459/7_jazgxy.png"
+                alt="Bố thắng Macan iNC - ảnh 1"
+                style="width:220px;max-width:48vw;height:auto;border-radius:10px;cursor:zoom-in;border:1px solid rgba(0,0,0,0.15);" />
+            </figure>
+        
+            <figure style="margin:0;">
+              <img class="pl-zoom"
+                src="https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1100,h_1100,ar_1:1/v1768466459/4_lfd9g3.png"
+                data-full="https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1100,h_1100,ar_1:1/v1768466459/4_lfd9g3.png"
+                alt="Bố thắng Macan iNC - ảnh 2"
+                style="width:220px;max-width:48vw;height:auto;border-radius:10px;cursor:zoom-in;border:1px solid rgba(0,0,0,0.15);" />
+            </figure>
+        
+            <figure style="margin:0;">
+              <img class="pl-zoom"
+                src="https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1100,h_1100,ar_1:1/v1768466459/6_zolnn5.png"
+                data-full="https://res.cloudinary.com/dkxb7klnn/image/upload/c_crop,w_1100,h_1100,ar_1:1/v1768466459/6_zolnn5.png"
+                alt="Bố thắng Macan iNC - ảnh 3"
+                style="width:220px;max-width:48vw;height:auto;border-radius:10px;cursor:zoom-in;border:1px solid rgba(0,0,0,0.15);" />
+            </figure>
+          </div>
+        
+          <h4>Lợi thế dành cho gara & đại lý:</h4>
+          <ul>
+            <li>🔧 <strong>Dễ tư vấn:</strong> nói đúng 3 điểm “thắng ăn – ít rít – bền nhiệt” là khách hiểu ngay.</li>
+            <li>🔁 <strong>Ít bảo hành:</strong> giảm tình trạng khách quay lại vì kêu thắng hoặc trượt.</li>
+            <li>💰 <strong>Biên lợi nhuận ổn định:</strong> phù hợp bán lẻ và combo bảo dưỡng.</li>
+            <li>📦 <strong>Nguồn hàng chủ động:</strong> Phúc Long có sẵn kho, giao nhanh cho đại lý miền Tây.</li>
+          </ul>
+        
+          <p><strong>Phân phối:</strong> <strong>PlusEx Phúc Long</strong> – nhà phân phối phụ tùng & dầu nhớt,
+          đồng hành lâu dài cùng gara và đại lý xe máy tại miền Tây.</p>
+        `,
+
+        specs: {
+          "Loại sản phẩm": "Bố thắng đĩa xe máy",
+          "Thương hiệu": "Macan iNC",
+          "Công nghệ": "Thailand Technology",
+          "Mã sản phẩm": "4C226 Jupiter Novo Viva",
+          "Đặc tính": "Thắng ăn – ổn định nhiệt – ít rít – ít mòn đĩa",
+          "Đóng gói": "10 cặp/hộp",
+          "Đối tượng": "Gara sửa xe – cửa hàng phụ tùng – xe chạy dịch vụ",
+          "Phân phối": "PlusEx Phúc Long (Miền Tây)",
+        },
+
+        benefits: [
+          "Thắng ăn – bắt lực nhanh.",
+          "Ổn định khi nóng – chạy xa yên tâm.",
+          "Giảm rít – ít bụi – sạch mâm.",
+          "Ít mòn đĩa – bền vật liệu.",
+        ],
+
+        application:
+          "Phù hợp nhiều dòng xe phổ thông (tùy mã bố). Anh em gara đối chiếu đúng mã 4C226 theo heo dầu/đĩa thắng trước khi lắp.",
+
+        price: "Liên hệ ",
+        discountPrice: "Liên hệ ",
+        stock: "Còn hàng cung ứng cho đại lý",
+
+        tags: [
+          "Bố thắng đĩa",
+          "Macan iNC",
+          "Thailand",
+          "4C226",
+          "Phụ tùng xe máy",
+          "PlusEx Phúc Long",
+        ],
+
+        option: [
+          { name: "Jupiter Novo Viva" },
+          { name: "Wave S110" },
+          { name: "Air Blade 135" },
+          { name: "Future" },
+          { name: "Exciter 135" },
+          { name: "Nouvo" },
+        ],
+      },
       {
         id: 1,
         name: "Bố Thắng Đùm Elig",
@@ -3243,7 +3377,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
             <li>💲 <strong>Giá cạnh tranh:</strong> rất dễ tư vấn cho khách, dễ bán, lợi nhuận xoay vòng tốt.</li>
             <li>🧱 <strong>Vật liệu ma sát ổn định:</strong> ít gây mòn đĩa, độ bền tương đối tốt trong phân khúc.</li>
             <li>🔧 <strong>Đúng chuẩn từng dòng xe:</strong> lắp đặt nhanh, phù hợp hầu hết xe số – xe ga.</li>
-            <li>🚚 <strong>Nguồn hàng ổn định:</strong> được phân phối bởi NPP Phúc Long – luôn có sẵn số lượng lớn.</li>
+            <li>🚚 <strong>Nguồn hàng ổn định:</strong> được phân phối bởi NPP PlusEx Phúc Long – luôn có sẵn số lượng lớn.</li>
           </ul>
       
           <h4>Ứng dụng:</h4>
@@ -3357,7 +3491,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
             <li>💲 <strong>Giá cạnh tranh:</strong> rất dễ tư vấn cho khách, dễ bán, lợi nhuận xoay vòng tốt.</li>
             <li>🧱 <strong>Vật liệu ma sát ổn định:</strong> ít gây mòn đĩa, độ bền tương đối tốt trong phân khúc.</li>
             <li>🔧 <strong>Đúng chuẩn từng dòng xe:</strong> lắp đặt nhanh, phù hợp hầu hết xe số – xe ga.</li>
-            <li>🚚 <strong>Nguồn hàng ổn định:</strong> được phân phối bởi NPP Phúc Long – luôn có sẵn số lượng lớn.</li>
+            <li>🚚 <strong>Nguồn hàng ổn định:</strong> được phân phối bởi NPP PlusEx Phúc Long – luôn có sẵn số lượng lớn.</li>
           </ul>
       
           <h4>Ứng dụng:</h4>
@@ -3446,7 +3580,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           <ul>
             <li>Giá bán hợp lý – lợi nhuận tốt, xoay vòng nhanh.</li>
             <li>Đóng gói đẹp, dễ trưng bày tại tiệm.</li>
-            <li>Hàng phân phối chính thức bởi <strong>Phúc Long – PlusEx</strong>, đảm bảo chất lượng ổn định.</li>
+            <li>Hàng phân phối chính thức bởi <strong>PlusEx Phúc Long – PlusEx</strong>, đảm bảo chất lượng ổn định.</li>
           </ul>
         `,
         specs: {
@@ -3473,7 +3607,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "Bố thắng đĩa",
           "Saporo",
           "Phụ tùng xe máy",
-          "Phúc Long",
+          "PlusEx Phúc Long",
           "Phụ tùng bán chạy",
           "Bố thắng xe ga",
           "Bố thắng xe số",
@@ -3567,7 +3701,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
             <li>Giá tốt – xoay vòng nhanh – lợi nhuận ổn.</li>
             <li>Đóng gói đẹp, thương hiệu rõ ràng – dễ trưng bày.</li>
             <li>Chất lượng ổn định, ít bảo hành – giữ uy tín cho tiệm.</li>
-            <li>Phân phối bởi <strong>Phúc Long – PlusEx</strong>, cam kết hàng chuẩn.</li>
+            <li>Phân phối bởi <strong>PlusEx Phúc Long – PlusEx</strong>, cam kết hàng chuẩn.</li>
           </ul>
         `,
         specs: {
@@ -3595,7 +3729,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "Bố thắng đùm",
           "Nayaha",
           "Phụ tùng xe máy",
-          "Phúc Long",
+          "PlusEx Phúc Long",
           "Brake Shoe",
           "Xe số",
           "Phụ tùng bán chạy",
@@ -3664,7 +3798,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
             <li>Sản phẩm dễ bán – xoay vòng nhanh.</li>
             <li>Hộp đỏ nổi bật, thương hiệu mạnh – dễ trưng bày.</li>
             <li>Chất lượng ổn định, bảo hành thấp.</li>
-            <li>Phân phối bởi <strong>Phúc Long – PlusEx</strong>, giá tốt – nguồn hàng chủ động.</li>
+            <li>Phân phối bởi <strong>PlusEx Phúc Long – PlusEx</strong>, giá tốt – nguồn hàng chủ động.</li>
           </ul>
         `,
         specs: {
@@ -3694,7 +3828,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "Phụ tùng xe máy",
           "Brake Shoe",
           "Xe số",
-          "Phúc Long",
+          "PlusEx Phúc Long",
           "Phụ tùng bán chạy",
         ],
         option: [
@@ -3787,7 +3921,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "Phụ tùng xe máy",
           "Brake Shoe",
           "Xe số",
-          "Phúc Long",
+          "PlusEx Phúc Long",
           "Giá rẻ – xoay vòng nhanh",
         ],
         option: [
@@ -4150,7 +4284,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "VELOZ 10W40",
           "API SN",
           "JASO MA2",
-          "Phúc Long",
+          "PlusEx Phúc Long",
         ],
       },
       {
@@ -4193,7 +4327,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           <ul>
             <li>Can lớn 4L tiện lợi – tiết kiệm chi phí thay nhớt định kỳ.</li>
             <li>Thích hợp sử dụng cho các gara, trạm dịch vụ và tiệm sửa xe lưu lượng lớn.</li>
-            <li>Sản phẩm phân phối độc quyền bởi <strong>Phúc Long – PlusEx</strong>, đảm bảo nguồn gốc và chất lượng.</li>
+            <li>Sản phẩm phân phối độc quyền bởi <strong>PlusEx Phúc Long – PlusEx</strong>, đảm bảo nguồn gốc và chất lượng.</li>
           </ul>
       
           <p><strong>Thương hiệu:</strong> MAXPLUS – Dòng dầu nhờn thế hệ mới dành cho thị trường Việt Nam, đạt tiêu chuẩn quốc tế, hiệu suất cao và độ bền vượt trội.</p>
@@ -4231,7 +4365,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "10W40",
           "Xe côn tay",
           "Diesel nhẹ",
-          "Phúc Long",
+          "PlusEx Phúc Long",
         ],
         option: [
           {
@@ -4286,7 +4420,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           <ul>
             <li>Lon sắt sang trọng, dễ trưng bày và bảo quản.</li>
             <li>Sản phẩm hiệu suất cao, dễ bán – lợi nhuận tốt.</li>
-            <li>Phân phối chính thức bởi <strong>Phúc Long – PlusEx</strong>.</li>
+            <li>Phân phối chính thức bởi <strong>PlusEx Phúc Long – PlusEx</strong>.</li>
           </ul>
         `,
         specs: {
@@ -4319,7 +4453,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "JASO MA2",
           "Xe côn tay",
           "Xe ga",
-          "Phúc Long",
+          "PlusEx Phúc Long",
         ],
         option: [
           {
@@ -4374,7 +4508,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           <ul>
             <li>Dung tích 0.8L phù hợp thay cho hầu hết xe tay ga.</li>
             <li>Thiết kế lon sắt sang trọng, dễ bảo quản, chống giả.</li>
-            <li>Phân phối chính thức bởi <strong>Phúc Long – PlusEx</strong>, hàng chuẩn, giá tốt.</li>
+            <li>Phân phối chính thức bởi <strong>PlusEx Phúc Long – PlusEx</strong>, hàng chuẩn, giá tốt.</li>
           </ul>
         `,
         specs: {
@@ -4407,7 +4541,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "JASO MA2",
           "Xe tay ga",
           "Xe số",
-          "Phúc Long",
+          "PlusEx Phúc Long",
         ],
         option: [
           {
@@ -4530,7 +4664,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "Bạc đạn NPT",
           "Phụ tùng xe máy",
           "Bearing",
-          "Phúc Long",
+          "PlusEx Phúc Long",
           "Xe số – xe ga",
           "Bán chạy",
         ],
@@ -4591,7 +4725,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
             <li>Giá tốt – chất lượng ổn – dễ bán.</li>
             <li>Hình thức vỉ đẹp – trưng bày hút mắt.</li>
             <li>Bi ít bảo hành – giữ uy tín cho tiệm sửa xe.</li>
-            <li>Phân phối bởi <strong>Phúc Long – PlusEx</strong> – nguồn hàng ổn định.</li>
+            <li>Phân phối bởi <strong>PlusEx Phúc Long – PlusEx</strong> – nguồn hàng ổn định.</li>
           </ul>
         `,
         specs: {
@@ -4623,7 +4757,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "ANKOR",
           "Thai-R",
           "Phụ tùng xe máy",
-          "Phúc Long",
+          "PlusEx Phúc Long",
           "Bán chạy",
         ],
       },
@@ -4896,7 +5030,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "Amkor",
           "Phụ tùng xe máy",
           "Đánh lửa mạnh",
-          "Phúc Long",
+          "PlusEx Phúc Long",
         ],
       },
       {
@@ -4974,7 +5108,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "Má đùm",
           "Cùm thắng",
           "Phụ tùng xe máy",
-          "Phúc Long",
+          "PlusEx Phúc Long",
         ],
       },
       {
@@ -5048,7 +5182,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "2 chân",
           "Vỏ cam",
           "Phụ tùng xe máy",
-          "Phúc Long",
+          "PlusEx Phúc Long",
         ],
       },
       {
@@ -5124,7 +5258,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "Spark Plug",
           "Three Side Electrodes",
           "Phụ tùng xe máy",
-          "Phúc Long",
+          "PlusEx Phúc Long",
         ],
       },
 
@@ -5203,7 +5337,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "Super Power",
           "C.D.I Unit",
           "Phụ tùng xe máy",
-          "Phúc Long",
+          "PlusEx Phúc Long",
           "Điện – đánh lửa",
         ],
       },
@@ -5304,7 +5438,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "Lốp 80/90-17",
           "Vỏ Thái Lan",
           "Phụ tùng xe máy",
-          "Phúc Long",
+          "PlusEx Phúc Long",
         ],
       },
       {
@@ -5396,7 +5530,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "70/90-17",
           "Vỏ Thái Lan",
           "Phụ tùng xe máy",
-          "Phúc Long",
+          "PlusEx Phúc Long",
         ],
       },
       {
@@ -5484,7 +5618,7 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           "100/90-14",
           "Vỏ Thái Lan",
           "Phụ tùng xe máy",
-          "Phúc Long",
+          "PlusEx Phúc Long",
         ],
       },
     ],
@@ -5608,7 +5742,7 @@ giúp không khí nạp sạch hơn, động cơ bền hơn và vận hành ti�
     </figure>
   </div>
 
-<p><strong>Phân phối:</strong> Phúc Long – chuyên cung cấp phụ tùng xe máy cho đại lý/gara tại miền Tây.</p>
+<p><strong>Phân phối:</strong> PlusEx Phúc Long – chuyên cung cấp phụ tùng xe máy cho đại lý/gara tại miền Tây.</p>
 `,
 
         specs: {
@@ -5620,7 +5754,7 @@ giúp không khí nạp sạch hơn, động cơ bền hơn và vận hành ti�
           Khung: "Nhựa nguyên sinh – lắp kín khít, không cong vênh",
           "Chu kỳ thay khuyến nghị": "10.000 km",
           "Ứng dụng": "Xe số / xe tay ga (tùy mã sản phẩm)",
-          "Phân phối": "Phúc Long",
+          "Phân phối": "PlusEx Phúc Long",
         },
         benefits: [
           "Tiết kiệm xăng – máy thoáng.",
@@ -5640,7 +5774,7 @@ giúp không khí nạp sạch hơn, động cơ bền hơn và vận hành ti�
           "Phụ tùng xe máy",
           "Honda",
           "Yamaha",
-          "Phúc Long",
+          "PlusEx Phúc Long",
         ],
         option: [
           // HONDA
@@ -5714,7 +5848,7 @@ giúp không khí nạp sạch hơn, động cơ bền hơn và vận hành ti�
       />
     </figure>
   </div>
-          <p><strong>Phân phối:</strong> Phúc Long – cung ứng đại lý/gara, hỗ trợ sỉ và chính sách hợp tác.</p>
+          <p><strong>Phân phối:</strong> PlusEx Phúc Long – cung ứng đại lý/gara, hỗ trợ sỉ và chính sách hợp tác.</p>
         `,
         specs: {
           "Loại sản phẩm": "Lọc nhớt xe máy",
@@ -5723,7 +5857,7 @@ giúp không khí nạp sạch hơn, động cơ bền hơn và vận hành ti�
           "Công nghệ": "Nhật Bản",
           "Dòng xe phù hợp": "Yamaha",
           "Mã sản phẩm": "VN2DN-5YB-001A",
-          "Phân phối": "Phúc Long",
+          "Phân phối": "PlusEx Phúc Long",
         },
         benefits: [
           "Giữ dầu sạch – bảo vệ động cơ.",
@@ -5742,7 +5876,7 @@ giúp không khí nạp sạch hơn, động cơ bền hơn và vận hành ti�
           "R-MAX",
           "Yamaha",
           "Phụ tùng xe máy",
-          "Phúc Long",
+          "PlusEx Phúc Long",
         ],
         option: [{ name: "Lọc nhớt xe Yamaha", code: "VN2DN-5YB-001A" }],
       },
@@ -5836,7 +5970,7 @@ giúp không khí nạp sạch hơn, động cơ bền hơn và vận hành ti�
           "PlusEx",
           "Cáp thắng",
           "Phụ tùng xe máy",
-          "Phúc Long",
+          "PlusEx Phúc Long",
           "Japan Quality",
         ],
         option: [
@@ -5948,7 +6082,7 @@ giúp không khí nạp sạch hơn, động cơ bền hơn và vận hành ti�
           "Dây côn",
           "PlusEx",
           "Cáp côn",
-          "Phúc Long",
+          "PlusEx Phúc Long",
           "Japan Quality",
           "Xe côn tay",
         ],
@@ -6054,7 +6188,7 @@ giúp không khí nạp sạch hơn, động cơ bền hơn và vận hành ti�
           "Cáp ga",
           "PlusEx",
           "Japan Quality",
-          "Phúc Long",
+          "PlusEx Phúc Long",
           "Phụ tùng xe máy",
         ],
         option: [
@@ -6165,7 +6299,7 @@ giúp không khí nạp sạch hơn, động cơ bền hơn và vận hành ti�
           "Cáp công tơ mét",
           "PlusEx",
           "Japan Quality",
-          "Phúc Long",
+          "PlusEx Phúc Long",
           "Phụ tùng xe máy",
         ],
         option: [
