@@ -16,6 +16,7 @@ export const sidebarCategoriesV2 = [
     name: "Bố Thắng",
     url: "bo-thang",
     subcategories: [
+      { name: "Bố Thắng Macan", url: "macan" },
       { name: "Bố Thắng Elig", url: "elig" },
       { name: "Bố Thắng Saporo", url: "saporo" },
       { name: "Bố Thắng Nayaha", url: "nayaha" },
