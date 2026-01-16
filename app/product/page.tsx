@@ -16,7 +16,7 @@ export default function Example() {
   const gridRef = useRef<HTMLDivElement>(null);
 
   const { currentPage, setCurrentPage, totalPages, currentData } =
-    usePagination(productsList, 9, gridRef);
+    usePagination(productsList, 9999, gridRef);
 
   return (
     <>
