@@ -340,7 +340,7 @@ function About() {
                   Gmail:
                 </p>
                 <a
-                  href="mailto:phuclong@gmail.com"
+                  href="mailto:phuclonglink@gmail.com"
                   className="text-blue-500 hover:underline"
                 >
                   phuclonglink@gmail.com
