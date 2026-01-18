@@ -2929,10 +2929,14 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           align-items: center;
           gap: 16px;
   ">
-    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764233577/Screenshot_2025-11-27_at_15.49.51_saj20i.png" 
+    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768727253/giay-chung-nhan-thuong-hieu-san-pham-dich-vu-chat-luong-chau-a-2017_rt5kcx.jpg" 
       style="width:250px; height:auto; object-fit:cover;" />
 
-    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764234628/Screenshot_2025-11-27_at_15.50.27_qi177i.png" 
+    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768727253/giay-chung-nhan-danh-hieu-san-pham-dich-vu-hang-dau-viet-nam-2014_fwswgr.jpg" 
+      style="width:250px; height:auto; object-fit:cover;" />
+      <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768727253/giay-chung-nhan-top-10-thuong-hieu-noi-tieng-viet-nam_lynhbx.jpg" 
+      style="width:250px; height:auto; object-fit:cover;" />
+       <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768727252/giay-chung-nhan-dang-ky-nhan-hieu-so-123500_zjhxaj.jpg" 
       style="width:250px; height:auto; object-fit:cover;" />
   </div>
 
@@ -3045,10 +3049,14 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           align-items: center;
           gap: 16px;
   ">
-    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764233577/Screenshot_2025-11-27_at_15.49.51_saj20i.png" 
+    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768727253/giay-chung-nhan-thuong-hieu-san-pham-dich-vu-chat-luong-chau-a-2017_rt5kcx.jpg" 
       style="width:250px; height:auto; object-fit:cover;" />
 
-    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764234628/Screenshot_2025-11-27_at_15.50.27_qi177i.png" 
+    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768727253/giay-chung-nhan-danh-hieu-san-pham-dich-vu-hang-dau-viet-nam-2014_fwswgr.jpg" 
+      style="width:250px; height:auto; object-fit:cover;" />
+      <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768727253/giay-chung-nhan-top-10-thuong-hieu-noi-tieng-viet-nam_lynhbx.jpg" 
+      style="width:250px; height:auto; object-fit:cover;" />
+       <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768727252/giay-chung-nhan-dang-ky-nhan-hieu-so-123500_zjhxaj.jpg" 
       style="width:250px; height:auto; object-fit:cover;" />
   </div>
     <p><strong>Phù hợp với:</strong> Wave, Dream, Sirius, Jupiter, Future, SYM, Suzuki và các xe sử dụng phanh đùm.</p>
@@ -3158,10 +3166,14 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           align-items: center;
           gap: 16px;
   ">
-    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764233577/Screenshot_2025-11-27_at_15.49.51_saj20i.png" 
+   <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768727253/giay-chung-nhan-thuong-hieu-san-pham-dich-vu-chat-luong-chau-a-2017_rt5kcx.jpg" 
       style="width:250px; height:auto; object-fit:cover;" />
 
-    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764234628/Screenshot_2025-11-27_at_15.50.27_qi177i.png" 
+    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768727253/giay-chung-nhan-danh-hieu-san-pham-dich-vu-hang-dau-viet-nam-2014_fwswgr.jpg" 
+      style="width:250px; height:auto; object-fit:cover;" />
+      <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768727253/giay-chung-nhan-top-10-thuong-hieu-noi-tieng-viet-nam_lynhbx.jpg" 
+      style="width:250px; height:auto; object-fit:cover;" />
+       <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768727252/giay-chung-nhan-dang-ky-nhan-hieu-so-123500_zjhxaj.jpg" 
       style="width:250px; height:auto; object-fit:cover;" />
   </div>
           <p><strong>Tiêu chuẩn:</strong> ISO 9001 – TS16949 – Hàng Việt Nam chất lượng cao.</p>
@@ -3272,10 +3284,14 @@ bảo hành 6 tháng và áp dụng chính sách <strong>hài lòng 60 ngày</st
           align-items: center;
           gap: 16px;
   ">
-    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764233577/Screenshot_2025-11-27_at_15.49.51_saj20i.png" 
+   <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768727253/giay-chung-nhan-thuong-hieu-san-pham-dich-vu-chat-luong-chau-a-2017_rt5kcx.jpg" 
       style="width:250px; height:auto; object-fit:cover;" />
 
-    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1764234628/Screenshot_2025-11-27_at_15.50.27_qi177i.png" 
+    <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768727253/giay-chung-nhan-danh-hieu-san-pham-dich-vu-hang-dau-viet-nam-2014_fwswgr.jpg" 
+      style="width:250px; height:auto; object-fit:cover;" />
+      <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768727253/giay-chung-nhan-top-10-thuong-hieu-noi-tieng-viet-nam_lynhbx.jpg" 
+      style="width:250px; height:auto; object-fit:cover;" />
+       <img src="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768727252/giay-chung-nhan-dang-ky-nhan-hieu-so-123500_zjhxaj.jpg" 
       style="width:250px; height:auto; object-fit:cover;" />
   </div>
           <p><strong>Ứng dụng:</strong> Dùng cho Wave, Dream, Sirius, Jupiter, Vision, Air Blade, Lead, Winner, Exciter và nhiều dòng xe phanh đĩa khác.</p>
