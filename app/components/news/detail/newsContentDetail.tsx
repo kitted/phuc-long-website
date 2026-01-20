@@ -108,7 +108,7 @@ export default function NewsContentDetail({
           {sec.images && sec.images.length > 0 && (
             <div className="flex flex-col items-center my-4">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-3 gap-y-2 w-full">
-                {sec.images.map((img, i) => (
+                {sec.images?.map((img, i) => (
                   <div
                     key={i}
                     className="relative group cursor-pointer"

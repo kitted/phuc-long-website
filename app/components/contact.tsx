@@ -37,7 +37,7 @@ export default function ContactSection() {
       {/* Social links */}
       <div className="flex flex-col md:flex-row gap-4">
         <a
-          href="https://zalo.me/3648225468408384638"
+          href="https://zalo.me/0939449861"
           className={`flex items-center gap-3 px-6 py-3 rounded-[16px]
                    ${buttonBg} backdrop-blur-md
                    hover:from-white/10 hover:to-white/10

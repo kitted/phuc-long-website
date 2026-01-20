@@ -408,7 +408,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
 
               {/* Zalo OA – anh đổi đúng link OA của mình vào đây */}
               <a
-                href="https://zalo.me/3648225468408384638" // 👉 thay bằng link Zalo OA chính thức
+                href="https://zalo.me/0939449861" // 👉 thay bằng link Zalo OA chính thức
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"

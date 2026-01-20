@@ -8,7 +8,7 @@ import ProductDetail from "@/app/components/productDetail";
 import SidebarFilter from "@/app/components/sidebarFilter";
 import SubLayout from "@/app/subLayout";
 import React, { useEffect, useState } from "react";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { productsList } from "../../../data/listProducts";
 import { sidebarCategoriesV2 } from "@/app/data/menu";
 
@@ -21,14 +21,18 @@ export default function ProductDetailPage() {
 
   const [darkMode, setDarkMode] = useState(false);
   const [product, setProduct] = useState<any>(null);
+  const router = useRouter();
 
   useEffect(() => {
     if (!categorySlug || !productSlug) return;
     const foundCategory = productsList.find((c) => c.url === categorySlug);
-    const foundProduct = foundCategory?.products?.find(
+    const foundProduct: any = foundCategory?.products?.find(
       (p) => p.url === `${categorySlug}/${productSlug}` || p.url === productSlug
     );
     setProduct(foundProduct || null);
+    if (foundProduct.name === "BỐ THẮNG ĐĨA MACAN iNC") {
+      router.push("/landing/macan");
+    }
   }, [categorySlug, productSlug]);
 
   useEffect(() => {

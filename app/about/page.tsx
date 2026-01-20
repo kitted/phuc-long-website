@@ -303,7 +303,7 @@ function About() {
               <p className={`mt-0 leading-8 ${textColor} max-w-[900px]`}>
                 Zalo:{" "}
                 <a
-                  href="https://zalo.me/3648225468408384638"
+                  href="https://zalo.me/0939449861"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:underline"

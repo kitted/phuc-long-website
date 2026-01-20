@@ -52,7 +52,7 @@ export default function ProductImages({ images = [] }: ProductImagesProps) {
           ref={thumbnailsRef}
           className="flex gap-3 mt-4 overflow-x-auto scrollbar-hide scroll-smooth w-full max-w-[500px]"
         >
-          {images.map((img, index) => (
+          {images?.map((img, index) => (
             <div
               key={index}
               onClick={() => setCurrentImageIndex(index)}
