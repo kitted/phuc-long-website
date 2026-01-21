@@ -63,7 +63,7 @@ export default function SiteHeader() {
           </nav>
 
           <a
-            href="#"
+            href="https://zalo.me/0939449861"
             className="rounded-full border border-slate-200 bg-white px-4 py-2 text-[15px] font-semibold text-slate-800 shadow-sm hover:bg-slate-50"
           >
             ĐẶT HÀNG NGAY
@@ -74,7 +74,7 @@ export default function SiteHeader() {
         <div className="flex items-center gap-2 md:hidden">
           {/* ✅ nút thấp hơn */}
           <a
-            href="#"
+            href="https://zalo.me/0939449861"
             className="rounded-full border border-slate-200 bg-white px-3 py-2 text-[10px] font-semibold text-slate-800 shadow-sm hover:bg-slate-50"
           >
             ĐẶT HÀNG NGAY

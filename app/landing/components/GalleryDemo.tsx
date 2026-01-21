@@ -7,147 +7,82 @@ export default function GalleryDemo() {
   const images = [
     {
       id: "1",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311878/z7304167677754_ce90af5cef9cfe20214f4586c6c605bf_hd4fc2.jpg",
-      alt: "Chứng nhận 1",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
-    },
-    {
-      id: "2",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311676/z7176860160344_2beb22676849dde5b8ac7b2b0f1e6cfe_enbwjp.jpg",
-      alt: "Chứng nhận 2",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
-    },
-    {
-      id: "3",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311863/z7171592044751_77e0c2a17f2a22974a8085080f4801ad_uvmqiv.jpg",
-      alt: "Chứng nhận 3",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
-    },
-    {
-      id: "4",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764692126/z7283661239738_8624e2c72785d384c0b45c48d66e7fd2_bp7jla.jpg",
-      alt: "Chứng nhận 4",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
-    },
-    {
-      id: "5",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764692126/z7283661257177_f9c47314cee5777a7ea9515827b02258_umg76j.jpg",
-      alt: "Chứng nhận 5",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
-    },
-    {
-      id: "6",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305003/z2183053590020_877e1d13c9ab99648cd241ef20c6b018_gxyfyt.jpg",
-      alt: "Chứng nhận 6",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
-    },
-    {
-      id: "7",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311878/z7304167677754_ce90af5cef9cfe20214f4586c6c605bf_hd4fc2.jpg",
-      alt: "Chứng nhận 1",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
-    },
-    {
-      id: "8",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311676/z7176860160344_2beb22676849dde5b8ac7b2b0f1e6cfe_enbwjp.jpg",
-      alt: "Chứng nhận 2",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
-    },
-    {
-      id: "9",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311863/z7171592044751_77e0c2a17f2a22974a8085080f4801ad_uvmqiv.jpg",
-      alt: "Chứng nhận 3",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
-    },
-    {
-      id: "10",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764692126/z7283661239738_8624e2c72785d384c0b45c48d66e7fd2_bp7jla.jpg",
-      alt: "Chứng nhận 4",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
+      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768986843/1_rfgoxd.png",
+      alt: "Bố thắng Macan iNC",
+      caption: "Bố thắng Macan iNC",
     },
     {
       id: "11",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764692126/z7283661257177_f9c47314cee5777a7ea9515827b02258_umg76j.jpg",
-      alt: "Chứng nhận 5",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
+      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768987235/z7432888549410_496f9342fe5f4814e4b4c0d010e83e1a_zog1ac.jpg",
+      alt: "Bố thắng Macan iNC",
+      caption: "Bố thắng Macan iNC",
     },
     {
       id: "12",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305003/z2183053590020_877e1d13c9ab99648cd241ef20c6b018_gxyfyt.jpg",
-      alt: "Chứng nhận 6",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
+      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768987219/z7432888180677_482ad04b873aa3e06ea8c8dcf41e2e7f_riutgl.jpg",
+      alt: "Bố thắng Macan iNC",
+      caption: "Bố thắng Macan iNC",
     },
     {
-      id: "13",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311878/z7304167677754_ce90af5cef9cfe20214f4586c6c605bf_hd4fc2.jpg",
-      alt: "Chứng nhận 1",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
+      id: "2",
+      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768986788/z7448937434940_c477b9c01e5515e5baebf998ae910ff6_wlvheh.jpg",
+      alt: "Bố thắng Macan iNC",
+      caption: "Bố thắng Macan iNC",
+    },
+    {
+      id: "3",
+      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768986787/z7437528365903_8f824729b33eff610a4908319f785bff_iqo6zx.jpg",
+      alt: "Bố thắng Macan iNC",
+      caption: "Bố thắng Macan iNC",
+    },
+    {
+      id: "4",
+      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768986675/ChatGPT_Image_13_55_48_14_thg_1_2027_kvtet7.png",
+      alt: "Bố thắng Macan iNC",
+      caption: "Bố thắng Macan iNC",
+    },
+    {
+      id: "9",
+      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768987222/z7434701395256_51954e65436cdf50dcd29013fe21ee9e_ojgnqo.jpg",
+      alt: "Bố thắng Macan iNC",
+      caption: "Bố thắng Macan iNC",
+    },
+    {
+      id: "7",
+      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768986659/Gemini_Generated_Image_meserxmeserxmese_2_rvl4mk.png",
+      alt: "Bố thắng Macan iNC",
+      caption: "Bố thắng Macan iNC",
     },
     {
       id: "14",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311676/z7176860160344_2beb22676849dde5b8ac7b2b0f1e6cfe_enbwjp.jpg",
-      alt: "Chứng nhận 2",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
+      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768987618/z7448943335209_7668de57e367b256a1a6d52271617f6b_m1fbou.jpg",
+      alt: "Bố thắng Macan iNC",
+      caption: "Bố thắng Macan iNC",
     },
     {
-      id: "15",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311863/z7171592044751_77e0c2a17f2a22974a8085080f4801ad_uvmqiv.jpg",
-      alt: "Chứng nhận 3",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
+      id: "13",
+      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768987252/z7443013431759_0874ec1cf480943d855100f8b34e76ef_yocde7.jpg",
+      alt: "Bố thắng Macan iNC",
+      caption: "Bố thắng Macan iNC",
     },
     {
-      id: "16",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764692126/z7283661239738_8624e2c72785d384c0b45c48d66e7fd2_bp7jla.jpg",
-      alt: "Chứng nhận 4",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
+      id: "5",
+      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768986670/ChatGPT_Image_13_58_28_14_thg_1_2027_jgwfrv.png",
+      alt: "Bố thắng Macan iNC",
+      caption: "Bố thắng Macan iNC",
+    },
+
+    {
+      id: "6",
+      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768986662/Gemini_Generated_Image_dn4a3qdn4a3qdn4a_2_zlrg5m.png",
+      alt: "Bố thắng Macan iNC",
+      caption: "Bố thắng Macan iNC",
     },
     {
-      id: "17",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764692126/z7283661257177_f9c47314cee5777a7ea9515827b02258_umg76j.jpg",
-      alt: "Chứng nhận 5",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
-    },
-    {
-      id: "18",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305003/z2183053590020_877e1d13c9ab99648cd241ef20c6b018_gxyfyt.jpg",
-      alt: "Chứng nhận 6",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
-    },
-    {
-      id: "19",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311878/z7304167677754_ce90af5cef9cfe20214f4586c6c605bf_hd4fc2.jpg",
-      alt: "Chứng nhận 1",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
-    },
-    {
-      id: "20",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311676/z7176860160344_2beb22676849dde5b8ac7b2b0f1e6cfe_enbwjp.jpg",
-      alt: "Chứng nhận 2",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
-    },
-    {
-      id: "21",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766311863/z7171592044751_77e0c2a17f2a22974a8085080f4801ad_uvmqiv.jpg",
-      alt: "Chứng nhận 3",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
-    },
-    {
-      id: "22",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764692126/z7283661239738_8624e2c72785d384c0b45c48d66e7fd2_bp7jla.jpg",
-      alt: "Chứng nhận 4",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
-    },
-    {
-      id: "23",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1764692126/z7283661257177_f9c47314cee5777a7ea9515827b02258_umg76j.jpg",
-      alt: "Chứng nhận 5",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
-    },
-    {
-      id: "25",
-      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1766305003/z2183053590020_877e1d13c9ab99648cd241ef20c6b018_gxyfyt.jpg",
-      alt: "Chứng nhận 6",
-      caption: "Chứng nhận – Sản phẩm/Dịch vụ Hàng đầu Việt Nam 2014",
+      id: "8",
+      url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768986653/IMG_0158_2_ctieex.jpg",
+      alt: "Bố thắng Macan iNC",
+      caption: "Bố thắng Macan iNC",
     },
   ];
 
@@ -158,7 +93,7 @@ export default function GalleryDemo() {
       minRowHeight={170}
       maxRowHeight={240}
       gap={12}
-      panelCapacity={10}
+      // panelCapacity={10}
     />
   );
   //   <PandoraAutoGallery images={images} className="my-10" />;
