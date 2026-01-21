@@ -314,7 +314,7 @@ export default function MacanSpecsSection() {
     {
       id: "spec-1",
       imageUrl:
-        "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768986056/9_mlprhc.png",
+        "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768995700/9_dposbr.png",
       imageAlt: "Brake pad",
       heading: "THÔNG SỐ KỸ THUẬT",
       specs: [
