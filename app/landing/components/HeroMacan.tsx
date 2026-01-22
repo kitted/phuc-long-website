@@ -41,8 +41,8 @@ function CountdownPill({
 }) {
   return (
     <div className="flex flex-col items-center justify-center rounded-2xl border border-white/10 bg-white/10 px-3 py-2 backdrop-blur">
-      <div className="text-xl font-extrabold text-white">{value}</div>
-      <div className="text-[11px] font-semibold uppercase tracking-[0.25em] text-white/70">
+      <div className="text-[50px] font-extrabold text-red-600">{value}</div>
+      <div className="text-[11px] font-semibold uppercase tracking-[0.25em] text-white">
         {label}
       </div>
     </div>
@@ -101,7 +101,7 @@ function EventModal({ open, onClose }: { open: boolean; onClose: () => void }) {
                 Ưu đãi ra mắt
               </div>
               <h3 className="mt-1 text-xl font-extrabold text-white">
-                🎁 EVENT ƯU ĐÃI RA MẮT
+                🎁 SỰ KIỆN ƯU ĐÃI RA MẮT
               </h3>
             </div>
 
@@ -198,7 +198,7 @@ export default function HeroMacan({
           alt=""
           className="h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 bg-black/40" />
       </div>
 
       {/* ✅ CONTENT – CLICK ĐƯỢC */}
@@ -217,7 +217,7 @@ export default function HeroMacan({
           </div>
 
           {/* Countdown */}
-          <div className="mx-auto mt-5 max-w-xl rounded-3xl bg-white/5 p-4 backdrop-blur">
+          <div className="mx-auto mt-5 max-w-xl rounded-3xl bg-white/5 p-4 backdrop-blur text-red">
             <div className="grid grid-cols-4 gap-2">
               <CountdownPill label="Ngày" value={timeLeft.days} />
               <CountdownPill label="Giờ" value={pad2(timeLeft.hours)} />
@@ -234,7 +234,7 @@ export default function HeroMacan({
                 hover:bg-emerald-700
               "
             >
-              Xem chi tiết event
+              Xem chi tiết sự kiện
             </button>
           </div>
         </div>
@@ -253,7 +253,7 @@ export default function HeroMacan({
                 max-w-[760px]
                 h-auto
                 object-contain
-                scale-[2] sm:scale-[2] md:scale-[2] lg:scale-[2]
+                scale-[2.7] sm:scale-[2.7] md:scale-[2.7] lg:scale-[2]
                 drop-shadow-[0_28px_55px_rgba(0,0,0,0.55)]
               "
             />

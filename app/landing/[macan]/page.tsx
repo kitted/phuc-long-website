@@ -1,6 +1,5 @@
-"use client";
+import type { Metadata } from "next";
 
-import React from "react";
 import SiteHeader from "../components/SiteHeader";
 import HeroMacan from "../components/HeroMacan";
 import BrandFooter from "../components/BrandFooter";
@@ -10,9 +9,37 @@ import TextFooter from "../components/TextFooter";
 import MacanSpecsSection from "../components/MacanSpecsSection";
 import GalleryDemo from "../components/GalleryDemo";
 import ContactBarUI from "../components/ContactBarUI";
-import SubLayout from "@/app/subLayout";
 import FloatingButton from "@/app/components/floatingButton";
 import Footer from "@/app/components/footer";
+
+export const metadata: Metadata = {
+  title: "Má phanh MACAN iNC | PlusEx Phúc Long",
+  description:
+    "Má phanh MACAN iNC – công nghệ Thái Lan, bền – êm – ít rít, phù hợp chạy dịch vụ.",
+  openGraph: {
+    title: "Má phanh MACAN iNC | PlusEx Phúc Long",
+    description:
+      "Má phanh MACAN iNC – công nghệ Thái Lan, bền – êm – ít rít, phù hợp chạy dịch vụ.",
+    url: "https://phutungdaunhot.com/landing/macan",
+    siteName: "phutungdaunhot.com",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768986843/1_rfgoxd.png", // <-- ảnh share riêng
+        width: 1200,
+        height: 630,
+        alt: "Má phanh MACAN iNC",
+      },
+    ],
+    locale: "vi_VN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: [
+      "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768986843/1_rfgoxd.png",
+    ],
+  },
+};
 
 export default function Page() {
   return (
@@ -20,6 +47,7 @@ export default function Page() {
       <SiteHeader />
       <HeroMacan title="MACAN iNC" subtitle="Technology by Thailand" />
       <BrandFooter />
+
       <TechFeatureSection
         title="CÔNG NGHỆ"
         subtitle="METALLIC / STEEL FIBER KẾT HỢP LỚP PHỦ"
@@ -28,6 +56,7 @@ export default function Page() {
         productImageUrl="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768466459/6_zolnn5.png"
         productSide="right"
       />
+
       <TechFeatureSection
         title="GIÁ THÀNH"
         subtitle="CHẤT LƯỢNG / GIÁ THÀNH CẠNH TRANH NHẤT THỊ TRƯỜNG"
@@ -36,6 +65,7 @@ export default function Page() {
         productImageUrl="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768466459/8_j6glmg.png"
         productSide="left"
       />
+
       <TechFeatureSection
         title="ỨNG DỤNG"
         subtitle="ĐỦ SỨC CẠNH TRANH VỚI CHẤT LƯỢNG CAO HƠN CÁC SẢN PHẨM CÙNG PHÂN KHÚC"
@@ -44,6 +74,7 @@ export default function Page() {
         productImageUrl="https://res.cloudinary.com/dkxb7klnn/image/upload/v1768916961/13_ehduqi.png"
         productSide="right"
       />
+
       <MacanPlusEx />
       <TextFooter />
       <MacanSpecsSection />
