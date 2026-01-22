@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "phutungdaunhot.com",
     images: [
       {
-        url: "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768986843/1_rfgoxd.png", // <-- ảnh share riêng
+        url: "https://phutungdaunhot.com/og/macan.png", // <-- ảnh share riêng
         width: 1200,
         height: 630,
         alt: "Má phanh MACAN iNC",
@@ -35,9 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: [
-      "https://res.cloudinary.com/dkxb7klnn/image/upload/v1768986843/1_rfgoxd.png",
-    ],
+    images: ["https://phutungdaunhot.com/og/macan.png"],
   },
 };
 
