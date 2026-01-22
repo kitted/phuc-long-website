@@ -7,21 +7,21 @@ import Script from "next/script";
 
 export const metadata: Metadata = {
   title: {
-    default: "Phúc Long",
-    template: "%s | https://phuclong.vn",
+    default: "PlusEx Phúc Long",
+    template: "%s | https://phutungdaunhot.com",
   },
-  description: "Phúc Long",
+  description: "PlusEx Phúc Long",
   openGraph: {
-    title: "https://phuclong.vn",
-    description: "Phúc Long",
-    url: "https://phuclong.vn",
-    siteName: "https://phuclong.vn",
+    title: "https://phutungdaunhot.com",
+    description: "PlusEx Phúc Long",
+    url: "https://phutungdaunhot.com",
+    siteName: "https://phutungdaunhot.com",
     images: [
       {
-        url: "https://phuclong.vn/favicon.png",
+        url: "https://phutungdaunhot.com/favicon.png",
         width: 1200,
         height: 630,
-        alt: "Phúc Long",
+        alt: "PlusEx Phúc Long",
       },
     ],
     locale: "en-US",
