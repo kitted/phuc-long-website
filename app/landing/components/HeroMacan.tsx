@@ -41,7 +41,7 @@ function CountdownPill({
 }) {
   return (
     <div className="flex flex-col items-center justify-center rounded-2xl border border-white/10 bg-white/10 px-3 py-2 backdrop-blur">
-      <div className="text-[50px] font-extrabold text-red-600">{value}</div>
+      <div className="text-[40px] font-extrabold text-red-600">{value}</div>
       <div className="text-[11px] font-semibold uppercase tracking-[0.25em] text-white">
         {label}
       </div>
