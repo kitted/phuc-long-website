@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://phutungdaunhot.com/favicon.png",
-        width: 524,
-        height: 796,
+        width: 1524,
+        height: 1796,
         alt: "PlusEx Phúc Long",
       },
     ],

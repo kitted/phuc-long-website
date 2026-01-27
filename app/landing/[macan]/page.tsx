@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://phutungdaunhot.com/og/macan.png", // <-- ảnh share riêng
-        width: 588,
-        height: 493,
+        width: 1588,
+        height: 1493,
         alt: "Má phanh MACAN iNC",
       },
     ],
