@@ -12,11 +12,12 @@ export const metadata: Metadata = {
     default: "PlusEx Phúc Long",
     template: "%s | phutungdaunhot.com",
   },
-  description: "PlusEx Phúc Long",
+  description: "PlusEx Phúc Long Nhà Phân Phối Phụ Tùng - Dầu Nhớt Chính Hãng",
 
   openGraph: {
     title: "PlusEx Phúc Long",
-    description: "PlusEx Phúc Long",
+    description:
+      "PlusEx Phúc Long Nhà Phân Phối Phụ Tùng - Dầu Nhớt Chính Hãng",
     url: "https://phutungdaunhot.com",
     siteName: "PlusEx Phúc Long",
     locale: "vi_VN",
@@ -42,7 +43,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "PlusEx Phúc Long",
-    description: "PlusEx Phúc Long",
+    description:
+      "PlusEx Phúc Long Nhà Phân Phối Phụ Tùng - Dầu Nhớt Chính Hãng",
     images: ["/og/og-1200x630.png"],
   },
 
