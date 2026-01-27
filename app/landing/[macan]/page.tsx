@@ -13,29 +13,44 @@ import FloatingButton from "@/app/components/floatingButton";
 import Footer from "@/app/components/footer";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://phutungdaunhot.com"),
+
   title: "Má phanh MACAN iNC | PlusEx Phúc Long",
   description:
     "Má phanh MACAN iNC – công nghệ Thái Lan, bền – êm – ít rít, phù hợp chạy dịch vụ.",
+
   openGraph: {
     title: "Má phanh MACAN iNC | PlusEx Phúc Long",
     description:
       "Má phanh MACAN iNC – công nghệ Thái Lan, bền – êm – ít rít, phù hợp chạy dịch vụ.",
     url: "https://phutungdaunhot.com/landing/macan",
-    siteName: "phutungdaunhot.com",
+    siteName: "PlusEx Phúc Long",
+    locale: "vi_VN",
+    type: "website",
     images: [
+      // Ưu tiên ảnh ngang chuẩn Facebook (khuyên dùng 1200x630)
       {
-        url: "https://phutungdaunhot.com/og/macan.png", // <-- ảnh share riêng
-        width: 1588,
-        height: 1493,
+        url: "/og/macan-1200x630.png",
+        width: 1200,
+        height: 630,
+        alt: "Má phanh MACAN iNC",
+      },
+      // Dự phòng ảnh vuông (Zalo/khung vuông)
+      {
+        url: "/og/macan-1200x1200.png",
+        width: 1200,
+        height: 1200,
         alt: "Má phanh MACAN iNC",
       },
     ],
-    locale: "vi_VN",
-    type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
-    images: ["https://phutungdaunhot.com/og/macan.png"],
+    title: "Má phanh MACAN iNC | PlusEx Phúc Long",
+    description:
+      "Má phanh MACAN iNC – công nghệ Thái Lan, bền – êm – ít rít, phù hợp chạy dịch vụ.",
+    images: ["/og/macan-1200x630.png"],
   },
 };
 

@@ -1,32 +1,51 @@
 import "../global.css";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import { Providers } from "./provider";
 import Script from "next/script";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://phutungdaunhot.com"),
+
   title: {
     default: "PlusEx Phúc Long",
-    template: "%s | https://phutungdaunhot.com",
+    template: "%s | phutungdaunhot.com",
   },
   description: "PlusEx Phúc Long",
+
   openGraph: {
-    title: "https://phutungdaunhot.com",
+    title: "PlusEx Phúc Long",
     description: "PlusEx Phúc Long",
     url: "https://phutungdaunhot.com",
-    siteName: "https://phutungdaunhot.com",
+    siteName: "PlusEx Phúc Long",
+    locale: "vi_VN",
+    type: "website",
     images: [
+      // Ưu tiên Facebook (tỉ lệ 1.91:1)
       {
-        url: "https://phutungdaunhot.com/favicon.png",
-        width: 1524,
-        height: 1796,
+        url: "/og/og-1200x630.png",
+        width: 1200,
+        height: 630,
+        alt: "PlusEx Phúc Long",
+      },
+      // Dự phòng vuông (một số nền tảng/Zalo có thể dùng)
+      {
+        url: "/og/og-1200x1200.png",
+        width: 1200,
+        height: 1200,
         alt: "PlusEx Phúc Long",
       },
     ],
-    locale: "en-US",
-    type: "website",
   },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "PlusEx Phúc Long",
+    description: "PlusEx Phúc Long",
+    images: ["/og/og-1200x630.png"],
+  },
+
   robots: {
     index: true,
     follow: true,
@@ -38,10 +57,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  twitter: {
-    title: "Phúc Long",
-    card: "summary_large_image",
-  },
+
   icons: {
     shortcut: "/favicon.png",
   },
@@ -63,7 +79,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
+    <html lang="vi" className={[inter.variable, calSans.variable].join(" ")}>
       <head>
         {/* Facebook Pixel */}
         <Script
@@ -85,7 +101,7 @@ export default function RootLayout({
               s=b.getElementsByTagName(e)[0];
               s.parentNode.insertBefore(t,s)}
               (window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
-              
+
               fbq('init', '917311030862996');
               fbq('track', 'PageView');
             `,
@@ -107,6 +123,7 @@ export default function RootLayout({
             width="1"
             style={{ display: "none" }}
             src="https://www.facebook.com/tr?id=917311030862996&ev=PageView&noscript=1"
+            alt=""
           />
         </noscript>
       </body>
