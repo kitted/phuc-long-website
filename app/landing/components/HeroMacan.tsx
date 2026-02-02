@@ -179,7 +179,7 @@ export default function HeroMacan({
   title?: string;
   subtitle?: string;
 }) {
-  const target = useMemo(() => new Date(2026, 0, 26, 23, 59, 59), []);
+  const target = useMemo(() => new Date(2026, 1, 26, 23, 59, 59), []);
 
   const [timeLeft, setTimeLeft] = useState(() => calcTimeLeft(target));
   const [open, setOpen] = useState(false);

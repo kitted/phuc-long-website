@@ -67,7 +67,7 @@ export default function ContactBarUI() {
   ];
 
   // ⏳ Countdown target
-  const target = useMemo(() => new Date(2026, 0, 26, 23, 59, 59), []);
+  const target = useMemo(() => new Date(2026, 1, 26, 23, 59, 59), []);
   const [timeLeft, setTimeLeft] = useState(() => calcTimeLeft(target));
 
   useEffect(() => {
@@ -137,8 +137,8 @@ export default function ContactBarUI() {
               const style = c.label.startsWith("@FB")
                 ? "bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-600"
                 : c.label.startsWith("@ZALO")
-                ? "bg-emerald-600 text-white hover:bg-emerald-700 focus-visible:ring-emerald-600"
-                : "bg-orange-500 text-white hover:bg-orange-600 focus-visible:ring-orange-500";
+                  ? "bg-emerald-600 text-white hover:bg-emerald-700 focus-visible:ring-emerald-600"
+                  : "bg-orange-500 text-white hover:bg-orange-600 focus-visible:ring-orange-500";
 
               return (
                 <a
