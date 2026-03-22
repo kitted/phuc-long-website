@@ -81,6 +81,7 @@ export const technique = [
       },
     ],
   },
+  // ID2,3 tương tự - FULL content (giữ nguyên hoàn toàn theo feedback)
   {
     id: 2,
     title: "LINH KIỆN XE ĐIỆN DỄ HƯ – DỄ THAY – LỜI TỐT CHO TIỆM",
@@ -180,84 +181,142 @@ export const technique = [
   },
   {
     id: 4,
-    title: "Công nghệ YECVT trên Yamaha NVX 155 mới",
-    time: "2025-06-27",
-    writer: "Phúc Hậu",
-    views: 980,
-    tag: ["Động cơ", "CVT", "Yamaha"],
+    title:
+      "CÁCH CHỌN NHỚT ĐÚNG CHUẨN CHO TỪNG LOẠI XE - SO SÁNH CÁC NHU CẦU VỀ NHỚT THEO DÒNG XE!!!",
+    time: "2025-11-04",
+    writer: "Phúc Long",
+    views: 4500,
+    tag: ["Nhớt", "10W30", "5W30", "15W40", "20W50"],
     type: "technique",
-    origin: "zingnews.vn",
+    origin: "phuclong.vn",
     banner: {
-      image: "/news/news3.png",
-      title: "Yamaha Electric Continuously Variable Transmission",
-      description: [
-        "Người lái có thể chuyển đổi nhanh NVX 155 giữa 2 chế độ vận hành.",
-      ],
+      image:
+        "https://res.cloudinary.com/dkxb7klnn/image/upload/v1774168042/600162817_1245115457639410_4587792867764740522_n_rbdij4.jpg",
+      title: "Nhớt nào cho xe nào?",
+      description: ["Tư vấn chuẩn tạo lòng tin khách hàng"],
     },
-    content: [{ text: "YECVT cho phép chủ động 'giảm số' khi vượt xe." }],
+    content: [
+      {
+        text: "10W-30 là gì? Số trước chữ W (10W) 👉 Độ loãng của nhớt khi máy còn nguội 👉 Số càng nhỏ → nhớt càng loãng lúc đề máy → xe đề nhẹ – máy mau bôi trơn Số sau chữ W (30) 👉 Độ đặc của nhớt khi máy nóng, đang chạy 👉 Số càng lớn → nhớt càng chịu nhiệt – chịu tải tốt 👉 Nói dễ hiểu: Trước W = lúc mới nổ máy Sau W = lúc xe chạy nóng máy",
+      },
+      {
+        title: "🛵 1️⃣ Nhớt 10W-30 / 5W-30 – Vì sao hợp xe tay ga?",
+      },
+      {
+        text: "✔ Nhớt loãng khi nguội → đề nhẹ, chạy êm ✔ Mát máy , ít nóng khi chạy phố ✔ Phù hợp xe ga đời mới, xe chạy hằng ngày 👉 Khuyên dùng cho: Xe tay ga, Xe chạy nhẹ, ít tải, Người chạy trong phố, quãng ngắn ❌ Không phù hợp xe chở nặng hoặc chạy đường dài liên tục.",
+      },
+      {
+        title: "🏍 2️⃣ Nhớt 15W-40 / 20W-50 – Vì sao hợp xe số, xe côn?",
+      },
+      {
+        text: "✔ Nhớt đặc hơn khi máy nóng ✔ Chịu tải tốt, ít hụt nhớt ✔ Bảo vệ nồi – cam – piston tốt hơn 👉 Khuyên dùng cho: Xe số, Xe côn tay, Xe chở hàng, chạy xa, chạy dịch vụ ⚠️ Nếu dùng cho xe ga → dễ ì máy, hao xăng.",
+      },
+      {
+        title:
+          "🔥 3️⃣ Nhớt tổng hợp (Fully Synthetic) – Đắt hơn vì sao đáng tiền?",
+      },
+      {
+        text: "✔ Bôi trơn tốt hơn nhớt thường ✔ Ít hao nhớt , bền nhiệt ✔ Giữ máy sạch, ít muội than ✔ Kéo dài chu kỳ thay nhớt 👉 Khuyên dùng cho: Xe đời mới, Xe chạy nhiều, chạy dịch vụ Khách muốn xe êm – bền lâu 💡 Giá cao hơn nhưng tính ra rẻ hơn về lâu dài vì ít hư máy.",
+      },
+      {
+        title: "👨‍🔧 Lời khuyên cho anh em thợ",
+      },
+      {
+        text: "Chọn nhớt đúng thông số – đúng loại xe – đúng nhu cầu chạy → xe bền→ khách hài lòng→ tiệm giữ được uy tín lâu dài ❤️ Phúc Long luôn có đủ:🛢️ Nhớt 10W-30 / 5W-30🛢️ Nhớt 15W-40 / 20W-50🔥 Nhớt tổng hợp chất lượng cao. #ThongSoNhot #10W30 #5W30 #15W40 #20W50 #NhotTongHop #DauNhotPhucLong #TuVanDungNhot #AnhEmSuaXe.",
+      },
+    ],
   },
   {
     id: 5,
-    title: "Khủng hoảng chip Nexperia ảnh hưởng ngành ô tô",
-    time: "2025-10-26",
-    writer: "Việt Hà",
-    views: 2100,
-    tag: ["Chip", "Ô tô", "Nexperia"],
+    title: "🛢️ DẤU HIỆU XE BẠN CẦN THAY NHỚT GẤP!!!",
+    time: "2025-11-05",
+    writer: "Phúc Long",
+    views: 4800,
+    tag: ["Nhớt", "Dấu hiệu", "Bảo dưỡng"],
     type: "technique",
-    origin: "zingnews.vn",
+    origin: "phuclong.vn",
     banner: {
-      image: "/news/news1.png",
-      title: "Tranh chấp Trung Quốc - Phương Tây đe dọa tê liệt sản xuất",
-      description: ["Nexperia cung cấp chip cho cần gạt nước, cửa sổ."],
+      image:
+        "https://res.cloudinary.com/dkxb7klnn/image/upload/v1774168174/600323918_1245116317639324_5934224804806562858_n_ntjrym.jpg",
+      title: "Xe có 3 dấu hiệu này → nhắc thay nhớt liền",
+      description: ["Chờ nữa là cháy máy 🔥"],
     },
-    content: [{ text: "Chip thế hệ cũ đảm nhiệm chức năng cơ bản." }],
+    content: [
+      {
+        text: "Xe có 3 dấu hiệu này → nhắc thay nhớt liền, chờ nữa là cháy máy 🔥:",
+      },
+      {
+        title: '1️⃣ Tiếng máy kêu "lóc cóc" – nổ lớn hơn bình thường',
+      },
+      {
+        text: 'Khi thiếu nhớt hoặc nhớt quá loãng: Kim loại cọ trực tiếp → phát ra tiếng "lóc cóc" Máy nóng nhanh → tiếng nổ to, khô, "gắt" 💡 \'Máy không dầu giống xe đạp không mỡ\'',
+      },
+      {
+        title: "2️⃣ Xe yếu – tăng tốc chậm – đề nặng",
+      },
+      {
+        text: "Ma sát tăng cao → động cơ tốn lực quay Máy nóng → ECU tự giảm hiệu suất 🚫 Xe ì | Không bốc | Hao xăng 💡 'Máy khô quay không trơn sao mạnh?'",
+      },
+      {
+        title: "3️⃣ Nhớt đen, loãng, mùi khét",
+      },
+      {
+        text: "Nhớt cũ biến chất + cặn bẩn + cháy nhiệt Nhớt không bôi trơn → mòn máy nhanh hơn ⚠️ Thợ nhìn biết ngay: 'Nhớt này chạy nữa là ăn cam!'",
+      },
+      {
+        title: "👨‍🔧 KẾT LUẬN",
+      },
+      {
+        text: "❗ Thiếu nhớt rút ngắn tuổi thọ động cơ rất nhanh 👉 Thay đúng lúc đúng loại → máy êm xe bốc tiết kiệm tiền sửa #ThayNhotGiapDinh #KiemTraNhot #PhucLongDongHanh",
+      },
+    ],
   },
   {
     id: 6,
-    title: "Động cơ VTEC Turbo trên Civic Type R",
-    time: "2025-10-24",
-    writer: "Đan Thanh",
-    views: 1540,
-    tag: ["VTEC", "Turbo", "Honda"],
+    title: "NHỮNG SAI LẦM KHI THAY NHỚT - TƯỞNG BÌNH THƯỜNG HOÁ BẤT THƯỜNG!!!",
+    time: "2025-11-06",
+    writer: "Phúc Long",
+    views: 3800,
+    tag: ["Nhớt", "Thay nhớt", "Thợ sửa xe"],
     type: "technique",
-    origin: "zingnews.vn",
+    origin: "phuclong.vn",
     banner: {
-      image: "/news/news3.png",
-      title: "315 mã lực từ động cơ 2.0L tăng áp VTEC",
-      description: ["Honda Civic Type R sử dụng hộp số sàn 6 cấp."],
+      image:
+        "https://res.cloudinary.com/dkxb7klnn/image/upload/v1774168281/600144195_1245117284305894_6134386512987384998_n_sfhxi2.jpg",
+      title: "Không phải thay nhớt là xong đâu anh em!",
+      description: ["Nhiều thợ mới mắc 4 lỗi → xe hư hơn"],
     },
-    content: [{ text: "420 Nm mô-men xoắn tại 2.600-4.000 vòng/phút." }],
-  },
-  {
-    id: 7,
-    title: "Honda CT125 - Kỹ thuật xe trail đô thị",
-    time: "2025-10-28",
-    writer: "Đan Thanh",
-    views: 4450,
-    tag: ["Trail", "Honda", "CT125"],
-    type: "technique",
-    origin: "zingnews.vn",
-    banner: {
-      image: "/news/news1.png",
-      title: "CT125 - xe trail 125cc với thiết kế 'ăn chơi'",
-      description: ["Chiều cao yên 830mm, khoảng sáng gầm 180mm."],
-    },
-    content: [{ text: "Khối lượng khô chỉ 107kg, dễ điều khiển." }],
-  },
-  {
-    id: 8,
-    title: "VinFast Evo Grand - Pin LFP kép tháo rời",
-    time: "2025-10-28",
-    writer: "Đắc An",
-    views: 2450,
-    tag: ["Pin LFP", "VinFast", "Xe điện"],
-    type: "technique",
-    origin: "zingnews.vn",
-    banner: {
-      image: "/news/news2.png",
-      title: "Quãng đường 262km với 2 pin LFP tháo rời",
-      description: ["Động cơ IP67 kháng nước, tốc độ tối đa 70km/h."],
-    },
-    content: [{ text: "Pin LFP bền bỉ, bảo hành 8 năm." }],
+    content: [
+      {
+        title: "❌ 1️⃣ Chọn sai độ nhớt (xe nóng/ì)",
+      },
+      {
+        text: "Mỗi động cơ thiết kế độ nhớt phù hợp: Nhớt quá đặc (20W-50 xe ga) → khó luân chuyển → nóng ì Nhớt quá loãng (10W-30 xe tải) → không bảo vệ → mòn nhanh 💡 'Nhớt như quần áo size'",
+      },
+      {
+        title: "❌ 2️⃣ Không vệ sinh lọc thô/lưới lọc",
+      },
+      {
+        text: "Lọc giữ cặn bẩn mạt kim loại → Không vệ sinh → nhớt sạch nhanh bẩn Lâu ngày: mòn cam, kẹt bạc, nóng máy 💡 Thợ biết nhưng nhiều người bỏ qua vì mất thời gian",
+      },
+      {
+        title: "❌ 3️⃣ Siết ốc quá mạnh → tuôn ren",
+      },
+      {
+        text: "Ốc xả chỉ cần lực vừa → Siết quá → tuôn ren lốc máy → rò nhớt → tháo máy phục hồi 💸 Lỗi nhỏ tiền lớn",
+      },
+      {
+        title: "❌ 4️⃣ Nhớt rẻ pha tạp → khách than máy kêu",
+      },
+      {
+        text: "Nhớt kém: độ nhớt không ổn | Nhanh loãng cháy | Ít phụ gia → Chạy vài trăm km: 🔊 Kêu | 🔥 Nóng | ⚙️ Mòn nhanh Khách biết xe không êm → mất uy tín thợ",
+      },
+      {
+        title: "👨‍🔧 KẾT LUẬN",
+      },
+      {
+        text: "Thay nhớt không chỉ xả-đổ-siết ốc → Làm đúng từng bước → Giữ máy khách + chữ tín tiệm ❤️ #SaiLamKhiThayNhot #SuaXeVungTay #PhuTungDauNhot",
+      },
+    ],
   },
 ];
