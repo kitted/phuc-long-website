@@ -2,27 +2,29 @@
 
 import { useParams } from "next/navigation";
 import Footer from "@/app/components/footer";
-import InterestedPostsDetail from "@/app/components/news/detail/interestedPostsDetail";
-import NewsContentDetail from "@/app/components/news/detail/newsContentDetail";
-import NewsHeaderDetail from "@/app/components/news/detail/newsHeaderDetail";
-import NewsImageDetail from "@/app/components/news/detail/newsImageDetail";
-import RelatedPostsDetail from "@/app/components/news/detail/relatedPostsDetail";
+import TechniqueHeaderDetail from "@/app/components/technique/detail/techniqueHeaderDetail";
+import TechniqueContentDetail from "@/app/components/technique/detail/techniqueContentDetail";
+import TechniqueInterestedPostsDetail from "@/app/components/technique/detail/techniqueInterestedPostsDetail";
 import SubLayout from "@/app/subLayout";
 import React from "react";
-import { news } from "@/app/data/news";
+import { technique } from "@/app/data/technique";
 import { slugify } from "@/app/lib/slugify";
+import TechniqueImageDetail from "@/app/components/technique/detail/techniqueImageDetail";
+import TechniqueRelatedPostsDetail from "@/app/components/technique/detail/techniqueRelatedPostsDetail";
 
 export default function TechniqueDetailPage() {
   const params = useParams();
   const rawSlug = params?.slug;
   const slug = Array.isArray(rawSlug) ? rawSlug[0] : rawSlug;
 
-  const currentNews = news.find((n) => slugify(n.title) === slug);
+  const currentTechnique: any = technique.find(
+    (n) => slugify(n.title) === slug,
+  );
 
-  if (!currentNews) {
+  if (!currentTechnique) {
     return (
       <div className="min-h-screen flex items-center justify-center text-xl">
-        Không tìm thấy bài viết
+        Không tìm thấy bài viết kỹ thuật
       </div>
     );
   }
@@ -30,11 +32,11 @@ export default function TechniqueDetailPage() {
   // 🔧 Chuẩn hóa dữ liệu content
   const sections = [];
 
-  if (Array.isArray(currentNews.banner.description)) {
-    sections.push({ text: currentNews.banner.description });
+  if (Array.isArray(currentTechnique.banner.description)) {
+    sections.push({ text: currentTechnique.banner.description });
   }
 
-  currentNews.content.forEach((item: any) => {
+  currentTechnique.content.forEach((item: any) => {
     if (item.title) {
       sections.push({ heading: item.title, text: [] });
     }
@@ -50,13 +52,13 @@ export default function TechniqueDetailPage() {
     if (item.images && item.images.length > 0) {
       sections.push({
         images: item.images,
-        caption: item?.caption || "", // tùy bạn có muốn caption cho nhóm ảnh không
+        caption: item?.caption || "",
       });
     }
-    if (item.video && item.videoCaption.length > 0) {
+    if (item.video && item.videoCaption) {
       sections.push({
         video: item.video,
-        videoCaption: item?.videoCaption || "", // tùy bạn có muốn caption cho nhóm ảnh không
+        videoCaption: item?.videoCaption || "",
       });
     }
   });
@@ -66,33 +68,33 @@ export default function TechniqueDetailPage() {
       <SubLayout>
         <div className="pt-[165px] md:pt-[165px] px-4 md:px-8 max-w-7xl mx-auto">
           <div className="max-w-3xl mx-auto px-4">
-            <NewsHeaderDetail
-              title={currentNews.title}
-              date={currentNews.time}
-              category={currentNews.type.join(", ")}
-              author={currentNews.writer}
+            <TechniqueHeaderDetail
+              title={currentTechnique.title}
+              date={currentTechnique.time}
+              category={currentTechnique.type.join(", ")}
+              author={currentTechnique.writer}
             />
 
-            <NewsImageDetail
-              src={currentNews.banner.image}
-              alt={currentNews.title}
-              caption={currentNews.banner.title}
+            <TechniqueImageDetail
+              src={currentTechnique.banner.image}
+              alt={currentTechnique.title}
+              caption={currentTechnique.banner.title}
             />
 
             {/* ✅ Truyền thêm tag, origin, views */}
-            <NewsContentDetail
+            <TechniqueContentDetail
               sections={sections}
-              tags={currentNews.tag}
-              origin={currentNews.origin}
-              views={currentNews.views}
+              tags={currentTechnique.tag}
+              origin={currentTechnique.origin}
+              views={currentTechnique.views}
             />
 
-            <RelatedPostsDetail
+            <TechniqueRelatedPostsDetail
               currentSlug={slug}
-              currentType={currentNews.type}
+              currentType={currentTechnique.type}
             />
 
-            <InterestedPostsDetail currentSlug={slug} />
+            <TechniqueInterestedPostsDetail currentSlug={slug} />
           </div>
         </div>
       </SubLayout>

@@ -4,13 +4,12 @@ import React, { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import SubLayout from "../subLayout";
 import Footer from "../components/footer";
-import NewsSearch from "../components/news/newsSearch";
-import NewsCategories from "../components/news/newsCategories";
-import NewsHighlight from "../components/news/newsHighlight";
-import NewsList from "../components/news/newsList";
+import TechniqueList from "../components/technique/techniqueList";
 import Paginate from "../components/paginate";
-import { slugify } from "@/app/lib/slugify";
 import { technique } from "../data/technique";
+import { slugify } from "@/app/lib/slugify";
+import TechniqueSearch from "../components/technique/techniqueSearch";
+import TechniqueHighlight from "../components/technique/techniqueHighlight";
 
 export default function TechniquePage() {
   const searchParams = useSearchParams();
@@ -24,8 +23,8 @@ export default function TechniquePage() {
   const search = searchParams.get("search") || "";
 
   // ✅ Lọc bài viết theo type + search
-  const filteredNews = technique
-    .filter((item: any) => {
+  const filteredTechnique = technique
+    .filter((item) => {
       const matchType = type
         ? Array.isArray(item.type)
           ? item.type.includes(type)
@@ -36,35 +35,22 @@ export default function TechniquePage() {
         ? item.title.toLowerCase().includes(search.toLowerCase()) ||
           item.writer.toLowerCase().includes(search.toLowerCase()) ||
           item.banner.title.toLowerCase().includes(search.toLowerCase()) ||
-          item.tag.some((t: any) =>
-            t.toLowerCase().includes(search.toLowerCase())
-          )
+          item.tag.some((t) => t.toLowerCase().includes(search.toLowerCase()))
         : true;
 
       return matchType && matchSearch;
     })
-    // .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
-    .sort((a: any, b: any) => b.id - a.id);
-
-  // ====== LỌC BÀI VIẾT ======
-  // const filteredNews = news
-  //   .filter((item) =>
-  //     type
-  //       ? Array.isArray(item.type)
-  //         ? item.type.includes(type)
-  //         : item.type === type
-  //       : true
-  //   )
-  //   .sort((a, b) => new Date(b.time).getTime() - new Date(a.time).getTime());
+    .sort((a, b) => b.id - a.id);
 
   // ====== TÍNH PHÂN TRANG ======
-  const totalItems = filteredNews.length > 5 ? filteredNews.length - 5 : 0;
+  const totalItems =
+    filteredTechnique.length > 5 ? filteredTechnique.length - 5 : 0;
   const totalPages = Math.ceil(totalItems / itemsPerPage);
 
   // Dữ liệu hiển thị theo trang (sau 5 bài highlight)
   const startIdx = 7 + (currentPage - 1) * itemsPerPage;
   const endIdx = startIdx + itemsPerPage;
-  const paginatedNews = filteredNews.slice(startIdx, endIdx);
+  const paginatedTechnique = filteredTechnique.slice(startIdx, endIdx);
 
   // ====== DARK MODE ======
   useEffect(() => {
@@ -88,25 +74,29 @@ export default function TechniquePage() {
             darkMode ? "bg-black text-white" : "bg-white text-black"
           }`}
         >
-          <NewsSearch />
-          <NewsCategories />
+          <TechniqueSearch />
+          {/* TechniqueCategories - coming */}
+          {/* <div className="h-20" /> */}
 
           <div className="pt-[40px]">
-            {filteredNews.length > 0 ? (
+            {filteredTechnique.length > 0 ? (
               <>
-                <NewsHighlight
-                  data={filteredNews.slice(0, 7)}
+                {/* ====== 5 BÀI HIGHLIGHT ====== */}
+                <TechniqueHighlight
+                  data={filteredTechnique.slice(0, 7)}
                   darkMode={darkMode}
                 />
 
-                <NewsList data={paginatedNews} />
+                {/* ====== DANH SÁCH CÒN LẠI (PHÂN TRANG) ====== */}
+                <TechniqueList data={paginatedTechnique} />
               </>
             ) : (
               <p className="text-center text-gray-500 mt-10">
-                Không có bài viết nào trong danh mục này.
+                Không có bài viết kỹ thuật nào.
               </p>
             )}
 
+            {/* ====== PAGINATION ====== */}
             {totalPages > 1 && (
               <div className="mt-8 flex justify-center">
                 <Paginate
