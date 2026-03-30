@@ -77,7 +77,7 @@ export default function FloatingAssistant() {
       : screenW - BUTTON_SIZE - EDGE_MARGIN;
     const targetTop = Math.min(
       Math.max(newTop, EDGE_MARGIN),
-      screenH - BUTTON_SIZE - EDGE_MARGIN
+      screenH - BUTTON_SIZE - EDGE_MARGIN,
     );
 
     setOnLeftSide(snapToLeft);
@@ -121,7 +121,8 @@ export default function FloatingAssistant() {
     },
     {
       key: "zalo",
-      href: "https://zalo.me/0939449861",
+      // href: "https://zalo.me/0939449861",https://zalo.me/3648225468408384638
+      href: "https://zalo.me/3648225468408384638",
       label: "Zalo",
       bg: "bg-white",
       icon: <img src="/zalo.png" alt="Zalo" className="w-8 h-5" />,
