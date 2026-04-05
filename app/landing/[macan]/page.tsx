@@ -9,7 +9,7 @@ import TextFooter from "../components/TextFooter";
 import MacanSpecsSection from "../components/MacanSpecsSection";
 import GalleryDemo from "../components/GalleryDemo";
 import ContactBarUI from "../components/ContactBarUI";
-import FloatingButton from "@/app/components/floatingButton";
+import FloatingButtons from "@/app/components/floatingButton";
 import Footer from "@/app/components/footer";
 
 export const metadata: Metadata = {
@@ -93,7 +93,7 @@ export default function Page() {
       <MacanSpecsSection />
       <GalleryDemo />
       <ContactBarUI />
-      <FloatingButton />
+      <FloatingButtons />
       <Footer />
     </main>
   );

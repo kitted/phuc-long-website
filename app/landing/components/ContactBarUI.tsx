@@ -67,7 +67,7 @@ export default function ContactBarUI() {
   ];
 
   // ⏳ Countdown target
-  const target = useMemo(() => new Date(2026, 1, 26, 23, 59, 59), []);
+  const target = useMemo(() => new Date(2026, 6, 26, 23, 59, 59), []);
   const [timeLeft, setTimeLeft] = useState(() => calcTimeLeft(target));
 
   useEffect(() => {

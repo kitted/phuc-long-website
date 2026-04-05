@@ -1,11 +1,14 @@
-# Phuc Long Website Tasks
+# Floating Buttons Update
 
-## Completed: Activities Image Grid
+**Current Task Progress:**
 
-- ✅ [DONE] Add Next/Image import to activities.tsx
-- ✅ [DONE] Define 16-image array using /public/lubrex images
-- ✅ [DONE] Replace single img with responsive 4x4 grid (2-col mobile, 3 tablet, 4 desktop)
-- ✅ [DONE] Add hover effects, aspect-square for uniformity
-- ✅ [DONE] Preserve theme/dark mode support
+- [x] Plan approved
+- [] Update floatingButton.tsx to 3 static buttons
+- [] Update imports in subLayout.tsx and landing page
+- [] Test on localhost:3002
 
-No further steps needed.
+## Previous Tasks
+
+### Activities Image Grid
+
+- ✅ Complete
