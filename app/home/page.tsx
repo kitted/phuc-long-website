@@ -8,6 +8,7 @@ import Marquee from "../components/marquee";
 import ProductCardGrid from "../components/productCard";
 import ContentText from "../components/contentText";
 import AboutSection from "../components/about";
+import ActivitiesSection from "../components/activities";
 import PartnerSection from "../components/partner";
 import HorizontalSlider from "../components/horizontalSlider";
 import StoreSlider from "../components/storeSlider";
@@ -37,6 +38,7 @@ export default function Example() {
             }
           />
           <AboutSection />
+          <ActivitiesSection />
           <PartnerSection />
           <HorizontalSlider />
           <ContentText
