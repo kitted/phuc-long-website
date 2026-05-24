@@ -7,6 +7,7 @@ import Footer from "../components/footer";
 import TechniqueList from "../components/technique/techniqueList";
 import Paginate from "../components/paginate";
 import { technique } from "../data/technique";
+import { techniqueV2 } from "../data/techniqueV2";
 import { slugify } from "@/app/lib/slugify";
 import TechniqueSearch from "../components/technique/techniqueSearch";
 import TechniqueHighlight from "../components/technique/techniqueHighlight";
@@ -23,7 +24,8 @@ export default function TechniquePage() {
   const search = searchParams.get("search") || "";
 
   // ✅ Lọc bài viết theo type + search
-  const filteredTechnique = technique
+  const tes = [...techniqueV2, ...technique]
+  const filteredTechnique = tes
     .filter((item) => {
       const matchType = type
         ? Array.isArray(item.type)
