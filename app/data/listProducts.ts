@@ -16,9 +16,17 @@ export const productsList = [
         url: "nhong-xich/wusuki-RS",
         title: "Sên WUSUKI RS",
         image:
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762512315/DSC00162_x8tffp.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1780232482/wusuki3_grchv3.png",
         gallery: [
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762512315/DSC00162_x8tffp.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1780232482/wusuki3_grchv3.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1780232474/wusuki2_ky4guo.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1780232449/wusuki1_wsatvi.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1780232464/wusuki4_any5vr.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1780242273/wusuki5_pyszjw.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1780232470/wusuki6_cotgsg.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1780232450/wusuki7_zlrnaq.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1780232445/wusuki8_gtuqhr.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1780232482/wusuki9_zgdylh.png",
           "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762512315/DSC00164_vbtmcl.png",
           "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762512315/DSC00166_kwh6hf.png",
           "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762512322/DSC00161_hnza3f.png",
@@ -76,9 +84,9 @@ export const productsList = [
         url: "nhong-xich/wusuki-EZ",
         title: "Sên WUSUKI EZ",
         image:
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762512315/DSC00162_x8tffp.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1780232482/wusuki3_grchv3.png",
         gallery: [
-          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762512315/DSC00162_x8tffp.png",
+          "https://res.cloudinary.com/dkxb7klnn/image/upload/v1780232482/wusuki3_grchv3.png",
           "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762512315/DSC00164_vbtmcl.png",
           "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762512315/DSC00166_kwh6hf.png",
           "https://res.cloudinary.com/dkxb7klnn/image/upload/v1762512322/DSC00161_hnza3f.png",
