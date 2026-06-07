@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { technique } from "@/app/data/technique";
+import { techniqueV2 } from "@/app/data/techniqueV2";
 import { slugify } from "@/app/lib/slugify";
 
 type Props = {
@@ -11,8 +12,8 @@ type Props = {
 };
 
 export default function TechniqueInterestedPostsDetail({ currentSlug }: Props) {
-  // ✅ Lọc bỏ bài hiện tại
-  const posts = technique
+  const tes = [...techniqueV2, ...technique];
+  const posts = tes
     .filter((post) => slugify(post.title) !== currentSlug)
     .slice(0, 4);
 

@@ -8,16 +8,18 @@ import TechniqueInterestedPostsDetail from "@/app/components/technique/detail/te
 import SubLayout from "@/app/subLayout";
 import React from "react";
 import { technique } from "@/app/data/technique";
+import { techniqueV2 } from "@/app/data/techniqueV2";
 import { slugify } from "@/app/lib/slugify";
 import TechniqueImageDetail from "@/app/components/technique/detail/techniqueImageDetail";
 import TechniqueRelatedPostsDetail from "@/app/components/technique/detail/techniqueRelatedPostsDetail";
 
 export default function TechniqueDetailPage() {
+  const tes = [...techniqueV2, ...technique];
   const params = useParams();
   const rawSlug = params.slug as string;
   const slug = Array.isArray(rawSlug) ? rawSlug[0] : rawSlug;
 
-  const currentTechnique = technique.find((n) => slugify(n.title) === slug);
+  const currentTechnique = tes.find((n) => slugify(n.title) === slug);
 
   if (!currentTechnique) {
     return (

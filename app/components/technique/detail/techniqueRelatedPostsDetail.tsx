@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { technique } from "@/app/data/technique";
+import { techniqueV2 } from "@/app/data/techniqueV2";
 import { slugify } from "@/app/lib/slugify";
 
 interface Props {
@@ -16,14 +17,15 @@ export default function TechniqueRelatedPostsDetail({
   currentType,
 }: Props) {
   const getRelatedPosts = () => {
+    const tes = [...techniqueV2, ...technique];
     if (Array.isArray(currentType)) {
-      return technique.filter((t) =>
+      return tes.filter((t) =>
         currentType.some((type) =>
           Array.isArray(t.type) ? t.type.includes(type) : t.type === type,
         ),
       );
     }
-    return technique;
+    return tes;
   };
 
   const posts = getRelatedPosts();

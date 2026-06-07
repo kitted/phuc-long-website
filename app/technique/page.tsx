@@ -24,7 +24,7 @@ export default function TechniquePage() {
   const search = searchParams.get("search") || "";
 
   // ✅ Lọc bài viết theo type + search
-  const tes = [...techniqueV2, ...technique]
+  const tes = [...techniqueV2, ...technique];
   const filteredTechnique = tes
     .filter((item) => {
       const matchType = type
